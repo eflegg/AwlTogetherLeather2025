@@ -29,3 +29,9 @@ $understrap_includes = array(
 foreach ( $understrap_includes as $file ) {
 	require_once get_template_directory() . '/inc' . $file;
 }
+
+function my_theme_load_ionicons_font() {
+	// Load Ionicons font from CDN
+	wp_enqueue_script( 'my-theme-ionicons', 'https://unpkg.com/ionicons@5.2.3/dist/ionicons.js', array(), '5.2.3', true );
+}
+add_action( 'wp_enqueue_scripts', 'my_theme_load_ionicons_font' );

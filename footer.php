@@ -24,12 +24,14 @@ $container = get_theme_mod('understrap_container_type');
    </div>
    <div class="footer--right">
    <div class="footer--socials d-flex justify-content-end">
-   <p>facebook</p>
-   <p>instagram</p>
-   <p>twitter</p>
+  
+   <ion-icon name="logo-facebook" size="large"></ion-icon>
+   <ion-icon name="logo-instagram" size="large"></ion-icon>
+   <ion-icon name="logo-twitter" size="large"></ion-icon>
+
    </div>
 <div class="single-tweet">
-<p>Today, Wed Jan 20th we are closing early at 3:45 for an exciting secret appointment. Pl ...</p>
+<a class="twitter-timeline" data-tweet-limit="1" data-width="300" data-height="200" data-theme="light" href="https://twitter.com/AwlTogetherLthr?ref_src=twsrc%5Etfw">Tweets by AwlTogetherLthr</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
         <div class="footer--sign-up">
         <h3>Sign up for our newsletter</h3>
@@ -46,6 +48,8 @@ $container = get_theme_mod('understrap_container_type');
 <?php wp_footer();?>
 
 </body>
+
+
 
 </html>
 
