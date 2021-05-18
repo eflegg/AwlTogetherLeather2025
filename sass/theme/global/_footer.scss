@@ -1,0 +1,25 @@
+footer {
+  background: $green;
+  padding: 36px 24px;
+  flex-direction: column;
+  @include media-query-min($md) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .footer--left {
+      border: 2px solid goldenrod;
+      width: 70%;
+    }
+    .footer--right {
+      border: 2px solid palevioletred;
+      width: 25%;
+      text-align: right;
+    }
+  }
+  .footer--sign-up {
+    margin: 30px 0;
+  }
+  .footer--socials {
+    margin-bottom: 20px;
+  }
+}

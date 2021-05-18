@@ -1,99 +1,101 @@
 @mixin font-size($sizeValue: 1.6) {
-    font-size: ($sizeValue * 10) + px;
-    font-size: $sizeValue + rem;
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
 }
-
-
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
-$bodyFont: 'Open Sans',
-sans-serif;
-$headerFont: 'Gotu',
-sans-serif;
+$bodyFont: "Avenir", sans-serif;
+$headerFont: "Georgia", sans-serif;
 
 h1 {
-    margin: 50px auto 20px;
-    @include font-size(3.6);
+  margin: 50px auto 20px;
+  @include font-size(3.6);
 
-    @include media-query-min($sm) {
-        @include font-size(4.2);
-        margin: 75px auto 25px;
-    }
+  @include media-query-min($sm) {
+    @include font-size(4.2);
+    margin: 75px auto 25px;
+  }
 
-    @include media-query-min($md) {
-        @include font-size(5.6);
-        margin: 100px auto 30px;
-    }
+  @include media-query-min($md) {
+    @include font-size(5.6);
+    margin: 100px auto 30px;
+  }
 }
 
 h2 {
-    margin: 0 auto 30px;
-    @include font-size(1.8);
-    line-height: 18px;
+  margin: 0 auto 30px;
+  @include font-size(1.8);
+  line-height: 18px;
 
-    @include media-query-min($sm) {
-        @include font-size(2.2);
-        line-height: 22px;
-        margin: 0 auto 50px;
-    }
+  @include media-query-min($sm) {
+    @include font-size(2.2);
+    line-height: 22px;
+    margin: 0 auto 50px;
+  }
 
-    @include media-query-min($md) {
-        @include font-size(2.6);
-        line-height: 24px;
-    }
+  @include media-query-min($md) {
+    @include font-size(2.6);
+    line-height: 24px;
+  }
 }
 
 h3 {
-    @include font-size(1.6);
-    line-height: 22px;
+  @include font-size(1.6);
+  line-height: 22px;
 
-    @include media-query-min($sm) {
-        @include font-size(1.8);
-        line-height: 25px;
-    }
+  @include media-query-min($sm) {
+    @include font-size(1.8);
+    line-height: 25px;
+  }
 
-    @include media-query-min($md) {
-        @include font-size(2);
-        line-height: 28px;
-    }
+  @include media-query-min($md) {
+    @include font-size(2);
+    line-height: 28px;
+  }
 }
 
 h1,
 .h1,
 h2,
-.h2,
+.h2 {
+  font-family: $headerFont;
+}
+
 h3,
 .h3 {
-    font-family: $headerFont;
+  font-family: $bodyFont;
+  font-weight: medium;
 }
 
 p {
-    font-family: $bodyFont;
-    @include font-size(1.8);
-    line-height: 30px;
+  font-family: $bodyFont;
+  @include font-size(1.6);
+  line-height: 30px;
+  font-weight: Roman;
 }
 
 li {
-    font-family: $headerFont;
-    @include font-size(1.8);
-    line-height: 25px;
-    margin-bottom: 15px;
+  font-family: $headerFont;
+  @include font-size(1.8);
+  line-height: 25px;
+  margin-bottom: 15px;
 
-    @include media-query-min($sm) {
-        @include font-size(2);
-        line-height: 28px;
-        margin-bottom: 20px;
-    }
+  @include media-query-min($sm) {
+    @include font-size(2);
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
 
-    @include media-query-min($md) {
-        @include font-size(2);
-        line-height: 28px;
-    }
+  @include media-query-min($md) {
+    @include font-size(2);
+    line-height: 28px;
+  }
 }
 
 a {
-    color: chocolate !important;
+  text-decoration: underline;
+  color: $grey !important;
 }

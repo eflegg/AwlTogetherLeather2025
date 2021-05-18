@@ -8,19 +8,19 @@ Template Name: Home Page
 
 <?php while (have_posts()): the_post();?>
 
-																	<header class="page--home">
-																	    <h1 class="text-center page--home__title">What's For Dinner?</h1>
-																	    <h3 class="text-center page--home__subtitle">the eternal question</h3>
-																	</header>
+<header class="page--home">
+    <h1 class="text-center page--home__title">Awl Together Leather</h1>
+    <h3 class="text-center page--home__subtitle">Repairing the Future of Cobbling</h3>
+</header>
 
 
-																	<section class="layout-container">
-																	    <article class="d-flex flex-row container--recipes">
+<section class="layout-container">
+    <article class="d-flex flex-row container--recipes">
 
 
-																	        <?php $postType = 'recipe';?>
-																					<?php if ($postType): ?>
-																						<?php
+        <?php $postType = 'recipe';?>
+                <?php if ($postType): ?>
+                    <?php
     // this file is going to have to have various post types to render...
     $args = (array(
         'post_type' => $postType,
@@ -30,14 +30,8 @@ Template Name: Home Page
     );
     $query = new WP_Query($args);?>
 
-																							<?php if ($query->have_posts()): while ($query->have_posts()): $query->the_post();?>
-
-
-																																																                            <?php include 'components/listing-block.php';?>
-
-
-																																																                            <!-- use the loop to call the title and url of the post types so we can navigate there -->
-																																																                        <?php endwhile;endif;
+	<?php if ($query->have_posts()): while ($query->have_posts()): $query->the_post();?>
+																																														                        <?php endwhile;endif;
     wp_reset_postdata()?>
 																	                            	<?php endif;?>
 
@@ -74,10 +68,7 @@ Template Name: Home Page
 </section>
 
 
-<?php include "components/listing-block.php";?>
-<?php include "components/listing-block.php";?>
-<?php include "components/listing-block.php";?>
-<?php include "components/listing-block.php";?>
+
 
 
 <!-- close php loop -->
