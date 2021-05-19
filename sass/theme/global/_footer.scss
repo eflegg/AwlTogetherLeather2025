@@ -1,30 +1,72 @@
 footer {
   background: $green;
-  padding: 36px 24px;
+  padding: 30px 24px;
   flex-direction: column;
+  align-items: flex-end;
   @include media-query-min($md) {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     .footer--left {
-      border: 2px solid goldenrod;
-      width: 70%;
+      width: 65%;
     }
     .footer--right {
-      border: 2px solid palevioletred;
-      width: 25%;
+      width: 35%;
       text-align: right;
     }
   }
-  .footer--sign-up {
+  .footer--sign-up,
+  .terms {
     margin: 30px 0;
+    text-align: right;
   }
+
   .footer--socials {
     margin-bottom: 20px;
+    ion-icon,
+    .icon-large {
+      margin-left: 45px;
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .footer--contact-us {
+    background: $cream;
+    width: 140%;
+    position: relative;
+    left: -25px;
+    padding: 25px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    h3 {
+      display: table;
+      border-bottom: 1px solid $grey;
+    }
+    @include media-query-min($sm) {
+      background: transparent;
+      left: 0;
+      padding: 0;
+      width: initial;
+      margin-bottom: 0;
+    }
   }
   .single-tweet {
     height: 150px;
     overflow: hidden;
-    border: 2px solid teal;
+    div {
+      width: 100%;
+    }
+    .timeline-Header {
+      display: none !important;
+    }
+    // .SandboxRoot.env-bp-min .timeline-Tweet {
+    //   background: yellow !important;
+    // }
   }
+}
+
+.timeline-InformationCircle-widgetParent {
+  display: none !important;
+  border: 2px solid palevioletred;
 }
