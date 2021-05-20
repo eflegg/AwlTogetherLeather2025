@@ -10,16 +10,37 @@ Template Name: Home Page
 
    <?php include "components/home-hero.php" ;?>
 
-    <div class="layout-container">
+    <div class="section--services layout-container">
         <h2 class="w-50">We’re repairing the future of leatherworks, one sole at a time</h2>
-        <div class="listing-block--container layout-container row">
+        <div class="listing-block--container row">
             <div class="col-12 col-md-6"><?php include "components/listing-block.php";?></div>
             <div class="col-12 col-md-6"><?php include "components/listing-block.php";?></div>
             <div class="col-12 col-md-6"><?php include "components/listing-block.php";?></div>
             <div class="col-12 col-md-6"><?php include "components/listing-block.php";?></div>
         </div>
+        <div class="services--button">
+            <a href="#">
+                <button class="btn--primary">
+                    See All Services
+                </button>
+            </a>
+        </div>
     </div>
 
+    <div class="section--accessibility d-flex flex-column flex-md-row align-items-center">
+        <div class="access-text">
+            <h3>Accessibility Matters</h3>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+            <a href="#">
+                <button class="btn--primary">
+                    See Our Full Policy
+                </button>
+            </a>
+        </div>
+        <div class="access-image">
+            <img src="https://picsum.photos/800" alt="">
+        </div>
+    </div>
 
 
 

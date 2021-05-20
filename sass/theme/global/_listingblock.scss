@@ -1,5 +1,6 @@
 .block-container {
   //   border: 2px solid orange;
+
   align-items: center;
   transform: translateX(-10%);
   display: flex;
@@ -21,6 +22,7 @@
     }
   }
   .block-text {
+    box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.2);
     position: relative;
     left: 85px;
     top: -30px;
