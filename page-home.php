@@ -41,7 +41,22 @@ Template Name: Home Page
             <img src="https://picsum.photos/800" alt="">
         </div>
     </div>
+    <div class="section--shop-slider">
+        <h2 class="text-center">Shop</h2>
+        <div class="product-slider">
+            <?php echo
+            do_shortcode( '[wcpscwc_pdt_slider type="products"]');
+            ?>
+        </div>
+        <div class="text-center mt-5">
 
+            <a href="#">
+                    <button class="btn--primary">
+                        Shop All Products
+                    </button>
+                </a>
+        </div>
+    </div>
 
 
 

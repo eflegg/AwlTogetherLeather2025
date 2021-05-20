@@ -1,0 +1,28 @@
+.woocommerce ul.products li.product a img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 0 1em;
+  box-shadow: none;
+  border-radius: 50%;
+}
+
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+  text-align: center;
+}
+.wcpscwc-product-slider .products li {
+  padding: 0 25px !important;
+}
+.add-to-cart-container {
+  display: none;
+}
+.section--shop-slider {
+  padding: 50px 0;
+  a {
+    margin: 0 auto;
+    button {
+      margin: 0 auto;
+    }
+  }
+}
