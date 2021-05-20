@@ -7,10 +7,7 @@
   flex-direction: column;
   margin-bottom: 80px;
   position: relative;
-  &:nth-child(even) {
-    top: -60px;
-  }
-  @include media-query-min($sm) {
+  @include media-query-min($md) {
     flex-direction: row;
     transform: translateX(10%);
   }
@@ -26,7 +23,7 @@
     position: relative;
     left: 85px;
     top: -30px;
-    @include media-query-min($sm) {
+    @include media-query-min($md) {
       left: -40px;
       top: -50px;
     }
@@ -39,10 +36,12 @@
 
 .listing-block--container {
   margin-top: 150px;
-  div {
-    &:nth-child(even) {
-      position: relative;
-      top: -60px;
+  .block-outer {
+    @include media-query-min($sm) {
+      &:nth-child(even) {
+        position: relative;
+        top: -60px;
+      }
     }
   }
 }

@@ -10,7 +10,7 @@ body {
   // border: 1px solid goldenrod;
   margin: 0 auto;
   max-width: 310px;
-
+  width: 90%;
   @include media-query-min($xs) {
     max-width: 650px;
   }
@@ -25,9 +25,15 @@ body {
 }
 
 .home-hero--container {
-  height: 100vh;
+  height: 50vh;
+  @include media-query-min($md) {
+    height: 100vh;
+  }
   position: relative;
   overflow: hidden;
+  img {
+    object-fit: cover;
+  }
   .hero-text {
     position: absolute;
     top: 50%;
@@ -47,9 +53,14 @@ body {
 }
 
 .section--accessibility {
-  min-height: 500px;
-  height: 80vh;
   background: $green;
+  @include media-query-min($md) {
+    height: 500;
+  }
+  @include media-query-min($lg) {
+    min-height: 500px;
+    height: 80vh;
+  }
   .access-text {
     width: 90%;
     padding: 25px;
@@ -65,6 +76,9 @@ body {
     overflow: hidden;
     height: 90%;
     margin: 20px 0;
+    @include media-query-min($md) {
+      width: 60%;
+    }
     img {
       object-fit: cover;
     }
