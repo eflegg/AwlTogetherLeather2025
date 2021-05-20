@@ -45,3 +45,22 @@
     }
   }
 }
+
+/// Access and Blog listing block ///
+
+.access-grid--container {
+  .acces-block--outer {
+    padding: 50px;
+    border-bottom: 2px solid $grey;
+    display: table;
+    @include media-query-min($sm) {
+      &:nth-child(odd) {
+        border-right: 1px solid $grey;
+      }
+      &:nth-child(even) {
+        border-left: 1px solid $grey;
+        text-align: right;
+      }
+    }
+  }
+}
