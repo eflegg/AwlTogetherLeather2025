@@ -1,0 +1,54 @@
+.blog--container {
+  margin: 100px auto;
+}
+.understrap-read-more-link {
+  border: 3px solid $coral;
+  background: transparent;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 18px;
+  transition: all 0.15s ease-in-out;
+  text-decoration: none;
+  &:hover {
+    background: $coral;
+    transition: all 0.15s ease-in-out;
+    color: $cream;
+  }
+}
+.entry-title {
+  margin-bottom: 30px;
+  a {
+    text-decoration: none;
+  }
+}
+
+.pagination {
+  width: 60%;
+  margin: 60px auto;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $bodyFont;
+  text-align: center;
+  a {
+    margin: 0 10px;
+    &:first-child {
+      text-decoration: none;
+      &:after {
+        content: "\27F5";
+        font-size: 35px;
+        margin-left: 15px;
+      }
+    }
+    &:last-child {
+      text-decoration: none;
+      &:before {
+        content: "\27F6";
+        font-size: 35px;
+        margin-right: 15px;
+      }
+    }
+  }
+}

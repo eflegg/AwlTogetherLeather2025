@@ -55,11 +55,18 @@
     display: table;
     @include media-query-min($sm) {
       &:nth-child(odd) {
-        border-right: 1px solid $grey;
+        border-right: 2px solid $grey;
+        position: relative;
+        left: 1px;
       }
       &:nth-child(even) {
-        border-left: 1px solid $grey;
+        border-left: 2px solid $grey;
         text-align: right;
+        position: relative;
+        left: -1px;
+      }
+      &:last-child {
+        border-bottom: 0px;
       }
     }
   }

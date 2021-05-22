@@ -1,0 +1,18 @@
+.navbar-brand {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+
+.navbar {
+  background: transparent !important;
+  position: relative;
+  z-index: 5;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm {
+  max-width: 100%;
+}
