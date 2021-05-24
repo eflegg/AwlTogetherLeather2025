@@ -16,20 +16,21 @@ Template Name: Accessibility Page
     </div>
 
     <div class="access-grid--container row">
+
+        <?php
+        $args = array (
+            'post_type' => 'access-cat',
+            'posts_per_page' => -1,
+        );
+        $accessQuery = new WP_query($args);
+        if($accessQuery ->have_posts()): ?>
+        <?php while($accessQuery->have_posts()) : $accessQuery->the_post() ?>
         
-        <div class="acces-block--outer col-12 col-md-6">
-            <?php include 'components/blogAccess-listing.php'; ?>
-        </div>
-        <div class="acces-block--outer col-12 col-md-6">
-            <?php include 'components/blogAccess-listing.php'; ?>
-        </div>
-        <div class="acces-block--outer col-12 col-md-6">
-            <?php include 'components/blogAccess-listing.php'; ?>
-        </div>
-        <div class="acces-block--outer col-12 col-md-6">
+        <div class="access-block--outer col-12 col-md-6">
             <?php include 'components/blogAccess-listing.php'; ?>
         </div>
        
+       <?php endwhile; endif; ?>
     </div>
 
     <!-- test for outgoing messsage here. text + button -->
