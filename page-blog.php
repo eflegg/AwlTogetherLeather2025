@@ -30,7 +30,7 @@ Template Name: Blog Page
         ?>
          <?php the_posts_pagination(); ?>
             <?php while( $blogQuery->have_posts() ) : $blogQuery->the_post() ?>
-            <div class="acces-block--outer col-12 col-md-6">
+            <div class="access-block--outer col-12 col-md-6">
           
             <?php
 		the_title(

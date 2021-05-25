@@ -22,8 +22,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<div class="home-hero--container">
 				<div class="hero-img">
-					<img src="https://picsum.photos/1200" alt="">
+					<img src=<?php echo get_the_post_thumbnail();?> alt="">
 				</div>
+				<div class="overlay"></div>
 				<header class="hero-text">
 					<h1 class="text-center page--home__title"> <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?></h1>
 					

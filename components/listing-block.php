@@ -1,13 +1,21 @@
-<div class="block-container">
+<a href=<?php the_permalink(); ?>><div class="block-container">
     <div class="block-image">
 <img src="https://picsum.photos/400" alt="">
     </div>
     <div class="block-text">
-        <h3>Custom Goods</h3>
-        <p>Big or small, we love to make whatever your heart desires</p>
+    <?php
+    $serviceTitle = get_field('service_title');
+    if($serviceTitle):?>
+        <h3><?php echo $serviceTitle; ?></h3>
+        <?php endif; ?>
+    <?php
+    $listingExcerpt = get_field('listing_excerpt');
+    if($listingExcerpt):?>
+        <p><?php echo $listingExcerpt; ?></p>
+        <?php endif; ?>
     </div>
 </div>
-
+</a>
 
 
 
