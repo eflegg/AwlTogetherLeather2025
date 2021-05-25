@@ -81,9 +81,9 @@ Template Name: Blog Page
         <?php endif ?>
        
     </div>
-<div class="pagination">
+<!-- <div class="pagination">
 <?php get_the_posts_pagination() ?>
-</div>
+</div> -->
 
     <!-- test for outgoing messsage here. text + button -->
 </div>
