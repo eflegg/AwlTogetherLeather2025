@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Accessibility Page
+Template Name: FAQ Page
  */
 ?>
 
@@ -8,33 +8,34 @@ Template Name: Accessibility Page
 
 <?php while (have_posts()): the_post();?>
 
+
 <div class="layout-container">
     <!-- test for page title here. could be blog -->
     <div class="page-title text-right d-flex">
         <hr> 
-        <h1>Accessibility</h1>
+        <h1>FAQs</h1>
     </div>
 
     <div class="access-grid--container row">
 
         <?php
         $args = array (
-            'post_type' => 'access-cat',
+            'post_type' => 'faqs',
             'posts_per_page' => -1,
+            'order' => 'ASC',
         );
-        $accessQuery = new WP_query($args);
-        if($accessQuery ->have_posts()): ?>
-        <?php while($accessQuery->have_posts()) : $accessQuery->the_post() ?>
+        $faqQuery = new WP_query($args);
+        if($faqQuery ->have_posts()): ?>
+        <?php while($faqQuery->have_posts()) : $faqQuery->the_post() ?>
         
         <div class="access-block--outer col-12 col-md-6">
-            <?php include 'components/blogAccess-listing.php'; ?>
+            <?php include 'components/faq-block.php'; ?>
         </div>
        
        <?php endwhile; endif; ?>
     </div>
 
 </div>
-
 
 <!-- close php loop -->
 <?php endwhile;?>

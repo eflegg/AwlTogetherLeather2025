@@ -1,18 +1,60 @@
 .blog--container {
-  margin: 100px auto;
-}
-.nav-previous a {
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 400;
-  margin-left: 30px;
-  &:after {
-    content: "\27F5";
-    font-size: 35px;
-    margin-left: 15px;
+  @include media-query-min($sm) {
+    margin: 80px auto;
   }
 }
-.fa-angle-left {
+
+.post-navigation {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 60%;
+  margin-bottom: 60px;
+  @include media-query-min($sm) {
+    margin-bottom: 90px;
+  }
+}
+.nav-previous {
+  text-align: left;
+  width: 100%;
+  @include media-query-min($sm) {
+    width: initial;
+  }
+  a {
+    text-decoration: none;
+    font-family: $bodyFont;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 30px;
+    width: 100%;
+    &:after {
+      content: "\27F5";
+      font-size: 35px;
+      margin-left: 15px;
+    }
+  }
+}
+.nav-next {
+  text-align: right;
+  width: 100%;
+  @include media-query-min($sm) {
+    width: initial;
+  }
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: $bodyFont;
+    font-weight: 400;
+    margin-right: 30px;
+    &:before {
+      content: "\27F6";
+      font-size: 35px;
+      margin-right: 15px;
+    }
+  }
+}
+.fa-angle-left,
+.fa-angle-right {
   display: none;
 }
 .understrap-read-more-link {

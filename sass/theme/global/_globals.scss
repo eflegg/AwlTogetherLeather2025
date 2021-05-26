@@ -40,9 +40,11 @@
     flex-direction: row;
     align-items: center;
     margin-right: 65px;
+    margin-bottom: 90px;
   }
   hr {
     border-color: $grey;
+    border: 1px solid;
     width: 75%;
     @include media-query-min($sm) {
       width: 50%;
