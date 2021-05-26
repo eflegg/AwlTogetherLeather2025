@@ -16,6 +16,11 @@
     color: $cream;
   }
 }
+.btn-secondary {
+  &:hover {
+    border-color: $coral;
+  }
+}
 .btn--text {
   justify-content: flex-end;
   align-items: center;

@@ -51,23 +51,47 @@
 .access-grid--container {
   .access-block--outer {
     padding: 50px;
-    border-bottom: 2px solid $grey;
+    // border-bottom: 2px solid $grey;
+
     display: table;
-    @include media-query-min($sm) {
-      &:nth-child(odd) {
+
+    &:nth-child(odd) {
+      &:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 1px;
+        border-bottom: 2px solid $grey;
+        width: 70%;
+      }
+      @include media-query-min($sm) {
         border-right: 2px solid $grey;
         position: relative;
         left: 1px;
       }
-      &:nth-child(even) {
+    }
+    &:nth-child(even) {
+      @include media-query-min($sm) {
         border-left: 2px solid $grey;
-        text-align: right;
         position: relative;
         left: -1px;
       }
-      &:last-child {
-        border-bottom: 0px;
+      &:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        @include media-query-min($sm) {
+          left: 0;
+        }
+        bottom: 0;
+        height: 1px;
+        border-bottom: 2px solid $grey;
+        width: 70%;
       }
+    }
+    &:last-child {
+      border-bottom: 0px;
     }
   }
 }
