@@ -15,7 +15,7 @@ Template Name: Accessibility Page
         <h1>Accessibility</h1>
     </div>
 
-    <div class="access-grid--container row">
+    <div class="masonry-test access-grid--container row">
 
         <?php
         $args = array (
