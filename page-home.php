@@ -13,10 +13,17 @@ Template Name: Home Page
     <div class="section--services layout-container">
         <h2 class="w-75 w-md-50">We’re repairing the future of leatherworks, one sole at a time</h2>
         <div class="listing-block--container row">
+        <?php
+        $args = array (
+            'post_type' => 'services',
+            'posts_per_page' => 4,
+        );
+        $homeServiceQuery = new WP_query($args);
+        if($homeServiceQuery->have_posts()): ?>
+        <?php while($homeServiceQuery->have_posts()):$homeServiceQuery->the_post()?>
+
             <div class="col-12 col-sm-6 block-outer"><?php include "components/listing-block.php";?></div>
-            <div class="col-12 col-sm-6 block-outer"><?php include "components/listing-block.php";?></div>
-            <div class="col-12 col-sm-6 block-outer"><?php include "components/listing-block.php";?></div>
-            <div class="col-12 col-sm-6 block-outer"><?php include "components/listing-block.php";?></div>
+            <?php endwhile; endif; ?> 
         </div>
         <div class="services--button">
             <a href="#">
@@ -31,6 +38,7 @@ Template Name: Home Page
         <div class="access-text">
             <h3>Accessibility Matters</h3>
             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+            
             <a href="#">
                 <button class="btn--primary">
                     See Our Full Policy

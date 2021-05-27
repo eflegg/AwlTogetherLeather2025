@@ -1,0 +1,21 @@
+.careers-container,
+.service-single--container {
+  ul {
+    margin: 50px 20px;
+    padding: 0;
+    li {
+      list-style: none;
+      &:before {
+        content: "\27F6";
+        margin-right: 10px;
+      }
+    }
+  }
+}
+
+.job-considerations {
+  margin: 40px 20px;
+  @include media-query-min($sm) {
+    margin: 70px 20px;
+  }
+}

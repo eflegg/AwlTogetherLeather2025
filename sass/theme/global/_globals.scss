@@ -8,12 +8,17 @@
   transition: all 0.15s ease-in-out;
   margin-bottom: 30px;
   a {
-    text-decoration: none;
+    &:hover {
+      text-decoration: none !important;
+    }
   }
   &:hover {
     background: $coral;
     transition: all 0.15s ease-in-out;
     color: $cream;
+    a {
+      text-decoration: none !important;
+    }
   }
 }
 .btn-secondary {

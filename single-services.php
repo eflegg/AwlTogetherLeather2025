@@ -17,12 +17,11 @@
             <?php endif;?>
             <div class="btn--primary ">
             Book Intake
-        </div>
+            </div>
         </div>
         <div class="service-image col-12 col-md-6">
-        <img src=<?php echo get_the_post_thumbnail();?>>
+            <img src=<?php echo get_the_post_thumbnail();?>>
         </div>
-      
     </div>
     <div class="service-gallery">
         <?php 

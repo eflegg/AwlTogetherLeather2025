@@ -13,12 +13,12 @@ $headerFont: "Georgia", sans-serif;
 h1 {
   @include font-size(3.6);
 
-  @include media-query-min($sm) {
-    @include font-size(4.2);
-  }
+  // @include media-query-min($sm) {
+  //   @include font-size(4.2);
+  // }
 
   @include media-query-min($md) {
-    @include font-size(5.6);
+    @include font-size(4.2);
   }
 }
 
@@ -67,19 +67,22 @@ h3,
 
 p {
   font-family: $bodyFont;
-  @include font-size(1.6);
-  line-height: 30px;
+  @include font-size(1.8);
+  line-height: 33px;
   font-weight: Roman;
 }
 
 li {
   font-family: $bodyFont;
-  @include font-size(1.6);
+  @include font-size(1.8);
   line-height: 37px;
   margin-bottom: 15px;
 }
 
 a {
   text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
   color: $grey !important;
 }

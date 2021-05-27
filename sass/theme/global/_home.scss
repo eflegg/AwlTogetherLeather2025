@@ -41,7 +41,7 @@ body {
     height: 75vh;
   }
   @include media-query-min($md) {
-    height: 85vh;
+    height: 95vh;
   }
   position: relative;
   overflow: hidden;
@@ -65,7 +65,8 @@ body {
 }
 
 .services--button {
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
   position: relative;
   top: -60px;
   left: -100px;
