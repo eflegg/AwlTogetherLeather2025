@@ -8,11 +8,11 @@ Template Name: Services Page
 <?php while (have_posts()): the_post();?>
 
 <div class="pl-5 page-title title text-left d-flex">
-    <h1><?php wp_title( '' );?></h1>
+    <h1 class="text-left"><?php wp_title( '' );?></h1>
     <hr>
 </div>
     <div class="layout-container">
-        <div class="services--description w-50"><p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+        <div class="services--description"><p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
     </div>
     <div class="listing-block--container row">
         <?php

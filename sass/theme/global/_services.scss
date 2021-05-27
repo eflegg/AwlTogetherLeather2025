@@ -17,3 +17,10 @@
     }
   }
 }
+
+.services--description {
+  width: 100%;
+  @include media-query-min($sm) {
+    width: 50%;
+  }
+}
