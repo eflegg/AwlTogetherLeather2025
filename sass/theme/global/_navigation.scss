@@ -1,12 +1,18 @@
 .navbar-brand {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
 }
 
 .navbar {
   background: transparent !important;
-  position: relative;
+  position: absolute;
   z-index: 5;
+  width: 100%;
+  // border: 3px solid goldenrod;
+  top: 0;
+  &.open {
+    background: $green !important;
+  }
 }
 
 .container,
@@ -16,10 +22,14 @@
   max-width: 100%;
 }
 .navbar-toggler {
-  color: blue;
+  &:focus {
+    outline: none;
+  }
   margin-left: auto;
 }
 
-.hamburger-inner {
-  color: blue;
+.navbar-collapse {
+  &.show {
+    background: $green !important;
+  }
 }
