@@ -1,7 +1,6 @@
 .navbar-brand {
   width: 100px;
   height: 100px;
-  position: absolute;
 }
 
 .navbar {
@@ -17,5 +16,10 @@
   max-width: 100%;
 }
 .navbar-toggler {
+  color: blue;
   margin-left: auto;
+}
+
+.hamburger-inner {
+  color: blue;
 }

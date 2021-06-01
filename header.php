@@ -18,8 +18,8 @@ $container = get_theme_mod('understrap_container_type');
 	<meta charset="<?php bloginfo('charset');?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link href="https://fonts.googleapis.com/css?family=Gotu|Open+Sans:300|Raleway&display=swap" rel="stylesheet">
-
+	<!-- <link href="https://fonts.googleapis.com/css?family=Gotu|Open+Sans:300|Raleway&display=swap" rel="stylesheet"> -->
+	<link href="dist/hamburgers.css" rel="stylesheet">
 	<?php wp_head();?>
 </head>
 
@@ -32,7 +32,7 @@ $container = get_theme_mod('understrap_container_type');
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e('Skip to content', 'understrap');?></a>
 
-		<nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-primary" aria-labelledby="main-nav-label">
+		<nav id="main-nav" class="navbar navbar-expand-xl navbar-dark bg-primary" aria-labelledby="main-nav-label">
 
 			<h2 id="main-nav-label" class="sr-only">
 				<?php esc_html_e('Main Navigation', 'understrap');?>
@@ -59,8 +59,14 @@ $container = get_theme_mod('understrap_container_type');
     the_custom_logo();
 }?><!-- end custom logo -->
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'understrap');?>">
+				<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'understrap');?>">
 					<span class="navbar-toggler-icon"></span>
+				</button> -->
+
+				<button id="hamburger" class="navbar-toggler hamburger hamburger--collapse"  type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'understrap');?>">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
 				</button>
 
 				<!-- The WordPress Menu goes here -->
