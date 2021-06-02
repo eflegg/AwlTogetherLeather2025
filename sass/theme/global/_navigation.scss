@@ -1,17 +1,22 @@
-.navbar-brand {
-  width: 80px;
-  height: 80px;
-}
-
 .navbar {
   background: transparent !important;
-  position: absolute;
+  position: relative;
   z-index: 5;
   width: 100%;
   // border: 3px solid goldenrod;
-  top: 0;
+  .navbar-brand {
+    width: 80px;
+    height: 80px;
+    opacity: 1;
+    transition: opacity 0.15s ease-in-out;
+  }
   &.open {
-    background: $green !important;
+    background: $coral !important;
+    height: 100vh;
+    .navbar-brand {
+      opacity: 0;
+      transition: opacity 0.15s ease-in-out;
+    }
   }
 }
 
@@ -30,6 +35,19 @@
 
 .navbar-collapse {
   &.show {
-    background: $green !important;
+    background: $coral !important;
+    ul {
+      @for $i from 1 through 5 {
+        li:nth-of-type(#{$i}) a {
+          @include transition(0.5s linear (0.5s + ($i - 1) * 0.1s));
+          font-size: 48px;
+          margin-bottom: 30px;
+        }
+      }
+    }
   }
+}
+
+.hamburger {
+  opacity: 0.7;
 }

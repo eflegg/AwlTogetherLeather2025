@@ -1,5 +1,7 @@
-.btn--primary {
+.btn--primary,
+button[type="submit"] {
   border: 3px solid $coral;
+  color: $grey;
   display: table;
   background: transparent;
   padding: 10px 20px;
@@ -13,6 +15,7 @@
     }
   }
   &:hover {
+    border: 3px solid $coral;
     background: $coral;
     transition: all 0.15s ease-in-out;
     color: $cream;

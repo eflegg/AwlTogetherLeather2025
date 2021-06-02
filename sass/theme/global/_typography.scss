@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Alstoria";
+  src: url(http://http://localhost:3000/awl-together-leather/wp-content/themes/awl-together-leather/fonts/Alstoria-Regular.otf);
+  font-weight: normal;
+}
+
 @mixin font-size($sizeValue: 1.6) {
   font-size: ($sizeValue * 10) + px;
   font-size: $sizeValue + rem;
@@ -8,11 +14,11 @@ html {
 }
 
 $bodyFont: "Avenir", sans-serif;
-$headerFont: "Georgia", sans-serif;
+$headerFont: "Alstoria", sans-serif;
 
 h1 {
   @include font-size(3.6);
-
+  font-family: "Alstoria";
   // @include media-query-min($sm) {
   //   @include font-size(4.2);
   // }
@@ -85,4 +91,7 @@ a {
     text-decoration: none;
   }
   color: $grey !important;
+}
+.nav-link {
+  font-family: $headerFont;
 }
