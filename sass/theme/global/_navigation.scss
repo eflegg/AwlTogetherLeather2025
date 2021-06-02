@@ -1,3 +1,20 @@
+@mixin slideInRight($duration, $offset) {
+  animation-name: slideInRight;
+  animation-duration: $duration;
+  animation-fill-mode: both;
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(-$offset);
+      visibility: visible;
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+
 .navbar {
   background: transparent !important;
   position: relative;
@@ -12,7 +29,7 @@
   }
   &.open {
     background: $coral !important;
-    height: 100vh;
+    min-height: 100vh;
     .navbar-brand {
       opacity: 0;
       transition: opacity 0.15s ease-in-out;
@@ -36,18 +53,47 @@
 .navbar-collapse {
   &.show {
     background: $coral !important;
+    @include media-query-min($sm) {
+      padding-left: 60px;
+    }
+    @include media-query-min($md) {
+      padding-left: 100px;
+    }
     ul {
-      @for $i from 1 through 5 {
-        li:nth-of-type(#{$i}) a {
-          @include transition(0.5s linear (0.5s + ($i - 1) * 0.1s));
-          font-size: 48px;
-          margin-bottom: 30px;
-        }
-      }
+      @include slideInRight(0.2s, 20px);
+
+      // @for $i from 1 through 4 {
+      //   &:nth-child(#{$i}) {
+      //     // Delay the animation. Delay increases as items loop.
+      //     animation-delay: $i * (1s / 4);
+      //
+      //   }
+      // }
     }
   }
 }
 
 .hamburger {
   opacity: 0.7;
+}
+.dropdown-toggle {
+  &:after {
+    content: "\27F6";
+    font-size: 45px;
+    margin-right: 15px;
+    border-top: 0px;
+    position: relative;
+    top: 10px;
+  }
+}
+
+.navbar-nav .dropdown-menu {
+  position: absolute;
+  text-align: left;
+  background: $coral;
+  border: 0px;
+  right: 0;
+  top: 0;
+  width: 50%;
+  margin-left: auto;
 }
