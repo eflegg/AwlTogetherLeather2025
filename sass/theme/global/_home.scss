@@ -25,6 +25,8 @@ body {
 }
 
 .home-hero--container {
+  color: $cream;
+
   .entry-title {
     margin-bottom: 30px;
     color: $cream;
@@ -38,7 +40,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.3);
   }
   height: 70vh;
   width: 100%;

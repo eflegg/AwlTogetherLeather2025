@@ -3,6 +3,10 @@
 }
 .gallery--single {
   list-style: none;
+  &:before {
+    content: "" !important;
+    margin-right: 0px !important;
+  }
 }
 .service-gallery {
   margin: 100px 0 80px;

@@ -34,6 +34,11 @@
       opacity: 0;
       transition: opacity 0.15s ease-in-out;
     }
+    .navbar-toggler {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
   }
 }
 
@@ -51,14 +56,17 @@
 }
 
 .navbar-collapse {
+  padding-left: 30px;
+  @include media-query-min($sm) {
+    padding-left: 60px;
+  }
+  @include media-query-min($md) {
+    padding-left: 100px;
+  }
+  // border: 2px solid blue;
+  position: relative;
   &.show {
     background: $coral !important;
-    @include media-query-min($sm) {
-      padding-left: 60px;
-    }
-    @include media-query-min($md) {
-      padding-left: 100px;
-    }
     ul {
       @include slideInRight(0.2s, 20px);
 
@@ -92,8 +100,16 @@
   text-align: left;
   background: $coral;
   border: 0px;
+  // border: 2px solid green;
   right: 0;
   top: 0;
   width: 50%;
   margin-left: auto;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background: transparent;
+  outline: none;
+  box-shadow: 0 1px 0 0 $grey;
 }
