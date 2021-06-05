@@ -9,10 +9,10 @@
     <div class="service--inner row">
         <div class="service-description col-12 col-md-6">
             <?php
-            $serviceDescrip = get_field('service_description');
-            if($serviceDescrip):?>
+            $collabDescrip = get_field('collaboration_description');
+            if($collabDescrip):?>
             <p>
-            <?php echo $serviceDescrip;?>
+            <?php echo $collabDescrip;?>
             </p>
             <?php endif;?>
             <div class="btn--primary ">
@@ -25,7 +25,7 @@
     </div>
     <div class="service-gallery">
         <?php 
-        $images = get_field('service_gallery');
+        $images = get_field('collaboration_gallery');
         $size = 'full'; // (thumbnail, medium, large, full or custom size)
         if( $images ): ?>
             <ul class="gallery--inner row">
@@ -46,7 +46,7 @@
       
             <i>&xrarr;</i>
             
-            <?php echo '<a href="' . home_url().'/'.($postType) . '"><h3>Back to Services</h3></a>';
+            <?php echo '<a href="' . home_url().'/'.($postType) . '"><h3>Back to Collaborations</h3></a>';
  ?>
         </a>
     </div>

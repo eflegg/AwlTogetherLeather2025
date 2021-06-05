@@ -1,6 +1,7 @@
 <a href=<?php the_permalink(); ?>><div class="block-container">
     <div class="block-image">
-<img src="https://picsum.photos/400" alt="">
+
+    <?php echo get_the_post_thumbnail();?>
     </div>
     <div class="block-text">
     <?php
@@ -8,6 +9,13 @@
     if($serviceTitle):?>
         <h3><?php echo $serviceTitle; ?></h3>
     <?php endif; ?>
+    
+    <?php
+    $collabTitle = get_field('collaboration_title');
+    if($collabTitle):?>
+    <h3><?php echo $collabTitle; ?></h3>
+    <?php endif; ?>
+
     <?php
     $jobTitle = get_field('job_title');
     if($jobTitle):?>
@@ -24,6 +32,13 @@
         if($jobExcerpt):?>
             <p><?php echo $jobExcerpt; ?></p>
         <?php endif; ?>
+
+        <?php
+        $collabExcerpt = get_field('collab_listing_excerpt');
+        if($collabExcerpt):?>
+            <p><?php echo $collabExcerpt; ?></p>
+        <?php endif; ?>
+
     </div>
 </div>
 </a>
