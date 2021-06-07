@@ -8,10 +8,19 @@ Template Name: Home Page
 
 <?php while (have_posts()): the_post();?>
 
-   <?php include "components/home-hero.php" ;?>
-
+    <?php
+    $homePage = get_field('home_page');?>
+    
+    <?php include "components/home-hero.php" ;?>
+<?php
+$serviceSection = $homePage['service_section'];
+    $serviceText = $serviceSection['service_section_text'];
+    if($serviceText):?>
     <div class="section--services layout-container">
-        <h2 class="w-75 w-md-50">We’re repairing the future of leatherworks, one sole at a time</h2>
+    
+        <h2 class="w-75 w-md-50"><?php echo $serviceText; ?></h2>
+        <?php endif;?>
+        
         <div class="listing-block--container row">
         <?php
         $args = array (
@@ -25,27 +34,43 @@ Template Name: Home Page
             <div class="col-12 col-sm-6 block-outer"><?php include "components/listing-block.php";?></div>
             <?php endwhile; endif; ?> 
         </div>
+
         <div class="services--button">
-            <a href="#">
-                <button class="btn--primary">
-                    See All Services
-                </button>
-            </a>
+        <?php 
+        $button = $serviceSection['button'];
+        if($button):?>
+        <?php include 'components/button.php'; ?>
+        <?php endif;?>
+         
         </div>
     </div>
 
     <div class="section--accessibility d-flex flex-column flex-lg-row align-items-center">
         <div class="access-text">
-            <h3>Accessibility Matters</h3>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
-            
-            <a href="#">
-                <button class="btn--primary">
-                    See Our Full Policy
-                </button>
-            </a>
+        <?php 
+        $accessSection = $homePage['access_section'];
+        $accessTitle = $accessSection['access_section_title'];
+        if($accessTitle):?>
+            <h2><?php echo $accessTitle; ?></h2>
+            <?php endif; ?>
+            <?php
+            $accessText = $accessSection['access_section_text'];
+            if($accessText):?>
+            <p><?php echo $accessText;?></p>
+            <?php endif; ?>
+            <?php
+            $button = $accessSection['button'];
+            if($button):?>
+            <?php include 'components/button.php';?>
+            <?php endif; ?>
+          
         </div>
         <div class="access-image">
+        <?php
+        $image = $accessSection['image_item'];
+        if($image):?>
+        <?php include 'components/image.php';?>
+        <?php endif; ?>
             <img src="https://picsum.photos/800" alt="">
         </div>
     </div>

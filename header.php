@@ -18,6 +18,7 @@ $container = get_theme_mod('understrap_container_type');
 	<meta charset="<?php bloginfo('charset');?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 	<!-- <link href="https://fonts.googleapis.com/css?family=Gotu|Open+Sans:300|Raleway&display=swap" rel="stylesheet"> -->
 	<link href="dist/hamburgers.css" rel="stylesheet">
 	<?php wp_head();?>

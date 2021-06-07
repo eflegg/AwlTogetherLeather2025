@@ -1,4 +1,4 @@
-<a href=<?php the_permalink(); ?>><div class="block-container">
+<a href=<?php the_permalink(); ?>><div class="block-container content">
     <div class="block-image">
 
     <?php echo get_the_post_thumbnail();?>

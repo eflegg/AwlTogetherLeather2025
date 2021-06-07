@@ -15,7 +15,7 @@ Template Name: Accessibility Page
         <h1>Accessibility</h1>
     </div>
 
-    <div class="masonry-test access-grid--container row">
+    <div class="grid ">
 
         <?php
         $args = array (
@@ -26,7 +26,7 @@ Template Name: Accessibility Page
         if($accessQuery ->have_posts()): ?>
         <?php while($accessQuery->have_posts()) : $accessQuery->the_post() ?>
         
-        <div class="access-block--outer col-12 col-md-6">
+        <div class="access-block--outer  item">
             <?php include 'components/blogAccess-listing.php'; ?>
         </div>
        
