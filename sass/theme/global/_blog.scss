@@ -103,9 +103,31 @@
   }
 }
 
-.grid {
-  display: grid;
-  grid-gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  grid-auto-rows: 20px;
-}
+// #masonry-effect {
+//   display: flex;
+//   flex-direction: row;
+//   flex-wrap: wrap;
+// }
+
+// .item {
+//   width: calc(50% - 1rem);
+//   background: linear-gradient(45deg, #281dd4, #a42bff);
+//   border-radius: 10px;
+//   padding: 1rem;
+//   font-size: 1.25rem;
+//   box-sizing: border-box;
+//   font-variation-settings: "wght" 600;
+// }
+// .item:nth-of-type(5) {
+//   background: linear-gradient(45deg, #d4581d, #ffbe2b);
+// }
+// .item:nth-of-type(3) {
+//   background: linear-gradient(45deg, #d41d71, #a42bff);
+// }
+// .item:nth-of-type(1) {
+//   background: linear-gradient(45deg, #1d5ed4, #2bbbff);
+// }
+// .item:nth-of-type(9),
+// .item:nth-of-type(7) {
+//   background: linear-gradient(45deg, #85d41d, #2bd8ff);
+// }

@@ -83,13 +83,20 @@ Template Name: About Page
 
 <?php endif;?>
 
-<?php endif;?>
+
 
 
 <div class="btn--text d-flex ml-auto mb-5 mr-5">
-      <i>&xrarr;</i>
-      <a href="#"><h3>See Our Work</h3></a>
+     
+      <?php
+      $button = $aboutPage['button'];
+      if($button):?>
+      <?php include 'components/button.php';?>
+      <i class="btn-arrow--about">&xrarr;</i>
+      <?php endif;?>
 </div>
+
+<?php endif;?>
 
     </div>
 </div>

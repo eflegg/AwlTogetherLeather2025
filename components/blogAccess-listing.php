@@ -1,5 +1,5 @@
 
-<div class="access-block--container">
+<div class="access-block--container content">
     <?php
     $accessTitle = get_field('access_title');
     if($accessTitle) :?>

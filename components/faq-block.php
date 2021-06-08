@@ -1,4 +1,4 @@
-<div class="access-block--container">
+<div class="access-block--container item">
     <?php
     $faqQuestion = get_field('faq_question');
     if($faqQuestion) :?>

@@ -9,7 +9,9 @@ button[type="submit"] {
   font-size: 18px;
   transition: all 0.15s ease-in-out;
   margin-bottom: 30px;
+
   a {
+    font-family: $bodyFont;
     &:hover {
       text-decoration: none !important;
     }
@@ -32,14 +34,34 @@ button[type="submit"] {
 .btn--text {
   justify-content: flex-end;
   align-items: center;
-  h3 {
-    margin: 0;
-  }
   i {
     font-size: 35px;
     display: flex;
-    margin-right: 15px;
-    padding-bottom: 10px;
+    position: relative;
+    left: 0;
+    padding-bottom: 5px;
+    transition: all 0.15s ease-in-out;
+  }
+  &:hover {
+    i {
+      left: 15px;
+      transition: all 0.15s ease-in-out;
+    }
+  }
+  .btn--primary {
+    border: 0px !important;
+    font-size: 25px !important;
+    margin: 0px;
+    &:hover {
+      border: 0px;
+      background: $cream;
+      transition: all 0.15s ease-in-out;
+      color: $grey;
+      font-size: 28px !important;
+      a {
+        text-decoration: none !important;
+      }
+    }
   }
 }
 
@@ -66,4 +88,18 @@ button[type="submit"] {
       margin-left: auto;
     }
   }
+}
+
+.mat-drawer-container {
+  background: $cream !important;
+}
+.mat-toolbar-row,
+.mat-toolbar-single-row {
+  background: $green;
+  font-family: $bodyFont;
+}
+
+.geelus--custom-container {
+  text-align: center;
+  margin-top: 60px;
 }

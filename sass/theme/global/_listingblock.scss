@@ -59,48 +59,58 @@
 
 /// Access and Blog listing block ///
 
+.access-block--container {
+  border: 2px solid palevioletred;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px;
+}
 .access-grid--container {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-auto-rows: 33px;
   .access-block--outer {
-    padding: 50px;
-    // border-bottom: 2px solid $grey;
+    // padding: 50px;
 
     // display: table;
 
-    &:nth-child(odd) {
-      &:after {
-        content: "";
-        position: absolute;
-        right: 0;
-        bottom: 0;
-        height: 1px;
-        border-bottom: 2px solid $grey;
-        width: 70%;
-      }
-      @include media-query-min($sm) {
-        border-right: 2px solid $grey;
-        position: relative;
-        left: 1px;
-      }
-    }
-    &:nth-child(even) {
-      @include media-query-min($sm) {
-        border-left: 2px solid $grey;
-        position: relative;
-        left: -1px;
-      }
-      &:after {
-        content: "";
-        position: absolute;
-        right: 0;
-        @include media-query-min($sm) {
-          left: 0;
-        }
-        bottom: 0;
-        height: 1px;
-        border-bottom: 2px solid $grey;
-        width: 70%;
-      }
-    }
+    // &:nth-child(odd) {
+    //   &:after {
+    //     content: "";
+    //     position: absolute;
+    //     right: 0;
+    //     bottom: -50px;
+    //     height: 1px;
+    //     border-bottom: 2px solid $grey;
+    //     width: 70%;
+    //   }
+    //   @include media-query-min($sm) {
+    //     border-right: 2px solid $grey;
+    //     position: relative;
+    //     left: 1px;
+    //   }
+    // }
+    // &:nth-child(even) {
+    //   @include media-query-min($sm) {
+    //     border-left: 2px solid $grey;
+    //     position: relative;
+    //     left: -1px;
+    //   }
+    //   &:after {
+    //     content: "";
+    //     position: absolute;
+    //     right: 0;
+    //     @include media-query-min($sm) {
+    //       left: 0;
+    //     }
+    //     bottom: 0;
+    //     height: 1px;
+    //     border-bottom: 2px solid $grey;
+    //     width: 70%;
+    //   }
+    // }
     &:last-child {
       border-bottom: 0px;
     }

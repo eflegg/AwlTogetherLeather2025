@@ -16,7 +16,7 @@ Template Name: FAQ Page
         <h1>FAQs</h1>
     </div>
 
-    <div class="access-grid--container row">
+    <div id="masonry-effect" class="access-grid--container ">
 
         <?php
         $args = array (
@@ -28,9 +28,9 @@ Template Name: FAQ Page
         if($faqQuery ->have_posts()): ?>
         <?php while($faqQuery->have_posts()) : $faqQuery->the_post() ?>
         
-        <div class="access-block--outer col-12 col-md-6">
+        <!-- <div class=" access-block--outer "> -->
             <?php include 'components/faq-block.php'; ?>
-        </div>
+        <!-- </div> -->
        
        <?php endwhile; endif; ?>
     </div>
