@@ -39,6 +39,9 @@ footer {
     overflow: hidden;
     margin-bottom: 30px;
     margin-top: 50px;
+    p {
+      line-height: 16px;
+    }
     h3 {
       display: table;
       border-bottom: 1px solid $grey;

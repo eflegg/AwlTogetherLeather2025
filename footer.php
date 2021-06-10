@@ -17,9 +17,10 @@ $container = get_theme_mod('understrap_container_type');
    <div class="footer--left">
     <p>Awl Together Leather operates on the unceded territories of the xʷməθkʷəy̓əm (Musqueam), Sḵwx̱wú7mesh (Squamish), and Sel̓íl̓witulh (Tsleil-Waututh) Nations. We believe in land back – meaning a redistribution of land and wealth back into Indigenous hands. It’s part of our mandate to train and help marginalized communities enter professional leatherwork as both workers and owners. See Careers for more info or contact us at hiring@awltogetherleather.ca</p>
     <div class="footer--contact-us">
-        <h3>Contact Us</h3>
-        <p>info@awltogetherleather<br/>(604) 875-8947<p>
-            <p>#101-1183 Odlum Drive, Vancouver, BC Canada</p>
+        <h3 class="mb-4">Contact Us</h3>
+        <p>info@awltogetherleather</p>
+        <p>(604) 875-8947</p>
+        <p>#101-1183 Odlum Drive, Vancouver, BC Canada</p>
       
     </div>
     <div class="copyright d-none d-md-block">
