@@ -19,6 +19,7 @@ $container = get_theme_mod('understrap_container_type');
     <div class="footer--contact-us">
         <h3>Contact Us</h3>
         <p>info@awltogetherleather<br/>(604) 875-8947<p>
+            <p>#101-1183 Odlum Drive, Vancouver, BC Canada</p>
       
     </div>
     <div class="copyright d-none d-md-block">
@@ -39,7 +40,7 @@ $container = get_theme_mod('understrap_container_type');
         <div class="footer--sign-up">
        
         <!-- <input type="text" placeholder="enter your email"> -->
-        <form style="padding:3px;text-align:right;" action="https://tinyletter.com/awltogetherleather" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/awltogetherleather', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Sign up for our newsletter</label></p><p><input type="text" style="width:200px; background: #fff8e6; border: 0px;" name="email" id="tlemail" placeholder="Enter your email" /></p><input type="hidden" value="1" name="embed"/><input type="submit" value="Subscribe" /></form>
+        <form style="padding:3px;text-align:right;" action="https://tinyletter.com/awltogetherleather" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/awltogetherleather', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"><p><label for="tlemail">Sign up for our newsletter</label></p><p><input type="text" style="width:200px; background: #fff8e6; border: 0px;" name="email" id="tlemail" placeholder="Enter your email" /></p><input type="hidden" value="1" name="embed"/><input class="btn--primary btn--filled ml-auto"type="submit" value="Subscribe" /></form>
         
     </div>
     <div class="terms">

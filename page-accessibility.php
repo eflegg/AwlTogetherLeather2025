@@ -10,10 +10,10 @@ Template Name: Accessibility Page
 
 <div class="layout-container">
     <!-- test for page title here. could be blog -->
-    <div class="page-title text-right d-flex">
-        <hr> 
-        <h1>Accessibility</h1>
-    </div>
+    <div class="pl-5 page-title title text-left d-flex">
+    <h1><?php wp_title( '' );?></h1>
+    <hr>
+</div>
 
     <div class="grid access-grid--container">
 

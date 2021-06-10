@@ -7,11 +7,12 @@ button[type="submit"] {
   padding: 10px 20px;
   border-radius: 25px;
   font-size: 18px;
-  transition: all 0.15s ease-in-out;
+  transition: all 0.25s ease-in-out;
   margin-bottom: 30px;
 
   a {
     font-family: $bodyFont;
+    transition: all 0.25s ease-in-out;
     &:hover {
       text-decoration: none !important;
     }
@@ -19,10 +20,21 @@ button[type="submit"] {
   &:hover {
     border: 3px solid $coral;
     background: $coral;
-    transition: all 0.15s ease-in-out;
-    color: $cream;
+    transition: all 0.25s ease-in-out;
+    color: $cream !important;
     a {
       text-decoration: none !important;
+      color: $cream !important;
+      transition: all 0.25s ease-in-out;
+    }
+  }
+  &.btn--filled {
+    background: $coral;
+    color: $cream;
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      transition: all 0.25s ease-in-out;
+      background: transparent;
     }
   }
 }
@@ -102,4 +114,13 @@ button[type="submit"] {
 .geelus--custom-container {
   text-align: center;
   margin-top: 60px;
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
+  @include media-query-min($xs) {
+    width: 100%;
+  }
+  @include media-query-min($sm) {
+    width: 80%;
+  }
 }
