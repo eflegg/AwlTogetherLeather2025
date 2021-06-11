@@ -61,7 +61,9 @@ $serviceSection = $homePage['service_section'];
             <?php
             $button = $accessSection['button'];
             if($button):?>
-            <?php include 'components/button.php';?>
+            <div class="btn--filled">
+                <?php include 'components/button.php';?>
+            </div>
             <?php endif; ?>
           
         </div>
@@ -71,7 +73,7 @@ $serviceSection = $homePage['service_section'];
         if($image):?>
         <?php include 'components/image.php';?>
         <?php endif; ?>
-            <img src="https://picsum.photos/800" alt="">
+           
         </div>
     </div>
     <div class="section--shop-slider">
@@ -81,13 +83,13 @@ $serviceSection = $homePage['service_section'];
             do_shortcode( '[wcpscwc_pdt_slider type="products"]');
             ?>
         </div>
-        <div class="text-center mt-5">
-
-            <a href="#">
-                    <button class="btn--primary">
-                        Shop All Products
-                    </button>
-                </a>
+        <?php
+        $shopSection = $homePage['shop_section'];
+        $button = $shopSection['button'];
+        if($button):?>
+        <div class="text-center mt-5 mx-auto d-table">
+            <?php include 'components/button.php';?>
+            <?php endif; ?>
         </div>
     </div>
 

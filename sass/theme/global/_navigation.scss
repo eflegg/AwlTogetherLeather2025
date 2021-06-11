@@ -72,7 +72,10 @@
     }
   }
 }
-
+.hamburger:hover,
+.hamburger.is-active:hover {
+  opacity: 1;
+}
 .container,
 .container-lg,
 .container-md,
