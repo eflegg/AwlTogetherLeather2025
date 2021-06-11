@@ -20,7 +20,7 @@ $container = get_theme_mod('understrap_container_type');
         <h3 class="mb-4">Contact Us</h3>
         <p>info@awltogetherleather</p>
         <p>(604) 875-8947</p>
-        <p>#101-1183 Odlum Drive, Vancouver, BC Canada</p>
+        <p>#101-1183 Odlum Drive</p> <p>Vancouver, BC Canada</p>
       
     </div>
     <div class="copyright d-none d-md-block">

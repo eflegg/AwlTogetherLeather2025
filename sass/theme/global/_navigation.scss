@@ -20,25 +20,56 @@
   position: relative;
   z-index: 5;
   width: 100%;
-  // border: 3px solid goldenrod;
+
   .navbar-brand {
     width: 80px;
     height: 80px;
     opacity: 1;
     transition: opacity 0.15s ease-in-out;
   }
+
+  .mini-cart {
+    display: none;
+    @include media-query-min($sm) {
+      display: block;
+    }
+  }
+  .btn--nav {
+    display: none;
+    @include media-query-min($sm) {
+      display: block;
+    }
+  }
   &.open {
     background: $coral !important;
     min-height: 100vh;
+    .hamburger {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      @include media-query-min($sm) {
+        position: initial;
+      }
+    }
     .navbar-brand {
-      opacity: 0;
+      // opacity: 0;
       transition: opacity 0.15s ease-in-out;
     }
-    // .navbar-toggler {
-    //   position: absolute;
-    //   top: 20px;
-    //   right: 20px;
-    // }
+    .mini-cart {
+      display: block;
+      margin: 15px 0;
+      @include media-query-min($sm) {
+        margin: initial;
+      }
+    }
+    .btn--nav {
+      display: block;
+      // position: absolute;
+      margin: 15px 0;
+      @include media-query-min($sm) {
+        margin: initial;
+      }
+    }
   }
 }
 
@@ -67,7 +98,7 @@
   position: relative;
   &.show {
     background: $coral !important;
-    ul li ul {
+    ul li ul li {
       @include slideInRight(0.2s, 20px);
 
       @for $i from 1 through 4 {
@@ -82,6 +113,10 @@
 
 .menu-item-has-children {
   .dropdown-toggle {
+    margin-bottom: 10px;
+    @include media-query-min($sm) {
+      margin-bottom: initial;
+    }
     &:after {
       content: "\27F6";
       font-size: 45px;
@@ -97,26 +132,41 @@
       &:after {
         content: "\27F6";
         font-size: 45px;
-        margin-left: 45px;
+        transform: rotate(90deg);
         border-top: 0px;
         position: relative;
         transition: all 0.25s ease-in-out;
         top: 10px;
       }
     }
+    @include media-query-min($sm) {
+      .dropdown-toggle {
+        &:after {
+          content: "\27F6";
+          font-size: 45px;
+          margin-left: 45px;
+          border-top: 0px;
+          position: relative;
+          transition: all 0.25s ease-in-out;
+          top: 10px;
+          transform: rotate(0deg);
+        }
+      }
+    }
   }
 }
 
 .navbar-nav .dropdown-menu {
-  position: absolute;
-  text-align: left;
   background: $coral;
   border: 0px;
-  // border: 2px solid green;
-  right: 0;
-  top: 0;
-  width: 50%;
-  margin-left: auto;
+  @include media-query-min($sm) {
+    position: absolute;
+    text-align: left;
+    right: 0;
+    top: 0;
+    width: 50%;
+    margin-left: auto;
+  }
 }
 
 .dropdown-item:focus,
@@ -130,6 +180,11 @@
 .hamburger-inner::after,
 .hamburger-inner::before {
   background-color: $coral;
+}
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner::after,
+.hamburger.is-active .hamburger-inner::before {
+  background-color: $grey;
 }
 
 .search-field--custom {

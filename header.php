@@ -77,19 +77,19 @@ $container = get_theme_mod('understrap_container_type');
 
 				
 
-				<div class="btn--primary btn--nav">
+				<div class="btn--primary btn--nav ">
 					Book Appt
 				</div>
-
+				<div class="mini-cart ">
+				<a href=<?php echo wc_get_cart_url();?> title="View your shopping cart"><ion-icon name="cart-outline" size="large"></ion-icon> <?php WC()->cart->get_cart_total();?> </a>
+				<span class="cart-count"> <?php WC()->cart->cart_contents_count;?> </span>
+				</div>
 				<button id="hamburger" class="navbar-toggler hamburger hamburger--collapse"  type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'understrap');?>">
 					<span class="hamburger-box">
 						<span class="hamburger-inner"></span>
 					</span>
 				</button>
-				<div class="mini-cart">
-				<a href=<?php echo wc_get_cart_url();?> title="View your shopping cart"><ion-icon name="cart-outline" size="large"></ion-icon> <?php WC()->cart->get_cart_total();?> </a>
-				<span class="cart-count"> <?php WC()->cart->cart_contents_count;?> </span>
-				</div>
+				
 
 				</div><!-- end nav-right -->
 
