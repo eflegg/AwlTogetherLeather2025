@@ -107,7 +107,7 @@
       @for $i from 1 through 4 {
         &:nth-child(#{$i}) {
           // Delay the animation. Delay increases as items loop.
-          animation-delay: $i * (1s / 4);
+          animation-delay: $i * (1s / 6);
         }
       }
     }
@@ -126,11 +126,13 @@
       margin-right: 15px;
       border-top: 0px;
       position: relative;
+      transform: rotate(0deg);
       transition: all 0.25s ease-in-out;
       top: 10px;
     }
   }
-  &:hover {
+  &:hover,
+  &:active {
     .dropdown-toggle {
       &:after {
         content: "\27F6";
@@ -162,6 +164,7 @@
 .navbar-nav .dropdown-menu {
   background: $coral;
   border: 0px;
+
   @include media-query-min($sm) {
     position: absolute;
     text-align: left;
@@ -176,7 +179,30 @@
 .dropdown-item:hover {
   background: transparent;
   outline: none;
-  box-shadow: 0 1px 0 0 $grey;
+}
+.dropdown-item {
+  &:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    bottom: 0;
+    height: 1px;
+    border-bottom: 1px solid $grey;
+    width: 0px;
+    transition: all 0.25s ease-in-out;
+  }
+  &:hover {
+    &:after {
+      content: "";
+      position: absolute;
+      left: 20px;
+      bottom: 0;
+      height: 1px;
+      border-bottom: 1px solid $grey;
+      width: 100px;
+      transition: all 0.25s ease-in-out;
+    }
+  }
 }
 
 .hamburger-inner,
@@ -213,6 +239,7 @@
   float: right;
   font-size: 16px;
   line-height: 1;
+  padding: 0 5px 0 12px;
 }
 
 .navbar {

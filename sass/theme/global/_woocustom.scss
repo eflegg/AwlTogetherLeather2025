@@ -1,0 +1,79 @@
+.woocommerce-info {
+  border-top-color: $green;
+  background-color: $cream;
+  font-size: 18px;
+  font-family: $bodyFont;
+  padding-left: 0px;
+  color: $grey;
+  &:before {
+    display: none;
+  }
+  a {
+    font-weight: 600;
+    color: $coral !important;
+  }
+}
+
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+  border: 3px solid $coral;
+  color: $grey;
+  display: table;
+  background: transparent;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 18px;
+  transition: all 0.25s ease-in-out;
+  margin-bottom: 30px;
+
+  a {
+    font-family: $bodyFont;
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
+  &:hover {
+    border: 3px solid $coral;
+    background: $coral;
+    transition: all 0.25s ease-in-out;
+    color: $cream !important;
+    a {
+      text-decoration: none !important;
+      color: $cream !important;
+      transition: all 0.25s ease-in-out;
+    }
+  }
+}
+.woocommerce form.checkout_coupon,
+.woocommerce form.login,
+.woocommerce form.register {
+  border: 2px solid $green;
+}
+
+#add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment {
+  background: transparent;
+}
+
+.woocommerce-billing-fields__field-wrapper {
+  input {
+    background: transparent;
+    border: 2px solid $green;
+    height: 40px;
+  }
+}
+.woocommerce-additional-fields {
+  textarea {
+    height: 100px !important;
+    background: transparent;
+    border: 2px solid $green;
+  }
+}
