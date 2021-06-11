@@ -34,11 +34,11 @@
       opacity: 0;
       transition: opacity 0.15s ease-in-out;
     }
-    .navbar-toggler {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-    }
+    // .navbar-toggler {
+    //   position: absolute;
+    //   top: 20px;
+    //   right: 20px;
+    // }
   }
 }
 
@@ -67,31 +67,43 @@
   position: relative;
   &.show {
     background: $coral !important;
-    ul {
+    ul li ul {
       @include slideInRight(0.2s, 20px);
 
-      // @for $i from 1 through 4 {
-      //   &:nth-child(#{$i}) {
-      //     // Delay the animation. Delay increases as items loop.
-      //     animation-delay: $i * (1s / 4);
-      //
-      //   }
-      // }
+      @for $i from 1 through 4 {
+        &:nth-child(#{$i}) {
+          // Delay the animation. Delay increases as items loop.
+          animation-delay: $i * (1s / 4);
+        }
+      }
     }
   }
 }
 
-.hamburger {
-  opacity: 0.7;
-}
-.dropdown-toggle {
-  &:after {
-    content: "\27F6";
-    font-size: 45px;
-    margin-right: 15px;
-    border-top: 0px;
-    position: relative;
-    top: 10px;
+.menu-item-has-children {
+  .dropdown-toggle {
+    &:after {
+      content: "\27F6";
+      font-size: 45px;
+      margin-right: 15px;
+      border-top: 0px;
+      position: relative;
+      transition: all 0.25s ease-in-out;
+      top: 10px;
+    }
+  }
+  &:hover {
+    .dropdown-toggle {
+      &:after {
+        content: "\27F6";
+        font-size: 45px;
+        margin-left: 45px;
+        border-top: 0px;
+        position: relative;
+        transition: all 0.25s ease-in-out;
+        top: 10px;
+      }
+    }
   }
 }
 
@@ -112,4 +124,39 @@
   background: transparent;
   outline: none;
   box-shadow: 0 1px 0 0 $grey;
+}
+
+.hamburger-inner,
+.hamburger-inner::after,
+.hamburger-inner::before {
+  background-color: $coral;
+}
+
+.search-field--custom {
+  input {
+    border: 2px solid $coral;
+    background: rgba($cream, 0.5);
+    font-size: 16px;
+    width: 120px;
+    color: $grey;
+    font-family: $bodyFont;
+    padding: 2px 0px 2px 10px;
+    border-radius: 25px;
+    border-top-right-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+  }
+  .input-group-append {
+    display: none;
+  }
+}
+
+.mini-cart {
+  display: block;
+  float: right;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.navbar {
+  padding: 0;
 }

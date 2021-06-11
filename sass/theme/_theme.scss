@@ -3,6 +3,8 @@
 @import "global/mediaqueries";
 @import "global/variables";
 @import "global/typography";
+@import "hamburgers/hamburgers.scss";
+@import "hamburgers/base";
 @import "global/globals";
 @import "global/navigation";
 @import "global/footer";
@@ -14,6 +16,4 @@
 @import "global/services";
 @import "global/about";
 @import "global/contact";
-@import "hamburgers/hamburgers.scss";
-@import "hamburgers/base";
 @import "hamburgers/types/collapse";

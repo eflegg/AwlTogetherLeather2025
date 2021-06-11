@@ -38,6 +38,13 @@ button[type="submit"] {
     }
   }
 }
+.btn--nav {
+  padding: 5px 15px;
+  font-size: 16px;
+  margin-bottom: 0;
+  background: rgba($cream, 0.5);
+  border: 2px solid $coral;
+}
 .btn-secondary {
   &:hover {
     border-color: $coral;

@@ -42,6 +42,9 @@ $container = get_theme_mod('understrap_container_type');
 		<?php if ('container' === $container): ?>
 			<div class="container">
 		<?php endif;?>
+		<div class="nav-left d-flex align-items-center">
+
+		
 
 					<!-- Your site title as branding in the menu -->
 					<?php if (!has_custom_logo()) {?>
@@ -57,32 +60,52 @@ $container = get_theme_mod('understrap_container_type');
 						<?php endif;?>
 
 					<?php } else {
-    the_custom_logo();
-}?><!-- end custom logo -->
+						the_custom_logo();
+					}?><!-- end custom logo -->
 
 				<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'understrap');?>">
 					<span class="navbar-toggler-icon"></span>
 				</button> -->
+
+					<div class="search-field--custom d-flex">
+						<?php get_search_form(); ?>
+						<ion-icon name="search-outline" size="large"></ion-icon>
+					</div>
+				</div><!-- end nav-left -->
+
+				<div class="nav-right d-flex align-items-center">
+
+				
+
+				<div class="btn--primary btn--nav">
+					Book Appt
+				</div>
 
 				<button id="hamburger" class="navbar-toggler hamburger hamburger--collapse"  type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'understrap');?>">
 					<span class="hamburger-box">
 						<span class="hamburger-inner"></span>
 					</span>
 				</button>
+				<div class="mini-cart">
+				<a href=<?php echo wc_get_cart_url();?> title="View your shopping cart"><ion-icon name="cart-outline" size="large"></ion-icon> <?php WC()->cart->get_cart_total();?> </a>
+				<span class="cart-count"> <?php WC()->cart->cart_contents_count;?> </span>
+				</div>
+
+				</div><!-- end nav-right -->
 
 				<!-- The WordPress Menu goes here -->
 				<?php wp_nav_menu(
-    array(
-        'theme_location' => 'primary',
-        'container_class' => 'collapse navbar-collapse',
-        'container_id' => 'navbarNavDropdown',
-        'menu_class' => 'navbar-nav ml-auto',
-        'fallback_cb' => '',
-        'menu_id' => 'main-menu',
-        'depth' => 2,
-        'walker' => new Understrap_WP_Bootstrap_Navwalker(),
-    )
-);?>
+					array(
+						'theme_location' => 'primary',
+						'container_class' => 'collapse navbar-collapse',
+						'container_id' => 'navbarNavDropdown',
+						'menu_class' => 'navbar-nav ml-auto',
+						'fallback_cb' => '',
+						'menu_id' => 'main-menu',
+						'depth' => 2,
+						'walker' => new Understrap_WP_Bootstrap_Navwalker(),
+					)
+				);?>
 			<?php if ('container' === $container): ?>
 			</div><!-- .container -->
 			<?php endif;?>
