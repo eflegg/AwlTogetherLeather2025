@@ -16,6 +16,9 @@ Template Name: Accessibility Page
 </div>
 
     <div class="grid access-grid--container">
+        <div class="vertline">
+            
+        </div>
 
         <?php
         $args = array (
