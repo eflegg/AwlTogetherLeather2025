@@ -7186,7 +7186,24 @@ function Test() {
 }
 
 const el = document.getElementById("hamburger");
-el.addEventListener("click", Hamburger, false); //// Masonry for posts ///////
+el.addEventListener("click", Hamburger, false);
+
+function MobileArrow() {
+  let context = event.target;
+
+  if (context.parentNode.classList.contains("show")) {
+    console.log("subnav closed");
+    context.classList.remove("rotate");
+  } else {
+    console.log("subnav open");
+    context.classList.add("rotate");
+  }
+}
+
+let element = document.getElementsByClassName("dropdown-toggle");
+
+for (var i = 0; i < element.length; i++) element[i].addEventListener("click", MobileArrow, false); //// Masonry for posts ///////
+
 
 function resizeGridItem(item) {
   var grid = document.getElementsByClassName("grid")[0];

@@ -31,7 +31,7 @@
   font-size: 18px;
   transition: all 0.25s ease-in-out;
   margin-bottom: 30px;
-
+  font-family: $bodyFont;
   a {
     font-family: $bodyFont;
     transition: all 0.25s ease-in-out;
@@ -65,7 +65,7 @@
 
 .woocommerce-billing-fields__field-wrapper {
   input {
-    background: transparent;
+    background: transparent !important;
     border: 2px solid $green;
     height: 40px;
   }
@@ -76,4 +76,39 @@
     background: transparent;
     border: 2px solid $green;
   }
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+  background: $cream !important;
+  border: 2px solid $green !important;
+}
+.select2-container--default
+  .select2-results__option--highlighted[aria-selected],
+.select2-container--default
+  .select2-results__option--highlighted[data-selected] {
+  background: $green !important;
+  color: $cream !important;
+}
+.select2-container--default .select2-selection--single {
+  border: 0px;
+}
+.select2-container--default .select2-results > .select2-results__options {
+  background: $cream;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  border: 1px solid $grey;
+  border-radius: 5px;
+}
+.select2-search--dropdown {
+  background: $cream;
+}
+
+.woocommerce table.shop_table {
+  font-size: 16px;
+  color: $grey;
+}
+
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message {
+  background-color: transparent;
 }

@@ -70,7 +70,10 @@ body {
   }
 }
 .section--services {
-  margin-top: 80px;
+  margin-top: 30px;
+  @include media-query-min($sm) {
+    margin-top: 80px;
+  }
 }
 
 .services--button {

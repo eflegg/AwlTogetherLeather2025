@@ -114,12 +114,15 @@
   }
 }
 
+.dropdown-toggle {
+  margin-bottom: 10px;
+  @include media-query-min($sm) {
+    margin-bottom: initial;
+  }
+}
+
 .menu-item-has-children {
   .dropdown-toggle {
-    margin-bottom: 10px;
-    @include media-query-min($sm) {
-      margin-bottom: initial;
-    }
     &:after {
       content: "\27F6";
       font-size: 45px;
@@ -130,14 +133,29 @@
       transition: all 0.25s ease-in-out;
       top: 10px;
     }
+    &.rotate {
+      &:after {
+        content: "\27F6";
+        font-size: 45px;
+        margin-right: 15px;
+        border-top: 0px;
+        position: relative;
+        transform: rotate(90deg);
+        transition: all 0.25s ease-in-out;
+        top: 10px;
+      }
+    }
   }
   &:hover,
   &:active {
     .dropdown-toggle {
+      &:focus {
+        outline: none;
+      }
       &:after {
         content: "\27F6";
         font-size: 45px;
-        transform: rotate(90deg);
+
         border-top: 0px;
         position: relative;
         transition: all 0.25s ease-in-out;
