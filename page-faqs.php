@@ -11,12 +11,14 @@ Template Name: FAQ Page
 
 <div class="layout-container">
     <!-- test for page title here. could be blog -->
-    <div class="page-title text-right d-flex">
+    <div class="page-title text-right d-flex flex-column-reverse flex-md-row">
         <hr> 
         <h1>FAQs</h1>
     </div>
 
-    <div id="masonry-effect" class="access-grid--container ">
+    <div  class="access-grid--container grid">
+    <div class="vertline">
+        </div>
 
         <?php
         $args = array (
@@ -28,9 +30,9 @@ Template Name: FAQ Page
         if($faqQuery ->have_posts()): ?>
         <?php while($faqQuery->have_posts()) : $faqQuery->the_post() ?>
         
-        <!-- <div class=" access-block--outer "> -->
+        <div class=" access-block--outer item"> 
             <?php include 'components/faq-block.php'; ?>
-        <!-- </div> -->
+        </div> 
        
        <?php endwhile; endif; ?>
     </div>

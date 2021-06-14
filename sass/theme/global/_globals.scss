@@ -131,3 +131,27 @@ button[type="submit"] {
     width: 80%;
   }
 }
+
+.custom-search {
+  input {
+    :focus {
+      outline: none;
+    }
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid $grey;
+    background: $cream;
+    padding-left: 15px;
+    font-size: 16px;
+    color: $grey;
+    &.submit {
+      background: $green;
+      font-family: $bodyFont;
+      padding-left: 10px;
+      &:hover {
+        background: $coral;
+        border: 2px solid $grey;
+      }
+    }
+  }
+}

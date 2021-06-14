@@ -72,6 +72,9 @@ body {
 .section--services {
   margin-top: -30px;
   @include media-query-min($sm) {
+    margin-top: 20px;
+  }
+  @include media-query-min($sm) {
     margin-top: 50px;
   }
 }
@@ -106,6 +109,8 @@ body {
   }
   .access-image {
     overflow: hidden;
+    display: flex;
+    align-items: center;
     margin: 20px 0;
     height: 300px;
     @include media-query-min($sm) {
@@ -118,6 +123,7 @@ body {
     }
     img {
       object-fit: cover;
+      object-position: center center;
       width: 100%;
     }
   }

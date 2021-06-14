@@ -117,7 +117,7 @@
 .dropdown-toggle {
   margin-bottom: 10px;
   @include media-query-min($sm) {
-    margin-bottom: initial;
+    margin-bottom: 30px;
   }
 }
 
