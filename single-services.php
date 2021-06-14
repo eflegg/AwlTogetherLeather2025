@@ -6,7 +6,7 @@
     <h1><?php wp_title( '' );?></h1>
     <hr>
 </div>
-    <div class="service--inner row">
+    <div class="service--inner ">
         <div class="service-description col-12 col-md-6">
             <?php
             $serviceDescrip = get_field('service_description');

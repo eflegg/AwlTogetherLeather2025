@@ -9,7 +9,11 @@
   }
 }
 .service-gallery {
-  margin: 100px 0 80px;
+  margin: 50px 0 40px;
+  @include media-query-min($sm) {
+    margin: 100px 0 80px;
+  }
+
   ul {
     padding: 0;
   }
@@ -27,4 +31,15 @@
   @include media-query-min($sm) {
     width: 50%;
   }
+}
+
+.service--inner {
+  display: flex;
+  flex-direction: column-reverse;
+  @include media-query-min($sm) {
+    flex-direction: row;
+  }
+}
+.gallery--inner {
+  margin: 0 !important;
 }
