@@ -10,12 +10,14 @@ Template Name: Blog Page
 
 <div class="layout-container">
     <!-- test for page title here. could be blog -->
-    <div class="page-title text-right d-flex">
+    <div class="page-title text-right d-flex flex-column-reverse flex-md-row">
         <hr> 
         <h1>Blog</h1>
     </div>
 
-    <div class="access-grid--container row">
+    <div class="grid access-grid--container">
+        <div class="vertline">
+        </div>
 
     <?php
     $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
@@ -30,30 +32,29 @@ Template Name: Blog Page
         ?>
          <?php the_posts_pagination(); ?>
             <?php while( $blogQuery->have_posts() ) : $blogQuery->the_post() ?>
-            <div class="access-block--outer col-12 col-md-6">
-          
-            <?php
-		the_title(
-			sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
-			'</a></h2>'
-		);
-		?>
-        	<div class="entry-content">
+            <div class="access-block--outer item">
+                <div class="content p-5 blog-listing--inner">
+            
+                    <?php
+                    the_title(
+                        sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ),
+                        '</a></h2>'
+                    );
+                    ?>
+                    <div class="entry-content">
 
-            <?php the_excerpt(); ?>
+                        <?php the_excerpt(); ?>
+                        <?php
+                        wp_link_pages(
+                            array(
+                                'before' => '<div class="page-links">' . __( 'Pages:', 'understrap' ),
+                                'after'  => '</div>',
+                                )
+                            );
+                            ?>
 
-
-            <?php
-            wp_link_pages(
-                array(
-                    'before' => '<div class="page-links">' . __( 'Pages:', 'understrap' ),
-                    'after'  => '</div>',
-                )
-            );
-            ?>
-
-        </div>
-
+                    </div>
+                </div>
         </div>
             <?php endwhile ?>
             <div class="pagination">

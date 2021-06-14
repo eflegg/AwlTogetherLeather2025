@@ -17,7 +17,6 @@ Template Name: Accessibility Page
 
     <div class="grid access-grid--container">
         <div class="vertline">
-            
         </div>
 
         <?php
