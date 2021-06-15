@@ -18,7 +18,7 @@ $serviceSection = $homePage['service_section'];
     if($serviceText):?>
     <div class="section--services layout-container">
     
-        <h2 class="w-75 w-md-50"><?php echo $serviceText; ?></h2>
+        <h2 class="w-75 w-md-50 fade-slide-in"><?php echo $serviceText; ?></h2>
         <?php endif;?>
         
         <div class="listing-block--container row">
