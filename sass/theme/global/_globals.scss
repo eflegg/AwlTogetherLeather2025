@@ -44,6 +44,7 @@ button[type="submit"] {
   margin-bottom: 0;
   background: rgba($cream, 0.5);
   border: 2px solid $coral;
+  font-family: $bodyFont;
 }
 .btn-secondary {
   &:hover {
