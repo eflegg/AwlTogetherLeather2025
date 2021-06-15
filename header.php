@@ -75,11 +75,32 @@ $container = get_theme_mod('understrap_container_type');
 
 				<div class="nav-right d-flex align-items-center">
 
+					<?php
+					$buttonText = get_field('header_button_text', 'option');
+					$buttonLink = get_field('header_button_link', 'option');
+					if($buttonText && $buttonLink):?>
+				
+		
+                            <div class="btn--primary btn--nav ">
+									<a
+									class="button"
+									href="<?php echo $buttonLink; ?>">
+									<?php echo $buttonText; ?>
+								</a>
+					</div>
+								<?php endif; ?>
+			
+   
+      
+ 
+
+
 				
 
-				<div class="btn--primary btn--nav ">
+
+				<!-- <div class="btn--primary btn--nav ">
 					Book Appt
-				</div>
+				</div> -->
 				<div class="mini-cart ">
 				<a href=<?php echo wc_get_cart_url();?> title="View your shopping cart"><ion-icon name="cart-outline" size="large"></ion-icon> <?php WC()->cart->get_cart_total();?> </a>
 				<span class="cart-count"> <?php WC()->cart->cart_contents_count;?> </span>
