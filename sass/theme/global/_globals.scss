@@ -156,3 +156,16 @@ button[type="submit"] {
     }
   }
 }
+
+.col-2 {
+  max-width: 90%!important;
+  @include media-query-min($sm){
+
+    max-width: 48%!important;
+  }
+  margin: 25px 0;
+}
+.col-1 {
+  max-width: 90%!important;
+  margin: 25px 0;
+}

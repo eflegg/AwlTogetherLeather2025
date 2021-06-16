@@ -83,7 +83,7 @@ $container = get_theme_mod('understrap_container_type');
 		
                             <div class="btn--primary btn--nav ">
 									<a
-									class="button"
+									
 									href="<?php echo $buttonLink; ?>">
 									<?php echo $buttonText; ?>
 								</a>
