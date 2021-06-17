@@ -7,7 +7,7 @@
     <div class="service--inner row align-items-start">
         <div class="service-description col-12 col-md-6">
         <div class=" page-title title text-left d-flex flex-column">
-        <h1><?php wp_title( '' );?></h1>
+        <h1><?php the_title( '' );?></h1>
         <hr class="text-left ml-3">
     </div>
             <?php

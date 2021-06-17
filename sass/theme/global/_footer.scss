@@ -43,6 +43,12 @@ footer {
     p {
       line-height: 16px;
     }
+    .footer-email {
+      display: table;
+      &:hover {
+        box-shadow: 0 1px 0 0 $grey;
+      }
+    }
     h3 {
       display: table;
       border-bottom: 1px solid $grey;

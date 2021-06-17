@@ -9,7 +9,7 @@ Template Name: About Page
 <?php while (have_posts()): the_post();?>
 
 <div class="pl-5 page-title title text-left d-flex">
-    <h1><?php wp_title( '' );?></h1>
+    <h1><?php the_title( '' );?></h1>
     <hr>
 </div>
 

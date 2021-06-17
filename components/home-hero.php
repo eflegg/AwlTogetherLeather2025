@@ -15,6 +15,6 @@
     <div class="overlay"></div>
     <header class="hero-text">
         <h1 class="text-center page--home__title fade-slide-in"><?php echo get_bloginfo();?></h1>
-        <h3 class="text-center page--home__subtitle fade-slide-in"><?php echo get_bloginfo('description');?></h3>
+        <h3 class="text-center page--home__subtitle fade-slide-in delay"><?php echo get_bloginfo('description');?></h3>
     </header>
 </div>

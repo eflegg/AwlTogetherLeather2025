@@ -45,7 +45,7 @@ body {
   height: 60vh;
   width: 100%;
   position: relative;
-  top: -90px;
+  top: -80px;
   @include media-query-min($sm) {
     height: 75vh;
   }

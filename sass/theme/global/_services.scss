@@ -39,6 +39,12 @@
   @include media-query-min($sm) {
     flex-direction: row;
   }
+  ul {
+    margin: 0px;
+  }
+  h3 {
+    margin: 40px 0 20px;
+  }
 }
 .gallery--inner {
   margin: 0 !important;

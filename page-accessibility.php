@@ -11,7 +11,7 @@ Template Name: Accessibility Page
 <div class="layout-container">
     <!-- test for page title here. could be blog -->
     <div class="pl-5 page-title title text-left d-flex">
-        <h1><?php wp_title( '' );?></h1>
+        <h1><?php the_title( '' );?></h1>
         <hr>
     </div>
 

@@ -10,7 +10,7 @@ Template Name: Home Page
 
     <?php
     $homePage = get_field('home_page');?>
-    
+   
     <?php include "components/home-hero.php" ;?>
 <?php
 $serviceSection = $homePage['service_section'];

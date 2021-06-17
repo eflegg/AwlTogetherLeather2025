@@ -26,7 +26,7 @@ $container = get_theme_mod('understrap_container_type');
     <?php
     $email = get_field('contact_email', 'option');
     if($email):?>
-        <p><?php echo $email;?></p>
+        <p class="footer-email"><a href="mailto:<?php echo $email;?>"><?php echo $email;?></a></p>
         <?php endif; ?>
         <?php
         $phone = get_field('contact_number', 'option');

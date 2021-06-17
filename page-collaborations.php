@@ -8,7 +8,7 @@ Template Name: Collaborations Page
 <?php while (have_posts()): the_post();?>
 
 <div class="pl-5 page-title title text-left d-flex">
-    <h1 class="text-left"><?php wp_title( '' );?></h1>
+    <h1 class="text-left"><?php the_title( '' );?></h1>
     <hr>
 </div>
     <div class="layout-container">

@@ -5,7 +5,10 @@
 .fade-slide-in {
   -webkit-animation: fade-slide-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: fade-slide-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation-delay: 0.5s;
+  animation-delay: 0.25s;
+  &.delay {
+    animation-delay: 0.5s;
+  }
 }
 @-webkit-keyframes fade-in {
   0% {

@@ -27,7 +27,12 @@ $container = get_theme_mod('understrap_container_type');
 <body <?php body_class();?> <?php understrap_body_attributes();?>>
 <?php do_action('wp_body_open');?>
 <div class="site" id="page">
-
+	
+	<?php 
+		$homeBanner = get_field('header_banner', 'option');
+		if($homeBanner === "Yes"):?>
+		<?php include 'components/home-banner.php';?>
+		<?php endif; ?>
 	<!-- ******************* The Navbar Area ******************* -->
 	<div id="wrapper-navbar">
 

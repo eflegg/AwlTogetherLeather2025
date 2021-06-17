@@ -3,7 +3,7 @@
 
 <div class="service-single--container">
 <div class=" page-title title text-left d-flex">
-    <h1><?php wp_title( '' );?></h1>
+    <h1><?php the_title( '' );?></h1>
     <hr>
 </div>
     <div class="service--inner ">

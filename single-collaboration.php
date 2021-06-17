@@ -3,7 +3,7 @@
 
 <div class="service-single--container">
 <div class=" page-title title text-left d-flex">
-    <h1><?php wp_title( '' );?></h1>
+    <h1><?php the_title( '' );?></h1>
     <hr>
 </div>
     <div class="service--inner row">
@@ -44,9 +44,9 @@
   
     <div class="btn--text d-flex">
       
-            <i>&xrarr;</i>
+            <i class="pb-3">&xrarr;</i>
             
-            <?php echo '<a href="' . home_url().'/'.($postType) . '"><h3>Back to Collaborations</h3></a>';
+            <?php echo '<a href="' . home_url().'/'.($postType) . '"><h3 class="pl-5">Back to Collaborations</h3></a>';
  ?>
         </a>
     </div>

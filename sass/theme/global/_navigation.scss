@@ -126,10 +126,18 @@
   }
 }
 
+svg {
+  width: 500px;
+}
+
 .menu-item-has-children {
   .dropdown-toggle {
     &:after {
       content: "\27F6";
+      // background-image: url(images/svg-arrow.svg);
+      // background-repeat: no-repeat;
+      height: 50px;
+      width: 500px;
       font-size: 45px;
       margin-right: 15px;
       border-top: 0px;

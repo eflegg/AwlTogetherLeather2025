@@ -158,14 +158,23 @@ button[type="submit"] {
 }
 
 .col-2 {
-  max-width: 90%!important;
-  @include media-query-min($sm){
-
-    max-width: 48%!important;
+  max-width: 90% !important;
+  @include media-query-min($sm) {
+    max-width: 48% !important;
   }
   margin: 25px 0;
 }
 .col-1 {
-  max-width: 90%!important;
+  max-width: 90% !important;
   margin: 25px 0;
+}
+
+.home-banner--container {
+  z-index: 99;
+  background: #647557;
+  font-weight: 400;
+  p {
+    color: $cream;
+  }
+  box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.2);
 }
