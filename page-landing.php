@@ -51,6 +51,14 @@ Template Name: Landing Page
             </div>
             <?php endif; ?>
         </div>
+        <a href="<?php echo esc_url(home_url('/')); ?>">
+        <div class="back-home d-flex">
+            
+         
+            <i class="btn-arrow--about">&xrarr;</i>
+            <h3>Home</h3>
+        </div>
+    </a>
     </div>
 
 </div>

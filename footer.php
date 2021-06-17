@@ -51,10 +51,26 @@ $container = get_theme_mod('understrap_container_type');
    </div>
    <div class="footer--right">
    <div class="footer--socials d-flex justify-content-end">
-  
+ <?php
+   $facebook = get_field('facebook_link', 'option');
+  if($facebook):?> 
+  <a href="<?php echo $facebook;?>" target="_blank">
    <ion-icon name="logo-facebook" size="large"></ion-icon>
+  </a>
+  <?php endif; ?>
+  <?php
+   $instagram = get_field('instagram_link', 'option');
+  if($instagram):?> 
+  <a href="<?php echo $instagram;?>" target="_blank">
    <ion-icon name="logo-instagram" size="large"></ion-icon>
-   <ion-icon name="logo-twitter" size="large"></ion-icon>
+  </a>
+  <?php endif; ?>
+   <?php
+  $twitter = get_field('twitter_link', 'option');
+  if($twitter):?> 
+  <a href="<?php echo $twitter;?>" target="_blank">
+   <ion-icon name="logo-twitter" size="large"></ion-icon></a>
+   <?php endif;?>
 
    </div>
 <div class="single-tweet">
