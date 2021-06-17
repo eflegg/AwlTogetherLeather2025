@@ -1,0 +1,67 @@
+.landing--outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: $bannerGreen;
+  height: 100vh;
+  min-height: 700px;
+  h1,
+  h2,
+  p,
+  label {
+    color: $cream;
+  }
+  .layout-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: $bannerGreen;
+    height: 100%;
+  }
+  .landing--inner {
+    .landing-text--container {
+      display: flex;
+      align-items: center;
+    }
+    width: 80%;
+    margin: 0 auto;
+    h2 {
+      margin: 40px 0;
+    }
+    .landing-image {
+      width: 600px;
+    }
+  }
+}
+.landing--arrow {
+  width: 25%;
+}
+
+.landing-signup-form {
+  margin-top: 30px;
+  display: flex;
+
+  justify-content: flex-end;
+  label {
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  input {
+    border-radius: 25px;
+    padding: 5px 10px;
+  }
+  .btn--filled {
+    margin-left: 10px !important;
+  }
+}
+
+.page-template-page-landing-php {
+  .navbar,
+  footer,
+  .home-banner--container {
+    display: none !important;
+  }
+}

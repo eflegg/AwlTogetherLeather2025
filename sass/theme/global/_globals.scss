@@ -171,10 +171,11 @@ button[type="submit"] {
 
 .home-banner--container {
   z-index: 99;
-  background: #647557;
+  background: $bannerGreen;
   font-weight: 400;
   p {
     color: $cream;
+    font-size: 16px;
   }
   box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.2);
 }
