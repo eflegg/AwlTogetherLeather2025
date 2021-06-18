@@ -70,3 +70,17 @@ if( function_exists('acf_add_options_page') ) {
 	));
 	
 }
+
+//*WAYPOINTS
+function waypoints_init() {
+	wp_enqueue_script( 'waypointsJS-two', get_template_directory_uri() . '/js/waypoints/src/waypoint.js', true);
+    wp_enqueue_script( 'waypointsJS', get_template_directory_uri() . '/js/waypoints/lib/noframework.waypoints.min.js', true);
+	wp_enqueue_script( 'waypointAdapters', get_template_directory_uri() . '/js/waypoints/src/adapters/noframework.js', true);
+}
+add_action('wp_enqueue_scripts', 'waypoints_init');
+
+function customWaypoints() {
+	
+		wp_enqueue_script( 'myWaypoints', get_template_directory_uri() . '/js/waypoints-custom.js', true);
+		}
+		add_action('wp_enqueue_scripts', 'customWaypoints');
