@@ -3,9 +3,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: $bannerGreen;
-  height: 100vh;
-  min-height: 700px;
+  background: $coral;
+  // height: 100vh;
+  // min-height: 700px;
   h1,
   h2,
   p,
@@ -13,6 +13,10 @@
     color: $cream;
   }
   .layout-container {
+    background: $green;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 50px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,8 +45,11 @@
 .landing-signup-form {
   margin-top: 30px;
   display: flex;
-
-  justify-content: flex-end;
+  flex-direction: column;
+  @include media-query-min($sm) {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
   label {
     margin-right: 20px;
     font-size: 20px;

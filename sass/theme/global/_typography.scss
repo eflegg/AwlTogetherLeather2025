@@ -39,7 +39,7 @@ h2 {
   }
 
   @include media-query-min($md) {
-    @include font-size(30);
+    @include font-size(3);
     line-height: 38px;
   }
 }

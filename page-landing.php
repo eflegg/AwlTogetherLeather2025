@@ -21,6 +21,14 @@ Template Name: Landing Page
      
         <div class="landing--inner">
             <div class="landing-text--container">
+            <div class="landing-image">
+                    <?php 
+                    $landingImage = get_field('landing_image');
+                    $image = $landingImage['image_item'];
+                    if($image):?>
+                    <?php include 'components/image.php';?>
+                    <?php endif; ?>
+                </div>
                 <div>
                     <?php
                     $landingTitle = get_field('landing_page_title');
@@ -33,14 +41,7 @@ Template Name: Landing Page
                     <p><?php echo $landingDescrip;?></p>
                     <?php endif; ?>
                 </div>
-                <div class="landing-image">
-                    <?php 
-                    $landingImage = get_field('landing_image');
-                    $image = $landingImage['image_item'];
-                    if($image):?>
-                    <?php include 'components/image.php';?>
-                    <?php endif; ?>
-                </div>
+               
             </div>
             <?php
             $landingSignup = get_field('signup_text');

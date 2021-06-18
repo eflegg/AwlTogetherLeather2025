@@ -16,10 +16,11 @@
 }
 
 .navbar {
-  background: rgba($green, 0.6) !important;
+  background: rgba($cream, 0.6) !important;
   position: relative;
   z-index: 5;
   width: 100%;
+  box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.2);
 
   .navbar-brand {
     width: 80px;
