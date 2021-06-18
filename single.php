@@ -20,7 +20,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 				<?php while ( have_posts() ) : the_post(); ?>
 
-				<div class="home-hero--container">
+				<div class="home-hero--container blog-container">
 				<div class="hero-img">
 					<img src=<?php echo get_the_post_thumbnail();?> alt="">
 				</div>

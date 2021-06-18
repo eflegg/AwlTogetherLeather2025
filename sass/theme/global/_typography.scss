@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Alstoria";
-  src: url(/fonts/Alstoria-Regular.ttf);
+  src: url("../fonts/Alstoria-Regular.ttf");
   font-weight: normal;
 }
 
@@ -29,20 +29,19 @@ h1 {
 }
 
 h2 {
-  @include font-size(3);
-  line-height: 40px;
+  @include font-size(2.2);
+  line-height: 30px;
   font-family: $bodyFont;
 
-  // @include media-query-min($sm) {
-  //   @include font-size(2.2);
-  //   line-height: 22px;
-  //   margin: 0 auto 50px;
-  // }
+  @include media-query-min($sm) {
+    @include font-size(2.6);
+    line-height: 34px;
+  }
 
-  // @include media-query-min($md) {
-  //   @include font-size(2.6);
-  //   line-height: 24px;
-  // }
+  @include media-query-min($md) {
+    @include font-size(30);
+    line-height: 38px;
+  }
 }
 
 h3 {

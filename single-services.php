@@ -16,7 +16,7 @@
             </p>
             <?php endif;?>
             <div class="btn--primary ">
-            Book Intake
+                <?php echo '<a href="' . home_url().'/book-appointment">Book Intake</a>';?>
             </div>
         </div>
         <div class="service-image col-12 col-md-6">
@@ -42,11 +42,11 @@
     // Get the current post type
    $postType = get_post_type();?>
   
-    <div class="btn--text d-flex">
+    <div class="btn--text d-flex btn--back">
       
             <i>&xrarr;</i>
             
-            <?php echo '<a href="' . home_url().'/'.($postType) . '"><h3>Back to Services</h3></a>';
+            <?php echo '<a href="' . home_url().'/'.($postType) . '"><h3 >Back to Services</h3></a>';
  ?>
         </a>
     </div>

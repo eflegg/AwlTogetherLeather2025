@@ -78,51 +78,13 @@
   display: grid;
   grid-gap: 10px;
   grid-column-gap: 0px;
+  grid-template-columns: repeat(1);
   @include media-query-min($sm) {
     grid-template-columns: repeat(2, minmax(300px, 1fr));
   }
   grid-auto-rows: 33px;
   .access-block--outer {
     max-width: 100%;
-    // padding: 50px;
-
-    // display: table;
-
-    // &:nth-child(odd) {
-    //   &:after {
-    //     content: "";
-    //     position: absolute;
-    //     right: 0;
-    //     bottom: -50px;
-    //     height: 1px;
-    //     border-bottom: 2px solid $grey;
-    //     width: 70%;
-    //   }
-    //   @include media-query-min($sm) {
-    //     border-right: 2px solid $grey;
-    //     position: relative;
-    //     left: 1px;
-    //   }
-    // }
-    // &:nth-child(even) {
-    //   @include media-query-min($sm) {
-    //     border-left: 2px solid $grey;
-    //     position: relative;
-    //     left: -1px;
-    //   }
-    //   &:after {
-    //     content: "";
-    //     position: absolute;
-    //     right: 0;
-    //     @include media-query-min($sm) {
-    //       left: 0;
-    //     }
-    //     bottom: 0;
-    //     height: 1px;
-    //     border-bottom: 2px solid $grey;
-    //     width: 70%;
-    //   }
-    // }
     &:last-child {
       border-bottom: 0px;
     }

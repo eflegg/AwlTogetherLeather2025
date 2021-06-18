@@ -33,7 +33,7 @@ Template Name: Blog Page
          <?php the_posts_pagination(); ?>
             <?php while( $blogQuery->have_posts() ) : $blogQuery->the_post() ?>
             <div class="access-block--outer item">
-                <div class="content p-5 blog-listing--inner">
+                <div class="content pb-5 p-md-5 blog-listing--inner">
             
                     <?php
                     the_title(
