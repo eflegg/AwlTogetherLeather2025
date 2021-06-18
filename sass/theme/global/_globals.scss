@@ -9,6 +9,7 @@ button[type="submit"] {
   font-size: 18px;
   transition: all 0.25s ease-in-out;
   margin-bottom: 30px;
+  box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.2);
 
   a {
     font-family: $bodyFont;
@@ -35,6 +36,7 @@ button[type="submit"] {
     &:hover {
       transition: all 0.25s ease-in-out;
       background: transparent;
+      border: 3px solid transparent;
     }
   }
 }
@@ -82,6 +84,21 @@ button[type="submit"] {
         text-decoration: none !important;
         color: $grey !important;
       }
+    }
+  }
+}
+.btn--filled {
+  .btn--primary {
+    background: $coral;
+    color: $cream !important;
+    a {
+      color: $cream !important;
+    }
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      transition: all 0.25s ease-in-out;
+      background: transparent;
+      border: 3px solid $green;
     }
   }
 }
