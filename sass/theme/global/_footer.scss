@@ -1,4 +1,5 @@
 footer {
+  position: relative;
   overflow: hidden;
   background: $green;
   padding: 30px 24px;
@@ -87,4 +88,20 @@ footer {
 
 .entry-footer {
   display: none;
+}
+
+.footer-peach {
+  position: absolute;
+  height: auto;
+  width: 40%;
+  bottom: 100px;
+  left: 30px;
+
+  @include media-query-min($sm) {
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+    width: 20%;
+  }
 }

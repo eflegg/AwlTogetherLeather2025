@@ -15,20 +15,20 @@ $container = get_theme_mod('understrap_container_type');
 
 <footer class="d-flex">
    <div class="footer--left">
-   <?php
+    <?php
 
-   $land = get_field('land_acknowledgement', 'option');
-   if($land) :?>
-    <p><?php echo $land; ?></p>
-    <?php endif; ?>
-    <div class="footer--contact-us">
-        <h3 class="mb-4">Hours</h3>
-        <?php
-         $hours = get_field('hours', 'option');
-        if($hours):?>
-       <p><?php echo $hours;?></p>
-         <?php endif; ?>
-   </div>
+    $land = get_field('land_acknowledgement', 'option');
+    if($land) :?>
+        <p><?php echo $land; ?></p>
+        <?php endif; ?>
+        <div class="footer--contact-us">
+            <h3 class="mb-4">Hours</h3>
+            <?php
+            $hours = get_field('hours', 'option');
+            if($hours):?>
+        <p><?php echo $hours;?></p>
+            <?php endif; ?>
+    </div>
     <div class="footer--contact-us">
         <h3 class="mb-4">Contact Us</h3>
     <?php
@@ -63,6 +63,16 @@ $container = get_theme_mod('understrap_container_type');
         <p>&copy;<?php echo date("Y");?> Awl Together Leather</p>
     </div>
    </div>
+
+<div class="footer-peach">
+    <?php 
+    $image = get_field('footer_peach', 'option');
+    $imageUrl = $image['url'];
+    if($imageUrl):?>
+    <img src="<?php echo $imageUrl;?>" alt="">
+    <?php endif; ?>
+</div>
+
    <div class="footer--right">
    <div class="footer--socials d-flex justify-content-end">
  <?php
