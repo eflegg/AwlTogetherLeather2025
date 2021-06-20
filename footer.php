@@ -22,6 +22,14 @@ $container = get_theme_mod('understrap_container_type');
     <p><?php echo $land; ?></p>
     <?php endif; ?>
     <div class="footer--contact-us">
+        <h3 class="mb-4">Hours</h3>
+        <?php
+         $hours = get_field('hours', 'option');
+        if($hours):?>
+       <p><?php echo $hours;?></p>
+         <?php endif; ?>
+   </div>
+    <div class="footer--contact-us">
         <h3 class="mb-4">Contact Us</h3>
     <?php
     $email = get_field('contact_email', 'option');
@@ -43,6 +51,12 @@ $container = get_theme_mod('understrap_container_type');
         if($cityProvince):?>
        <p><?php echo $cityProvince;?></p>
          <?php endif; ?>
+         <?php
+         $postalCode = get_field('postal_code', 'option');
+        if($postalCode):?>
+       <p><?php echo $postalCode;?></p>
+         <?php endif; ?>
+       
       
     </div>
     <div class="copyright d-none d-md-block">
@@ -90,7 +104,7 @@ $container = get_theme_mod('understrap_container_type');
 							<?php setup_postdata($post); ?>
                             <h3>
 									<a
-									class="button"
+							
 									href="<?php the_permalink(); ?>">
 									Terms & Conditions
 								</a>

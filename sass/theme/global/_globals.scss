@@ -29,6 +29,7 @@ button[type="submit"] {
       transition: all 0.25s ease-in-out;
     }
   }
+
   &.btn--filled {
     background: $coral;
     color: $cream;
@@ -74,6 +75,9 @@ button[type="submit"] {
     border: 0px !important;
     font-size: 25px !important;
     margin: 0px;
+
+    box-shadow: none;
+
     &:hover {
       border: 0px;
       background: $cream;
