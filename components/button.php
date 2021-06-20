@@ -13,13 +13,13 @@
 			if( $posts ): ?>
 					<?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
 							<?php setup_postdata($post); ?>
+							<a
+							
+							href="<?php the_permalink(); ?>">
 							<div class="btn--primary">
-									<a
-									class="button"
-									href="<?php the_permalink(); ?>">
 									<?php echo $buttonText; ?>
+								</div>
 								</a>
-					</div>
 								 
 					<?php endforeach; ?>
 					<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
@@ -32,7 +32,7 @@
 		 <div class="btn--primary">
 
 			 <a
-				 class="button"
+				
 				 target="_blank"
 				 href="<?php echo $externalUrl?>">
 				 <?php echo $buttonText; ?>

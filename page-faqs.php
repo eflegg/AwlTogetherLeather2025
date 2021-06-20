@@ -39,6 +39,7 @@ Template Name: FAQ Page
 
 </div>
 
+
 <!-- close php loop -->
 <?php endwhile;?>
 

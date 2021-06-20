@@ -17,8 +17,10 @@
 
     if($accessButton);
     ?>
+        <div>
+            <?php include 'button.php'; ?>
 
-        <?php include 'button.php'; ?>
+        </div>
    
   
 </div>

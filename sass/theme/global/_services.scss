@@ -7,6 +7,10 @@
     content: "" !important;
     margin-right: 0px !important;
   }
+  object-fit: cover;
+  img {
+    object-fit: cover;
+  }
 }
 .service-gallery {
   margin: 50px 0 40px;

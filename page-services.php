@@ -12,13 +12,19 @@ Template Name: Services Page
     <hr>
 </div>
     <div class="layout-container">
-        <div class="services--description"><p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+        <?php 
+        $servicesIntro = get_field('services_intro');
+        if($servicesIntro):?>
+        <div class="services--description"><p><?php echo $servicesIntro; ?></p>
     </div>
+    <?php endif; ?>
     <div class="listing-block--container row">
         <?php
         $args = array (
             'post_type' => 'services',
             'posts_per_page' => -1,
+            'orderby'=> 'menu_order',
+            'order'=> 'ASC',
         );
         $servicesQuery = new WP_query($args);
         if($servicesQuery->have_posts()) :?>

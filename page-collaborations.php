@@ -12,8 +12,12 @@ Template Name: Collaborations Page
     <hr>
 </div>
     <div class="layout-container">
-        <div class="services--description"><p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+    <?php 
+        $collabIntro = get_field('collaborations_intro');
+        if($collabIntro):?>
+        <div class="services--description"><p><?php echo $collabIntro; ?></p>
     </div>
+    <?php endif; ?>  </div>
     <div class="listing-block--container row">
         <?php
         $args = array (

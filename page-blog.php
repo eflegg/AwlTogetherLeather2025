@@ -10,10 +10,10 @@ Template Name: Blog Page
 
 <div class="layout-container">
     <!-- test for page title here. could be blog -->
-    <div class="page-title text-right d-flex flex-column-reverse flex-md-row">
-        <hr> 
-        <h1>Blog</h1>
-    </div>
+    <div class="pl-5 page-title title text-left d-flex">
+    <h1><?php the_title( '' );?></h1>
+    <hr>
+	</div>
 
     <div class="grid access-grid--container">
         <div class="vertline">

@@ -26,6 +26,8 @@ $serviceSection = $homePage['service_section'];
         $args = array (
             'post_type' => 'services',
             'posts_per_page' => 4,
+            'orderby'=> 'menu_order',
+            'order'=> 'ASC',
         );
         $homeServiceQuery = new WP_query($args);
         if($homeServiceQuery->have_posts()): ?>

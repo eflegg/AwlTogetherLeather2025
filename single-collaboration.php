@@ -15,9 +15,13 @@
             <?php echo $collabDescrip;?>
             </p>
             <?php endif;?>
-            <div class="btn--primary ">
-            Book Intake
-            </div>
+            <?php
+            $collabButton = get_field('collaboration_button_group');
+            $button = $collabButton['button'];
+            if($button):?>
+            <?php include 'components/button.php';?>
+            <?php endif;?>
+          
         </div>
         <div class="service-image col-12 col-md-6">
             <?php echo get_the_post_thumbnail();?>
