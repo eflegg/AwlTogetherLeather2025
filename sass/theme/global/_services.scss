@@ -3,6 +3,8 @@
 }
 .gallery--single {
   list-style: none;
+  width: 250px;
+  height: 250px;
   &:before {
     content: "" !important;
     margin-right: 0px !important;
@@ -10,6 +12,8 @@
   object-fit: cover;
   img {
     object-fit: cover;
+    height: 100%;
+    width: 100%;
   }
 }
 .service-gallery {
