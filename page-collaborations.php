@@ -23,6 +23,8 @@ Template Name: Collaborations Page
         $args = array (
             'post_type' => 'collaboration',
             'posts_per_page' => -1,
+            'orderby'=> 'menu_order',
+            'order'=> 'ASC',
         );
         $collabsQuery = new WP_query($args);
         if($collabsQuery->have_posts()) :?>
