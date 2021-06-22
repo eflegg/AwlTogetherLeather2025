@@ -30,6 +30,8 @@ Template Name: Careers Page
 $args = array (
     'post_type'=> 'careers',
     'posts_per_page' => -1,
+    'orderby' => 'menu_order',
+    'order' => 'ACS'
 );
 $careersQuery = new WP_query($args);
 if($careersQuery->have_posts()): ?>

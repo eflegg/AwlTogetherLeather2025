@@ -23,6 +23,8 @@ Template Name: Accessibility Page
         $args = array (
             'post_type' => 'access-cat',
             'posts_per_page' => -1,
+            'orderby'=> 'menu_order',
+            'order'=> 'ASC',
         );
         $accessQuery = new WP_query($args);
         if($accessQuery ->have_posts()): ?>
