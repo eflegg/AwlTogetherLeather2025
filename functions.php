@@ -84,3 +84,26 @@ function customWaypoints() {
 		wp_enqueue_script( 'myWaypoints', get_template_directory_uri() . '/js/waypoints-custom.js', true);
 		}
 		add_action('wp_enqueue_scripts', 'customWaypoints');
+
+
+
+
+function custom_redirects() {
+	$post_type = 'access-cat';
+    if ( is_singular($post_type ) ) {
+        wp_redirect( home_url( '/accessibility/' ) );
+        die;
+    }
+ 
+ 
+}
+add_action( 'template_redirect', 'custom_redirects' );
+
+
+function wpshock_search_filter( $query ) {
+    if ( $query->is_search ) {
+        $query->set( 'post_type', array('post','page') );
+    }
+    return $query;
+}
+add_filter('pre_get_posts','wpshock_search_filter');

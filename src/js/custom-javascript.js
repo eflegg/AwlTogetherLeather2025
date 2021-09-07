@@ -21,12 +21,7 @@ function Hamburger() {
   }
 }
 
-function Test() {
-  console.log("the click event works");
-  let dropdownMenu = document.getElementById("navbarNavDropdown");
-  let dropdownActive = dropdownMenu.classList.contains("show");
-  console.log(dropdownActive);
-}
+
 
 const el = document.getElementById("hamburger");
 el.addEventListener("click", Hamburger, false);
