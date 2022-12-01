@@ -107,3 +107,4 @@ function wpshock_search_filter( $query ) {
     return $query;
 }
 add_filter('pre_get_posts','wpshock_search_filter');
+

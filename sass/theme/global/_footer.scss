@@ -32,6 +32,14 @@ footer {
       height: 40px;
     }
   }
+  .footer--hours {
+    max-width: 300px;
+    margin-left: auto;
+    margin-bottom: 25px;
+    p {
+      line-height: 30px;
+    }
+  }
   .footer--contact-us {
     background: $cream;
     width: 140%;
