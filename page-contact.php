@@ -54,9 +54,9 @@ Template Name: Contact Page
         </div>
     </div>
     <div class="contact-right col-12 col-md-6">
-    <?php echo
+    <!-- <?php echo
             do_shortcode( '[ninja_form id=1]');
-            ?>
+            ?> -->
     </div>
 
 </div>
