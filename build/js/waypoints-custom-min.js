@@ -1,0 +1,1 @@
+var waypoint=new Waypoint({element:document.getElementsByClassName("services--text"),handler:function(){console.log("Scrolled to waypoint!")}});
