@@ -14,7 +14,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/404.php",
+      "oAP" : "\/404.php",
       "oF" : 0
     },
     "\/archive.php" : {
@@ -22,7 +22,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/archive.php",
+      "oAP" : "\/archive.php",
       "oF" : 0
     },
     "\/author.php" : {
@@ -30,13 +30,15 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/author.php",
+      "oAP" : "\/author.php",
       "oF" : 0
     },
-    "\/build" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/build\/build",
+    "\/build\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/.gitignore",
       "oF" : 0
     },
     "\/CHANGELOG.md" : {
@@ -49,7 +51,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/CHANGELOG.html",
+      "oAP" : "\/CHANGELOG.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -63,7 +65,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/comments.php",
+      "oAP" : "\/comments.php",
       "oF" : 0
     },
     "\/components\/blogAccess-listing.php" : {
@@ -71,7 +73,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/components\/blogAccess-listing.php",
+      "oAP" : "\/components\/blogAccess-listing.php",
       "oF" : 0
     },
     "\/components\/button.php" : {
@@ -79,7 +81,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/components\/button.php",
+      "oAP" : "\/components\/button.php",
       "oF" : 0
     },
     "\/components\/faq-block.php" : {
@@ -87,7 +89,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/components\/faq-block.php",
+      "oAP" : "\/components\/faq-block.php",
       "oF" : 0
     },
     "\/components\/home-banner.php" : {
@@ -95,7 +97,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/components\/home-banner.php",
+      "oAP" : "\/components\/home-banner.php",
       "oF" : 0
     },
     "\/components\/home-hero.php" : {
@@ -103,7 +105,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/components\/home-hero.php",
+      "oAP" : "\/components\/home-hero.php",
       "oF" : 0
     },
     "\/components\/image.php" : {
@@ -111,7 +113,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/components\/image.php",
+      "oAP" : "\/components\/image.php",
       "oF" : 0
     },
     "\/components\/listing-block.php" : {
@@ -119,13 +121,13 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/components\/listing-block.php",
+      "oAP" : "\/components\/listing-block.php",
       "oF" : 0
     },
     "\/composer.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/build\/composer-min.json",
+      "oAP" : "\/composer-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -135,7 +137,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/composer.lock",
+      "oAP" : "\/composer.lock",
       "oF" : 0
     },
     "\/css\/custom-editor-style.css" : {
@@ -146,7 +148,7 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/css\/custom-editor-style-min.css",
+      "oAP" : "\/css\/custom-editor-style-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -158,7 +160,7 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/css\/custom-editor-style.min-min.css",
+      "oAP" : "\/css\/custom-editor-style.min-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -167,7 +169,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/css\/custom-editor-style.min.css.map",
+      "oAP" : "\/css\/custom-editor-style.min.css.map",
       "oF" : 0
     },
     "\/css\/fonts\/Alstoria-Regular.otf" : {
@@ -175,7 +177,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/css\/fonts\/Alstoria-Regular.otf",
+      "oAP" : "\/css\/fonts\/Alstoria-Regular.otf",
       "oF" : 0
     },
     "\/css\/fonts\/Alstoria-Regular.ttf" : {
@@ -183,7 +185,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/css\/fonts\/Alstoria-Regular.ttf",
+      "oAP" : "\/css\/fonts\/Alstoria-Regular.ttf",
       "oF" : 0
     },
     "\/css\/fonts\/fontawesome-webfont.eot" : {
@@ -191,14 +193,14 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/css\/fonts\/fontawesome-webfont.eot",
+      "oAP" : "\/css\/fonts\/fontawesome-webfont.eot",
       "oF" : 0
     },
     "\/css\/fonts\/fontawesome-webfont.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/css\/fonts\/fontawesome-webfont.svg",
+      "oAP" : "\/css\/fonts\/fontawesome-webfont.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -209,7 +211,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/css\/fonts\/fontawesome-webfont.ttf",
+      "oAP" : "\/css\/fonts\/fontawesome-webfont.ttf",
       "oF" : 0
     },
     "\/css\/fonts\/fontawesome-webfont.woff" : {
@@ -217,7 +219,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/css\/fonts\/fontawesome-webfont.woff",
+      "oAP" : "\/css\/fonts\/fontawesome-webfont.woff",
       "oF" : 0
     },
     "\/css\/fonts\/fontawesome-webfont.woff2" : {
@@ -225,14 +227,14 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/css\/fonts\/fontawesome-webfont.woff2",
+      "oAP" : "\/css\/fonts\/fontawesome-webfont.woff2",
       "oF" : 0
     },
     "\/css\/images\/svg-arrow.png" : {
       "ft" : 32768,
       "iS" : 131652,
       "oA" : 0,
-      "oAP" : "\/build\/css\/images\/svg-arrow.png",
+      "oAP" : "\/css\/images\/svg-arrow.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -245,7 +247,7 @@
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/css\/images\/svg-arrow.svg",
+      "oAP" : "\/css\/images\/svg-arrow.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -259,7 +261,7 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/css\/theme-min.css",
+      "oAP" : "\/css\/theme-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -271,7 +273,7 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/css\/theme.min-min.css",
+      "oAP" : "\/css\/theme.min-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -280,7 +282,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/css\/theme.min.css.map",
+      "oAP" : "\/css\/theme.min.css.map",
       "oF" : 0
     },
     "\/fonts\/Alstoria-Regular.otf" : {
@@ -288,7 +290,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/fonts\/Alstoria-Regular.otf",
+      "oAP" : "\/fonts\/Alstoria-Regular.otf",
       "oF" : 0
     },
     "\/fonts\/Alstoria-Regular.ttf" : {
@@ -296,7 +298,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/fonts\/Alstoria-Regular.ttf",
+      "oAP" : "\/fonts\/Alstoria-Regular.ttf",
       "oF" : 0
     },
     "\/fonts\/fontawesome-webfont.eot" : {
@@ -304,14 +306,14 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/fonts\/fontawesome-webfont.eot",
+      "oAP" : "\/fonts\/fontawesome-webfont.eot",
       "oF" : 0
     },
     "\/fonts\/fontawesome-webfont.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/fonts\/fontawesome-webfont.svg",
+      "oAP" : "\/fonts\/fontawesome-webfont.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -322,7 +324,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/fonts\/fontawesome-webfont.ttf",
+      "oAP" : "\/fonts\/fontawesome-webfont.ttf",
       "oF" : 0
     },
     "\/fonts\/fontawesome-webfont.woff" : {
@@ -330,7 +332,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/fonts\/fontawesome-webfont.woff",
+      "oAP" : "\/fonts\/fontawesome-webfont.woff",
       "oF" : 0
     },
     "\/fonts\/fontawesome-webfont.woff2" : {
@@ -338,7 +340,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/fonts\/fontawesome-webfont.woff2",
+      "oAP" : "\/fonts\/fontawesome-webfont.woff2",
       "oF" : 0
     },
     "\/footer.php" : {
@@ -346,7 +348,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/footer.php",
+      "oAP" : "\/footer.php",
       "oF" : 0
     },
     "\/functions.php" : {
@@ -354,7 +356,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/functions.php",
+      "oAP" : "\/functions.php",
       "oF" : 0
     },
     "\/global-templates\/hero.php" : {
@@ -362,7 +364,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/global-templates\/hero.php",
+      "oAP" : "\/global-templates\/hero.php",
       "oF" : 0
     },
     "\/global-templates\/left-sidebar-check.php" : {
@@ -370,7 +372,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/global-templates\/left-sidebar-check.php",
+      "oAP" : "\/global-templates\/left-sidebar-check.php",
       "oF" : 0
     },
     "\/global-templates\/right-sidebar-check.php" : {
@@ -378,13 +380,13 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/global-templates\/right-sidebar-check.php",
+      "oAP" : "\/global-templates\/right-sidebar-check.php",
       "oF" : 0
     },
     "\/gulpconfig.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/build\/gulpconfig-min.json",
+      "oAP" : "\/gulpconfig-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -395,7 +397,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/gulpfile-min.js",
+      "oAP" : "\/gulpfile-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -405,14 +407,14 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/header.php",
+      "oAP" : "\/header.php",
       "oF" : 0
     },
     "\/images\/svg-arrow.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/build\/images\/svg-arrow.svg",
+      "oAP" : "\/images\/svg-arrow.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -423,7 +425,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/inc\/class-wp-bootstrap-navwalker.php",
+      "oAP" : "\/inc\/class-wp-bootstrap-navwalker.php",
       "oF" : 0
     },
     "\/inc\/custom-comments.php" : {
@@ -431,7 +433,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/inc\/custom-comments.php",
+      "oAP" : "\/inc\/custom-comments.php",
       "oF" : 0
     },
     "\/inc\/custom-header.php" : {
@@ -439,7 +441,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/inc\/custom-header.php",
+      "oAP" : "\/inc\/custom-header.php",
       "oF" : 0
     },
     "\/inc\/customizer.php" : {
@@ -447,7 +449,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/inc\/customizer.php",
+      "oAP" : "\/inc\/customizer.php",
       "oF" : 0
     },
     "\/inc\/deprecated.php" : {
@@ -455,7 +457,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/inc\/deprecated.php",
+      "oAP" : "\/inc\/deprecated.php",
       "oF" : 0
     },
     "\/inc\/editor.php" : {
@@ -463,7 +465,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/inc\/editor.php",
+      "oAP" : "\/inc\/editor.php",
       "oF" : 0
     },
     "\/inc\/enqueue.php" : {
@@ -471,7 +473,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/inc\/enqueue.php",
+      "oAP" : "\/inc\/enqueue.php",
       "oF" : 0
     },
     "\/inc\/extras.php" : {
@@ -479,7 +481,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/inc\/extras.php",
+      "oAP" : "\/inc\/extras.php",
       "oF" : 0
     },
     "\/inc\/hooks.php" : {
@@ -487,7 +489,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/inc\/hooks.php",
+      "oAP" : "\/inc\/hooks.php",
       "oF" : 0
     },
     "\/inc\/jetpack.php" : {
@@ -495,7 +497,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/inc\/jetpack.php",
+      "oAP" : "\/inc\/jetpack.php",
       "oF" : 0
     },
     "\/inc\/pagination.php" : {
@@ -503,7 +505,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/inc\/pagination.php",
+      "oAP" : "\/inc\/pagination.php",
       "oF" : 0
     },
     "\/inc\/setup.php" : {
@@ -511,7 +513,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/inc\/setup.php",
+      "oAP" : "\/inc\/setup.php",
       "oF" : 0
     },
     "\/inc\/style-wpcom.css" : {
@@ -522,7 +524,7 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/inc\/style-wpcom-min.css",
+      "oAP" : "\/inc\/style-wpcom-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -531,7 +533,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/inc\/template-tags.php",
+      "oAP" : "\/inc\/template-tags.php",
       "oF" : 0
     },
     "\/inc\/theme-settings.php" : {
@@ -539,7 +541,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/inc\/theme-settings.php",
+      "oAP" : "\/inc\/theme-settings.php",
       "oF" : 0
     },
     "\/inc\/widgets.php" : {
@@ -547,7 +549,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/inc\/widgets.php",
+      "oAP" : "\/inc\/widgets.php",
       "oF" : 0
     },
     "\/inc\/woocommerce.php" : {
@@ -555,7 +557,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/inc\/woocommerce.php",
+      "oAP" : "\/inc\/woocommerce.php",
       "oF" : 0
     },
     "\/inc\/wpcom.php" : {
@@ -563,7 +565,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/inc\/wpcom.php",
+      "oAP" : "\/inc\/wpcom.php",
       "oF" : 0
     },
     "\/index.php" : {
@@ -571,7 +573,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/index.php",
+      "oAP" : "\/index.php",
       "oF" : 0
     },
     "\/js\/customizer.js" : {
@@ -580,7 +582,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/customizer-min.js",
+      "oAP" : "\/js\/customizer-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -590,7 +592,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/js\/imakewebthings-waypoints-latest-0-g34d9f6d (1).zip",
+      "oAP" : "\/js\/imakewebthings-waypoints-latest-0-g34d9f6d (1).zip",
       "oF" : 0
     },
     "\/js\/noframework.waypoints.min.js" : {
@@ -599,7 +601,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/noframework.waypoints.min-min.js",
+      "oAP" : "\/js\/noframework.waypoints.min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -610,7 +612,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/theme-min.js",
+      "oAP" : "\/js\/theme-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -621,7 +623,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/theme.min-min.js",
+      "oAP" : "\/js\/theme.min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -632,7 +634,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints-custom-min.js",
+      "oAP" : "\/js\/waypoints-custom-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -642,7 +644,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/js\/waypoints\/.eslintrc",
+      "oAP" : "\/js\/waypoints\/.eslintrc",
       "oF" : 0
     },
     "\/js\/waypoints\/.gitignore" : {
@@ -650,7 +652,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/.gitignore",
+      "oAP" : "\/js\/waypoints\/.gitignore",
       "oF" : 0
     },
     "\/js\/waypoints\/.travis.yml" : {
@@ -658,13 +660,13 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/.travis.yml",
+      "oAP" : "\/js\/waypoints\/.travis.yml",
       "oF" : 0
     },
     "\/js\/waypoints\/bower.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/build\/js\/waypoints\/bower-min.json",
+      "oAP" : "\/js\/waypoints\/bower-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -679,7 +681,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/CHANGELOG.html",
+      "oAP" : "\/js\/waypoints\/CHANGELOG.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -698,7 +700,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/CONTRIBUTING.html",
+      "oAP" : "\/js\/waypoints\/CONTRIBUTING.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -713,7 +715,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/gulpfile-min.js",
+      "oAP" : "\/js\/waypoints\/gulpfile-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -724,7 +726,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/lib\/jquery.waypoints-min.js",
+      "oAP" : "\/js\/waypoints\/lib\/jquery.waypoints-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -735,7 +737,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/lib\/jquery.waypoints.min-min.js",
+      "oAP" : "\/js\/waypoints\/lib\/jquery.waypoints.min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -746,7 +748,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/lib\/noframework.waypoints-min.js",
+      "oAP" : "\/js\/waypoints\/lib\/noframework.waypoints-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -757,7 +759,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/lib\/noframework.waypoints.min-min.js",
+      "oAP" : "\/js\/waypoints\/lib\/noframework.waypoints.min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -768,7 +770,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/lib\/shortcuts\/infinite-min.js",
+      "oAP" : "\/js\/waypoints\/lib\/shortcuts\/infinite-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -779,7 +781,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/lib\/shortcuts\/infinite.min-min.js",
+      "oAP" : "\/js\/waypoints\/lib\/shortcuts\/infinite.min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -790,7 +792,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/lib\/shortcuts\/inview-min.js",
+      "oAP" : "\/js\/waypoints\/lib\/shortcuts\/inview-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -801,7 +803,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/lib\/shortcuts\/inview.min-min.js",
+      "oAP" : "\/js\/waypoints\/lib\/shortcuts\/inview.min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -812,7 +814,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/lib\/shortcuts\/sticky-min.js",
+      "oAP" : "\/js\/waypoints\/lib\/shortcuts\/sticky-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -823,7 +825,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/lib\/shortcuts\/sticky.min-min.js",
+      "oAP" : "\/js\/waypoints\/lib\/shortcuts\/sticky.min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -834,7 +836,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/lib\/waypoints.debug-min.js",
+      "oAP" : "\/js\/waypoints\/lib\/waypoints.debug-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -845,7 +847,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/lib\/zepto.waypoints-min.js",
+      "oAP" : "\/js\/waypoints\/lib\/zepto.waypoints-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -856,7 +858,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/lib\/zepto.waypoints.min-min.js",
+      "oAP" : "\/js\/waypoints\/lib\/zepto.waypoints.min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -866,13 +868,13 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/licenses.txt",
+      "oAP" : "\/js\/waypoints\/licenses.txt",
       "oF" : 0
     },
     "\/js\/waypoints\/package.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/build\/js\/waypoints\/package-min.json",
+      "oAP" : "\/js\/waypoints\/package-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -887,7 +889,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/README.html",
+      "oAP" : "\/js\/waypoints\/README.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -902,7 +904,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/src\/adapters\/jquery-zepto-fn-extension-min.js",
+      "oAP" : "\/js\/waypoints\/src\/adapters\/jquery-zepto-fn-extension-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -913,7 +915,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/src\/adapters\/jquery-min.js",
+      "oAP" : "\/js\/waypoints\/src\/adapters\/jquery-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -924,7 +926,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/src\/adapters\/noframework-min.js",
+      "oAP" : "\/js\/waypoints\/src\/adapters\/noframework-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -935,7 +937,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/src\/adapters\/zepto-min.js",
+      "oAP" : "\/js\/waypoints\/src\/adapters\/zepto-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -946,7 +948,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/src\/context-min.js",
+      "oAP" : "\/js\/waypoints\/src\/context-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -957,7 +959,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/src\/debug-min.js",
+      "oAP" : "\/js\/waypoints\/src\/debug-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -968,7 +970,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/src\/group-min.js",
+      "oAP" : "\/js\/waypoints\/src\/group-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -979,7 +981,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/src\/shortcuts\/infinite-min.js",
+      "oAP" : "\/js\/waypoints\/src\/shortcuts\/infinite-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -990,7 +992,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/src\/shortcuts\/inview-min.js",
+      "oAP" : "\/js\/waypoints\/src\/shortcuts\/inview-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1001,7 +1003,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/src\/shortcuts\/sticky-min.js",
+      "oAP" : "\/js\/waypoints\/src\/shortcuts\/sticky-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1012,7 +1014,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/src\/waypoint-min.js",
+      "oAP" : "\/js\/waypoints\/src\/waypoint-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1023,7 +1025,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/adapter-fn-spec-min.js",
+      "oAP" : "\/js\/waypoints\/test\/adapter-fn-spec-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1034,7 +1036,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/context-spec-min.js",
+      "oAP" : "\/js\/waypoints\/test\/context-spec-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1045,7 +1047,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/debug-spec-min.js",
+      "oAP" : "\/js\/waypoints\/test\/debug-spec-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1055,7 +1057,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/fixtures\/infinite.html",
+      "oAP" : "\/js\/waypoints\/test\/fixtures\/infinite.html",
       "oF" : 0
     },
     "\/js\/waypoints\/test\/fixtures\/standard.html" : {
@@ -1063,7 +1065,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/fixtures\/standard.html",
+      "oAP" : "\/js\/waypoints\/test\/fixtures\/standard.html",
       "oF" : 0
     },
     "\/js\/waypoints\/test\/fixtures\/sticky.html" : {
@@ -1071,7 +1073,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/fixtures\/sticky.html",
+      "oAP" : "\/js\/waypoints\/test\/fixtures\/sticky.html",
       "oF" : 0
     },
     "\/js\/waypoints\/test\/group-spec.js" : {
@@ -1080,7 +1082,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/group-spec-min.js",
+      "oAP" : "\/js\/waypoints\/test\/group-spec-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1091,7 +1093,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/infinite-spec-min.js",
+      "oAP" : "\/js\/waypoints\/test\/infinite-spec-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1102,7 +1104,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/inview-spec-min.js",
+      "oAP" : "\/js\/waypoints\/test\/inview-spec-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1113,7 +1115,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/lib\/coffee-script-min.js",
+      "oAP" : "\/js\/waypoints\/test\/lib\/coffee-script-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1124,7 +1126,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/lib\/jasmine-html-min.js",
+      "oAP" : "\/js\/waypoints\/test\/lib\/jasmine-html-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1135,7 +1137,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/lib\/jasmine-jquery-min.js",
+      "oAP" : "\/js\/waypoints\/test\/lib\/jasmine-jquery-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1148,7 +1150,7 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/lib\/jasmine-min.css",
+      "oAP" : "\/js\/waypoints\/test\/lib\/jasmine-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -1158,7 +1160,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/lib\/jasmine-min.js",
+      "oAP" : "\/js\/waypoints\/test\/lib\/jasmine-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1169,7 +1171,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/lib\/require-min.js",
+      "oAP" : "\/js\/waypoints\/test\/lib\/require-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1180,7 +1182,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/lib\/testloader-min.js",
+      "oAP" : "\/js\/waypoints\/test\/lib\/testloader-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1191,7 +1193,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/settings-min.js",
+      "oAP" : "\/js\/waypoints\/test\/settings-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1202,7 +1204,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/sticky-spec-min.js",
+      "oAP" : "\/js\/waypoints\/test\/sticky-spec-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1213,7 +1215,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/js\/waypoints\/test\/waypoint-spec-min.js",
+      "oAP" : "\/js\/waypoints\/test\/waypoint-spec-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1221,7 +1223,7 @@
     "\/js\/waypoints\/testem.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/build\/js\/waypoints\/testem-min.json",
+      "oAP" : "\/js\/waypoints\/testem-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -1231,7 +1233,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/de_DE_formal.mo",
+      "oAP" : "\/languages\/de_DE_formal.mo",
       "oF" : 0
     },
     "\/languages\/de_DE_formal.po" : {
@@ -1239,7 +1241,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/de_DE_formal.po",
+      "oAP" : "\/languages\/de_DE_formal.po",
       "oF" : 0
     },
     "\/languages\/de_DE.mo" : {
@@ -1247,7 +1249,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/de_DE.mo",
+      "oAP" : "\/languages\/de_DE.mo",
       "oF" : 0
     },
     "\/languages\/de_DE.po" : {
@@ -1255,7 +1257,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/de_DE.po",
+      "oAP" : "\/languages\/de_DE.po",
       "oF" : 0
     },
     "\/languages\/el_GR.mo" : {
@@ -1263,7 +1265,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/el_GR.mo",
+      "oAP" : "\/languages\/el_GR.mo",
       "oF" : 0
     },
     "\/languages\/el_GR.po" : {
@@ -1271,7 +1273,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/el_GR.po",
+      "oAP" : "\/languages\/el_GR.po",
       "oF" : 0
     },
     "\/languages\/es_ES.mo" : {
@@ -1279,7 +1281,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/es_ES.mo",
+      "oAP" : "\/languages\/es_ES.mo",
       "oF" : 0
     },
     "\/languages\/es_ES.po" : {
@@ -1287,7 +1289,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/es_ES.po",
+      "oAP" : "\/languages\/es_ES.po",
       "oF" : 0
     },
     "\/languages\/fr_FR.mo" : {
@@ -1295,7 +1297,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/fr_FR.mo",
+      "oAP" : "\/languages\/fr_FR.mo",
       "oF" : 0
     },
     "\/languages\/fr_FR.po" : {
@@ -1303,7 +1305,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/fr_FR.po",
+      "oAP" : "\/languages\/fr_FR.po",
       "oF" : 0
     },
     "\/languages\/he_IL.mo" : {
@@ -1311,7 +1313,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/he_IL.mo",
+      "oAP" : "\/languages\/he_IL.mo",
       "oF" : 0
     },
     "\/languages\/he_IL.po" : {
@@ -1319,7 +1321,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/he_IL.po",
+      "oAP" : "\/languages\/he_IL.po",
       "oF" : 0
     },
     "\/languages\/it_IT.mo" : {
@@ -1327,7 +1329,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/it_IT.mo",
+      "oAP" : "\/languages\/it_IT.mo",
       "oF" : 0
     },
     "\/languages\/it_IT.po" : {
@@ -1335,7 +1337,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/it_IT.po",
+      "oAP" : "\/languages\/it_IT.po",
       "oF" : 0
     },
     "\/languages\/ja_JP.mo" : {
@@ -1343,7 +1345,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/ja_JP.mo",
+      "oAP" : "\/languages\/ja_JP.mo",
       "oF" : 0
     },
     "\/languages\/ja_JP.po" : {
@@ -1351,7 +1353,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/ja_JP.po",
+      "oAP" : "\/languages\/ja_JP.po",
       "oF" : 0
     },
     "\/languages\/ko_KR.mo" : {
@@ -1359,7 +1361,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/ko_KR.mo",
+      "oAP" : "\/languages\/ko_KR.mo",
       "oF" : 0
     },
     "\/languages\/ko_KR.po" : {
@@ -1367,7 +1369,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/ko_KR.po",
+      "oAP" : "\/languages\/ko_KR.po",
       "oF" : 0
     },
     "\/languages\/nb_NO.mo" : {
@@ -1375,7 +1377,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/nb_NO.mo",
+      "oAP" : "\/languages\/nb_NO.mo",
       "oF" : 0
     },
     "\/languages\/nb_NO.po" : {
@@ -1383,7 +1385,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/nb_NO.po",
+      "oAP" : "\/languages\/nb_NO.po",
       "oF" : 0
     },
     "\/languages\/nl_NL.mo" : {
@@ -1391,7 +1393,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/nl_NL.mo",
+      "oAP" : "\/languages\/nl_NL.mo",
       "oF" : 0
     },
     "\/languages\/nl_NL.po" : {
@@ -1399,7 +1401,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/nl_NL.po",
+      "oAP" : "\/languages\/nl_NL.po",
       "oF" : 0
     },
     "\/languages\/nn_NO.mo" : {
@@ -1407,7 +1409,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/nn_NO.mo",
+      "oAP" : "\/languages\/nn_NO.mo",
       "oF" : 0
     },
     "\/languages\/nn_NO.po" : {
@@ -1415,7 +1417,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/nn_NO.po",
+      "oAP" : "\/languages\/nn_NO.po",
       "oF" : 0
     },
     "\/languages\/pl_PL.mo" : {
@@ -1423,7 +1425,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/pl_PL.mo",
+      "oAP" : "\/languages\/pl_PL.mo",
       "oF" : 0
     },
     "\/languages\/pl_PL.po" : {
@@ -1431,7 +1433,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/pl_PL.po",
+      "oAP" : "\/languages\/pl_PL.po",
       "oF" : 0
     },
     "\/languages\/pt_BR.mo" : {
@@ -1439,7 +1441,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/pt_BR.mo",
+      "oAP" : "\/languages\/pt_BR.mo",
       "oF" : 0
     },
     "\/languages\/pt_BR.po" : {
@@ -1447,7 +1449,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/pt_BR.po",
+      "oAP" : "\/languages\/pt_BR.po",
       "oF" : 0
     },
     "\/languages\/pt_PT.mo" : {
@@ -1455,7 +1457,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/pt_PT.mo",
+      "oAP" : "\/languages\/pt_PT.mo",
       "oF" : 0
     },
     "\/languages\/pt_PT.po" : {
@@ -1463,7 +1465,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/pt_PT.po",
+      "oAP" : "\/languages\/pt_PT.po",
       "oF" : 0
     },
     "\/languages\/ru_RU.mo" : {
@@ -1471,7 +1473,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/ru_RU.mo",
+      "oAP" : "\/languages\/ru_RU.mo",
       "oF" : 0
     },
     "\/languages\/ru_RU.po" : {
@@ -1479,7 +1481,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/ru_RU.po",
+      "oAP" : "\/languages\/ru_RU.po",
       "oF" : 0
     },
     "\/languages\/sl_SI.mo" : {
@@ -1487,7 +1489,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/sl_SI.mo",
+      "oAP" : "\/languages\/sl_SI.mo",
       "oF" : 0
     },
     "\/languages\/sl_SI.po" : {
@@ -1495,7 +1497,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/sl_SI.po",
+      "oAP" : "\/languages\/sl_SI.po",
       "oF" : 0
     },
     "\/languages\/sv_SE.mo" : {
@@ -1503,7 +1505,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/sv_SE.mo",
+      "oAP" : "\/languages\/sv_SE.mo",
       "oF" : 0
     },
     "\/languages\/sv_SE.po" : {
@@ -1511,7 +1513,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/sv_SE.po",
+      "oAP" : "\/languages\/sv_SE.po",
       "oF" : 0
     },
     "\/languages\/tr_TR.mo" : {
@@ -1519,7 +1521,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/tr_TR.mo",
+      "oAP" : "\/languages\/tr_TR.mo",
       "oF" : 0
     },
     "\/languages\/tr_TR.po" : {
@@ -1527,7 +1529,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/tr_TR.po",
+      "oAP" : "\/languages\/tr_TR.po",
       "oF" : 0
     },
     "\/languages\/understrap.pot" : {
@@ -1535,7 +1537,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/languages\/understrap.pot",
+      "oAP" : "\/languages\/understrap.pot",
       "oF" : 0
     },
     "\/LICENSE.md" : {
@@ -1548,7 +1550,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/LICENSE.html",
+      "oAP" : "\/LICENSE.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -1562,7 +1564,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/loop-templates\/content-blank.php",
+      "oAP" : "\/loop-templates\/content-blank.php",
       "oF" : 0
     },
     "\/loop-templates\/content-empty.php" : {
@@ -1570,7 +1572,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/loop-templates\/content-empty.php",
+      "oAP" : "\/loop-templates\/content-empty.php",
       "oF" : 0
     },
     "\/loop-templates\/content-none.php" : {
@@ -1578,7 +1580,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/loop-templates\/content-none.php",
+      "oAP" : "\/loop-templates\/content-none.php",
       "oF" : 0
     },
     "\/loop-templates\/content-page.php" : {
@@ -1586,7 +1588,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/loop-templates\/content-page.php",
+      "oAP" : "\/loop-templates\/content-page.php",
       "oF" : 0
     },
     "\/loop-templates\/content-search.php" : {
@@ -1594,7 +1596,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/loop-templates\/content-search.php",
+      "oAP" : "\/loop-templates\/content-search.php",
       "oF" : 0
     },
     "\/loop-templates\/content-single.php" : {
@@ -1602,7 +1604,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/loop-templates\/content-single.php",
+      "oAP" : "\/loop-templates\/content-single.php",
       "oF" : 0
     },
     "\/loop-templates\/content.php" : {
@@ -1610,19 +1612,19 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/loop-templates\/content.php",
+      "oAP" : "\/loop-templates\/content.php",
       "oF" : 0
     },
     "\/node_modules" : {
       "ft" : 65536,
       "oA" : 2,
-      "oAP" : "\/build\/node_modules",
+      "oAP" : "\/node_modules",
       "oF" : 0
     },
     "\/package-lock.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/build\/package-lock-min.json",
+      "oAP" : "\/package-lock-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -1630,7 +1632,7 @@
     "\/package.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/build\/package-min.json",
+      "oAP" : "\/package-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
@@ -1640,7 +1642,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/page-about.php",
+      "oAP" : "\/page-about.php",
       "oF" : 0
     },
     "\/page-accessibility.php" : {
@@ -1648,7 +1650,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/page-accessibility.php",
+      "oAP" : "\/page-accessibility.php",
       "oF" : 0
     },
     "\/page-blog.php" : {
@@ -1656,7 +1658,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/page-blog.php",
+      "oAP" : "\/page-blog.php",
       "oF" : 0
     },
     "\/page-careers.php" : {
@@ -1664,7 +1666,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/page-careers.php",
+      "oAP" : "\/page-careers.php",
       "oF" : 0
     },
     "\/page-collaborations.php" : {
@@ -1672,7 +1674,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/page-collaborations.php",
+      "oAP" : "\/page-collaborations.php",
       "oF" : 0
     },
     "\/page-contact.php" : {
@@ -1680,7 +1682,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/page-contact.php",
+      "oAP" : "\/page-contact.php",
       "oF" : 0
     },
     "\/page-faqs.php" : {
@@ -1688,7 +1690,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/page-faqs.php",
+      "oAP" : "\/page-faqs.php",
       "oF" : 0
     },
     "\/page-home.php" : {
@@ -1696,7 +1698,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/page-home.php",
+      "oAP" : "\/page-home.php",
       "oF" : 0
     },
     "\/page-landing.php" : {
@@ -1704,7 +1706,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/page-landing.php",
+      "oAP" : "\/page-landing.php",
       "oF" : 0
     },
     "\/page-services.php" : {
@@ -1712,7 +1714,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/page-services.php",
+      "oAP" : "\/page-services.php",
       "oF" : 0
     },
     "\/page-templates\/blank.php" : {
@@ -1720,7 +1722,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/page-templates\/blank.php",
+      "oAP" : "\/page-templates\/blank.php",
       "oF" : 0
     },
     "\/page-templates\/both-sidebarspage.php" : {
@@ -1728,7 +1730,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/page-templates\/both-sidebarspage.php",
+      "oAP" : "\/page-templates\/both-sidebarspage.php",
       "oF" : 0
     },
     "\/page-templates\/empty.php" : {
@@ -1736,7 +1738,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/page-templates\/empty.php",
+      "oAP" : "\/page-templates\/empty.php",
       "oF" : 0
     },
     "\/page-templates\/fullwidthpage.php" : {
@@ -1744,7 +1746,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/page-templates\/fullwidthpage.php",
+      "oAP" : "\/page-templates\/fullwidthpage.php",
       "oF" : 0
     },
     "\/page-templates\/left-sidebarpage.php" : {
@@ -1752,7 +1754,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/page-templates\/left-sidebarpage.php",
+      "oAP" : "\/page-templates\/left-sidebarpage.php",
       "oF" : 0
     },
     "\/page-templates\/right-sidebarpage.php" : {
@@ -1760,7 +1762,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/page-templates\/right-sidebarpage.php",
+      "oAP" : "\/page-templates\/right-sidebarpage.php",
       "oF" : 0
     },
     "\/page.php" : {
@@ -1768,7 +1770,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/page.php",
+      "oAP" : "\/page.php",
       "oF" : 0
     },
     "\/phpcs.xml" : {
@@ -1776,7 +1778,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/phpcs.xml",
+      "oAP" : "\/phpcs.xml",
       "oF" : 0
     },
     "\/README.md" : {
@@ -1789,7 +1791,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/README.html",
+      "oAP" : "\/README.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -1803,7 +1805,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/readme.txt",
+      "oAP" : "\/readme.txt",
       "oF" : 0
     },
     "\/sass\/assets\/bootstrap4.scss" : {
@@ -1814,7 +1816,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/assets\/bootstrap4.css",
+      "oAP" : "\/sass\/assets\/bootstrap4.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1827,7 +1829,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/assets\/font-awesome.css",
+      "oAP" : "\/sass\/assets\/font-awesome.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1840,7 +1842,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/assets\/underscores.css",
+      "oAP" : "\/sass\/assets\/underscores.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1853,7 +1855,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/sass\/custom-editor-style.css",
+      "oAP" : "\/sass\/custom-editor-style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1866,7 +1868,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/sass\/theme.css",
+      "oAP" : "\/sass\/theme.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1879,7 +1881,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/_contact-form7.css",
+      "oAP" : "\/sass\/theme\/_contact-form7.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1892,7 +1894,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/_theme_variables.css",
+      "oAP" : "\/sass\/theme\/_theme_variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1905,7 +1907,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/_theme.css",
+      "oAP" : "\/sass\/theme\/_theme.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1918,7 +1920,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_about.css",
+      "oAP" : "\/sass\/theme\/global\/_about.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1931,7 +1933,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_alstoria.css",
+      "oAP" : "\/sass\/theme\/global\/_alstoria.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1944,7 +1946,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_animations.css",
+      "oAP" : "\/sass\/theme\/global\/_animations.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1957,7 +1959,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_blog.css",
+      "oAP" : "\/sass\/theme\/global\/_blog.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1970,7 +1972,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_careers.css",
+      "oAP" : "\/sass\/theme\/global\/_careers.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1983,7 +1985,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_contact.css",
+      "oAP" : "\/sass\/theme\/global\/_contact.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1996,7 +1998,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_footer.css",
+      "oAP" : "\/sass\/theme\/global\/_footer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2009,7 +2011,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_globals.css",
+      "oAP" : "\/sass\/theme\/global\/_globals.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2022,7 +2024,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_home.css",
+      "oAP" : "\/sass\/theme\/global\/_home.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2035,7 +2037,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_infinity-woocommerce.css",
+      "oAP" : "\/sass\/theme\/global\/_infinity-woocommerce.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2048,7 +2050,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_landingpage.css",
+      "oAP" : "\/sass\/theme\/global\/_landingpage.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2061,7 +2063,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_listingblock.css",
+      "oAP" : "\/sass\/theme\/global\/_listingblock.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2074,7 +2076,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_mediaqueries.css",
+      "oAP" : "\/sass\/theme\/global\/_mediaqueries.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2087,7 +2089,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_navigation.css",
+      "oAP" : "\/sass\/theme\/global\/_navigation.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2100,7 +2102,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_services.css",
+      "oAP" : "\/sass\/theme\/global\/_services.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2113,7 +2115,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_shop.css",
+      "oAP" : "\/sass\/theme\/global\/_shop.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2126,7 +2128,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_typography.css",
+      "oAP" : "\/sass\/theme\/global\/_typography.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2139,7 +2141,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_variables.css",
+      "oAP" : "\/sass\/theme\/global\/_variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2152,7 +2154,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/global\/_woocustom.css",
+      "oAP" : "\/sass\/theme\/global\/_woocustom.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2165,7 +2167,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/_base.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/_base.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2178,7 +2180,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/hamburgers.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/hamburgers.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2191,7 +2193,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_3dx-r.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_3dx-r.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2204,7 +2206,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_3dx.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_3dx.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2217,7 +2219,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_3dxy-r.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_3dxy-r.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2230,7 +2232,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_3dxy.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_3dxy.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2243,7 +2245,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_3dy-r.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_3dy-r.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2256,7 +2258,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_3dy.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_3dy.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2269,7 +2271,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_arrow-r.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_arrow-r.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2282,7 +2284,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_arrow.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_arrow.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2295,7 +2297,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_arrowalt-r.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_arrowalt-r.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2308,7 +2310,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_arrowalt.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_arrowalt.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2321,7 +2323,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_arrowturn-r.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_arrowturn-r.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2334,7 +2336,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_arrowturn.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_arrowturn.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2347,7 +2349,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_boring.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_boring.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2360,7 +2362,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_collapse-r.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_collapse-r.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2373,7 +2375,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_collapse.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_collapse.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2386,7 +2388,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_elastic-r.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_elastic-r.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2399,7 +2401,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_elastic.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_elastic.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2412,7 +2414,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_emphatic-r.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_emphatic-r.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2425,7 +2427,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_emphatic.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_emphatic.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2438,7 +2440,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_minus.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_minus.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2451,7 +2453,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_slider-r.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_slider-r.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2464,7 +2466,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_slider.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_slider.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2477,7 +2479,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_spin-r.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_spin-r.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2490,7 +2492,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_spin.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_spin.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2503,7 +2505,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_spring-r.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_spring-r.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2516,7 +2518,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_spring.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_spring.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2529,7 +2531,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_squeeze.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_squeeze.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2542,7 +2544,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_stand-r.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_stand-r.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2555,7 +2557,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_stand.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_stand.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2568,7 +2570,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_vortex-r.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_vortex-r.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2581,7 +2583,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/theme\/hamburgers\/types\/_vortex.css",
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_vortex.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2594,7 +2596,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/understrap\/understrap.css",
+      "oAP" : "\/sass\/understrap\/understrap.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2607,7 +2609,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/sass\/understrap\/woocommerce.css",
+      "oAP" : "\/sass\/understrap\/woocommerce.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2616,7 +2618,7 @@
       "ft" : 32768,
       "iS" : 4270429,
       "oA" : 0,
-      "oAP" : "\/build\/screenshot.png",
+      "oAP" : "\/screenshot.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -2630,7 +2632,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/search.php",
+      "oAP" : "\/search.php",
       "oF" : 0
     },
     "\/searchform.php" : {
@@ -2638,7 +2640,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/searchform.php",
+      "oAP" : "\/searchform.php",
       "oF" : 0
     },
     "\/sidebar-templates\/sidebar-footerfull.php" : {
@@ -2646,7 +2648,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/sidebar-templates\/sidebar-footerfull.php",
+      "oAP" : "\/sidebar-templates\/sidebar-footerfull.php",
       "oF" : 0
     },
     "\/sidebar-templates\/sidebar-hero.php" : {
@@ -2654,7 +2656,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/sidebar-templates\/sidebar-hero.php",
+      "oAP" : "\/sidebar-templates\/sidebar-hero.php",
       "oF" : 0
     },
     "\/sidebar-templates\/sidebar-herocanvas.php" : {
@@ -2662,7 +2664,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/sidebar-templates\/sidebar-herocanvas.php",
+      "oAP" : "\/sidebar-templates\/sidebar-herocanvas.php",
       "oF" : 0
     },
     "\/sidebar-templates\/sidebar-left.php" : {
@@ -2670,7 +2672,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/sidebar-templates\/sidebar-left.php",
+      "oAP" : "\/sidebar-templates\/sidebar-left.php",
       "oF" : 0
     },
     "\/sidebar-templates\/sidebar-right.php" : {
@@ -2678,7 +2680,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/sidebar-templates\/sidebar-right.php",
+      "oAP" : "\/sidebar-templates\/sidebar-right.php",
       "oF" : 0
     },
     "\/sidebar-templates\/sidebar-statichero.php" : {
@@ -2686,7 +2688,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/sidebar-templates\/sidebar-statichero.php",
+      "oAP" : "\/sidebar-templates\/sidebar-statichero.php",
       "oF" : 0
     },
     "\/sidebar.php" : {
@@ -2694,7 +2696,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/sidebar.php",
+      "oAP" : "\/sidebar.php",
       "oF" : 0
     },
     "\/single-careers.php" : {
@@ -2702,7 +2704,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/single-careers.php",
+      "oAP" : "\/single-careers.php",
       "oF" : 0
     },
     "\/single-collaboration.php" : {
@@ -2710,7 +2712,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/single-collaboration.php",
+      "oAP" : "\/single-collaboration.php",
       "oF" : 0
     },
     "\/single-collaborations.php" : {
@@ -2718,7 +2720,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/single-collaborations.php",
+      "oAP" : "\/single-collaborations.php",
       "oF" : 0
     },
     "\/single-recipe.php" : {
@@ -2726,7 +2728,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/single-recipe.php",
+      "oAP" : "\/single-recipe.php",
       "oF" : 0
     },
     "\/single-services.php" : {
@@ -2734,7 +2736,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/single-services.php",
+      "oAP" : "\/single-services.php",
       "oF" : 0
     },
     "\/single.php" : {
@@ -2742,7 +2744,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/single.php",
+      "oAP" : "\/single.php",
       "oF" : 0
     },
     "\/src\/js\/bootstrap4\/bootstrap.bundle.js" : {
@@ -2751,7 +2753,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/src\/js\/bootstrap4\/bootstrap.bundle-min.js",
+      "oAP" : "\/src\/js\/bootstrap4\/bootstrap.bundle-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -2762,7 +2764,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/src\/js\/bootstrap4\/bootstrap.bundle.min-min.js",
+      "oAP" : "\/src\/js\/bootstrap4\/bootstrap.bundle.min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -2773,7 +2775,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/src\/js\/bootstrap4\/bootstrap-min.js",
+      "oAP" : "\/src\/js\/bootstrap4\/bootstrap-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -2784,7 +2786,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/src\/js\/bootstrap4\/bootstrap.min-min.js",
+      "oAP" : "\/src\/js\/bootstrap4\/bootstrap.min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -2795,7 +2797,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/src\/js\/custom-javascript-min.js",
+      "oAP" : "\/src\/js\/custom-javascript-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -2806,7 +2808,7 @@
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/src\/js\/skip-link-focus-fix-min.js",
+      "oAP" : "\/src\/js\/skip-link-focus-fix-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -2819,7 +2821,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_alert.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_alert.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2832,7 +2834,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_badge.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_badge.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2845,7 +2847,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_breadcrumb.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_breadcrumb.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2858,7 +2860,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_button-group.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_button-group.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2871,7 +2873,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_buttons.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_buttons.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2884,7 +2886,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_card.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_card.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2897,7 +2899,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_carousel.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_carousel.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2910,7 +2912,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_close.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_close.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2923,7 +2925,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_code.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_code.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2936,7 +2938,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_custom-forms.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_custom-forms.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2949,7 +2951,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_dropdown.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_dropdown.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2962,7 +2964,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_forms.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_forms.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2975,7 +2977,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_functions.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_functions.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2988,7 +2990,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_grid.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_grid.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3001,7 +3003,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_images.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_images.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3014,7 +3016,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_input-group.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_input-group.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3027,7 +3029,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_jumbotron.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_jumbotron.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3040,7 +3042,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_list-group.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_list-group.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3053,7 +3055,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_media.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_media.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3066,7 +3068,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_mixins.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_mixins.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3079,7 +3081,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_modal.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_modal.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3092,7 +3094,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_nav.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_nav.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3105,7 +3107,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_navbar.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_navbar.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3118,7 +3120,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_pagination.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_pagination.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3131,7 +3133,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_popover.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_popover.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3144,7 +3146,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_print.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_print.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3157,7 +3159,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_progress.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_progress.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3170,7 +3172,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_reboot.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_reboot.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3183,7 +3185,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_root.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_root.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3196,7 +3198,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_spinners.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_spinners.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3209,7 +3211,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_tables.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_tables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3222,7 +3224,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_toasts.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_toasts.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3235,7 +3237,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_tooltip.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_tooltip.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3248,7 +3250,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_transitions.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_transitions.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3261,7 +3263,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_type.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_type.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3274,7 +3276,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_utilities.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_utilities.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3287,7 +3289,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/_variables.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/_variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3300,7 +3302,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/bootstrap-grid.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/bootstrap-grid.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3313,7 +3315,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/bootstrap-reboot.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/bootstrap-reboot.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3326,7 +3328,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/bootstrap.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/bootstrap.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3339,7 +3341,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_alert.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_alert.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3352,7 +3354,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_background-variant.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_background-variant.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3365,7 +3367,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_badge.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_badge.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3378,7 +3380,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_border-radius.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_border-radius.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3391,7 +3393,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_box-shadow.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_box-shadow.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3404,7 +3406,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_breakpoints.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_breakpoints.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3417,7 +3419,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_buttons.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_buttons.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3430,7 +3432,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_caret.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_caret.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3443,7 +3445,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_clearfix.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_clearfix.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3456,7 +3458,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_deprecate.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_deprecate.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3469,7 +3471,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_float.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_float.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3482,7 +3484,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_forms.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_forms.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3495,7 +3497,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_gradients.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_gradients.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3508,7 +3510,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_grid-framework.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_grid-framework.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3521,7 +3523,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_grid.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_grid.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3534,7 +3536,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_hover.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_hover.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3547,7 +3549,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_image.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_image.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3560,7 +3562,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_list-group.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_list-group.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3573,7 +3575,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_lists.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_lists.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3586,7 +3588,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_nav-divider.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_nav-divider.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3599,7 +3601,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_pagination.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_pagination.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3612,7 +3614,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_reset-text.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_reset-text.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3625,7 +3627,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_resize.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_resize.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3638,7 +3640,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_screen-reader.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_screen-reader.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3651,7 +3653,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_size.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_size.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3664,7 +3666,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_table-row.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_table-row.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3677,7 +3679,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_text-emphasis.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_text-emphasis.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3690,7 +3692,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_text-hide.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_text-hide.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3703,7 +3705,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_text-truncate.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_text-truncate.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3716,7 +3718,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_transition.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_transition.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3729,7 +3731,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/mixins\/_visibility.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/mixins\/_visibility.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3742,7 +3744,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/utilities\/_align.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/utilities\/_align.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3755,7 +3757,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/utilities\/_background.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/utilities\/_background.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3768,7 +3770,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/utilities\/_borders.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/utilities\/_borders.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3781,7 +3783,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/utilities\/_clearfix.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/utilities\/_clearfix.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3794,7 +3796,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/utilities\/_display.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/utilities\/_display.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3807,7 +3809,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/utilities\/_embed.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/utilities\/_embed.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3820,7 +3822,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/utilities\/_flex.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/utilities\/_flex.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3833,7 +3835,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/utilities\/_float.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/utilities\/_float.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3846,7 +3848,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/utilities\/_overflow.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/utilities\/_overflow.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3859,7 +3861,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/utilities\/_position.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/utilities\/_position.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3872,7 +3874,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/utilities\/_screenreaders.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/utilities\/_screenreaders.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3885,7 +3887,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/utilities\/_shadows.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/utilities\/_shadows.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3898,7 +3900,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/utilities\/_sizing.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/utilities\/_sizing.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3911,7 +3913,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/utilities\/_spacing.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/utilities\/_spacing.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3924,7 +3926,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/utilities\/_stretched-link.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/utilities\/_stretched-link.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3937,7 +3939,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/utilities\/_text.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/utilities\/_text.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3950,7 +3952,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/utilities\/_visibility.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/utilities\/_visibility.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3963,7 +3965,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/bootstrap4\/vendor\/_rfs.css",
+      "oAP" : "\/src\/sass\/bootstrap4\/vendor\/_rfs.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3976,7 +3978,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/fontawesome\/_animated.css",
+      "oAP" : "\/src\/sass\/fontawesome\/_animated.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -3989,7 +3991,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/fontawesome\/_bordered-pulled.css",
+      "oAP" : "\/src\/sass\/fontawesome\/_bordered-pulled.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -4002,7 +4004,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/fontawesome\/_core.css",
+      "oAP" : "\/src\/sass\/fontawesome\/_core.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -4015,7 +4017,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/fontawesome\/_fixed-width.css",
+      "oAP" : "\/src\/sass\/fontawesome\/_fixed-width.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -4028,7 +4030,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/fontawesome\/_icons.css",
+      "oAP" : "\/src\/sass\/fontawesome\/_icons.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -4041,7 +4043,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/fontawesome\/_larger.css",
+      "oAP" : "\/src\/sass\/fontawesome\/_larger.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -4054,7 +4056,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/fontawesome\/_list.css",
+      "oAP" : "\/src\/sass\/fontawesome\/_list.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -4067,7 +4069,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/fontawesome\/_mixins.css",
+      "oAP" : "\/src\/sass\/fontawesome\/_mixins.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -4080,7 +4082,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/fontawesome\/_path.css",
+      "oAP" : "\/src\/sass\/fontawesome\/_path.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -4093,7 +4095,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/fontawesome\/_rotated-flipped.css",
+      "oAP" : "\/src\/sass\/fontawesome\/_rotated-flipped.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -4106,7 +4108,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/fontawesome\/_screen-reader.css",
+      "oAP" : "\/src\/sass\/fontawesome\/_screen-reader.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -4119,7 +4121,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/fontawesome\/_stacked.css",
+      "oAP" : "\/src\/sass\/fontawesome\/_stacked.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -4132,7 +4134,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/fontawesome\/_variables.css",
+      "oAP" : "\/src\/sass\/fontawesome\/_variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -4145,7 +4147,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/src\/sass\/fontawesome\/font-awesome.css",
+      "oAP" : "\/src\/sass\/fontawesome\/font-awesome.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -4158,7 +4160,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/underscores\/_captions.css",
+      "oAP" : "\/src\/sass\/underscores\/_captions.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -4171,7 +4173,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/underscores\/_galleries.css",
+      "oAP" : "\/src\/sass\/underscores\/_galleries.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -4184,7 +4186,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/build\/src\/sass\/underscores\/_media.css",
+      "oAP" : "\/src\/sass\/underscores\/_media.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -4197,7 +4199,7 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/style-min.css",
+      "oAP" : "\/style-min.css",
       "oF" : 0,
       "pg" : 0
     },
@@ -4206,7 +4208,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/archive-product.php",
+      "oAP" : "\/woocommerce\/archive-product.php",
       "oF" : 0
     },
     "\/woocommerce\/cart\/cart-empty.php" : {
@@ -4214,7 +4216,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/cart\/cart-empty.php",
+      "oAP" : "\/woocommerce\/cart\/cart-empty.php",
       "oF" : 0
     },
     "\/woocommerce\/cart\/cart-item-data.php" : {
@@ -4222,7 +4224,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/cart\/cart-item-data.php",
+      "oAP" : "\/woocommerce\/cart\/cart-item-data.php",
       "oF" : 0
     },
     "\/woocommerce\/cart\/cart-shipping.php" : {
@@ -4230,7 +4232,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/cart\/cart-shipping.php",
+      "oAP" : "\/woocommerce\/cart\/cart-shipping.php",
       "oF" : 0
     },
     "\/woocommerce\/cart\/cart-totals.php" : {
@@ -4238,7 +4240,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/cart\/cart-totals.php",
+      "oAP" : "\/woocommerce\/cart\/cart-totals.php",
       "oF" : 0
     },
     "\/woocommerce\/cart\/cart.php" : {
@@ -4246,7 +4248,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/cart\/cart.php",
+      "oAP" : "\/woocommerce\/cart\/cart.php",
       "oF" : 0
     },
     "\/woocommerce\/cart\/cross-sells.php" : {
@@ -4254,7 +4256,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/cart\/cross-sells.php",
+      "oAP" : "\/woocommerce\/cart\/cross-sells.php",
       "oF" : 0
     },
     "\/woocommerce\/cart\/mini-cart.php" : {
@@ -4262,7 +4264,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/cart\/mini-cart.php",
+      "oAP" : "\/woocommerce\/cart\/mini-cart.php",
       "oF" : 0
     },
     "\/woocommerce\/cart\/proceed-to-checkout-button.php" : {
@@ -4270,7 +4272,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/cart\/proceed-to-checkout-button.php",
+      "oAP" : "\/woocommerce\/cart\/proceed-to-checkout-button.php",
       "oF" : 0
     },
     "\/woocommerce\/cart\/shipping-calculator.php" : {
@@ -4278,7 +4280,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/cart\/shipping-calculator.php",
+      "oAP" : "\/woocommerce\/cart\/shipping-calculator.php",
       "oF" : 0
     },
     "\/woocommerce\/checkout\/cart-errors.php" : {
@@ -4286,7 +4288,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/checkout\/cart-errors.php",
+      "oAP" : "\/woocommerce\/checkout\/cart-errors.php",
       "oF" : 0
     },
     "\/woocommerce\/checkout\/form-billing.php" : {
@@ -4294,7 +4296,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/checkout\/form-billing.php",
+      "oAP" : "\/woocommerce\/checkout\/form-billing.php",
       "oF" : 0
     },
     "\/woocommerce\/checkout\/form-checkout.php" : {
@@ -4302,7 +4304,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/checkout\/form-checkout.php",
+      "oAP" : "\/woocommerce\/checkout\/form-checkout.php",
       "oF" : 0
     },
     "\/woocommerce\/checkout\/form-coupon.php" : {
@@ -4310,7 +4312,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/checkout\/form-coupon.php",
+      "oAP" : "\/woocommerce\/checkout\/form-coupon.php",
       "oF" : 0
     },
     "\/woocommerce\/checkout\/form-login.php" : {
@@ -4318,7 +4320,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/checkout\/form-login.php",
+      "oAP" : "\/woocommerce\/checkout\/form-login.php",
       "oF" : 0
     },
     "\/woocommerce\/checkout\/form-pay.php" : {
@@ -4326,7 +4328,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/checkout\/form-pay.php",
+      "oAP" : "\/woocommerce\/checkout\/form-pay.php",
       "oF" : 0
     },
     "\/woocommerce\/checkout\/form-shipping.php" : {
@@ -4334,7 +4336,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/checkout\/form-shipping.php",
+      "oAP" : "\/woocommerce\/checkout\/form-shipping.php",
       "oF" : 0
     },
     "\/woocommerce\/checkout\/order-receipt.php" : {
@@ -4342,7 +4344,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/checkout\/order-receipt.php",
+      "oAP" : "\/woocommerce\/checkout\/order-receipt.php",
       "oF" : 0
     },
     "\/woocommerce\/checkout\/payment-method.php" : {
@@ -4350,7 +4352,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/checkout\/payment-method.php",
+      "oAP" : "\/woocommerce\/checkout\/payment-method.php",
       "oF" : 0
     },
     "\/woocommerce\/checkout\/payment.php" : {
@@ -4358,7 +4360,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/checkout\/payment.php",
+      "oAP" : "\/woocommerce\/checkout\/payment.php",
       "oF" : 0
     },
     "\/woocommerce\/checkout\/review-order.php" : {
@@ -4366,7 +4368,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/checkout\/review-order.php",
+      "oAP" : "\/woocommerce\/checkout\/review-order.php",
       "oF" : 0
     },
     "\/woocommerce\/checkout\/terms.php" : {
@@ -4374,7 +4376,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/checkout\/terms.php",
+      "oAP" : "\/woocommerce\/checkout\/terms.php",
       "oF" : 0
     },
     "\/woocommerce\/checkout\/thankyou.php" : {
@@ -4382,7 +4384,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/checkout\/thankyou.php",
+      "oAP" : "\/woocommerce\/checkout\/thankyou.php",
       "oF" : 0
     },
     "\/woocommerce\/global\/form-login.php" : {
@@ -4390,7 +4392,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/global\/form-login.php",
+      "oAP" : "\/woocommerce\/global\/form-login.php",
       "oF" : 0
     },
     "\/woocommerce\/global\/quantity-input.php" : {
@@ -4398,7 +4400,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/global\/quantity-input.php",
+      "oAP" : "\/woocommerce\/global\/quantity-input.php",
       "oF" : 0
     },
     "\/woocommerce\/loop\/add-to-cart.php" : {
@@ -4406,7 +4408,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/loop\/add-to-cart.php",
+      "oAP" : "\/woocommerce\/loop\/add-to-cart.php",
       "oF" : 0
     },
     "\/woocommerce\/loop\/orderby.php" : {
@@ -4414,7 +4416,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/loop\/orderby.php",
+      "oAP" : "\/woocommerce\/loop\/orderby.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/dashboard.php" : {
@@ -4422,7 +4424,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/myaccount\/dashboard.php",
+      "oAP" : "\/woocommerce\/myaccount\/dashboard.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/downloads.php" : {
@@ -4430,7 +4432,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/myaccount\/downloads.php",
+      "oAP" : "\/woocommerce\/myaccount\/downloads.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/form-add-payment-method.php" : {
@@ -4438,7 +4440,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/myaccount\/form-add-payment-method.php",
+      "oAP" : "\/woocommerce\/myaccount\/form-add-payment-method.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/form-edit-account.php" : {
@@ -4446,7 +4448,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/myaccount\/form-edit-account.php",
+      "oAP" : "\/woocommerce\/myaccount\/form-edit-account.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/form-edit-address.php" : {
@@ -4454,7 +4456,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/myaccount\/form-edit-address.php",
+      "oAP" : "\/woocommerce\/myaccount\/form-edit-address.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/form-login.php" : {
@@ -4462,7 +4464,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/myaccount\/form-login.php",
+      "oAP" : "\/woocommerce\/myaccount\/form-login.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/form-lost-password.php" : {
@@ -4470,7 +4472,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/myaccount\/form-lost-password.php",
+      "oAP" : "\/woocommerce\/myaccount\/form-lost-password.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/form-reset-password.php" : {
@@ -4478,7 +4480,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/myaccount\/form-reset-password.php",
+      "oAP" : "\/woocommerce\/myaccount\/form-reset-password.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/lost-password-confirmation.php" : {
@@ -4486,7 +4488,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/myaccount\/lost-password-confirmation.php",
+      "oAP" : "\/woocommerce\/myaccount\/lost-password-confirmation.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/my-account.php" : {
@@ -4494,7 +4496,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/myaccount\/my-account.php",
+      "oAP" : "\/woocommerce\/myaccount\/my-account.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/my-address.php" : {
@@ -4502,7 +4504,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/myaccount\/my-address.php",
+      "oAP" : "\/woocommerce\/myaccount\/my-address.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/my-downloads.php" : {
@@ -4510,7 +4512,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/myaccount\/my-downloads.php",
+      "oAP" : "\/woocommerce\/myaccount\/my-downloads.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/my-orders.php" : {
@@ -4518,7 +4520,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/myaccount\/my-orders.php",
+      "oAP" : "\/woocommerce\/myaccount\/my-orders.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/navigation.php" : {
@@ -4526,7 +4528,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/myaccount\/navigation.php",
+      "oAP" : "\/woocommerce\/myaccount\/navigation.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/orders.php" : {
@@ -4534,7 +4536,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/myaccount\/orders.php",
+      "oAP" : "\/woocommerce\/myaccount\/orders.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/payment-methods.php" : {
@@ -4542,7 +4544,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/myaccount\/payment-methods.php",
+      "oAP" : "\/woocommerce\/myaccount\/payment-methods.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/view-order.php" : {
@@ -4550,7 +4552,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/myaccount\/view-order.php",
+      "oAP" : "\/woocommerce\/myaccount\/view-order.php",
       "oF" : 0
     },
     "\/woocommerce\/product-searchform.php" : {
@@ -4558,7 +4560,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/product-searchform.php",
+      "oAP" : "\/woocommerce\/product-searchform.php",
       "oF" : 0
     },
     "\/woocommerce\/single-product-reviews.php" : {
@@ -4566,7 +4568,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/single-product-reviews.php",
+      "oAP" : "\/woocommerce\/single-product-reviews.php",
       "oF" : 0
     },
     "\/woocommerce\/single-product.php" : {
@@ -4574,7 +4576,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/single-product.php",
+      "oAP" : "\/woocommerce\/single-product.php",
       "oF" : 0
     },
     "\/woocommerce\/single-product\/add-to-cart\/simple.php" : {
@@ -4582,7 +4584,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/single-product\/add-to-cart\/simple.php",
+      "oAP" : "\/woocommerce\/single-product\/add-to-cart\/simple.php",
       "oF" : 0
     },
     "\/woocommerce\/single-product\/add-to-cart\/variation-add-to-cart-button.php" : {
@@ -4590,7 +4592,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/single-product\/add-to-cart\/variation-add-to-cart-button.php",
+      "oAP" : "\/woocommerce\/single-product\/add-to-cart\/variation-add-to-cart-button.php",
       "oF" : 0
     },
     "\/woocommerce\/single-product\/product-image.php" : {
@@ -4598,7 +4600,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/single-product\/product-image.php",
+      "oAP" : "\/woocommerce\/single-product\/product-image.php",
       "oF" : 0
     },
     "\/woocommerce\/single-product\/product-thumbnails.php" : {
@@ -4606,7 +4608,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/single-product\/product-thumbnails.php",
+      "oAP" : "\/woocommerce\/single-product\/product-thumbnails.php",
       "oF" : 0
     },
     "\/woocommerce\/single-product\/related.php" : {
@@ -4614,7 +4616,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/single-product\/related.php",
+      "oAP" : "\/woocommerce\/single-product\/related.php",
       "oF" : 0
     },
     "\/woocommerce\/single-product\/review.php" : {
@@ -4622,7 +4624,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/single-product\/review.php",
+      "oAP" : "\/woocommerce\/single-product\/review.php",
       "oF" : 0
     },
     "\/woocommerce\/single-product\/short-description.php" : {
@@ -4630,7 +4632,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/single-product\/short-description.php",
+      "oAP" : "\/woocommerce\/single-product\/short-description.php",
       "oF" : 0
     },
     "\/woocommerce\/single-product\/tabs\/additional-information.php" : {
@@ -4638,7 +4640,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/single-product\/tabs\/additional-information.php",
+      "oAP" : "\/woocommerce\/single-product\/tabs\/additional-information.php",
       "oF" : 0
     },
     "\/woocommerce\/single-product\/tabs\/description.php" : {
@@ -4646,7 +4648,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/single-product\/tabs\/description.php",
+      "oAP" : "\/woocommerce\/single-product\/tabs\/description.php",
       "oF" : 0
     },
     "\/woocommerce\/single-product\/tabs\/tabs.php" : {
@@ -4654,7 +4656,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/single-product\/tabs\/tabs.php",
+      "oAP" : "\/woocommerce\/single-product\/tabs\/tabs.php",
       "oF" : 0
     },
     "\/woocommerce\/single-product\/title.php" : {
@@ -4662,7 +4664,7 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/woocommerce\/single-product\/title.php",
+      "oAP" : "\/woocommerce\/single-product\/title.php",
       "oF" : 0
     }
   },
@@ -4682,7 +4684,7 @@
   "projectSettings" : {
     "abortBuildOnError" : 1,
     "allowInjectionReloads" : 1,
-    "alwaysUseExternalServer" : 1,
+    "alwaysUseExternalServer" : 0,
     "animateCSSInjections" : 1,
     "autoBuildNewItems" : 1,
     "autoprefixerEnableIEGrid" : 0,
@@ -4972,7 +4974,7 @@
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
     "buildEnvironment" : 0,
-    "buildFolderActive" : 1,
+    "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
     "environmentVariableEntries" : [
@@ -5932,7 +5934,7 @@
       }
     },
     "esLintSourceType" : 0,
-    "externalServerAddress" : "awl-together-leather.local",
+    "externalServerAddress" : "http:\/\/localhost:8888",
     "gitIgnoreBuildFolder" : 1,
     "hideConfigFile" : 0,
     "jsCheckerReservedNamesString" : "",
@@ -6563,7 +6565,7 @@
     "webpPresets" : {
 
     },
-    "websiteRelativeRoot" : "build"
+    "websiteRelativeRoot" : ""
   },
   "settingsFileVersion" : "3"
 }
