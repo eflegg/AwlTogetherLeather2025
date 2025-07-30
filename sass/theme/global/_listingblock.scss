@@ -1,0 +1,105 @@
+.block-container {
+  //   border: 2px solid orange;
+  align-items: center;
+  transform: translateX(-10%);
+  display: flex;
+  flex-direction: column;
+  // margin-bottom: 30px;
+  position: relative;
+  @include media-query-min($sm) {
+    // margin-bottom: 50px;
+  }
+  @include media-query-min($md) {
+    margin-bottom: 80px;
+    flex-direction: row;
+    transform: translateX(10%);
+  }
+  .block-image {
+    width: 300px;
+    height: 300px;
+    img {
+      object-fit: cover;
+      height: 100%;
+    }
+  }
+  .block-text {
+    box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.2);
+    position: relative;
+    left: 85px;
+    top: -90px;
+    @include media-query-min($md) {
+      left: -40px;
+      top: -20px;
+    }
+    width: 205px;
+    text-align: center;
+    background: rgba($cream, 0.8);
+    padding: 30px 15px;
+    p {
+      font-size: 16px;
+      line-height: 30px;
+    }
+    h3 {
+      font-family: $headerFont;
+    }
+  }
+}
+
+.listing-block--container {
+  margin-top: 50px;
+  @include media-query-min($sm) {
+    margin-top: 60px;
+  }
+  .block-outer {
+    @include media-query-min($sm) {
+      &:nth-child(even) {
+        position: relative;
+        top: -60px;
+      }
+    }
+  }
+}
+
+/// Access and Blog listing block ///
+
+.access-block--container {
+  border-bottom: 2px solid $grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  @include media-query-min($sm) {
+    padding: 30px;
+  }
+}
+.access-grid--container {
+  position: relative;
+  margin-bottom: 50px;
+  display: grid;
+  grid-gap: 10px;
+  grid-column-gap: 0px;
+  grid-template-columns: repeat(1);
+  @include media-query-min($sm) {
+    grid-template-columns: repeat(2, minmax(300px, 1fr));
+  }
+  grid-auto-rows: 33px;
+  .access-block--outer {
+    max-width: 100%;
+    &:last-child {
+      border-bottom: 0px;
+    }
+  }
+}
+
+.vertline {
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  border: 1px solid $grey;
+  display: none;
+  @include media-query-min($sm) {
+    display: block;
+  }
+}

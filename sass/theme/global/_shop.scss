@@ -1,0 +1,77 @@
+.woocommerce ul.products li.product a img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 0 1em;
+  box-shadow: none;
+  border-radius: 50%;
+}
+
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+  text-align: center;
+}
+.wcpscwc-product-slider .products li {
+  padding: 0 25px !important;
+}
+.add-to-cart-container {
+  display: none;
+}
+.section--shop-slider {
+  padding: 50px 0;
+  a {
+    margin: 0 auto;
+    button {
+      margin: 0 auto;
+    }
+  }
+}
+
+.related .products {
+  // border: 2px solid salmon;
+  .product .price {
+    margin: 0;
+  }
+}
+
+.product > section {
+  display: flex !important;
+  width: 100%;
+  flex-direction: column;
+  // border: 2px solid goldenrod;
+  padding-top: 50px;
+}
+.price {
+  color: $grey !important;
+  font-size: 20px !important;
+  font-weight: 200;
+  margin: 25px 0;
+}
+
+.woocommerce div.product form.cart div.quantity {
+  float: clear;
+  margin: 15px 0;
+  input {
+    height: 30px;
+    background: $cream;
+    border-radius: 20px;
+    border: 1px solid $grey;
+    width: 50px;
+  }
+}
+
+.woocommerce-loop-product__title {
+  display: flex;
+  flex-direction: column;
+  &:after {
+    content: "";
+    border-bottom: 2px solid $grey;
+    width: 30px;
+    margin: 0 auto;
+  }
+}
+
+.woocommerce div.product form.cart {
+  display: flex;
+  flex-direction: column;
+}
