@@ -14,7 +14,7 @@ Template Name: Contact Page
 </div>
 
 <div class="layout-container row">
-    <div class="contact-left col-12 col-md-6 p-5">
+    <div class="contact-left col-12  p-5">
         <?php
         $contactAppt = get_field('contact_appointment');
         $apptText = $contactAppt['book_appointment_text'];
@@ -52,11 +52,19 @@ Template Name: Contact Page
             <p><?php echo $contactEmail; ?></p>
             <?php endif; ?>
         </div>
+        <a
+                        
+                        href="mailto:info@awltogetherleather.ca">
+                        <div class="btn--primary">
+                                Email us
+                            </div>
+                            </a>
     </div>
-    <div class="contact-right col-12 col-md-6">
+  
+    <!-- <div class="contact-right col-12 col-md-6">
   
     
-    </div>
+    </div> -->
 
 </div>
 
