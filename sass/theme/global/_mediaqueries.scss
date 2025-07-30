@@ -1,32 +1,33 @@
-@mixin media-query-min($value, $operator: 'min-width', $query: 'screen') {
-    @media #{$query} and (#{$operator}: #{$value}) {
-        @content;
-    }
+@mixin media-query-min($value, $operator: "min-width", $query: "screen") {
+  @media #{$query} and (#{$operator}: #{$value}) {
+    @content;
+  }
 }
 
-
 // @mixin media-query-max($value, $operator: 'max-width', $query: 'screen') {
-    //     @media #{$query} and (#{$operator}: #{$value}) {
-    //         @content;
-    //     }
-    // }
+//     @media #{$query} and (#{$operator}: #{$value}) {
+//         @content;
+//     }
+// }
 
 /*these are the css media query break points
  */
-$xs:400px;
-$sm:724px;
-$md:1000px;
-$lg:1250px;
-$xl:1700px;
-$xxl:2100px;
+$xs: 400px;
+$sm: 768px;
+$md: 1000px;
+$lg: 1250px;
+$xl: 1700px;
+$xxl: 2100px;
 
 //overriding bootstrap breaks for classes
 
-$grid-breakpoints: (xs: 0,
-    sm: 576px,
-    md: 724px,
-    lg: 1000px,
-    xl: 1250px) !default;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 724px,
+  lg: 1000px,
+  xl: 1250px,
+) !default;
 
 /* ##usage##
     @include media-query-min(500px) {

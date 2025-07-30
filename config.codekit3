@@ -33,6 +33,14 @@
       "oAP" : "\/author.php",
       "oF" : 0
     },
+    "\/build\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/.gitignore",
+      "oF" : 0
+    },
     "\/build\/404.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -129,6 +137,30 @@
       "oAP" : "\/build\/composer.lock",
       "oF" : 0
     },
+    "\/build\/css\/custom-editor-style-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/css\/custom-editor-style-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/build\/css\/custom-editor-style.min-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/css\/custom-editor-style.min-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/build\/css\/custom-editor-style.min.css.map" : {
       "cB" : 0,
       "ft" : 8192,
@@ -218,6 +250,30 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/build\/css\/theme-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/css\/theme-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/build\/css\/theme.min-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/css\/theme.min-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/build\/css\/theme.min.css.map" : {
       "cB" : 0,
       "ft" : 8192,
@@ -250,6 +306,17 @@
       "oAP" : "\/build\/footer.php",
       "oF" : 0
     },
+    "\/build\/gulpfile-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/gulpfile-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/build\/images\/svg-arrow.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -259,6 +326,29 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/build\/inc\/style-wpcom-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/inc\/style-wpcom-min-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/build\/js\/customizer-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/js\/customizer-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/build\/js\/imakewebthings-waypoints-latest-0-g34d9f6d (1).zip" : {
       "cB" : 0,
@@ -275,6 +365,28 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/build\/js\/noframework.waypoints.min-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/build\/js\/theme-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/js\/theme-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/build\/js\/theme.min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/js\/theme.min-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -822,6 +934,20 @@
       "oAP" : "\/build\/LICENSE.html",
       "oF" : 0
     },
+    "\/build\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/build\/node_modules",
+      "oF" : 0
+    },
+    "\/build\/page-contact.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/page-contact.php",
+      "oF" : 0
+    },
     "\/build\/README.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -829,6 +955,158 @@
       "oA" : 0,
       "oAP" : "\/build\/README.html",
       "oF" : 0
+    },
+    "\/build\/sass\/custom-editor-style.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/sass\/custom-editor-style-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/build\/sass\/theme.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/sass\/theme-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/build\/screenshot.png" : {
+      "ft" : 32768,
+      "iS" : 1115469,
+      "oA" : 0,
+      "oAP" : "\/build\/screenshot.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/build\/src\/js\/bootstrap4\/bootstrap-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/js\/bootstrap4\/bootstrap-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/build\/src\/js\/bootstrap4\/bootstrap.bundle-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/js\/bootstrap4\/bootstrap.bundle-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/build\/src\/js\/bootstrap4\/bootstrap.bundle.min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/js\/bootstrap4\/bootstrap.bundle.min-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/build\/src\/js\/bootstrap4\/bootstrap.min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/js\/bootstrap4\/bootstrap.min-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/build\/src\/js\/skip-link-focus-fix-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/js\/skip-link-focus-fix-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/build\/src\/sass\/bootstrap4\/bootstrap-grid.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/sass\/bootstrap4\/bootstrap-grid-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/build\/src\/sass\/bootstrap4\/bootstrap-reboot.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/sass\/bootstrap4\/bootstrap-reboot-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/build\/src\/sass\/bootstrap4\/bootstrap.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/sass\/bootstrap4\/bootstrap-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/build\/src\/sass\/fontawesome\/font-awesome.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/src\/sass\/fontawesome\/font-awesome-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/build\/style-min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/style-min-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/CHANGELOG.md" : {
       "cB" : 0,
@@ -855,6 +1133,46 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/comments.php",
+      "oF" : 0
+    },
+    "\/components\/blogAccess-listing.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/components\/blogAccess-listing.php",
+      "oF" : 0
+    },
+    "\/components\/button.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/components\/button.php",
+      "oF" : 0
+    },
+    "\/components\/faq-block.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/components\/faq-block.php",
+      "oF" : 0
+    },
+    "\/components\/home-banner.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/components\/home-banner.php",
+      "oF" : 0
+    },
+    "\/components\/home-hero.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/components\/home-hero.php",
       "oF" : 0
     },
     "\/components\/image.php" : {
@@ -921,6 +1239,87 @@
       "oAP" : "\/css\/custom-editor-style.min.css.map",
       "oF" : 0
     },
+    "\/css\/fonts\/Alstoria-Regular.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/fonts\/Alstoria-Regular.otf",
+      "oF" : 0
+    },
+    "\/css\/fonts\/Alstoria-Regular.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/fonts\/Alstoria-Regular.ttf",
+      "oF" : 0
+    },
+    "\/css\/fonts\/fontawesome-webfont.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/fonts\/fontawesome-webfont.eot",
+      "oF" : 0
+    },
+    "\/css\/fonts\/fontawesome-webfont.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/css\/fonts\/fontawesome-webfont.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/css\/fonts\/fontawesome-webfont.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/fonts\/fontawesome-webfont.ttf",
+      "oF" : 0
+    },
+    "\/css\/fonts\/fontawesome-webfont.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/fonts\/fontawesome-webfont.woff",
+      "oF" : 0
+    },
+    "\/css\/fonts\/fontawesome-webfont.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/fonts\/fontawesome-webfont.woff2",
+      "oF" : 0
+    },
+    "\/css\/images\/svg-arrow.png" : {
+      "ft" : 32768,
+      "iS" : 131652,
+      "oA" : 0,
+      "oAP" : "\/css\/images\/svg-arrow.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/css\/images\/svg-arrow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/css\/images\/svg-arrow.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/css\/theme.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -951,6 +1350,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/css\/theme.min.css.map",
+      "oF" : 0
+    },
+    "\/fonts\/Alstoria-Regular.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/Alstoria-Regular.otf",
+      "oF" : 0
+    },
+    "\/fonts\/Alstoria-Regular.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/Alstoria-Regular.ttf",
       "oF" : 0
     },
     "\/fonts\/fontawesome-webfont.eot" : {
@@ -1061,6 +1476,16 @@
       "oA" : 0,
       "oAP" : "\/header.php",
       "oF" : 0
+    },
+    "\/images\/svg-arrow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/svg-arrow.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/inc\/class-wp-bootstrap-navwalker.php" : {
       "cB" : 0,
@@ -1229,6 +1654,25 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/js\/imakewebthings-waypoints-latest-0-g34d9f6d (1).zip" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/imakewebthings-waypoints-latest-0-g34d9f6d (1).zip",
+      "oF" : 0
+    },
+    "\/js\/noframework.waypoints.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/noframework.waypoints.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/js\/theme.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -1250,6 +1694,606 @@
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/js\/waypoints-custom.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints-custom-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/.eslintrc" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/js\/waypoints\/.eslintrc",
+      "oF" : 0
+    },
+    "\/js\/waypoints\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/.gitignore",
+      "oF" : 0
+    },
+    "\/js\/waypoints\/.travis.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/.travis.yml",
+      "oF" : 0
+    },
+    "\/js\/waypoints\/bower.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/js\/waypoints\/bower-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/js\/waypoints\/CHANGELOG.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/CHANGELOG.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/js\/waypoints\/CONTRIBUTING.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/CONTRIBUTING.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/js\/waypoints\/gulpfile.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/gulpfile-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/lib\/jquery.waypoints.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/lib\/jquery.waypoints-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/lib\/jquery.waypoints.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/lib\/jquery.waypoints.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/lib\/noframework.waypoints.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/lib\/noframework.waypoints-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/lib\/noframework.waypoints.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/lib\/noframework.waypoints.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/lib\/shortcuts\/infinite.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/lib\/shortcuts\/infinite-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/lib\/shortcuts\/infinite.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/lib\/shortcuts\/infinite.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/lib\/shortcuts\/inview.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/lib\/shortcuts\/inview-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/lib\/shortcuts\/inview.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/lib\/shortcuts\/inview.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/lib\/shortcuts\/sticky.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/lib\/shortcuts\/sticky-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/lib\/shortcuts\/sticky.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/lib\/shortcuts\/sticky.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/lib\/waypoints.debug.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/lib\/waypoints.debug-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/lib\/zepto.waypoints.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/lib\/zepto.waypoints-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/lib\/zepto.waypoints.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/lib\/zepto.waypoints.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/licenses.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/licenses.txt",
+      "oF" : 0
+    },
+    "\/js\/waypoints\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/js\/waypoints\/package-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/js\/waypoints\/README.md" : {
+      "cB" : 0,
+      "cS" : 0,
+      "eF" : 1,
+      "eL" : 1,
+      "ema" : 1,
+      "eSQ" : 1,
+      "ft" : 4096,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/README.html",
+      "oF" : 0,
+      "oFM" : 0,
+      "oS" : 0,
+      "pHT" : 0,
+      "pME" : 1,
+      "rFN" : 0,
+      "uCM" : 0
+    },
+    "\/js\/waypoints\/src\/adapters\/jquery-zepto-fn-extension.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/src\/adapters\/jquery-zepto-fn-extension-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/src\/adapters\/jquery.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/src\/adapters\/jquery-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/src\/adapters\/noframework.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/src\/adapters\/noframework-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/src\/adapters\/zepto.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/src\/adapters\/zepto-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/src\/context.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/src\/context-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/src\/debug.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/src\/debug-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/src\/group.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/src\/group-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/src\/shortcuts\/infinite.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/src\/shortcuts\/infinite-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/src\/shortcuts\/inview.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/src\/shortcuts\/inview-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/src\/shortcuts\/sticky.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/src\/shortcuts\/sticky-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/src\/waypoint.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/src\/waypoint-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/test\/adapter-fn-spec.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/adapter-fn-spec-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/test\/context-spec.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/context-spec-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/test\/debug-spec.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/debug-spec-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/test\/fixtures\/infinite.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/fixtures\/infinite.html",
+      "oF" : 0
+    },
+    "\/js\/waypoints\/test\/fixtures\/standard.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/fixtures\/standard.html",
+      "oF" : 0
+    },
+    "\/js\/waypoints\/test\/fixtures\/sticky.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/fixtures\/sticky.html",
+      "oF" : 0
+    },
+    "\/js\/waypoints\/test\/group-spec.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/group-spec-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/test\/infinite-spec.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/infinite-spec-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/test\/inview-spec.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/inview-spec-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/test\/lib\/coffee-script.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/lib\/coffee-script-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/test\/lib\/jasmine-html.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/lib\/jasmine-html-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/test\/lib\/jasmine-jquery.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/lib\/jasmine-jquery-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/test\/lib\/jasmine.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/lib\/jasmine-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/js\/waypoints\/test\/lib\/jasmine.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/lib\/jasmine-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/test\/lib\/require.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/lib\/require-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/test\/lib\/testloader.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/lib\/testloader-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/test\/settings.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/settings-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/test\/sticky-spec.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/sticky-spec-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/test\/waypoint-spec.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/waypoints\/test\/waypoint-spec-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/waypoints\/testem.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/js\/waypoints\/testem-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
     },
     "\/languages\/de_DE_formal.mo" : {
       "cB" : 0,
@@ -1660,12 +2704,84 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/page-about.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-about.php",
+      "oF" : 0
+    },
+    "\/page-accessibility.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-accessibility.php",
+      "oF" : 0
+    },
+    "\/page-blog.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-blog.php",
+      "oF" : 0
+    },
+    "\/page-careers.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-careers.php",
+      "oF" : 0
+    },
+    "\/page-collaborations.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-collaborations.php",
+      "oF" : 0
+    },
+    "\/page-contact.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-contact.php",
+      "oF" : 0
+    },
+    "\/page-faqs.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-faqs.php",
+      "oF" : 0
+    },
     "\/page-home.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/page-home.php",
+      "oF" : 0
+    },
+    "\/page-landing.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-landing.php",
+      "oF" : 0
+    },
+    "\/page-services.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-services.php",
       "oF" : 0
     },
     "\/page-templates\/blank.php" : {
@@ -1863,6 +2979,110 @@
       "oS" : 0,
       "pg" : 0
     },
+    "\/sass\/theme\/global\/_about.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/global\/_about.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/global\/_alstoria.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/global\/_alstoria.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/global\/_animations.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/global\/_animations.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/global\/_blog.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/global\/_blog.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/global\/_careers.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/global\/_careers.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/global\/_contact.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/global\/_contact.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/global\/_footer.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/global\/_footer.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/global\/_globals.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/global\/_globals.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
     "\/sass\/theme\/global\/_home.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1872,6 +3092,45 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/sass\/theme\/global\/_home.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/global\/_infinity-woocommerce.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/global\/_infinity-woocommerce.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/global\/_landingpage.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/global\/_landingpage.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/global\/_listingblock.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/global\/_listingblock.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1889,7 +3148,7 @@
       "oS" : 0,
       "pg" : 0
     },
-    "\/sass\/theme\/global\/_recipe.scss" : {
+    "\/sass\/theme\/global\/_navigation.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1897,7 +3156,33 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/sass\/theme\/global\/_recipe.css",
+      "oAP" : "\/sass\/theme\/global\/_navigation.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/global\/_services.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/global\/_services.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/global\/_shop.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/global\/_shop.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -1924,6 +3209,448 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/sass\/theme\/global\/_variables.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/global\/_woocustom.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/global\/_woocustom.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/_base.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/_base.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/hamburgers.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/hamburgers.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_3dx-r.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_3dx-r.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_3dx.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_3dx.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_3dxy-r.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_3dxy-r.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_3dxy.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_3dxy.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_3dy-r.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_3dy-r.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_3dy.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_3dy.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_arrow-r.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_arrow-r.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_arrow.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_arrow.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_arrowalt-r.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_arrowalt-r.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_arrowalt.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_arrowalt.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_arrowturn-r.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_arrowturn-r.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_arrowturn.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_arrowturn.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_boring.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_boring.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_collapse-r.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_collapse-r.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_collapse.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_collapse.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_elastic-r.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_elastic-r.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_elastic.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_elastic.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_emphatic-r.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_emphatic-r.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_emphatic.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_emphatic.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_minus.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_minus.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_slider-r.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_slider-r.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_slider.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_slider.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_spin-r.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_spin-r.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_spin.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_spin.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_spring-r.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_spring-r.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_spring.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_spring.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_squeeze.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_squeeze.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_stand-r.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_stand-r.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_stand.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_stand.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_vortex-r.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_vortex-r.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/sass\/theme\/hamburgers\/types\/_vortex.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/sass\/theme\/hamburgers\/types\/_vortex.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0
@@ -2039,12 +3766,44 @@
       "oAP" : "\/sidebar.php",
       "oF" : 0
     },
+    "\/single-careers.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/single-careers.php",
+      "oF" : 0
+    },
+    "\/single-collaboration.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/single-collaboration.php",
+      "oF" : 0
+    },
+    "\/single-collaborations.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/single-collaborations.php",
+      "oF" : 0
+    },
     "\/single-recipe.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/single-recipe.php",
+      "oF" : 0
+    },
+    "\/single-services.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/single-services.php",
       "oF" : 0
     },
     "\/single.php" : {
@@ -2095,6 +3854,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/src\/js\/bootstrap4\/bootstrap.min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/js\/custom-javascript.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/src\/js\/custom-javascript-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -3500,6 +5270,14 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/woocommerce\/archive-product.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/archive-product.php",
+      "oF" : 0
+    },
     "\/woocommerce\/cart\/cart-empty.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3508,12 +5286,44 @@
       "oAP" : "\/woocommerce\/cart\/cart-empty.php",
       "oF" : 0
     },
+    "\/woocommerce\/cart\/cart-item-data.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/cart\/cart-item-data.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/cart\/cart-shipping.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/cart\/cart-shipping.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/cart\/cart-totals.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/cart\/cart-totals.php",
+      "oF" : 0
+    },
     "\/woocommerce\/cart\/cart.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/woocommerce\/cart\/cart.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/cart\/cross-sells.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/cart\/cross-sells.php",
       "oF" : 0
     },
     "\/woocommerce\/cart\/mini-cart.php" : {
@@ -3532,6 +5342,30 @@
       "oAP" : "\/woocommerce\/cart\/proceed-to-checkout-button.php",
       "oF" : 0
     },
+    "\/woocommerce\/cart\/shipping-calculator.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/cart\/shipping-calculator.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/checkout\/cart-errors.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/checkout\/cart-errors.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/checkout\/form-billing.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/checkout\/form-billing.php",
+      "oF" : 0
+    },
     "\/woocommerce\/checkout\/form-checkout.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3548,6 +5382,14 @@
       "oAP" : "\/woocommerce\/checkout\/form-coupon.php",
       "oF" : 0
     },
+    "\/woocommerce\/checkout\/form-login.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/checkout\/form-login.php",
+      "oF" : 0
+    },
     "\/woocommerce\/checkout\/form-pay.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -3556,12 +5398,60 @@
       "oAP" : "\/woocommerce\/checkout\/form-pay.php",
       "oF" : 0
     },
+    "\/woocommerce\/checkout\/form-shipping.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/checkout\/form-shipping.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/checkout\/order-receipt.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/checkout\/order-receipt.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/checkout\/payment-method.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/checkout\/payment-method.php",
+      "oF" : 0
+    },
     "\/woocommerce\/checkout\/payment.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/woocommerce\/checkout\/payment.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/checkout\/review-order.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/checkout\/review-order.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/checkout\/terms.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/checkout\/terms.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/checkout\/thankyou.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/checkout\/thankyou.php",
       "oF" : 0
     },
     "\/woocommerce\/global\/form-login.php" : {
@@ -3596,12 +5486,28 @@
       "oAP" : "\/woocommerce\/loop\/orderby.php",
       "oF" : 0
     },
+    "\/woocommerce\/myaccount\/dashboard.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/myaccount\/dashboard.php",
+      "oF" : 0
+    },
     "\/woocommerce\/myaccount\/downloads.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/woocommerce\/myaccount\/downloads.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/myaccount\/form-add-payment-method.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/myaccount\/form-add-payment-method.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/form-edit-account.php" : {
@@ -3644,12 +5550,36 @@
       "oAP" : "\/woocommerce\/myaccount\/form-reset-password.php",
       "oF" : 0
     },
+    "\/woocommerce\/myaccount\/lost-password-confirmation.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/myaccount\/lost-password-confirmation.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/myaccount\/my-account.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/myaccount\/my-account.php",
+      "oF" : 0
+    },
     "\/woocommerce\/myaccount\/my-address.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/woocommerce\/myaccount\/my-address.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/myaccount\/my-downloads.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/myaccount\/my-downloads.php",
       "oF" : 0
     },
     "\/woocommerce\/myaccount\/my-orders.php" : {
@@ -3676,12 +5606,44 @@
       "oAP" : "\/woocommerce\/myaccount\/orders.php",
       "oF" : 0
     },
+    "\/woocommerce\/myaccount\/payment-methods.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/myaccount\/payment-methods.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/myaccount\/view-order.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/myaccount\/view-order.php",
+      "oF" : 0
+    },
     "\/woocommerce\/product-searchform.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/woocommerce\/product-searchform.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/single-product-reviews.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/single-product-reviews.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/single-product.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/single-product.php",
       "oF" : 0
     },
     "\/woocommerce\/single-product\/add-to-cart\/simple.php" : {
@@ -3698,6 +5660,78 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/woocommerce\/single-product\/add-to-cart\/variation-add-to-cart-button.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/single-product\/product-image.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/single-product\/product-image.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/single-product\/product-thumbnails.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/single-product\/product-thumbnails.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/single-product\/related.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/single-product\/related.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/single-product\/review.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/single-product\/review.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/single-product\/short-description.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/single-product\/short-description.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/single-product\/tabs\/additional-information.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/single-product\/tabs\/additional-information.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/single-product\/tabs\/description.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/single-product\/tabs\/description.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/single-product\/tabs\/tabs.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/single-product\/tabs\/tabs.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/single-product\/title.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/single-product\/title.php",
       "oF" : 0
     }
   },

@@ -1,0 +1,219 @@
+.btn--primary,
+button[type="submit"] {
+  border: 3px solid $coral;
+  color: $grey;
+  display: table;
+  background: transparent;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 18px;
+  transition: all 0.25s ease-in-out;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.2);
+
+  a {
+    font-family: $bodyFont;
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      text-decoration: none !important;
+    }
+  }
+  &:hover {
+    border: 3px solid $coral;
+    background: $coral;
+    transition: all 0.25s ease-in-out;
+    color: $cream !important;
+    a {
+      text-decoration: none !important;
+      color: $cream !important;
+      transition: all 0.25s ease-in-out;
+    }
+  }
+
+  &.btn--filled {
+    background: $coral;
+    color: $cream;
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      transition: all 0.25s ease-in-out;
+      background: transparent;
+      border: 3px solid transparent;
+    }
+  }
+}
+.wp-block-button__link {
+  background-color: transparent;
+  border-radius: 0px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.125em;
+  padding: 0px;
+}
+.btn--nav {
+  padding: 5px 15px;
+  font-size: 16px;
+  margin-bottom: 0;
+  background: rgba($cream, 0.5);
+  border: 2px solid $coral;
+  font-family: $bodyFont;
+}
+.btn-secondary {
+  &:hover {
+    border-color: $coral;
+  }
+}
+.btn--text {
+  justify-content: flex-end;
+  align-items: center;
+  i {
+    font-size: 35px;
+    display: flex;
+    position: relative;
+    left: 0;
+    padding-bottom: 5px;
+    transition: all 0.15s ease-in-out;
+  }
+  &:hover {
+    i {
+      left: 15px;
+      transition: all 0.15s ease-in-out;
+    }
+  }
+  .btn--primary {
+    border: 0px !important;
+    font-size: 25px !important;
+    margin: 0px;
+
+    box-shadow: none;
+
+    &:hover {
+      border: 0px;
+      background: $cream;
+      transition: all 0.15s ease-in-out;
+      color: $grey !important;
+
+      a {
+        text-decoration: none !important;
+        color: $grey !important;
+      }
+    }
+  }
+}
+.btn--filled {
+  .btn--primary {
+    background: $coral;
+    color: $cream !important;
+    a {
+      color: $cream !important;
+    }
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      transition: all 0.25s ease-in-out;
+      background: transparent;
+      border: 3px solid $green;
+    }
+  }
+}
+.btn--back {
+  h3 {
+    margin-left: 25px;
+    margin-top: 5px;
+  }
+}
+
+.page-title {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  @include media-query-min($sm) {
+    flex-direction: row;
+    align-items: center;
+    margin-right: 65px;
+    margin-bottom: 40px;
+  }
+  hr {
+    border-color: $grey;
+    border: 1px solid;
+    width: 35%;
+    margin-right: auto;
+    margin-left: 0;
+    @include media-query-min($sm) {
+      margin-left: auto;
+    }
+  }
+}
+
+.mat-drawer-container {
+  background: $cream !important;
+}
+.mat-toolbar-row,
+.mat-toolbar-single-row {
+  background: $green;
+  font-family: $bodyFont;
+}
+
+.geelus--custom-container {
+  text-align: center;
+  margin-top: 60px;
+  width: 320px;
+  margin: 0 auto;
+  text-align: center;
+  @include media-query-min($xs) {
+    width: 100%;
+  }
+  @include media-query-min($sm) {
+    width: 80%;
+  }
+}
+
+.custom-search {
+  input {
+    :focus {
+      outline: none;
+    }
+    height: 40px;
+    border-radius: 25px;
+    border: 2px solid $grey;
+    background: $cream;
+    padding-left: 15px;
+    font-size: 16px;
+    color: $grey;
+    &.submit {
+      background: $green;
+      font-family: $bodyFont;
+      padding-left: 10px;
+      &:hover {
+        background: $coral;
+        border: 2px solid $grey;
+      }
+    }
+  }
+}
+
+.col-2 {
+  max-width: 90% !important;
+  @include media-query-min($sm) {
+    max-width: 48% !important;
+  }
+  margin: 25px 0;
+}
+.col-1 {
+  max-width: 90% !important;
+  margin: 25px 0;
+}
+
+.home-banner--container {
+  z-index: 99;
+  background: $coral;
+  font-weight: 400;
+  p {
+    color: $cream;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 10px;
+  }
+  box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.2);
+}

@@ -13,16 +13,20 @@ defined( 'ABSPATH' ) || exit;
 
 	<header class="entry-header">
 
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		
+		<div class="pl-5 page-title title text-left d-flex">
+    <h1><?php the_title( '' );?></h1>
+    <hr>
+	</div>
 
 	</header><!-- .entry-header -->
 
 	<?php echo get_the_post_thumbnail( $post->ID, 'large' ); ?>
 
-	<div class="entry-content">
+	<div class="entry-content layout-container">
 
 		<?php the_content(); ?>
-
+	
 		<?php
 		wp_link_pages(
 			array(
@@ -34,10 +38,10 @@ defined( 'ABSPATH' ) || exit;
 
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
+	<!-- <footer class="entry-footer">
 
 		<?php edit_post_link( __( 'Edit', 'understrap' ), '<span class="edit-link">', '</span>' ); ?>
 
-	</footer><!-- .entry-footer -->
+	</footer>.entry-footer -->
 
 </article><!-- #post-## -->

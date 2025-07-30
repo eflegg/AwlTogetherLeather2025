@@ -1,27 +1,48 @@
+<a href=<?php the_permalink(); ?>><div class="block-container content">
+    <div class="block-image">
+
+    <?php echo get_the_post_thumbnail();?>
+    </div>
+    <div class="block-text">
+    <?php
+    $serviceTitle = get_field('service_title');
+    if($serviceTitle):?>
+        <h3><?php echo $serviceTitle; ?></h3>
+    <?php endif; ?>
+    
+    <?php
+    $collabTitle = get_field('collaboration_title');
+    if($collabTitle):?>
+    <h3><?php echo $collabTitle; ?></h3>
+    <?php endif; ?>
+
+    <?php
+    $jobTitle = get_field('job_title');
+    if($jobTitle):?>
+        <h3><?php echo $jobTitle; ?></h3>
+    <?php endif; ?>
+        <?php
+        $listingExcerpt = get_field('listing_excerpt');
+        if($listingExcerpt):?>
+            <p><?php echo $listingExcerpt; ?></p>
+        <?php endif; ?>
+
+        <?php
+        $jobExcerpt = get_field('job_excerpt');
+        if($jobExcerpt):?>
+            <p><?php echo $jobExcerpt; ?></p>
+        <?php endif; ?>
+
+        <?php
+        $collabExcerpt = get_field('collab_listing_excerpt');
+        if($collabExcerpt):?>
+            <p><?php echo $collabExcerpt; ?></p>
+        <?php endif; ?>
+
+    </div>
+</div>
+</a>
 
 
 
-<?php
-$recipeHeader = get_field('recipe_header');
-if ($recipeHeader): ?>
-<div class="col-12 col-sm-6 col-md-4 container--recipes__single">
-<?php
-$image = $recipeHeader['image'];
-if ($image): ?>
-  <a href="<?php the_permalink();?>">
-        <?php include "image.php";?>
-        </a>
-    <?php endif;?>
-<?php
-$recipeTitle = $recipeHeader['recipe_title'];
-if ($recipeTitle): ?>
 
-            <!-- <img src="http://localhost:8888/whatsfordinner/wp-content/uploads/2020/03/147735EMfl120212-R1-005-2-scaled.jpg" alt=""> -->
-            <a href="<?php the_permalink();?>">
-            <h3 class="mt-3"><?php echo $recipeTitle; ?></h3>
-            </a>
-    <?php endif;?>
-
-        </div>
-
-        <?php endif;?>

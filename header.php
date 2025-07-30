@@ -18,7 +18,11 @@ $container = get_theme_mod('understrap_container_type');
 	<meta charset="<?php bloginfo('charset');?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<link href="https://fonts.googleapis.com/css?family=Gotu|Open+Sans:300|Raleway&display=swap" rel="stylesheet">
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
+	
+	
 
 	<?php wp_head();?>
 </head>
@@ -26,13 +30,18 @@ $container = get_theme_mod('understrap_container_type');
 <body <?php body_class();?> <?php understrap_body_attributes();?>>
 <?php do_action('wp_body_open');?>
 <div class="site" id="page">
-
+	
+	<?php 
+		$homeBanner = get_field('header_banner', 'option');
+		if($homeBanner === "Yes"):?>
+		<?php include 'components/home-banner.php';?>
+		<?php endif; ?>
 	<!-- ******************* The Navbar Area ******************* -->
 	<div id="wrapper-navbar">
 
 		<a class="skip-link sr-only sr-only-focusable" href="#content"><?php esc_html_e('Skip to content', 'understrap');?></a>
 
-		<nav id="main-nav" class="navbar navbar-expand-md navbar-dark bg-primary" aria-labelledby="main-nav-label">
+		<nav id="main-nav" class="navbar navbar-expand-xxl navbar-dark bg-primary" aria-labelledby="main-nav-label">
 
 			<h2 id="main-nav-label" class="sr-only">
 				<?php esc_html_e('Main Navigation', 'understrap');?>
@@ -41,6 +50,9 @@ $container = get_theme_mod('understrap_container_type');
 		<?php if ('container' === $container): ?>
 			<div class="container">
 		<?php endif;?>
+		<div class="nav-left d-flex align-items-center">
+
+		
 
 					<!-- Your site title as branding in the menu -->
 					<?php if (!has_custom_logo()) {?>
@@ -56,26 +68,73 @@ $container = get_theme_mod('understrap_container_type');
 						<?php endif;?>
 
 					<?php } else {
-    the_custom_logo();
-}?><!-- end custom logo -->
+						the_custom_logo();
+					}?><!-- end custom logo -->
 
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'understrap');?>">
+				<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'understrap');?>">
 					<span class="navbar-toggler-icon"></span>
+				</button> -->
+
+					<div class="search-field--custom d-flex">
+						<?php get_search_form(); ?>
+						<ion-icon name="search-outline" size="large"></ion-icon>
+					</div>
+				</div><!-- end nav-left -->
+
+				<div class="nav-right d-flex align-items-center">
+
+					<?php
+					$buttonText = get_field('header_button_text', 'option');
+					$buttonLink = get_field('header_button_link', 'option');
+					if($buttonText && $buttonLink):?>
+				
+		
+                            <div class="btn--primary btn--nav ">
+									<a
+									
+									href="<?php echo $buttonLink; ?>">
+									<?php echo $buttonText; ?>
+								</a>
+					</div>
+								<?php endif; ?>
+			
+   
+      
+ 
+
+
+				
+
+
+				<!-- <div class="btn--primary btn--nav ">
+					Book Appt
+				</div> -->
+				<div class="mini-cart ">
+				<a href=<?php echo wc_get_cart_url();?> title="View your shopping cart"><ion-icon name="cart-outline" size="large"></ion-icon> <?php WC()->cart->get_cart_total();?> </a>
+				<span class="cart-count"> <?php WC()->cart->cart_contents_count;?> </span>
+				</div>
+				<button id="hamburger" class="navbar-toggler hamburger hamburger--collapse"  type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e('Toggle navigation', 'understrap');?>">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
 				</button>
+				
+
+				</div><!-- end nav-right -->
 
 				<!-- The WordPress Menu goes here -->
 				<?php wp_nav_menu(
-    array(
-        'theme_location' => 'primary',
-        'container_class' => 'collapse navbar-collapse',
-        'container_id' => 'navbarNavDropdown',
-        'menu_class' => 'navbar-nav ml-auto',
-        'fallback_cb' => '',
-        'menu_id' => 'main-menu',
-        'depth' => 2,
-        'walker' => new Understrap_WP_Bootstrap_Navwalker(),
-    )
-);?>
+					array(
+						'theme_location' => 'primary',
+						'container_class' => 'collapse navbar-collapse',
+						'container_id' => 'navbarNavDropdown',
+						'menu_class' => 'navbar-nav ml-auto',
+						'fallback_cb' => '',
+						'menu_id' => 'main-menu',
+						'depth' => 2,
+						'walker' => new Understrap_WP_Bootstrap_Navwalker(),
+					)
+				);?>
 			<?php if ('container' === $container): ?>
 			</div><!-- .container -->
 			<?php endif;?>

@@ -1,0 +1,88 @@
+.landing--outer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: $coral;
+  // height: 100vh;
+  // min-height: 700px;
+  h1,
+  h2,
+  p,
+  label {
+    color: $grey;
+  }
+  .layout-container {
+    background: $green;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: $green;
+    height: 100%;
+  }
+  .landing--inner {
+    .landing-text--container {
+      display: flex;
+      align-items: center;
+    }
+    width: 80%;
+    margin: 0 auto;
+    h2 {
+      margin: 40px 0;
+    }
+    .landing-image {
+      width: 600px;
+    }
+  }
+}
+.landing--arrow {
+  width: 25%;
+}
+
+.landing-signup-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  @include media-query-min($sm) {
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  label {
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  input {
+    border-radius: 25px;
+    padding: 5px 10px;
+  }
+  .btn--filled {
+    margin-left: 10px !important;
+  }
+}
+
+.page-template-page-landing-php {
+  .navbar,
+  footer,
+  .home-banner--container {
+    display: none !important;
+  }
+}
+
+.back-home {
+  justify-content: flex-end;
+  align-items: center;
+  i {
+    color: $grey;
+    font-size: 35px;
+  }
+  h3 {
+    color: $grey;
+    margin-left: 25px;
+    margin-top: 5px;
+  }
+}

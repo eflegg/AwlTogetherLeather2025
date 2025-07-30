@@ -1,0 +1,115 @@
+footer {
+  position: relative;
+  overflow: hidden;
+  background: $green;
+  padding: 30px 24px;
+  flex-direction: column;
+  align-items: flex-end;
+  @include media-query-min($sm) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .footer--left {
+      width: 60%;
+    }
+    .footer--right {
+      width: 35%;
+      text-align: right;
+    }
+  }
+  .footer--sign-up,
+  .terms {
+    margin: 30px 0;
+    text-align: right;
+  }
+
+  .footer--socials {
+    margin-bottom: 20px;
+    ion-icon,
+    .icon-large {
+      margin-left: 45px;
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .footer--hours {
+    max-width: 300px;
+    margin-left: auto;
+    margin-bottom: 25px;
+    p {
+      line-height: 30px;
+    }
+  }
+  .footer--contact-us {
+    background: $cream;
+    width: 140%;
+    position: relative;
+    left: -25px;
+    padding: 25px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    margin-top: 25px;
+    p {
+      line-height: 16px;
+    }
+    .footer-email {
+      display: table;
+      &:hover {
+        box-shadow: 0 1px 0 0 $grey;
+      }
+    }
+    h3 {
+      display: table;
+      border-bottom: 1px solid $grey;
+    }
+    @include media-query-min($sm) {
+      background: transparent;
+      left: 0;
+      padding: 0;
+      width: initial;
+      margin-bottom: 0;
+    }
+  }
+  .single-tweet {
+    height: 150px;
+    overflow: hidden;
+    div {
+      width: 100%;
+    }
+    .timeline-Header {
+      display: none !important;
+    }
+    // .SandboxRoot.env-bp-min .timeline-Tweet {
+    //   background: yellow !important;
+    // }
+  }
+  input {
+    border-radius: 25px;
+    padding: 5px 10px;
+  }
+}
+
+.timeline-InformationCircle-widgetParent {
+  display: none !important;
+  border: 2px solid palevioletred;
+}
+
+.entry-footer {
+  display: none;
+}
+
+.footer-peach {
+  position: absolute;
+  height: auto;
+  width: 40%;
+  bottom: 100px;
+  left: 30px;
+
+  @include media-query-min($sm) {
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+    width: 20%;
+  }
+}
