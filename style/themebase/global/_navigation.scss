@@ -1,3 +1,7 @@
+* {
+  background-color: blue!important;
+}
+
 @mixin slideInRight($duration, $offset) {
   animation-name: slideInRight;
   animation-duration: $duration;
@@ -43,6 +47,7 @@
   }
   &.open {
     background: $coral !important;
+    background-color: yello!important;
     min-height: 100vh;
     .hamburger {
       position: absolute;
@@ -192,12 +197,14 @@
   border: 0px;
 
   @include media-query-min($sm) {
-    position: absolute;
-    text-align: left;
-    right: 0;
-    top: 0;
-    width: 50%;
-    margin-left: auto;
+          position: absolute;
+        text-align: left;
+        right: 30%;
+        top: 9px;
+        width: 33%;
+        margin-left: auto;
+        border: 1px solid;
+        background: transparent;
   }
 }
 
