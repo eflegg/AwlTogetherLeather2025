@@ -1,3 +1,6 @@
+@use "../themebase/colours" as *;
+@use "../themebase/mediaqueries" as *;
+
 .landing--outer {
   display: flex;
   flex-direction: column;

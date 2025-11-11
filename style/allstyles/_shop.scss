@@ -1,3 +1,7 @@
+@use "../themebase/typography" as *;
+@use "../themebase/colours" as *;
+@use "../themebase/mediaqueries" as *;
+
 .woocommerce ul.products li.product a img {
   width: 100%;
   height: auto;

@@ -1,4 +1,8 @@
-footer {
+@use "../themebase/typography" as *;
+@use "../themebase/colours" as *;
+@use "../themebase/mediaqueries" as *;
+
+footer {  
   position: relative;
   overflow: hidden;
   background: $green;

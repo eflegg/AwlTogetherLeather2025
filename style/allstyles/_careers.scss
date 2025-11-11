@@ -1,3 +1,7 @@
+@use "../themebase/typography" as *;
+@use "../themebase/colours" as *;
+@use "../themebase/mediaqueries" as *;
+
 .careers-container,
 .service-single--container {
   ul {

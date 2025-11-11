@@ -1,4 +1,4 @@
-@use "../template/mixins" as *;
+@use "mixins" as *;
 .fade-me {
 	opacity: 0;
 	@include translate(0,30px);

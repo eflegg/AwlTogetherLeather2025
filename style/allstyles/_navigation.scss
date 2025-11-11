@@ -1,3 +1,6 @@
+@use "../themebase/typography" as *;
+@use "../themebase/colours" as *;
+@use "../themebase/mediaqueries" as *;
 * {
   background-color: blue!important;
 }
@@ -98,6 +101,7 @@
 .navbar-collapse {
   padding-left: 15px;
   width: 90%;
+  position: relative;
   .navbar-nav {
     width: 90%;
     margin-left: 0 !important;
@@ -108,8 +112,6 @@
   @include media-query-min($md) {
     padding-left: 100px;
   }
-  // border: 2px solid blue;
-  position: relative;
   &.show {
     background: $coral !important;
     ul li ul li {
@@ -118,7 +120,7 @@
       @for $i from 1 through 8 {
         &:nth-child(#{$i}) {
           // Delay the animation. Delay increases as items loop.
-          animation-delay: $i * (1s / 6);
+          animation-delay: $i * calc(1s / 6);
         }
       }
     }
@@ -152,11 +154,11 @@
         border-top: 0px;
         position: relative;
         transform: rotate(90deg);
+        transition: all 0.25s ease-in-out;
+        top: 10px;
         @include media-query-min($sm) {
           transform: rotate(0deg);
         }
-        transition: all 0.25s ease-in-out;
-        top: 10px;
       }
     }
   }
@@ -254,9 +256,6 @@
     border: 2px solid $coral;
     background: rgba($cream, 0.5);
     font-size: 16px;
-    @include media-query-min($sm) {
-      width: 120px;
-    }
     width: 80px;
     color: $grey;
     font-family: $bodyFont;
@@ -264,6 +263,9 @@
     border-radius: 25px;
     border-top-right-radius: 25px !important;
     border-bottom-right-radius: 25px !important;
+    @include media-query-min($sm) {
+      width: 120px;
+    }
   }
   .input-group-append {
     display: none;

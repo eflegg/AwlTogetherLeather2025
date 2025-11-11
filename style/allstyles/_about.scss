@@ -1,4 +1,8 @@
+@use "../themebase/typography" as *;
+@use "../themebase/colours" as *;
+
 .about-container {
+  background-color: aquamarine!important;
   h2 {
     font-family: $headerFont;
   }

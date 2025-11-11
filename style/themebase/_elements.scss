@@ -1,3 +1,7 @@
+@use "colours" as *;
+@use "mediaqueries" as *;
+@use "typography" as *;
+
 .btn--primary,
 button[type="submit"] {
   border: 3px solid $coral;
@@ -195,10 +199,10 @@ button[type="submit"] {
 
 .col-2 {
   max-width: 90% !important;
+  margin: 25px 0;
   @include media-query-min($sm) {
     max-width: 48% !important;
   }
-  margin: 25px 0;
 }
 .col-1 {
   max-width: 90% !important;
