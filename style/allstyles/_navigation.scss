@@ -1,8 +1,29 @@
 @use "../themebase/typography" as *;
 @use "../themebase/colours" as *;
 @use "../themebase/mediaqueries" as *;
-* {
-  background-color: blue!important;
+@use "../themebase/mixins" as *;
+
+.dropdown {
+  border: 5px solid yellow!important;
+}
+.fade {
+  transition: opacity .15s linear;
+  &:not(.show) {
+    opacity: 0;
+  }
+}
+
+.collapse {
+  &:not(.show) {
+    display: none;
+  }
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition: height .35s ease;
 }
 
 @mixin slideInRight($duration, $offset) {
@@ -21,8 +42,16 @@
     }
   }
 }
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
 
+}
 .navbar {
+   border: 4px solid orange;
   background: rgba($cream, 0.6) !important;
   position: relative;
   z-index: 5;
@@ -127,38 +156,56 @@
   }
 }
 
+
+
 .dropdown-toggle {
+  background-color: aliceblue;
   margin-bottom: 10px;
   @include media-query-min($sm) {
     margin-bottom: 30px;
   }
 }
 
-.menu-item-has-children {
-  .dropdown-toggle {
+
+
+.dropdown-toggle {
+  &:after {
+    content: "\27F6";
+    font-size: 45px;
+    margin-right: 15px;
+    border-top: 0px;
+    position: relative;
+    transform: rotate(0deg);
+    transition: all 0.25s ease-in-out;
+    top: 0px;
+    left: 10px;
+  }
+  &.rotate {
     &:after {
       content: "\27F6";
       font-size: 45px;
       margin-right: 15px;
       border-top: 0px;
       position: relative;
-      transform: rotate(0deg);
+      transform: rotate(90deg);
       transition: all 0.25s ease-in-out;
-      top: 10px;
+      top: 0px;
+      left: 10px;
+      @include media-query-min($sm) {
+        transform: rotate(0deg);
+      }
     }
-    &.rotate {
-      &:after {
-        content: "\27F6";
-        font-size: 45px;
-        margin-right: 15px;
-        border-top: 0px;
-        position: relative;
-        transform: rotate(90deg);
-        transition: all 0.25s ease-in-out;
-        top: 10px;
-        @include media-query-min($sm) {
-          transform: rotate(0deg);
-        }
+  }
+}
+.dropdown {
+  border: 3px solid seagreen;
+  background-color: yellow!important;
+  .dropdown {
+    background-color: seagreen!important;
+    &:hover {
+      background-color: aliceblue;
+      .dropdown-menu {
+        display: block;
       }
     }
   }
@@ -174,7 +221,8 @@
         border-top: 0px;
         position: relative;
         transition: all 0.25s ease-in-out;
-        top: 10px;
+        top: 0px;
+        left: 10px;
       }
     }
     @include media-query-min($sm) {
@@ -186,7 +234,8 @@
           border-top: 0px;
           position: relative;
           transition: all 0.25s ease-in-out;
-          top: 10px;
+          top: 0px;
+          left: 10px;
           transform: rotate(0deg);
         }
       }
@@ -197,7 +246,10 @@
 .navbar-nav .dropdown-menu {
   background: $coral;
   border: 0px;
-
+  display: none;
+  &.show {
+    display: block;
+  }
   @include media-query-min($sm) {
           position: absolute;
         text-align: left;

@@ -1,3 +1,26 @@
+// $transition-fade: opacity .15s linear !default;
+// $transition-collapse: height .35s ease !default;
+// $enable-transitions: true !default;
+// $enable-prefers-reduced-motion-media-query:   true !default;
+
+// // stylelint-disable property-blacklist
+// @mixin transition($transition...) {
+//   @if $enable-transitions {
+//     @if length($transition) == 0 {
+//       transition: $transition-base;
+//     } @else {
+//       transition: $transition;
+//     }
+//   }
+
+//   @if $enable-prefers-reduced-motion-media-query {
+//     @media (prefers-reduced-motion: reduce) {
+//       transition: none;
+//     }
+//   }
+// }
+
+
 @mixin img-swap($image, $width, $height) {
 	display: inline-block;
 	width: $width;
@@ -116,7 +139,36 @@
 }
 
 
+// See: http://a11yproject.com/posts/how-to-hide-content/
 
+@mixin sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+// Use in conjunction with .sr-only to only display content when it's focused.
+//
+// Useful for "Skip to main content" links; see http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
+//
+// Credit: HTML5 Boilerplate
+
+@mixin sr-only-focusable {
+  &:active,
+  &:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+  }
+}
 
 
 

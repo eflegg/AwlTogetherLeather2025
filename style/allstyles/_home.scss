@@ -2,6 +2,8 @@
 @use "../themebase/colours" as *;
 @use "../themebase/mediaqueries" as *;
 
+
+
 img {
   max-width: 100%;
 }
@@ -11,7 +13,6 @@ body {
 }
 
 .layout-container {
-  border: 3px solid goldenrod;
   margin: 0 auto;
   max-width: 310px;
   width: 90%;

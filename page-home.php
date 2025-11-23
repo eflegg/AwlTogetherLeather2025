@@ -16,8 +16,8 @@ Template Name: Home Page
 $serviceSection = $homePage['service_section'];
     $serviceText = $serviceSection['service_section_text'];
     if($serviceText):?>
-    <div class="section--services layout-container">
-    
+    <div  class="section--services layout-container">
+
         <h2 id="waypoint"class="w-75 w-md-50  services--text"><?php echo $serviceText; ?></h2>
         <?php endif;?>
         
