@@ -22,9 +22,10 @@ function Hamburger() {
 }
 
 
-
 const el = document.getElementById("hamburger");
 el.addEventListener("click", Hamburger, false);
+
+
 
 function MobileArrow() {
   let context = event.target;
@@ -39,6 +40,8 @@ function MobileArrow() {
 let element = document.getElementsByClassName("dropdown-toggle");
 for (var i = 0; i < element.length; i++)
   element[i].addEventListener("click", MobileArrow, false);
+
+
 
 //// Masonry for posts ///////
 

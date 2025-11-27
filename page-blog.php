@@ -9,6 +9,11 @@ Template Name: Blog Page
 <?php while (have_posts()): the_post();?>
 
 <div class="layout-container">
+    Filter
+</div>
+
+
+<div class="layout-container">
     <!-- test for page title here. could be blog -->
     <div class="pl-5 page-title title text-left d-flex">
     <h1><?php the_title( '' );?></h1>
