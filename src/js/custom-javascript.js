@@ -5,22 +5,39 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 //add classes to subnav for easier styling
+
+const topListItems = document.querySelectorAll('#menu-main-menu >.menu-item-has-children');
+topListItems.forEach(li => {
+  li.dataset.expanded = "false";
+})
+
 const topSubnavs = document.querySelectorAll('#menu-main-menu >.menu-item-has-children>.sub-menu');
 
 
-//insert a button after each top level subnav
+//insert a button after each top level subnav, set aria hidden to true and data attribute on the button to expanded = false
 topSubnavs.forEach(sub => {
   sub.classList.add('top-level-subnav');
+  sub.setAttribute("aria-hidden","true");
   const dropButton = document.createElement('button');
+  dropButton.setAttribute("aria-expanded","false");
   dropButton.classList.add('sub-nav-toggle');
   sub.parentNode.insertBefore(dropButton, sub);
 })
 
-//add class to sub-subnav
+//add class to second sub-subnav
 const secondSubnavs = document.querySelectorAll('.top-level-subnav>.menu-item-has-children>.sub-menu');
 secondSubnavs.forEach(sub => {
   sub.classList.add('second-level-subnav');
 })
+//insert a button after each second level subnav set aria hidden to true and data attribute on the button to expanded = false
+secondSubnavs.forEach(secondSub => {
+  secondSub.setAttribute("aria-hidden","true");
+  const dropButton = document.createElement('button');
+  dropButton.setAttribute("aria-expanded","false");
+  dropButton.classList.add('sub-nav-toggle');
+  secondSub.parentNode.insertBefore(dropButton, secondSub);
+})
+
 
 // click funtionality and proper tab direction behaviour
 
@@ -35,6 +52,7 @@ console.log("expanded subnav");
 	subMenu.setAttribute("aria-hidden","false");
 	button.setAttribute("aria-expanded","true");
 	item.dataset.expanded = "true";
+  button.handleKeydown(e.target.blur())
 };
 
 const collapseSubMenu = (item) => {
@@ -58,12 +76,12 @@ menuItems.forEach((item) => {
 		}
 	});
 
-	item.addEventListener("mouseenter", () => {
-		expandSubMenu(item);
-	});
-	item.addEventListener("mouseleave", () => {
-		collapseSubMenu(item);
-	});
+	// item.addEventListener("mouseenter", () => {
+	// 	expandSubMenu(item);
+	// });
+	// item.addEventListener("mouseleave", () => {
+	// 	collapseSubMenu(item);
+	// });
 });
 
 
@@ -196,7 +214,7 @@ let viewportWidth = window.innerWidth;
       // menuButton.lastElementChild.textContent = "Close";
       document.body.style.overflow = "hidden";
 
-      header.style.position = "fixed";
+      // header.style.position = "fixed";
       focusTrap(trapContainer, menuButton, handleHamburgerClose);
       if (mobileScreen){
         mobileScreen.style.overflowY = "hidden";
@@ -213,7 +231,7 @@ let viewportWidth = window.innerWidth;
     // menuButton.lastElementChild.textContent = "Menu";
     document.body.style.overflowY = "initial";
     document.body.style.height = "100%";
-    header.style.position = "absolute";
+    // header.style.position = "absolute";
   }
   });
 

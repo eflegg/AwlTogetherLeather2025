@@ -103,6 +103,10 @@ button[type="submit"] {
     }
   }
 }
+.no-btn {
+  background: transparent;
+  border: 0;
+}
 .btn--filled {
   .btn--primary {
     background: $coral;
@@ -210,6 +214,7 @@ button[type="submit"] {
 }
 
 .home-banner--container {
+  position: relative;
   z-index: 99;
   background: $coral;
   font-weight: 400;
@@ -218,6 +223,7 @@ button[type="submit"] {
     font-size: 16px;
     line-height: 16px;
     padding: 10px;
+    margin-top: 0;
   }
   box-shadow: 1px 1px 10px -1px rgba(0, 0, 0, 0.2);
 }

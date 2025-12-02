@@ -69,12 +69,12 @@
       display: block;
     }
   }
-  .btn--nav {
-    display: none;
-    @include media-query-min($sm) {
-      display: block;
-    }
-  }
+  // .btn--nav {
+  //   display: none;
+  //   @include media-query-min($sm) {
+  //     display: block;
+  //   }
+  // }
   &.open {
     background: $coral !important;
     background-color: yello!important;
@@ -98,14 +98,14 @@
         margin: initial;
       }
     }
-    .btn--nav {
-      display: block;
-      // position: absolute;
-      margin: 15px 0;
-      @include media-query-min($sm) {
-        margin: initial;
-      }
-    }
+    // .btn--nav {
+    //   display: block;
+    //   // position: absolute;
+    //   margin: 15px 0;
+    //   @include media-query-min($sm) {
+    //     margin: initial;
+    //   }
+    // }
   }
 }
 .hamburger:hover,
@@ -243,9 +243,9 @@
     background-color: seagreen;
     &:hover {
       background-color: aliceblue;
-      .dropdown-menu {
-        display: block;
-      }
+      // .dropdown-menu {
+      //   display: block;
+      // }
     }
   }
   &:hover,
