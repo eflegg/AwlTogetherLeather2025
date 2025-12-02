@@ -71,6 +71,10 @@ if( function_exists('acf_add_options_page') ) {
 	
 }
 
+function enqueue_custom_js(){
+	wp_enqueue_script( 'main-js', get_template_directory_uri() . '/src/js/custom-javascript.js', array('jquery') );
+}
+add_action('wp_enqueue_scripts', 'enqueue_custom_js');
 //*WAYPOINTS
 function waypoints_init() {
 	wp_enqueue_script( 'waypointsJS-two', get_template_directory_uri() . '/js/waypoints/src/waypoint.js', true);

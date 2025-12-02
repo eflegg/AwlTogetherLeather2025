@@ -1,9 +1,230 @@
+//Accessible navigation
+
+
+document.addEventListener("DOMContentLoaded", function() {
+
+
+//add classes to subnav for easier styling
+const topSubnavs = document.querySelectorAll('#menu-main-menu >.menu-item-has-children>.sub-menu');
+
+
+//insert a button after each top level subnav
+topSubnavs.forEach(sub => {
+  sub.classList.add('top-level-subnav');
+  const dropButton = document.createElement('button');
+  dropButton.classList.add('sub-nav-toggle');
+  sub.parentNode.insertBefore(dropButton, sub);
+})
+
+//add class to sub-subnav
+const secondSubnavs = document.querySelectorAll('.top-level-subnav>.menu-item-has-children>.sub-menu');
+secondSubnavs.forEach(sub => {
+  sub.classList.add('second-level-subnav');
+})
+
+// click funtionality and proper tab direction behaviour
+
+const menuItems = document.querySelectorAll(".main>.menu-item-has-children");
+let expandedItem = null;
+
+const expandSubMenu = (item) => {
+	const subMenu = item.querySelector("ul");
+	const button = item.querySelector("button");
+	expandedItem = item;
+console.log("expanded subnav");
+	subMenu.setAttribute("aria-hidden","false");
+	button.setAttribute("aria-expanded","true");
+	item.dataset.expanded = "true";
+};
+
+const collapseSubMenu = (item) => {
+	const subMenu = item.querySelector("ul");
+	const button = item.querySelector("button");
+console.log("collapsed subnav");
+	expandedItem = null;
+
+	subMenu.setAttribute("aria-hidden","true");
+	button.setAttribute("aria-expanded","false");
+	item.dataset.expanded = "false";
+};
+
+menuItems.forEach((item) => {
+	const button = item.querySelector("button");
+	button.addEventListener("click", () => {
+		if (button.ariaExpanded === "false") {
+			expandSubMenu(item);
+		} else {
+			collapseSubMenu(item);
+		}
+	});
+
+	item.addEventListener("mouseenter", () => {
+		expandSubMenu(item);
+	});
+	item.addEventListener("mouseleave", () => {
+		collapseSubMenu(item);
+	});
+});
+
+
+
+
+document.addEventListener("keydown", (event) => {
+	if (event.key === "Tab") {
+		if (!expandedItem) {
+			return;
+		}
+   
+		const subMenu = expandedItem.querySelector(".second-level-subnav");
+		const focusedElement = expandedItem.querySelector(":focus");
+		const firstFocusableElement = expandedItem.querySelector("a");
+		const lastFocusableElement = subMenu.lastElementChild.querySelector("a");
+  
+
+		if (!event.shiftKey && focusedElement === lastFocusableElement) {
+			collapseSubMenu(expandedItem);
+			return;
+		}
+
+		if (event.shiftKey && focusedElement === firstFocusableElement) {
+			collapseSubMenu(expandedItem);
+			return;
+		}
+	}
+
+	if (event.key == "Escape") {
+		collapseSubMenu(expandedItem);
+	}
+})
+
+//check viewport width on resize
+
+let viewportWidth = window.innerWidth;
+  function updateWindowWidth(){
+    if(viewportWidth < 1000){
+      navigation.classList.add('mobile-nav');
+      navigation.classList.remove('desktop-nav');
+    } else if (viewportWidth >= 1000) {
+      navigation.classList.add('desktop-nav');
+      navigation.classList.remove('mobile-nav');
+    }
+  }
+  
+  window.addEventListener("resize", updateWindowWidth);
+
+  const mobileScreen = document.querySelector(".mobile-nav");
+  const menuButton = document.querySelector(".js-menu-button");
+  const navigation = document.querySelector(".js-navigation");
+  const trapContainer = document.querySelector("header");
+  
+  const handleHamburgerClose = () => {
+    navigation.setAttribute("aria-hidden", true);
+    menuButton.setAttribute("aria-expanded", false);
+    menuButton.setAttribute("aria-label", "Menu");
+    // menuButton.lastElementChild.textContent = "Menu";
+  
+    if (mobileScreen){
+      mobileScreen.style.overflowY = "scroll";
+    } else {
+      document.body.style.overflowY = "initial";
+    }
+  };
+
+
+
+  //Focus trap
+
+  
+  function focusTrap(element, removeButton, handleClose) {
+
+    const focusable =
+      'button:not(#header-search, #searchsubmit2),  a:not(.skiplink, .btn--fat, .home-logo)';
+    const focusableElements = element.querySelectorAll(focusable);
+
+    const firstFocusableElement = focusableElements[0];
+    const lastFocusableElement = focusableElements[focusableElements.length - 1];
+    firstFocusableElement.focus();
+  
+    const shutdownFocusTrap = () => {
+      handleClose();
+      element.removeEventListener('keydown', handleKeydown);
+      removeButton.removeEventListener('click', shutdownFocusTrap);
+      removeButton.focus();
+    };
+  
+    removeButton.addEventListener('click', shutdownFocusTrap);
+    
+    const handleKeydown = (event) => {
+      const isEscPressed = (event.key === 'Escape');
+      const isTabPressed = (event.key === 'Tab' || event.keyCode === 9);
+      
+  
+      if ( isEscPressed ) {
+        shutdownFocusTrap();
+      }
+      
+      if ( !isTabPressed ) {
+        return;
+      }
+      
+      if ( event.shiftKey ) {
+        if ( document.activeElement === firstFocusableElement ) {
+          event.preventDefault();
+          lastFocusableElement.focus();
+        }
+        return;
+      }
+      
+      if ( document.activeElement === lastFocusableElement ) {
+        event.preventDefault();
+        firstFocusableElement.focus();
+      }
+    };
+    
+    element.addEventListener('keydown', handleKeydown);
+  }
+  
+  //toggle mobile nav open using aria-labels connected to css
+  const headerButtons = document.querySelector('.header-buttons');
+  const header = document.querySelector('header');
+  menuButton.addEventListener("click", () => {
+  const expanded = menuButton.getAttribute("aria-expanded");
+  if (expanded === "false") {
+    navigation.setAttribute("aria-hidden", false);
+      menuButton.setAttribute("aria-expanded", true);
+      menuButton.setAttribute("aria-label", "Close menu");
+      // menuButton.lastElementChild.textContent = "Close";
+      document.body.style.overflow = "hidden";
+
+      header.style.position = "fixed";
+      focusTrap(trapContainer, menuButton, handleHamburgerClose);
+      if (mobileScreen){
+        mobileScreen.style.overflowY = "hidden";
+
+      } else {
+        document.body.style.overflow = "hidden";
+        document.body.style.height = "120vh";
+      
+      }
+  } else {
+    navigation.setAttribute("aria-hidden", true);
+    menuButton.setAttribute("aria-expanded", false);
+    menuButton.setAttribute("aria-label", "Open menu");
+    // menuButton.lastElementChild.textContent = "Menu";
+    document.body.style.overflowY = "initial";
+    document.body.style.height = "100%";
+    header.style.position = "absolute";
+  }
+  });
+
+
+
 function Hamburger() {
   let hamburger = document.getElementById("hamburger");
   let dropdownMenu = document.getElementById("navbarNavDropdown");
   let dropdownActive = dropdownMenu.classList.contains("show");
   let navbar = document.getElementById("main-nav");
-  console.log(dropdownActive);
+  console.log("dropdown active? ",dropdownActive);
 
   const openHamburger = () => {
     hamburger.classList.add("is-active");
@@ -42,8 +263,10 @@ for (var i = 0; i < element.length; i++)
   element[i].addEventListener("click", MobileArrow, false);
 
 
-
+}),
 //// Masonry for posts ///////
+
+//UNSURE IF ANY OF THIS IS USED. CHECK//
 
 function resizeGridItem(item) {
   var grid = document.getElementsByClassName("grid")[0];
@@ -61,10 +284,10 @@ function resizeGridItem(item) {
 }
 
 function resizeAllGridItems() {
-  console.log("grid working");
+  // console.log("grid working");
   var allItems = document.getElementsByClassName("item");
   if (allItems) {
-    console.log("all items in function", allItems);
+    // console.log("all items in function", allItems);
 
     for (var x = 0; x < allItems.length; x++) {
       resizeGridItem(allItems[x]);
@@ -85,7 +308,7 @@ for (var x = 0; x < allItems.length; x++) {
 }
 
 //// Second Type of Masonry ////
-(function ($) {
+
   let mainId = "masonry-effect";
   let itemIdentifier = "#masonry-effect .item";
 
@@ -130,4 +353,4 @@ for (var x = 0; x < allItems.length; x++) {
     let max = Math.max(...Object.values(trackHeights));
     document.getElementById(mainId).style.height = `${max}px`;
   });
-})(jQuery);
+
