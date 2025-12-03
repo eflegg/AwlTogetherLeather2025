@@ -70,7 +70,7 @@ header {
 			padding-left: 100px;
 		}
 			.navbar-nav {
-				width: 90%;
+				width: 100%;
 				margin-left: 0 !important;
 	  		}
 		}
@@ -147,13 +147,7 @@ header {
 				}
 			}
 
-			.second-level-subnav {
-				margin-top: .5rem;
-				padding-left: 1rem;
-				li {
-					margin: 0;
-				}
-			}
+			
 			
 		}
 		.menu-item-has-children {
@@ -169,11 +163,10 @@ header {
 				left: 10px;
 			}
 		}
-	
 		.menu-item {
 			position: relative;
 		}
-		.top-level-subnav{
+		.top-level-subnav, .second-level-subnav {
 			border: 2px solid orangered;
 			position: relative;
 			visibility: hidden;
@@ -186,13 +179,11 @@ header {
 			clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
 			clip: rect(1px, 1px, 1px, 1px);
 			list-style: none;
-			 
 			li {
 				font-family: $bodyFont!important;
 				opacity: 0;
 				margin: 1rem 0.5rem;
 			}
-			
 			&[aria-hidden="false"] {
 				position: relative;
 				visibility: visible;
@@ -234,25 +225,28 @@ header {
 			  }
 			}
 		}
+		
 		.second-level-subnav {
-			list-style: none;
+			margin-top: .5rem;
+			padding-left: 1rem;
 			position: relative!important;
 			padding-left: 0;
-			li {
-				&:before {
-				position: relative;
-				top: -4px;
-				left: 0;
-				margin-right: 4px;
-				content: "";
-				display: inline-block;
-				height: 2px;
-				width: 10px;
-				}
-				a {
-					font-size: 1.4rem;
-				}
-			}
+			// li {
+			// 	margin: 0;
+			// 	&:before {
+			// 	position: relative;
+			// 	top: -4px;
+			// 	left: 0;
+			// 	margin-right: 4px;
+			// 	content: "";
+			// 	display: inline-block;
+			// 	height: 2px;
+			// 	width: 10px;
+			// 	}
+			// 	a {
+			// 		font-size: 1.4rem;
+			// 	}
+			// }
 		}
 		
 	}

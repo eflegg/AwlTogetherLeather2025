@@ -42,10 +42,12 @@ secondSubnavs.forEach(secondSub => {
 // click funtionality and proper tab direction behaviour
 
 const menuItems = document.querySelectorAll(".main>.menu-item-has-children");
+const secondaryMenuItems = document.querySelectorAll(".top-level-subnav>.menu-item-has-children")
 let expandedItem = null;
+console.log(secondaryMenuItems);
 
 const expandSubMenu = (item) => {
-	const subMenu = item.querySelector("ul");
+	const subMenu = item.querySelector("ul.sub-menu");
 	const button = item.querySelector("button");
 	expandedItem = item;
 console.log("expanded subnav");
@@ -75,6 +77,18 @@ menuItems.forEach((item) => {
 			collapseSubMenu(item);
 		}
 	});
+
+  secondaryMenuItems.forEach((secondItem) => {
+    const secondButton = secondItem.querySelector("button");
+    secondButton.classList.add("i-am-second-button");
+    secondButton.addEventListener("click", () => {
+      	if (secondButton.ariaExpanded === "false") {
+			expandSubMenu(secondItem);
+		} else {
+			collapseSubMenu(secondItem);
+		}
+    } )
+  })
 
 	// item.addEventListener("mouseenter", () => {
 	// 	expandSubMenu(item);
