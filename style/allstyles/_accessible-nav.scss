@@ -134,15 +134,6 @@ header {
 					 @include media-query-min($md) {
 						font-size: 48px;
 					}
-					@include media(lg){
-						font-size: 1.6rem;
-						width: initial;
-					}
-					// a {
-					//  font-family: $headerFont;
-					//  font-size: 36px;
-					
-					// }
 				
 				}
 			}
@@ -206,23 +197,10 @@ header {
 						transition-delay: $i * .15s;
 					}
 				  }
-			
-				@include media(lg){
-					position: absolute;
-					left: -1.5rem;
-					width: 20rem;
-					.second-level-subnav{
-						width: 19rem;
-					}
-					max-height: 32rem;
-					background: $green;
-				}
 			}
 			a {
 			  font-size: 2rem;
-			  @include media(lg){
-				  font-size: 1.4rem;
-			  }
+			 
 			}
 		}
 		
