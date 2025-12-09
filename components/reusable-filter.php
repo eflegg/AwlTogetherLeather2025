@@ -13,7 +13,7 @@ $filterClass = "";?>
 	$parent_cat_arg = array(
 		'hide_empty' => false, 
 		'parent' => 0,
-		'taxonomy' => 'product_cat',
+		'taxonomy' => 'category',
 	); 
 	// get all categories that are parents, even the empty ones
 	//category name that fulfills the above arguments
@@ -23,7 +23,7 @@ $filterClass = "";?>
 <?php foreach($parent_cat as $catVal):?>  
 
 	<?php if($catVal->name == $category) :?>
-		<!-- <h3><?php echo $catVal->name;?></h3> -->
+		<h3><?php echo $catVal->name;?></h3>
 
 		
 	
@@ -32,7 +32,7 @@ $filterClass = "";?>
 			'parent' => $catVal->term_id, 
 		);
 
-		$child_cat = get_terms( 'product_cat', $child_arg );?>
+		$child_cat = get_terms( 'category', $child_arg );?>
 	
 
 	
@@ -53,8 +53,8 @@ $filterClass = "";?>
 		</div>
 
 
-		<?php endif;?>
-<?php endforeach; ?> 
+				<?php endif;?>
+		<?php endforeach; ?> 
 
 		</form>
 	</div>

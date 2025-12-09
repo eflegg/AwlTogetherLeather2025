@@ -1,0 +1,134 @@
+@use "../themebase/typography" as *;
+@use "../themebase/colours" as *;
+@use "../themebase/mediaqueries" as *;
+@use "../themebase/mixins" as *;
+
+.card-container {
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	&.products {
+		padding-left: 0rem;
+	}
+	margin-top: 5rem;
+	.blog-card--container {
+		figure {
+			width: 100%;
+			height: auto;
+			aspect-ratio: 1/1
+	
+		}
+		margin-bottom: 3rem;
+		width: 100%;
+		@include media(md){
+		width: 47%;	
+		height: auto;
+		}
+		@include media(lg){
+			width: 30%;	
+		}
+		.card-text {
+			text-align: left;
+			background: white;
+			padding: 1rem 2rem;
+			.card-title {
+				font-family: $bodyFont;
+				font-weight: 400;
+				font-size: 3rem;
+			}
+			.card-date {
+				text-transform: lowercase;
+				font-size: 1.6rem;
+			}
+		}
+		
+	}
+}
+
+.blog-cat {
+
+	text-align: center;
+	&:nth-child(2) {
+		.card-container {
+			background-color: paleturquoise;
+		}
+	}
+	&:last-child {
+		.card-container {
+			background-color: $coral;
+			margin-bottom: 15rem;
+		}
+	}
+	.cat-archive-link {
+		position: relative;
+		top: 2rem;
+		
+	
+		&:after {
+				transition: all 0.2s ease-in-out;
+				position: absolute;
+				content: "";
+				height: 1px;
+				width: 0%;
+				background-color: $coral;
+				left: 0;
+				top: 0;
+				transform: translateY(3rem);
+			
+			}
+	
+		&:hover {
+			&:after {
+				width: 100%;
+				transition: all .25s ease-in-out;
+			}
+		}
+	}
+}
+
+//Filter
+
+.category-form {
+	.cat-select {
+		text-align: right;
+	}
+	label {
+		cursor: pointer;
+		position: relative;
+		font-size: 2rem;
+		margin-left: 2rem;
+		&.active  {
+			&:after {
+				content: "";
+				position: absolute;
+				left: 0;
+				bottom: -.5rem;
+				width: 95%;
+				height: 0.1rem;
+				background-color: $grey;
+
+			}
+		}
+	}
+	input[type="radio"]{
+		
+		position: absolute;
+		width: 100%;
+		opacity: 0;
+		display: none;
+		// position: relative;
+		// &:after {
+		
+		// 	content: "";
+		// 	position: absolute;
+		// 	left: 0;
+		// 	bottom: -2.5rem;
+		// 	width: 80%;
+		// 	height: 0.2rem;
+		// 	background-color: blue;
+		// }
+		
+	}
+}
+

@@ -84,6 +84,22 @@
       "oAP" : "\/components\/button.php",
       "oF" : 0
     },
+    "\/components\/cards\/blog-card.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/components\/cards\/blog-card.php",
+      "oF" : 0
+    },
+    "\/components\/cards\/testimonial-card.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/components\/cards\/testimonial-card.php",
+      "oF" : 0
+    },
     "\/components\/faq-block.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1675,6 +1691,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/page-accessibility.php",
+      "oF" : 0
+    },
+    "\/page-blog-ORIGINAL.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-blog-ORIGINAL.php",
       "oF" : 0
     },
     "\/page-blog.php" : {
@@ -3498,6 +3522,19 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/style\/allstyles\/_accessible-nav.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/style\/allstyles\/_blocks.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/style\/allstyles\/_blocks.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0

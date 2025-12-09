@@ -1,8 +1,64 @@
-//Accessible navigation
+
 
 
 document.addEventListener("DOMContentLoaded", function() {
 
+//single filter
+ const ajaxFilter = document.getElementById( 'ajax-filter' )
+ console.log('ajax filter: ', ajaxFilter);
+ const cardContainer = document.querySelector( '.card-container' )
+ 
+ const selectElem = ajaxFilter.querySelectorAll('.cat-list_item');
+
+ selectElem.forEach(function(radio){
+    const postType = radio.getAttribute('data-type');
+    radio.addEventListener( 'change', event => {
+     
+        fetch( ajaxurl +'?action=ajaxfilter', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify( { 
+                'cat' : event.target.value,
+                'dataType' : postType
+          
+            } )
+        
+        }).then( response => {
+            return response.text()
+        }).then( response => {
+    
+            if( response ) {
+                cardContainer.innerHTML = response;
+            }
+        
+            console.log('response: ', response );
+        console.log(postType);
+        
+       
+    
+        }).catch( error => {
+            console.log( error )
+        })
+    
+    } )
+ })
+ 
+
+ //active state on label
+ const labels = document.querySelectorAll('.cat-label');
+
+ for (var i = 0; i < labels.length; i++) {
+    labels[i].addEventListener("click", function() {
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+
+
+//// Accessible navigation////
 
 //add classes to subnav for easier styling
 
@@ -41,7 +97,9 @@ secondSubnavs.forEach(secondSub => {
 
 // click funtionality and proper tab direction behaviour
 
+//target top level subnav
 const menuItems = document.querySelectorAll(".main>.menu-item-has-children");
+// target second level subnav
 const secondaryMenuItems = document.querySelectorAll(".top-level-subnav>.menu-item-has-children")
 let expandedItem = null;
 console.log(secondaryMenuItems);
@@ -89,6 +147,9 @@ menuItems.forEach((item) => {
 		}
     } )
   })
+
+
+//this adds accessible hover i think. i didn't want hover but could be added back
 
 	// item.addEventListener("mouseenter", () => {
 	// 	expandSubMenu(item);
@@ -295,7 +356,10 @@ for (var i = 0; i < element.length; i++)
   element[i].addEventListener("click", MobileArrow, false);
 
 
-}),
+});
+
+
+
 //// Masonry for posts ///////
 
 //UNSURE IF ANY OF THIS IS USED. CHECK//
