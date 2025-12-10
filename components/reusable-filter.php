@@ -13,7 +13,7 @@ $filterClass = "";?>
 	$parent_cat_arg = array(
 		'hide_empty' => false, 
 		'parent' => 0,
-		'taxonomy' => 'category',
+		'taxonomy' => $taxonomy,
 	); 
 	// get all categories that are parents, even the empty ones
 	//category name that fulfills the above arguments
@@ -32,12 +32,12 @@ $filterClass = "";?>
 			'parent' => $catVal->term_id, 
 		);
 
-		$child_cat = get_terms( 'category', $child_arg );?>
+		$child_cat = get_terms( $taxonomy, $child_arg );?>
 	
 
 	
 
-	<div data-type=<?php echo $dataType;?> class="cat-select" name="categories" id="cat-select">
+	<div data-type=<?php echo $dataType;?> tax-type=<?php echo $taxonomy;?> class="cat-select" name="categories" id="cat-select">
 
 	<label for="all-cats" class="cat-label active">
 

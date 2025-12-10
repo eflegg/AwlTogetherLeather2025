@@ -1733,6 +1733,14 @@
       "oAP" : "\/page-contact.php",
       "oF" : 0
     },
+    "\/page-custom-shop.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page-custom-shop.php",
+      "oF" : 0
+    },
     "\/page-faqs.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1988,6 +1996,28 @@
       "oA" : 0,
       "oAP" : "\/single.php",
       "oF" : 0
+    },
+    "\/src\/js\/blog-filter-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/src\/js\/blog-filter-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/js\/blog-filter.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/src\/js\/blog-filter-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/src\/js\/bootstrap4\/bootstrap.bundle.js" : {
       "bF" : 0,
@@ -3574,6 +3604,19 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/style\/allstyles\/_contact.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/style\/allstyles\/_custom-woo-cheveux.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/style\/allstyles\/_custom-woo-cheveux.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0

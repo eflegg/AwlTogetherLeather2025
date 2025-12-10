@@ -13,6 +13,7 @@ Template Name: Blog Page
 <section class="section-container layout-container">
 
     <?php 
+     $taxonomy = "category";
         $dataType = "post"; 
         $category = "Blog Topics";
         $path = "components/cards/blog-card.php";
@@ -30,11 +31,14 @@ Template Name: Blog Page
             'posts_per_page' => -1,
     );
 
+    
     $the_query = new WP_Query( $args ); ?>
 	     <?php if ( $the_query->have_posts() ) : ?>
-                <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+                <?php while ( $the_query->have_posts() ) : $the_query->the_post();   ?>
+                 
+                <?php if($taxonomy):?>
                 <?php include 'components/cards/blog-card.php';?>
-                
+                <?php endif;?>
                 <?php endwhile; ?>
                 <?php wp_reset_postdata(); ?>
             <?php endif; ?>	 			    

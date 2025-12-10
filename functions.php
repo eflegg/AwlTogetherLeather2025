@@ -71,10 +71,21 @@ if( function_exists('acf_add_options_page') ) {
 	
 }
 
+
+
+function enqueue_blogfilter_script() {
+    if ( is_page_template('page-blog.php') || is_page_template('page-custom-shop.php') ) {
+        wp_enqueue_script( 'blogroll-script-handle', get_template_directory_uri() . '/src/js/blog-filter.js', array(), '1.0', true );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'enqueue_blogfilter_script' );
+
 function enqueue_custom_js(){
 	wp_enqueue_script( 'main-js', get_template_directory_uri() . '/src/js/custom-javascript.js', array('jquery') );
 }
 add_action('wp_enqueue_scripts', 'enqueue_custom_js');
+
+
 //*WAYPOINTS
 function waypoints_init() {
 	wp_enqueue_script( 'waypointsJS-two', get_template_directory_uri() . '/js/waypoints/src/waypoint.js', true);
@@ -132,11 +143,12 @@ function rudr_ajax_filter_by_category() {
 	$catSlug = $obj['cat'];
 	$postType =$obj['dataType'];
 // print_r($catSlug);
+print_r($obj);
   
 	$ajaxposts = new WP_Query([
 	  'post_type' => $postType,
 	  'posts_per_page' => -1,
-	  'category_name' => $catSlug,
+	  $obj['tax'] => $catSlug,
 	  'orderby' => 'menu_order', 
 	  'order' => 'desc',
 	  'post_status' => 'publish',
