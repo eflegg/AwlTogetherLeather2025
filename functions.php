@@ -142,7 +142,7 @@ function rudr_ajax_filter_by_category() {
 	$obj = json_decode( file_get_contents( "php://input" ), true );
 	$catSlug = $obj['cat'];
 	$postType =$obj['dataType'];
-// print_r($catSlug);
+print_r($catSlug);
 print_r($obj);
   
 	$ajaxposts = new WP_Query([
