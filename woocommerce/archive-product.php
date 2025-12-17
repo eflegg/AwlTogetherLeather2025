@@ -32,9 +32,9 @@ do_action( 'woocommerce_before_main_content' );
 <header class="woocommerce-products-header">
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
-		<div class="pl-5 page-title title text-left d-flex">
+		<div class="page-title title text-centre">
         	<h1><?php woocommerce_page_title(); ?></h1>
-        	<hr>
+
     	</div>
 
 		
@@ -102,14 +102,14 @@ if ( woocommerce_product_loop() ) {
  *
  * @hooked woocommerce_output_content_wrapper_end - 10 (outputs closing divs for the content)
  */
-do_action( 'woocommerce_after_main_content' );
+//do_action( 'woocommerce_after_main_content' );
 
 /**
  * Hook: woocommerce_sidebar.
  *
  * @hooked woocommerce_get_sidebar - 10
  */
-do_action( 'woocommerce_sidebar' );
+// do_action( 'woocommerce_sidebar' );
 
 get_footer( 'shop' );
 ?></div>

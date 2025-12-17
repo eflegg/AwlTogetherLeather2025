@@ -2,10 +2,11 @@
 
 
 <div class="service-single--container">
-<div class=" page-title title text-left d-flex">
+    <?php include "components/custom-page-header.php";?>
+<!-- <div class=" page-title title text-left d-flex">
     <h1><?php the_title( '' );?></h1>
     <hr>
-</div>
+</div> -->
     <div class="service--inner ">
         <div class="service-description col-12 col-md-6">
             <?php

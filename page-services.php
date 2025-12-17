@@ -7,10 +7,12 @@ Template Name: Services Page
 <?php get_header();?>
 <?php while (have_posts()): the_post();?>
 
-<div class="pl-5 page-title title text-left d-flex">
+
+<?php include "components/custom-page-header.php";?>
+<!-- <div class="pl-5 page-title title text-left d-flex">
     <h1 class="text-left"><?php the_title( '' );?></h1>
     <hr>
-</div>
+</div> -->
     <div class="layout-container">
         <?php 
         $servicesIntro = get_field('services_intro');

@@ -130,28 +130,30 @@ button[type="submit"] {
 }
 
 .page-title {
-  margin-top: 60px;
-  margin-bottom: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
-  @include media-query-min($sm) {
-    flex-direction: row;
-    align-items: center;
-    margin-right: 65px;
-    margin-bottom: 40px;
+ font-family: "degular", sans-serif;
+font-weight: 600;
+font-style: italic;
+  margin: 60px auto;
+  flex-direction: row;
+  justify-content: center;
+   @include media-query-min($sm) {
+     margin: 80px;
   }
-  hr {
-    border-color: $grey;
-    border: 1px solid;
-    width: 35%;
-    margin-right: auto;
-    margin-left: 0;
+   @include media-query-min($md) {
+     margin: 100px;
+  }
+h1 {
+  width: 100%;
+    @include font-size(4.2);
     @include media-query-min($sm) {
-      margin-left: auto;
-    }
+     @include font-size(4.8);
   }
+  @include media-query-min($md) {
+    @include font-size(5.2);
+  }
+}
+
+
 }
 
 .mat-drawer-container {
@@ -234,3 +236,4 @@ img {
     height: 100%;
     object-fit: cover;
 }
+

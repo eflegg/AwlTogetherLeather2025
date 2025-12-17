@@ -62,38 +62,41 @@ endif;
 			</nav >
 
 			<div class="header-buttons">
-				<?php
-					$buttonText = get_field('header_button_text', 'option');
-					$buttonLink = get_field('header_button_link', 'option');
-					if($buttonText && $buttonLink):?>
-						<button class="btn--primary btn--nav ">
-								<a
-								
-								href="<?php echo $buttonLink; ?>">
-								<?php echo $buttonText; ?>
-							</a>
-					</button>
-					<?php endif; ?>
-	
+				
 				<button class="search-field--custom d-flex no-btn">
-						<?php get_search_form(); ?>
-						<ion-icon name="search-outline" size="large"></ion-icon>
+					<?php get_search_form(); ?>
                 </button>
+					<?php
+						$buttonText = get_field('header_button_text', 'option');
+						$buttonLink = get_field('header_button_link', 'option');
+						if($buttonText && $buttonLink):?>
+							<button class="btn--primary btn--nav ">
+									<a
+									
+									href="<?php echo $buttonLink; ?>">
+									<?php echo $buttonText; ?>
+								</a>
+						</button>
+						<?php endif; ?>
 
-		
-			</div>
-			<div class="js-hamburger-menu">
-				<button 
-				class="button btn-nav  button--red js-menu-button menu-toggle" 
-					aria-expanded="false"
-					aria-label="Menu"
-					>
-					<span class="screen-reader-text">Menu</span>
-					<span class="burger-1"></span>
-					<span class="burger-2"></span>
-					<span class="burger-3"></span>
-			
-				</button>
+				
+				<div class="mini-cart ">
+					<a href=<?php echo wc_get_cart_url();?> title="View your shopping cart"><ion-icon name="cart-outline" size="large"></ion-icon> <?php WC()->cart->get_cart_total();?> </a>
+					<span class="cart-count"> <?php WC()->cart->cart_contents_count;?> </span>
+				</div>
+				<div class="js-hamburger-menu">
+					<button 
+					class="btn-nav  button--red js-menu-button menu-toggle" 
+						aria-expanded="false"
+						aria-label="Menu"
+						>
+						<span class="screen-reader-text">Menu</span>
+						<span class="burger-1"></span>
+						<span class="burger-2"></span>
+						<span class="burger-3"></span>
+				
+					</button>
+				</div>
 			</div>
 	
 		</header>

@@ -27,14 +27,15 @@ body {
 	}
 header {
     border: 3px solid orange;
-  
-	z-index: 20;
+	z-index: 30;
 	padding-left: 2rem;
 	padding-top: 2rem;
 	position: relative;
 	top: 0;
 	left: 0;
 	width: 100%;
+	background: $cream;
+	transition: background-color .15s ease-in; 
 	@include media(sm){
 		display: flex;
 		justify-content: flex-start;
@@ -55,6 +56,7 @@ header {
 	nav {
 		// overflow: scroll;
 		border: 3px solid seagreen;
+		z-index: 10;
 		top: 35px;
 		position: fixed;
 		.atl-nav-container {
@@ -88,6 +90,7 @@ header {
 			}
 			&[aria-hidden="false"]{
 				top: 36px;
+				// top: 107px;
 				left: 0;
 				opacity: 1;
 				visibility: visible;
@@ -209,40 +212,69 @@ header {
 			padding-left: 1rem;
 			position: relative!important;
 			padding-left: 0;
-			// li {
-			// 	margin: 0;
-			// 	&:before {
-			// 	position: relative;
-			// 	top: -4px;
-			// 	left: 0;
-			// 	margin-right: 4px;
-			// 	content: "";
-			// 	display: inline-block;
-			// 	height: 2px;
-			// 	width: 10px;
-			// 	}
-			// 	a {
-			// 		font-size: 1.4rem;
-			// 	}
-			// }
 		}
 		
 	}
 
 //styles from original ATL to get nav looking right
 
+//header left
 
+.navbar-brand {
+    opacity: 1;
+    transition: opacity 0.15s ease-in-out;
+    font-family: $logoType;
+    font-size: 2.5rem;
+    padding-top: .5rem;
+	color: $darkBrown;
+	@include font-size(4.2);
+	z-index: 30;
+  }
+
+//header buttons
+.header-buttons {
+	z-index: 30;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.search-field--custom {
+  input {
+    border: 2px solid $lightGreen;
+    background: rgba($cream, 0.5);
+    font-size: 16px;
+    width: 80px;
+    color: $grey;
+    font-family: $bodyFont;
+    padding: 2px 0px 2px 10px;
+    border-radius: 25px;
+    border-top-right-radius: 25px !important;
+    border-bottom-right-radius: 25px !important;
+    @include media-query-min($sm) {
+      width: 120px;
+    }
+  }
+  .input-group-append {
+    display: none;
+  }
+}
+.mini-cart {
+  display: block;
+  font-size: 16px;
+  line-height: 1;
+  padding: 0 5px 0 12px;
+}
 
 
 	//from scratch hamburger menu
 .btn-nav {
    border: 0px;
-	position: absolute;
+	position: relative;
 	width: 5rem;
 	height: 5rem;
 	z-index: 50;
 	right: 0;
-	top: -1rem;
+	// top: -1rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -301,11 +333,6 @@ header {
 	
 
 
-.header-buttons {
-	// z-index: 30;
-	position: relative;
-	display: flex;
-	align-items: center;
-}
+
 
 

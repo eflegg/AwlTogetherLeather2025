@@ -100,6 +100,14 @@
       "oAP" : "\/components\/cards\/testimonial-card.php",
       "oF" : 0
     },
+    "\/components\/custom-page-header.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/components\/custom-page-header.php",
+      "oF" : 0
+    },
     "\/components\/faq-block.php" : {
       "cB" : 0,
       "ft" : 8192,
@@ -4023,6 +4031,19 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/style\/themebase\/_mixins.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0
+    },
+    "\/style\/themebase\/_reset.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/style\/themebase\/_reset.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0

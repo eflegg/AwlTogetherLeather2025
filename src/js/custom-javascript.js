@@ -235,7 +235,7 @@ let viewportWidth = window.innerWidth;
       // menuButton.lastElementChild.textContent = "Close";
       document.body.style.overflow = "hidden";
 
-      // header.style.position = "fixed";
+      // header.style.backgroundColor = "#f9afa7";
       focusTrap(trapContainer, menuButton, handleHamburgerClose);
       if (mobileScreen){
         mobileScreen.style.overflowY = "hidden";
@@ -252,7 +252,7 @@ let viewportWidth = window.innerWidth;
     // menuButton.lastElementChild.textContent = "Menu";
     document.body.style.overflowY = "initial";
     document.body.style.height = "100%";
-    // header.style.position = "absolute";
+    // header.style.backgroundColor = "#fff8e6";
   }
   });
 
