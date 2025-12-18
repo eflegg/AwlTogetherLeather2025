@@ -32,6 +32,7 @@ secondSubnavs.forEach(sub => {
   sub.classList.add('second-level-subnav');
 })
 //insert a button after each second level subnav set aria hidden to true and data attribute on the button to expanded = false
+//attempting to append an ion-icon and setting its attributes
 secondSubnavs.forEach(secondSub => {
   secondSub.setAttribute("aria-hidden","true");
   const dropButton = document.createElement('button');
