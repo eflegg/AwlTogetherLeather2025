@@ -144,13 +144,14 @@ function rudr_ajax_filter_by_category() {
 	$postType =$obj['dataType'];
 print_r($catSlug);
 print_r($obj);
+print_r($obj['tax']);
   
 	$ajaxposts = new WP_Query([
 	  'post_type' => $postType,
 	  'posts_per_page' => -1,
 	  $obj['tax'] => $catSlug,
 	  'orderby' => 'menu_order', 
-	  'order' => 'desc',
+	   'order' => 'DESC',
 	  'post_status' => 'publish',
 	]);
 	$response = '';

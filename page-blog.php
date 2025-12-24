@@ -13,7 +13,7 @@ Template Name: Blog Page
 <section class="section-container layout-container">
 
     <?php 
-     $taxonomy = "category";
+        $taxonomy = "category";
         $dataType = "post"; 
         $category = "Blog Topics";
         $path = "components/cards/blog-card.php";
@@ -25,13 +25,14 @@ Template Name: Blog Page
     <?php
         $args = array(
             'post_type' => 'post',
-            'orderby' => 'menu_order',
-            'order' => 'DESC',
+            // 'orderby' => 'menu_order',
+          'order' => 'DESC',
             'post_status' => 'publish',
             'posts_per_page' => -1,
+        
     );
 
-    
+        $taxonomy = "category";
     $the_query = new WP_Query( $args ); ?>
 	     <?php if ( $the_query->have_posts() ) : ?>
                 <?php while ( $the_query->have_posts() ) : $the_query->the_post();   ?>
