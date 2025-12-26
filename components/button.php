@@ -1,6 +1,7 @@
 <?php  if ($button): ?>
 
 <?php
+	$buttonColor = $button['button_color'];
 	$buttonText = $button['button_text'];
 	$buttonType =  $button['internal_or_external_link'];
 	if ($buttonText && $buttonType): ?>
@@ -13,12 +14,13 @@
 			if( $posts ): ?>
 					<?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
 							<?php setup_postdata($post); ?>
-							<a
+							<a class="btn--primary"
 							
 							href="<?php the_permalink(); ?>">
-							<div class="btn--primary">
+							<div class='<?php echo $buttonColor;?>'></div>
+						
 									<?php echo $buttonText; ?>
-								</div>
+							
 								</a>
 								 
 					<?php endforeach; ?>

@@ -3,6 +3,13 @@
 @use "../themebase/mediaqueries" as *;
 @use "../themebase/mixins" as *;
 
+.blog-container {
+	header {
+		background: transparent;
+		justify-content: center;
+	}
+}
+
 .card-container {
 	
 	display: flex;

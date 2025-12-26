@@ -22,15 +22,15 @@ $bodyFont: "degular", sans-serif;
 $logoType: "Alstoria", sans-serif;
 $headerFont: "degular", sans-serif;
 
-h1 {
-  @include font-size(3.6);
-  font-family: "Alstoria";
-  // @include media-query-min($sm) {
-  //   @include font-size(4.2);
-  // }
-
+h1,
+.h1 {
+  font-family: $headerFont;
+  @include font-size(4.2);
   @include media-query-min($md) {
-    @include font-size(4.2);
+    @include font-size(8.2);
+  }
+   @include media-query-min($lg) {
+    @include font-size(16);
   }
 }
 
@@ -50,7 +50,9 @@ h2 {
   }
 }
 
-h3 {
+h3, .h3 {
+  font-family: $bodyFont;
+  font-weight: medium;
   @include font-size(1.8);
   line-height: 22px;
   font-weight: 500;
@@ -65,21 +67,13 @@ h3 {
   }
 }
 
-h1,
-.h1 {
-  font-family: $headerFont;
-}
 
-h3,
-.h3 {
-  font-family: $bodyFont;
-  font-weight: medium;
-}
+
 
 p {
   font-family: $bodyFont;
   @include font-size(1.8);
-  line-height: 40px;
+  line-height: 150%;
   font-weight: 400;
 }
 
