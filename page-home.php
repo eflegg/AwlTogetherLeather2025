@@ -25,7 +25,7 @@ $serviceSection = $homePage['service_section'];
         <?php
         $args = array (
             'post_type' => 'services',
-            'posts_per_page' => 4,
+            'posts_per_page' => 2,
             'orderby'=> 'menu_order',
             'order'=> 'ASC',
         );
@@ -33,7 +33,9 @@ $serviceSection = $homePage['service_section'];
         if($homeServiceQuery->have_posts()): ?>
         <?php while($homeServiceQuery->have_posts()):$homeServiceQuery->the_post()?>
 
-            <div class="col-12 col-sm-6 block-outer"><?php include "components/listing-block.php";?></div>
+            <!-- <div class="listing-block__outer"> -->
+                <?php include "components/service-listing-block.php";?>
+        <!-- </div> -->
             <?php endwhile; endif; ?> 
         </div>
 

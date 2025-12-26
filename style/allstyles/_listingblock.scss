@@ -2,6 +2,48 @@
 @use "../themebase/colours" as *;
 @use "../themebase/mediaqueries" as *;
 
+//new listing block for services
+
+.service-block__container {
+   position: relative;
+   display: flex;
+ .btn--square {
+  border-radius: 20px!important;
+  align-self: flex-start;
+  font-size: 20px;
+ }
+  &:nth-child(odd){
+    align-items: center;
+    flex-direction: row;
+     border: 3px solid purple;
+     .service-block__image {
+       aspect-ratio: 2/1;
+      width: 25%;
+     }
+  }
+  &:nth-child(even){
+   
+    flex-direction: row-reverse;
+     border: 3px solid blue;
+     align-items: flex-start;
+      .service-block__image {
+      aspect-ratio: 1/2;
+     }
+  }
+}
+.service-block__image {
+  border-radius: 30px;
+  
+}
+.service-block__text {
+  border: 2px solid gold;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+//old listing block just in case they want to keep it
+
 .block-container {
   //   border: 2px solid orange;
   align-items: center;
@@ -49,20 +91,13 @@
   }
 }
 
-.listing-block--container {
-  margin-top: 50px;
-  @include media-query-min($sm) {
-    margin-top: 60px;
-  }
-  .block-outer {
-    @include media-query-min($sm) {
-      &:nth-child(even) {
-        position: relative;
-        top: -60px;
-      }
-    }
-  }
-}
+// .listing-block--container {
+//   border: 2p solid yellow;
+//   margin-top: 50px;
+//   @include media-query-min($sm) {
+//     margin-top: 60px;
+//   }
+// }
 
 /// Access and Blog listing block ///
 
