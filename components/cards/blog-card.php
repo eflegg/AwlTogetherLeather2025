@@ -13,9 +13,6 @@
        <? foreach( $categories as $category ): ?>
                     <p class="cat-title"><?= $category->cat_name; ?></p>
                 <? endforeach; ?>
-      <div class="excerpt">
-          <?php the_excerpt();?>
-      </div>
 </div>
 </a>
 </article>

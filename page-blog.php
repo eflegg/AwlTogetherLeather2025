@@ -25,7 +25,7 @@ Template Name: Blog Page
     <?php
         $args = array(
             'post_type' => 'post',
-            // 'orderby' => 'menu_order',
+         //'orderby' => 'menu_order',
           'order' => 'DESC',
             'post_status' => 'publish',
             'posts_per_page' => -1,
