@@ -5,6 +5,7 @@
 //new listing block for services
 
 .service-block__container {
+  color: $darkBrown;
   position: relative;
   display: flex;
   min-height: 0;
@@ -74,7 +75,6 @@
       }
      }
       .service-block__image {
-     
       border: 2px solid red;
       aspect-ratio: 2/1.5;
       @include media-query-min($md){
@@ -84,6 +84,11 @@
         align-self: flex-end;
         aspect-ratio: 2/1;
       }
+    }
+    .text--inner{
+      @include media-query-min($md){
+      width: 42%;
+     }
     }
 }
 }
@@ -107,12 +112,11 @@
   border: 2px solid seagreen;
   display: flex;
   .text--inner {
-    @include media-query-min($md){
-      width: 42%;
-    }
+    
   }
   .text--inner p{
     font-size: 2rem;
+    line-height: 125%;
     @include media-query-min($md) {
     font-size: 3rem;
     }
