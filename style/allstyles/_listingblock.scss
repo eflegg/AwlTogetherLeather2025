@@ -5,8 +5,14 @@
 //new listing block for services
 
 .service-block__container {
-   position: relative;
-   display: flex;
+  position: relative;
+  display: flex;
+  min-height: 0;
+   padding: 2rem;
+    @include media-query-min($md) {
+      flex-direction: row;
+      padding: 5rem;
+    }
  .btn--square {
   border-radius: 20px!important;
   align-self: flex-start;
@@ -14,32 +20,104 @@
  }
   &:nth-child(odd){
     align-items: center;
+    flex-direction: column;
+    border: 3px solid purple;
+   @include media-query-min($md) {
     flex-direction: row;
-     border: 3px solid purple;
-     .service-block__image {
-       aspect-ratio: 2/1;
-      width: 25%;
+    z-index: 10;
+   }
+     .service-block__image--odd {
+       aspect-ratio: 2/1.5;
+       @include media-query-min($md) {
+         aspect-ratio: 1/2;
+          width: 35%;
+       }
      }
+     .service-block__image--even {
+      display: none;
+      visibility: hidden;
+     }
+     .service-block__text {
+      @include media-query-min($md){
+        padding-left: 2rem;
+      }
+     }
+   
+  }
+  &:nth-child(4){
+     background-image: linear-gradient($green, $cream);
+  }
+   &:nth-child(2){
+     background-image: linear-gradient($yellow, $cream);
   }
   &:nth-child(even){
-   
-    flex-direction: row-reverse;
+    position: relative;
+    flex-direction: column;
      border: 3px solid blue;
-     align-items: flex-start;
-      .service-block__image {
-      aspect-ratio: 1/2;
+     @include media-query-min($md){
+      top: -10rem;
+       align-items: flex-start;
+     flex-direction: column-reverse;
      }
-  }
+     .service-block__image--even {
+      display: none;
+       visibility: hidden;
+        @include media-query-min($md){
+        display: block;
+        visibility: visible;
+      }
+     }
+     .service-block__image--odd {
+      @include media-query-min($md){
+        display: none;
+        visibility: hidden;
+      }
+     }
+      .service-block__image {
+      //  width: 55%;
+      aspect-ratio: 2/1.5;
+      @include media-query-min($md){
+        margin-top: 5rem;
+        align-self: flex-end;
+        aspect-ratio: 2/1;
+      }
+    }
+     .service-block__text {
+      padding-right: 2rem;
+     }
+}
 }
 .service-block__image {
-  border-radius: 30px;
-  
+  // max-height: 50rem;
+  figure {
+    height: 100%;
+    img {
+    border-radius: 30px;
+  }
+  }
 }
 .service-block__text {
+  width: 100%;
   border: 2px solid gold;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+}
+.text-image {
+  border: 2px solid seagreen;
+  display: flex;
+  .text--inner p{
+    font-size: 2rem;
+    @include media-query-min($md) {
+    font-size: 3rem;
+    }
+    @include media-query-min($lg) {
+    font-size: 4rem;
+    }
+  }
+}
+.btn--listing {
+  margin-top: 1rem;
 }
 
 //old listing block just in case they want to keep it
@@ -52,9 +130,7 @@
   flex-direction: column;
   // margin-bottom: 30px;
   position: relative;
-  @include media-query-min($sm) {
-    // margin-bottom: 50px;
-  }
+
   @include media-query-min($md) {
     margin-bottom: 80px;
     flex-direction: row;

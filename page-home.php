@@ -16,7 +16,7 @@ Template Name: Home Page
 $serviceSection = $homePage['service_section'];
     $serviceText = $serviceSection['service_section_text'];
     if($serviceText):?>
-    <div  class="section--services layout-container">
+    <div  class="section--services ">
 
         <h2 id="waypoint"class="w-75 w-md-50  services--text"><?php echo $serviceText; ?></h2>
         <?php endif;?>
@@ -25,17 +25,14 @@ $serviceSection = $homePage['service_section'];
         <?php
         $args = array (
             'post_type' => 'services',
-            'posts_per_page' => 2,
+            'posts_per_page' => 4,
             'orderby'=> 'menu_order',
             'order'=> 'ASC',
         );
         $homeServiceQuery = new WP_query($args);
         if($homeServiceQuery->have_posts()): ?>
         <?php while($homeServiceQuery->have_posts()):$homeServiceQuery->the_post()?>
-
-            <!-- <div class="listing-block__outer"> -->
                 <?php include "components/service-listing-block.php";?>
-        <!-- </div> -->
             <?php endwhile; endif; ?> 
         </div>
 

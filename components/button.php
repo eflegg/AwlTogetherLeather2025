@@ -14,13 +14,11 @@
 			if( $posts ): ?>
 					<?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
 							<?php setup_postdata($post); ?>
-							<a class="btn--primary"
-							
-							href="<?php the_permalink(); ?>">
-							<div class='<?php echo $buttonColor;?>'></div>
+							<a class="btn--primary <?php echo $buttonColor;?>" href="<?php the_permalink(); ?>">
+						
 						
 									<?php echo $buttonText; ?>
-							
+						
 								</a>
 								 
 					<?php endforeach; ?>
