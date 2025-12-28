@@ -29,40 +29,30 @@ $serviceSection = $homePage['service_section'];
         <?php while($homeServiceQuery->have_posts()):$homeServiceQuery->the_post()?>
                 <?php include "components/service-listing-block.php";?>
             <?php endwhile; endif; ?> 
+            <div class="services--button btn--green">
+            <?php 
+            $button = $serviceSection['button'];
+            if($button):?>
+            <?php include 'components/button.php'; ?>
+            <?php endif;?>
+             
+            </div>
         </div>
 
-        <div class="services--button">
-        <?php 
-        $button = $serviceSection['button'];
-        if($button):?>
-        <?php include 'components/button.php'; ?>
-        <?php endif;?>
-         
-        </div>
     </div>
 
-    <div class="section--accessibility d-flex flex-column flex-lg-row align-items-center">
-        <div class="access-text">
+    <div class="section--accessibility ">
         <?php 
-        $accessSection = $homePage['access_section'];
-        $accessTitle = $accessSection['access_section_title'];
+        $accessSection = $homePage['access_section'];?>
+  <?php
+   $accessTitle = $accessSection['access_section_title'];
         if($accessTitle):?>
-            <h2><?php echo $accessTitle; ?></h2>
+            <h2 class="layout-container"><?php echo $accessTitle; ?></h2>
             <?php endif; ?>
-            <?php
-            $accessText = $accessSection['access_section_text'];
-            if($accessText):?>
-            <p><?php echo $accessText;?></p>
-            <?php endif; ?>
-            <?php
-            $button = $accessSection['button'];
-            if($button):?>
-            <div class="btn--filled">
-                <?php include 'components/button.php';?>
-            </div>
-            <?php endif; ?>
+
+          <div class="layout-container d-flex flex-column flex-lg-row align-items-center">
+
           
-        </div>
         <div class="access-image">
         <?php
         $image = $accessSection['image_item'];
@@ -71,6 +61,24 @@ $serviceSection = $homePage['service_section'];
         <?php endif; ?>
            
         </div>
+
+        <div class="access-text">
+       <?php
+            
+            $accessText = $accessSection['access_section_text'];
+            if($accessText):?>
+            <p><?php echo $accessText;?></p>
+            <?php endif; ?>
+            <?php
+            $button = $accessSection['button'];
+            if($button):?>
+            <div class="btn--green">
+                <?php include 'components/button.php';?>
+            </div>
+            <?php endif; ?>
+          
+        </div>
+       </div> 
     </div>
     <div class="section--shop-slider">
         <h2 class="text-center">Shop</h2>
