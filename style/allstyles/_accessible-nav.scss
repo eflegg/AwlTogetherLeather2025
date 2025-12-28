@@ -229,8 +229,12 @@ header {
     font-size: 2.5rem;
     padding-top: .5rem;
 	color: $darkBrown;
-	@include font-size(4.2);
+	position: relative;
 	z-index: 30;
+	@include font-size(3.7);
+	@include media-query-min($sm){
+		@include font-size(4.2);
+	}
   }
 
 //header buttons
