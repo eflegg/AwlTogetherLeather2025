@@ -16,7 +16,7 @@ Template Name: Home Page
 $serviceSection = $homePage['service_section'];
     ;?>
         
-        <div class="listing-block--container row">
+        <div class="listing-block--container">
         <?php
         $args = array (
             'post_type' => 'services',

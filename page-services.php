@@ -20,7 +20,7 @@ Template Name: Services Page
         <div class="services--description"><p><?php echo $servicesIntro; ?></p>
     </div>
     <?php endif; ?>
-    <div class="listing-block--container row">
+    <div class="listing-block--container">
         <?php
         $args = array (
             'post_type' => 'services',
