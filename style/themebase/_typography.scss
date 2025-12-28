@@ -114,13 +114,4 @@ a {
   }
 }
 
-.page--home__title {
-  @include media-query-min($sm) {
-    font-size: 70px;
-  }
-}
-.page--home__subtitle {
-  @include media-query-min($sm) {
-    font-size: 30px;
-  }
-}
+

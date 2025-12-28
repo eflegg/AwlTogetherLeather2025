@@ -20,7 +20,7 @@
   font-weight: 400;
     top: 0px;
     left: 0px;
-  .green   {
+  &.green   {
        border: 2px solid $bannerGreen!important;
        color: $bannerGreen!important;
        &:hover {
@@ -62,16 +62,18 @@ button[type="submit"] {
       transition: all 0.25s ease-in-out;
     }
   }
-  .btn-green   {
+ 
+}
+
+ .btn--green>.btn--primary   {
        border: 2px solid $bannerGreen!important;
        color: $bannerGreen!important;
+       font-size: 2rem;
+       padding: .5rem 1.5rem;
        &:hover {
             box-shadow: 8px 8px 0px 0px $bannerGreen!important;
        }
  }
-}
-
-
 
 
 

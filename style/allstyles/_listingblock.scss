@@ -9,10 +9,10 @@
   position: relative;
   display: flex;
   min-height: 0;
-   padding: 2rem;
+   padding: 4rem;
     @include media-query-min($md) {
       flex-direction: row;
-      padding: 5rem;
+      padding: 6rem;
     }
  .btn--square {
   border-radius: 20px!important;
@@ -111,9 +111,6 @@
 .text-image {
   border: 2px solid seagreen;
   display: flex;
-  .text--inner {
-    
-  }
   .text--inner p{
     font-size: 2rem;
     line-height: 125%;

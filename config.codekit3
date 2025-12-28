@@ -7,7 +7,7 @@
       "uuidString" : "0A68C42B-2013-412E-ADE1-C22F1E9ED46F"
     }
   ],
-  "creatorBuild" : "34704",
+  "creatorBuild" : "34892",
   "files" : {
     "\/404.php" : {
       "cB" : 0,
@@ -465,6 +465,16 @@
       "oA" : 0,
       "oAP" : "\/header.php",
       "oF" : 0
+    },
+    "\/images\/creamCircle.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/creamCircle.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/images\/svg-arrow.svg" : {
       "ft" : 2097152,
@@ -5960,6 +5970,9 @@
         "active" : 0,
         "optionString" : "{'skipBlankLines': false, 'ignoreComments': false}"
       },
+      "no-unassigned-vars" : {
+        "active" : 0
+      },
       "no-undef" : {
         "active" : 1,
         "optionString" : "{'typeof': false}"
@@ -6040,7 +6053,8 @@
         "active" : 0
       },
       "no-useless-escape" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowRegexCharacters': []}"
       },
       "no-useless-rename" : {
         "active" : 0,

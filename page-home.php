@@ -14,12 +14,7 @@ Template Name: Home Page
     <?php include "components/home-hero.php" ;?>
 <?php
 $serviceSection = $homePage['service_section'];
-    $serviceText = $serviceSection['service_section_text'];
-    if($serviceText):?>
-    <div  class="section--services ">
-
-        <h2 id="waypoint"class="w-75 w-md-50  services--text"><?php echo $serviceText; ?></h2>
-        <?php endif;?>
+    ;?>
         
         <div class="listing-block--container row">
         <?php

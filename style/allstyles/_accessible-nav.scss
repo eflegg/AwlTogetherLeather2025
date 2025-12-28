@@ -28,8 +28,7 @@ body {
 header {
     
 	z-index: 30;
-	padding-left: 2rem;
-	padding-top: 2rem;
+	padding: 2rem 2rem 0 2rem;
 	position: relative;
 	top: 0;
 	left: 0;
@@ -38,9 +37,12 @@ header {
 	transition: background-color .15s ease-in; 
 	@include media(sm){
 		display: flex;
-		justify-content: flex-start;
+		justify-content: space-between;
 		align-items: center;
 	}
+	// @include media(md){
+	// 	justify-content: space-between;
+	// }
 	@include media(lg){
 		padding-left: 3rem;
 		padding-top: initial;
@@ -237,6 +239,7 @@ header {
 	position: relative;
 	display: flex;
 	align-items: center;
+	justify-self: flex-end;
 }
 .search-field--custom {
   input {
