@@ -5,12 +5,14 @@
 
        
      <div class="hero--image fade-in">
+       
         <?php
         $heroImage = $homePage['hero_image'];
         $image = $heroImage['image_item'];
         if($image):?>
         <?php include 'image.php';?>
         <?php endif;?>
+      
     </div>
       <div class="cream-circle">
             

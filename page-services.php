@@ -13,7 +13,7 @@ Template Name: Services Page
     <h1 class="text-left"><?php the_title( '' );?></h1>
     <hr>
 </div> -->
-    <div class="layout-container">
+    <div class="">
         <?php 
         $servicesIntro = get_field('services_intro');
         if($servicesIntro):?>
@@ -31,8 +31,8 @@ Template Name: Services Page
         $servicesQuery = new WP_query($args);
         if($servicesQuery->have_posts()) :?>
         <?php while($servicesQuery->have_posts()): $servicesQuery->the_post()?>
-        <div class="col-12 col-sm-6 block-outer"><?php include "components/listing-block.php";?>
-    </div>
+       <?php include "components/service-listing-block.php";?>
+
     <?php endwhile; endif; ?>        
     </div><!-- .listing-block--container -->
 </div><!-- .layout-container -->
