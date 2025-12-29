@@ -14,7 +14,7 @@
 			if( $posts ): ?>
 					<?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
 							<?php setup_postdata($post); ?>
-							<a class="btn--primary <?php echo $buttonColor;?>" href="<?php the_permalink(); ?>">
+							<a class="btn btn--primary <?php echo $buttonColor;?>" href="<?php the_permalink(); ?>">
 						
 						
 									<?php echo $buttonText; ?>

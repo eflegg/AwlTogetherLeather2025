@@ -80,11 +80,11 @@ $serviceSection = $homePage['service_section'];
         </div>
        </div> 
     </div>
+    <?php include 'components/feature-prod-block.php';?>
     <div class="section--shop-slider">
-        <h2 class="text-center">Shop</h2>
         <div class="product-slider">
             <?php echo
-            do_shortcode( '[wcpscwc_pdt_slider type="products"]');
+            do_shortcode( '[wcpscwc_pdt_slider type="products" dots="false" slide_to_show="4"]');
             ?>
         </div>
         <?php

@@ -23,7 +23,7 @@
         <?php endif; ?>
     </a>
     <!-- button -->
-    <a href=<?php the_permalink(); ?> class="btn--listing btn--primary btn--square">Learn More</a>
+    <a href=<?php the_permalink(); ?> class="btn btn--listing btn--primary btn--square">Learn More</a>
     </div>
       <a class="service-block__image service-block__image--even" href=<?php the_permalink(); ?>>
         <figure >
