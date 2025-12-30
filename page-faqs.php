@@ -9,9 +9,10 @@ Template Name: FAQ Page
 <?php while (have_posts()): the_post(); ?>
 
 
-    <div class="layout-container accordion">
-        <!-- test for page title here. could be blog -->
+    <div class="green-gradient">
         <?php include "components/custom-page-header.php"; ?>
+    </div>
+    <div class="layout-container accordion">
         <ul class="accordion-list">
             <?php
             $args = array(
