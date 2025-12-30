@@ -2,8 +2,6 @@
 @use "../themebase/colours" as *;
 @use "../themebase/mediaqueries" as *;
 
-
-
 img {
   max-width: 100%;
 }
@@ -31,17 +29,17 @@ body {
 
 .home-hero--container {
   border: 4px solid slateblue;
-   background: $green;
-   display: flex;
+  background: $green;
+  display: flex;
   flex-direction: column-reverse;
   color: $darkBrown;
   width: 100%;
   position: relative;
   overflow: hidden;
-    @include media-query-min($md){
-      flex-direction: row;
-       height: 80vh;
-    }
+  @include media-query-min($md) {
+    flex-direction: row;
+    height: 80vh;
+  }
   &.blog-container {
     .entry-title {
       margin-bottom: 0px;
@@ -58,23 +56,22 @@ body {
 
   @include media-query-min($sm) {
     height: 75vh;
-     min-height: 70rem;
+    min-height: 70rem;
   }
   @include media-query-min($md) {
     height: 95vh;
   }
-  
 
   .hero--image {
     height: 85%;
     margin-top: auto;
-    position:relative;
+    position: relative;
     z-index: 10;
     left: -7%;
-    @include media-query-min($sm){
+    @include media-query-min($sm) {
       left: -20%;
     }
-   @include media-query-min($md){
+    @include media-query-min($md) {
       left: -7%;
     }
   }
@@ -103,37 +100,37 @@ body {
     width: 150vw;
     border-radius: 50%;
     top: -10;
-    @include media-query-min($sm){
+    @include media-query-min($sm) {
       height: 115%;
-       top: -50;
-    right: -85;
-    width: 90vw;
-    height: 100%;
+      top: -50;
+      right: -85;
+      width: 90vw;
+      height: 100%;
     }
-      @include media-query-min($md){
-        width: 60vw;
-      }
+    @include media-query-min($md) {
+      width: 60vw;
+    }
   }
 }
 .page--home__title {
-   font-family: $logoType;
-    font-size: 5rem;
-    text-align: center;
-    @include media-query-min($md){
-      font-size: 7rem;
-      text-align: left;
-    }
-      @include media-query-min($lg){
-      font-size: 9rem;
-    }
+  font-family: $logoType;
+  font-size: 5rem;
+  text-align: center;
+  @include media-query-min($md) {
+    font-size: 7rem;
+    text-align: left;
+  }
+  @include media-query-min($lg) {
+    font-size: 9rem;
+  }
 }
 .page--home__subtitle {
- margin-top: 1rem;
- font-weight: 300;
- font-style: italic;
- font-size: 30px;
- font-family: $bodyFont;
-  color: $darkBrown; 
+  margin-top: 1rem;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 30px;
+  font-family: $bodyFont;
+  color: $darkBrown;
   position: relative;
   right: 50%;
   transform: translateX(50%);
@@ -149,7 +146,7 @@ body {
   text-align: right;
   @include media-query-min($md) {
     font-size: 3rem;
-     align-items: flex-start;
+    align-items: flex-start;
     padding: 0;
     text-align: left;
   }
@@ -159,7 +156,6 @@ body {
     font-weight: 600;
     margin-bottom: 2rem;
     margin-top: 5rem;
-
   }
 }
 
@@ -173,13 +169,12 @@ body {
   }
 }
 
-
 .services--button {
   display: flex;
   justify-content: center;
   position: relative;
-   top: -4rem;
-  @include media-query-min($md){
+  top: -4rem;
+  @include media-query-min($md) {
     top: -8rem;
   }
 }
@@ -197,15 +192,14 @@ body {
   .access-text {
     width: 90%;
     padding: 25px;
-     @include media-query-min($md) {
-        width: 40%;
-      }
+    @include media-query-min($md) {
+      width: 40%;
+    }
     p {
       @include font-size(2);
-       @include media-query-min($sm) {
+      @include media-query-min($sm) {
         @include font-size(2.5);
       }
-     
     }
   }
   .access-image {
@@ -228,6 +222,39 @@ body {
       object-fit: cover;
       object-position: center center;
       width: 100%;
+    }
+  }
+}
+
+.blog-section_home {
+  margin-bottom: 5rem;
+  color: $darkBrown;
+  @include media-query-min($md) {
+    margin-bottom: 8rem;
+  }
+}
+
+.feature-blog--inner {
+  // display: flex;
+  width: 100%;
+  @include media-query-min($md) {
+    display: flex;
+  }
+  .left {
+    background: $yellow;
+    width: 100%;
+    padding: 5rem;
+    @include media-query-min($md) {
+      width: 75%;
+    }
+  }
+  .right {
+    width: 100%;
+    background-size: cover;
+    height: 50vh;
+    @include media-query-min($md) {
+      width: 25%;
+      height: initial;
     }
   }
 }

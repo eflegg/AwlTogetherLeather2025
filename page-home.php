@@ -96,6 +96,9 @@ $serviceSection = $homePage['service_section'];
             <?php endif; ?>
         </div>
     </div>
+    <section class="blog-section_home">
+<?php include "components/feature-blog-block.php";?>
+  </section>
 
 
 

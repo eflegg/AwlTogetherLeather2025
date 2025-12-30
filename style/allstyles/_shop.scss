@@ -20,15 +20,17 @@
   }
 }
 
-.woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h2 {
+.woocommerce ul.products li.product .woocommerce-loop-category__title,
+.woocommerce ul.products li.product .woocommerce-loop-product__title,
+.woocommerce ul.products li.product h2 {
   font-size: 3rem;
   font-weight: 400;
   color: $darkBrown;
-    font-size: 1.8rem!important;
-    padding: 0!important;
-   @include media-query-min($md) {
-    font-size: 2.2rem!important;
-   }
+  font-size: 1.8rem !important;
+  padding: 0 !important;
+  @include media-query-min($md) {
+    font-size: 2.2rem !important;
+  }
 }
 .wcpscwc-product-slider .products li {
   padding: 0 25px !important;
@@ -95,46 +97,41 @@
   flex-direction: column;
 }
 
-
-
 //feature prod block on home page
 
 .shop-section {
   margin: 5rem 0;
-   @include media-query-min($md){
-  margin: 10rem 0;
+  @include media-query-min($md) {
+    margin: 10rem 0;
+  }
 }
-}
-.feature-prod--inner{
- background: $coral;
-	display: flex;
-	flex-direction: column;
-    width: 100%;
- @include media-query-min($md){
-		flex-direction: row;
-		align-items: center;
-		// height: 80vh;
-		min-height: 50rem;
-	}
-	.right {
-   
-    padding: 3rem;
-		 @include media-query-min($md){
-			width: 50%;
-		max-width: 67rem;
-    padding: 5rem;
-      h2 {
-        color: $darkBrown;
-        margin-top: 0;
-      }
-		}
-	}
-	.left {
-			 @include media-query-min($md){
-				width: 50%;
-				height: 100%
+.feature-prod--inner {
+  background: $coral;
+  display: flex;
+  flex-direction: column;
 
-			}
-		
-	}
+  // width: 100%;
+  @include media-query-min($md) {
+    flex-direction: row;
+    align-items: center;
+  }
+  .right {
+    padding: 3rem;
+    @include media-query-min($md) {
+      width: 50%;
+      max-width: 67rem;
+      padding: 5rem;
+      flex: 2;
+    }
+    h2 {
+      color: $darkBrown;
+      margin-top: 0;
+    }
+  }
+  .left {
+    @include media-query-min($md) {
+      width: 50%;
+      height: 100%;
+    }
+  }
 }

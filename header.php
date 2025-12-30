@@ -70,7 +70,7 @@ endif;
 						$buttonText = get_field('header_button_text', 'option');
 						$buttonLink = get_field('header_button_link', 'option');
 						if($buttonText && $buttonLink):?>
-							<button class="btn--primary btn--nav ">
+							<button class="btn btn--primary btn--nav ">
 									<a
 									
 									href="<?php echo $buttonLink; ?>">

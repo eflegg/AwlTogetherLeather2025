@@ -64,20 +64,7 @@
 .fa-angle-right {
   display: none;
 }
-.understrap-read-more-link {
-  border: 3px solid $coral;
-  background: transparent;
-  padding: 10px 20px;
-  border-radius: 25px;
-  font-size: 18px;
-  transition: all 0.15s ease-in-out;
-  text-decoration: none;
-  &:hover {
-    background: $coral;
-    transition: all 0.15s ease-in-out;
-    color: $cream;
-  }
-}
+
 
 .pagination {
   width: 60%;
