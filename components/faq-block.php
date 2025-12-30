@@ -1,16 +1,18 @@
-<div class="access-block--container content">
-    <?php
-    $faqQuestion = get_field('faq_question');
-    if($faqQuestion) :?>
-    <h2 class="access-title"><?php echo $faqQuestion; ?></h2>
-    <?php endif; ?>
+<li aria-expanded="false" class="accordion-item">
+    <button class="item--inner">
+        <?php
+        $faqQuestion = get_field('faq_question');
+        if ($faqQuestion) : ?>
+            <p class="question"><?php echo $faqQuestion; ?></p>
+        <?php endif; ?>
+
+
+        <figure class="icon"><img src="<?php bloginfo('template_url'); ?>/images/svg-arrow.svg" alt="chevron icon"></figure>
+    </button>
     <?php
     $faqAnswer = get_field('faq_answer');
-    if($faqAnswer) :
-        ?>
-    <p class="access-description"><?php echo $faqAnswer; ?></p>
+    if ($faqAnswer) :
+    ?>
+        <div class="p answer"><?php echo $faqAnswer; ?></div>
     <?php endif; ?>
-  
-   
-  
-</div>
+</li>

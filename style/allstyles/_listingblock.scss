@@ -9,96 +9,95 @@
   position: relative;
   display: flex;
   min-height: 0;
-   padding: 4rem;
-    @include media-query-min($sm) {
-      flex-direction: row;
-      padding: 8rem;
-    }
- .btn--square {
-  border-radius: 20px!important;
-  align-self: flex-start;
-  font-size: 20px;
- }
-  &:nth-child(odd){
+  padding: 4rem;
+  @include media-query-min($sm) {
+    flex-direction: row;
+    padding: 8rem;
+  }
+  .btn--square {
+    border-radius: 20px !important;
+    align-self: flex-start;
+    font-size: 20px;
+  }
+  &:nth-child(odd) {
     align-items: center;
     flex-direction: column;
     border: 3px solid purple;
-   @include media-query-min($sm) {
-    flex-direction: row;
-    z-index: 10;
-   }
-     .service-block__image--odd {
-       aspect-ratio: 2/1.5;
-       @include media-query-min($sm) {
-         aspect-ratio: 1/2;
-          width: 35%;
-       }
-     }
-     .service-block__image--even {
+    @include media-query-min($sm) {
+      flex-direction: row;
+      z-index: 10;
+    }
+    .service-block__image--odd {
+      aspect-ratio: 2/1.5;
+      @include media-query-min($sm) {
+        aspect-ratio: 1/2;
+        width: 35%;
+      }
+    }
+    .service-block__image--even {
       display: none;
       visibility: hidden;
-     }
-     .service-block__text {
-      @include media-query-min($sm){
+    }
+    .service-block__text {
+      @include media-query-min($sm) {
         padding-left: 2rem;
       }
-     }
-   
+    }
   }
-  &:nth-child(4){
-     background-image: linear-gradient($green, $cream);
+  &:nth-child(4) {
+    background-image: linear-gradient($green, $cream);
   }
-   &:nth-child(2){
-     background-image: linear-gradient($yellow, $cream);
+  &:nth-child(2) {
+    background-image: linear-gradient($yellow, $cream);
   }
-  &:nth-child(even){
+  &:nth-child(even) {
     position: relative;
     flex-direction: column;
-     border: 3px solid blue;
-     @include media-query-min($sm){
+    border: 3px solid blue;
+    @include media-query-min($sm) {
       top: -10rem;
-       align-items: flex-start;
-     flex-direction: column-reverse;
-     }
-     .service-block__image--even {
+      align-items: flex-start;
+      flex-direction: column-reverse;
+    }
+    .service-block__image--even {
       display: none;
-       visibility: hidden;
-        @include media-query-min($sm){
+      visibility: hidden;
+      @include media-query-min($sm) {
         display: block;
         visibility: visible;
       }
-     }
-     .service-block__image--odd {
-      @include media-query-min($sm){
+    }
+    .service-block__image--odd {
+      @include media-query-min($sm) {
         display: none;
         visibility: hidden;
       }
-     }
-      .service-block__image {
+    }
+    .service-block__image {
       border: 2px solid red;
       aspect-ratio: 2/1.5;
-      @include media-query-min($sm){
+      @include media-query-min($sm) {
         margin-left: auto;
-         width: 55%;
+        width: 55%;
         margin-top: 5rem;
         align-self: flex-end;
         aspect-ratio: 2/1;
       }
     }
-    .text--inner{
-      @include media-query-min($sm){
-      width: 42%;
-     }
+    .text--inner {
+      @include media-query-min($sm) {
+        width: 42%;
+      }
     }
-}
+  }
 }
 .service-block__image {
   max-height: 50rem;
   figure {
     height: 100%;
     img {
-    border-radius: 30px;
-  }
+      border-radius: 30px;
+    }
   }
 }
 .service-block__text {
@@ -111,14 +110,14 @@
 .text-image {
   border: 2px solid seagreen;
   display: flex;
-  .text--inner p{
+  .text--inner p {
     font-size: 2rem;
     line-height: 125%;
     @include media-query-min($sm) {
-    font-size: 3rem;
+      font-size: 3rem;
     }
     @include media-query-min($lg) {
-    font-size: 4rem;
+      font-size: 4rem;
     }
   }
 }
@@ -173,13 +172,95 @@
   }
 }
 
-// .listing-block--container {
-//   border: 2p solid yellow;
-//   margin-top: 50px;
-//   @include media-query-min($sm) {
-//     margin-top: 60px;
-//   }
-// }
+//CC Accordion styles for new FAQs
+
+.accordion {
+  .accordion-list {
+    border: 1px solid $coral;
+    button {
+      border: 0px;
+      display: flex;
+      justify-content: space-between;
+    }
+    padding-left: 0;
+    .question {
+      font-size: 2.5rem;
+      margin-top: 0;
+      @include media-query-min($sm) {
+        font-size: 3rem;
+      }
+      @include media-query-min($md) {
+        font-size: 4rem;
+      }
+      @include media-query-min($lg) {
+        font-size: 6rem;
+      }
+    }
+    .accordion-item {
+      border-bottom: 1px solid $coral;
+      cursor: pointer;
+      transition: all 0.25s ease-in-out;
+      &:last-child {
+        border-bottom: 0px;
+      }
+      &[aria-expanded="false"] {
+        overflow: hidden;
+        height: 12.8rem;
+        transition: all 0.25s ease-in-out;
+        .answer {
+          visibility: hidden;
+          padding: 0rem;
+          opacity: 0;
+          position: relative;
+          display: inline-table;
+          max-width: 100%;
+          width: 100%;
+          overflow: hidden;
+          transition: all 0.25s;
+          height: 0rem;
+        }
+      }
+      .icon {
+        transform: rotate(0deg);
+        transition: all 0.25s ease-in-out;
+        width: 5.5rem;
+      }
+      &[aria-expanded="true"] {
+        transition: all 0.25s ease-in-out;
+        overflow: visible;
+        .icon {
+          transform: rotate(180deg);
+          transition: all 0.25s ease-in-out;
+        }
+        .answer {
+          height: 100%;
+          width: 100%;
+          padding: 3rem;
+          position: relative;
+          opacity: 1;
+          visibility: visible;
+          overflow: visible;
+          transition: all 0.25s;
+          // border-top: 1px solid green;
+        }
+      }
+    }
+    .item--inner,
+    .answer {
+      width: 100%;
+      padding: 3rem;
+      // border: 1px solid $coral;
+      margin: 0;
+      background-color: transparent;
+    }
+    .item--inner[aria-expanded="false"] {
+      overflow: hidden;
+    }
+    .item--inner[aria-expanded="true"] {
+      overflow: hidden;
+    }
+  }
+}
 
 /// Access and Blog listing block ///
 

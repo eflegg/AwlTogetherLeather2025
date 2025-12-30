@@ -4,6 +4,31 @@
 document.addEventListener("DOMContentLoaded", function() {
 
 
+//FAQ accordion
+
+const accordionItems = document.querySelectorAll('.accordion-item');
+
+const remove = () => {
+  accordionItems.forEach(el => {
+    el.setAttribute('aria-expanded', 'false');
+    console.log('remove fired');
+  })
+}
+function toggleAccordion(){
+
+  if(this.ariaExpanded === "false"){
+    remove();
+    this.setAttribute('aria-expanded', 'true');
+
+  } else {
+    remove();
+    this.setAttribute('aria-expanded', 'false');
+
+  }
+ 
+}
+accordionItems.forEach(item => item.addEventListener('click', toggleAccordion));
+
 //// Accessible navigation////
 
 //add classes to subnav for easier styling
@@ -304,6 +329,9 @@ for (var i = 0; i < element.length; i++)
 
 
 });
+
+
+
 
 
 

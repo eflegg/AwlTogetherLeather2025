@@ -116,6 +116,14 @@
       "oAP" : "\/components\/faq-block.php",
       "oF" : 0
     },
+    "\/components\/faq-blockORIGINAL.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/components\/faq-blockORIGINAL.php",
+      "oF" : 0
+    },
     "\/components\/feature-blog-block.php" : {
       "cB" : 0,
       "ft" : 8192,
