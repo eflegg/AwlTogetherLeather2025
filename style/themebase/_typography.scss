@@ -1,7 +1,6 @@
 @use "colours" as *;
 @use "mediaqueries" as *;
 
-
 @font-face {
   font-family: "Alstoria";
   src: url("../fonts/Alstoria-Regular.ttf");
@@ -17,10 +16,13 @@ html {
   font-size: 62.5%;
 }
 
-
 $bodyFont: "degular", sans-serif;
 $logoType: "Alstoria", sans-serif;
 $headerFont: "degular", sans-serif;
+
+.logotype {
+  font-family: $logoType;
+}
 
 h1,
 .h1 {
@@ -29,16 +31,17 @@ h1,
   @include media-query-min($md) {
     @include font-size(8.2);
   }
-   @include media-query-min($lg) {
+  @include media-query-min($lg) {
     @include font-size(16);
   }
 }
 
-h2 {
+h2,
+.h2 {
   @include font-size(2.2);
   line-height: 30px;
   font-family: $bodyFont;
- font-weight: 700;
+  font-weight: 700;
   @include media-query-min($sm) {
     @include font-size(4);
     line-height: 34px;
@@ -48,31 +51,29 @@ h2 {
     @include font-size(6);
     line-height: 38px;
   }
-    @include media-query-min($lg) {
+  @include media-query-min($lg) {
     @include font-size(8);
     line-height: 38px;
   }
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-family: $bodyFont;
   font-weight: medium;
-  @include font-size(1.8);
+  @include font-size(2.2);
   line-height: 22px;
   font-weight: 500;
   @include media-query-min($sm) {
-    @include font-size(2);
+    @include font-size(2.6);
     line-height: 25px;
   }
 
   @include media-query-min($md) {
-    @include font-size(2.2);
+    @include font-size(3);
     line-height: 28px;
   }
 }
-
-
-
 
 p {
   font-family: $bodyFont;
@@ -82,8 +83,8 @@ p {
 }
 
 label {
-   font-weight: 400;
-    font-family: $bodyFont;
+  font-weight: 400;
+  font-family: $bodyFont;
 }
 
 li {
@@ -99,7 +100,7 @@ a {
   &:hover {
     text-decoration: none;
   }
-  color: $grey ;
+  color: $grey;
 }
 .nav-link {
   font-family: $headerFont;
@@ -113,5 +114,3 @@ a {
     font-size: 48px;
   }
 }
-
-

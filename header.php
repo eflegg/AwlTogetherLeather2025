@@ -11,20 +11,11 @@
 
 </head>
 
-<?php
-
-$colour = '#3857a2';
-
-if (get_field('sig_colour')):
-	$colour = get_field('sig_colour');
-
-endif;
-
-?>
 
 
 
-<body <?php body_class(); ?> style="--sigcolor: <?php echo $colour ?>;">
+
+<body>
 	<?php
 	$homeBanner = get_field('header_banner', 'option');
 	if ($homeBanner === "Yes"): ?>

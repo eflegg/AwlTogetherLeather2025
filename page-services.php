@@ -4,40 +4,40 @@ Template Name: Services Page
  */
 ?>
 
-<?php get_header();?>
-<?php while (have_posts()): the_post();?>
+<?php get_header(); ?>
+<?php while (have_posts()): the_post(); ?>
 
 
-<?php include "components/custom-page-header.php";?>
-<!-- <div class="pl-5 page-title title text-left d-flex">
-    <h1 class="text-left"><?php the_title( '' );?></h1>
-    <hr>
-</div> -->
-    <div class="">
-        <?php 
-        $servicesIntro = get_field('services_intro');
-        if($servicesIntro):?>
-        <div class="services--description"><p><?php echo $servicesIntro; ?></p>
+    <div class="green-gradient">
+        <?php include "components/custom-page-header.php"; ?>
     </div>
-    <?php endif; ?>
-    <div class="listing-block--container">
+    <div class="">
         <?php
-        $args = array (
-            'post_type' => 'services',
-            'posts_per_page' => -1,
-            'orderby'=> 'menu_order',
-            'order'=> 'ASC',
-        );
-        $servicesQuery = new WP_query($args);
-        if($servicesQuery->have_posts()) :?>
-        <?php while($servicesQuery->have_posts()): $servicesQuery->the_post()?>
-       <?php include "components/service-listing-block.php";?>
+        $servicesIntro = get_field('services_intro');
+        if ($servicesIntro): ?>
+            <div class="services--description layout-container">
+                <p><?php echo $servicesIntro; ?></p>
+            </div>
+        <?php endif; ?>
+        <div class="listing-block--container">
+            <?php
+            $args = array(
+                'post_type' => 'services',
+                'posts_per_page' => -1,
+                'orderby' => 'menu_order',
+                'order' => 'ASC',
+            );
+            $servicesQuery = new WP_query($args);
+            if ($servicesQuery->have_posts()) : ?>
+                <?php while ($servicesQuery->have_posts()): $servicesQuery->the_post() ?>
+                    <?php include "components/service-listing-block.php"; ?>
 
-    <?php endwhile; endif; ?>        
-    </div><!-- .listing-block--container -->
-</div><!-- .layout-container -->
+            <?php endwhile;
+            endif; ?>
+        </div><!-- .listing-block--container -->
+    </div><!-- .layout-container -->
 
-<!-- close php loop -->
-<?php endwhile;?>
+    <!-- close php loop -->
+<?php endwhile; ?>
 
-<?php get_footer();?>
+<?php get_footer(); ?>

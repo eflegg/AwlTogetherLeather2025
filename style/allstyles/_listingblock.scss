@@ -4,6 +4,19 @@
 
 //new listing block for services
 
+.service-block__image {
+  max-height: 50rem;
+  figure {
+    height: 100%;
+    aspect-ratio: 2/1.5;
+    @include media-query-min($sm) {
+      aspect-ratio: initial;
+    }
+    img {
+      border-radius: 30px;
+    }
+  }
+}
 .service-block__container {
   color: $darkBrown;
   position: relative;
@@ -91,15 +104,7 @@
     }
   }
 }
-.service-block__image {
-  max-height: 50rem;
-  figure {
-    height: 100%;
-    img {
-      border-radius: 30px;
-    }
-  }
-}
+
 .service-block__text {
   width: 100%;
   border: 2px solid gold;
