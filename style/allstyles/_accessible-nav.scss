@@ -142,6 +142,8 @@ header {
   }
   .menu-item-has-children {
     button {
+      border: 0;
+      background: transparent;
       &:after {
         content: "\27F6";
         font-size: 45px;

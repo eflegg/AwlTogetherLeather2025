@@ -51,6 +51,11 @@ footer {
       padding: 7.5rem;
     }
   }
+
+  .footer--sign-up .ninja-forms-field .nf-element {
+    border: 1px solid $darkBrown !important;
+    background-color: $cream !important;
+  }
   .footer--sign-up,
   .terms {
     margin: 0;

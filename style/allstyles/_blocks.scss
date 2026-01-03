@@ -147,3 +147,46 @@
     // }
   }
 }
+
+//newsletter block on blog page
+
+.newsletter-block {
+  display: flex;
+  flex-direction: column-reverse;
+  @include media-query-min($sm) {
+    flex-direction: row;
+  }
+  .left {
+    @include media-query-min($sm) {
+      width: 50%;
+    }
+    figure {
+      height: 100%;
+      img {
+        @include media-query-min($sm) {
+          border-radius: 0 100% 100% 0;
+        }
+      }
+    }
+  }
+  h1 {
+    color: $darkBrown;
+    line-height: 90%;
+  }
+  p {
+    line-height: 110%;
+    @include media-query-min($md) {
+      font-size: 2.5rem;
+    }
+  }
+  h3 {
+    display: none;
+  }
+  .right {
+    padding: 2.5rem;
+
+    @include media-query-min($md) {
+      width: 50%;
+    }
+  }
+}
