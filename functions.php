@@ -1,4 +1,5 @@
 <?php
+
 /**
  * UnderStrap functions and definitions
  *
@@ -6,7 +7,7 @@
  */
 
 // Exit if accessed directly.
-defined( 'ABSPATH' ) || exit;
+defined('ABSPATH') || exit;
 
 $understrap_includes = array(
 	'/theme-settings.php',                  // Initialize theme default settings.
@@ -26,29 +27,31 @@ $understrap_includes = array(
 	'/deprecated.php',                      // Load deprecated functions.
 );
 
-foreach ( $understrap_includes as $file ) {
+foreach ($understrap_includes as $file) {
 	require_once get_template_directory() . '/inc' . $file;
 }
 
-function my_theme_load_ionicons_font() {
+function my_theme_load_ionicons_font()
+{
 	// Load Ionicons font from CDN
-	wp_enqueue_script( 'my-theme-ionicons', 'https://unpkg.com/ionicons@5.2.3/dist/ionicons.js', array(), '5.2.3', true );
+	wp_enqueue_script('my-theme-ionicons', 'https://unpkg.com/ionicons@5.2.3/dist/ionicons.js', array(), '5.2.3', true);
 }
-add_action( 'wp_enqueue_scripts', 'my_theme_load_ionicons_font' );
+add_action('wp_enqueue_scripts', 'my_theme_load_ionicons_font');
 
 
-add_filter( 'woocommerce_product_tabs', 'woo_remove_product_tabs', 98 );
+add_filter('woocommerce_product_tabs', 'woo_remove_product_tabs', 98);
 
-function woo_remove_product_tabs( $tabs ) {
-    unset( $tabs['description'] );          // Remove the description tab
-    unset( $tabs['reviews'] );          // Remove the reviews tab
-    unset( $tabs['additional_information'] );   // Remove the additional information tab
-    return $tabs;
+function woo_remove_product_tabs($tabs)
+{
+	unset($tabs['description']);          // Remove the description tab
+	unset($tabs['reviews']);          // Remove the reviews tab
+	unset($tabs['additional_information']);   // Remove the additional information tab
+	return $tabs;
 }
 
 //add options page
-if( function_exists('acf_add_options_page') ) {
-	
+if (function_exists('acf_add_options_page')) {
+
 	acf_add_options_page(array(
 		'page_title' 	=> 'Theme General Settings',
 		'menu_title'	=> 'Theme Settings',
@@ -56,123 +59,125 @@ if( function_exists('acf_add_options_page') ) {
 		'capability'	=> 'edit_posts',
 		'redirect'		=> false
 	));
-	
+
 	acf_add_options_sub_page(array(
 		'page_title' 	=> 'Theme Header Settings',
 		'menu_title'	=> 'Header',
 		'parent_slug'	=> 'theme-general-settings',
 	));
-	
+
 	acf_add_options_sub_page(array(
 		'page_title' 	=> 'Theme Footer Settings',
 		'menu_title'	=> 'Footer',
 		'parent_slug'	=> 'theme-general-settings',
 	));
-	
 }
 
 
 
-function enqueue_blogfilter_script() {
-    if ( is_page_template('page-blog.php') || is_page_template('page-custom-shop.php') ) {
-        wp_enqueue_script( 'blogroll-script-handle', get_template_directory_uri() . '/src/js/blog-filter.js', array(), '1.0', true );
-    }
+function enqueue_blogfilter_script()
+{
+	if (is_page_template('page-blog.php') || is_page_template('page-custom-shop.php')) {
+		wp_enqueue_script('blogroll-script-handle', get_template_directory_uri() . '/src/js/blog-filter.js', array(), '1.0', true);
+	}
 }
-add_action( 'wp_enqueue_scripts', 'enqueue_blogfilter_script' );
+add_action('wp_enqueue_scripts', 'enqueue_blogfilter_script');
 
-function enqueue_custom_js(){
-	wp_enqueue_script( 'main-js', get_template_directory_uri() . '/src/js/custom-javascript.js', array('jquery') );
+function enqueue_custom_js()
+{
+	wp_enqueue_script('main-js', get_template_directory_uri() . '/src/js/custom-javascript.js', array('jquery'));
 }
 add_action('wp_enqueue_scripts', 'enqueue_custom_js');
 
 
 //*WAYPOINTS
-function waypoints_init() {
-	wp_enqueue_script( 'waypointsJS-two', get_template_directory_uri() . '/js/waypoints/src/waypoint.js', true);
-    wp_enqueue_script( 'waypointsJS', get_template_directory_uri() . '/js/waypoints/lib/noframework.waypoints.min.js', true);
-	wp_enqueue_script( 'waypointAdapters', get_template_directory_uri() . '/js/waypoints/src/adapters/noframework.js', true);
+function waypoints_init()
+{
+	wp_enqueue_script('waypointsJS-two', get_template_directory_uri() . '/js/waypoints/src/waypoint.js', true);
+	wp_enqueue_script('waypointsJS', get_template_directory_uri() . '/js/waypoints/lib/noframework.waypoints.min.js', true);
+	wp_enqueue_script('waypointAdapters', get_template_directory_uri() . '/js/waypoints/src/adapters/noframework.js', true);
 }
 add_action('wp_enqueue_scripts', 'waypoints_init');
 
-function customWaypoints() {
-	
-		wp_enqueue_script( 'myWaypoints', get_template_directory_uri() . '/js/waypoints-custom.js', true);
-		}
-		add_action('wp_enqueue_scripts', 'customWaypoints');
+function customWaypoints()
+{
+
+	wp_enqueue_script('myWaypoints', get_template_directory_uri() . '/js/waypoints-custom.js', true);
+}
+add_action('wp_enqueue_scripts', 'customWaypoints');
 
 
 
-
-function custom_redirects() {
+//remind me what this is doing?
+function custom_redirects()
+{
 	$post_type = 'access-cat';
-    if ( is_singular($post_type ) ) {
-        wp_redirect( home_url( '/accessibility/' ) );
-        die;
-    }
- 
- 
+	if (is_singular($post_type)) {
+		wp_redirect(home_url('/accessibility/'));
+		die;
+	}
 }
-add_action( 'template_redirect', 'custom_redirects' );
+add_action('template_redirect', 'custom_redirects');
 
 
-function wpshock_search_filter( $query ) {
-    if ( $query->is_search ) {
-        $query->set( 'post_type', array('post','page') );
-    }
-    return $query;
+function wpshock_search_filter($query)
+{
+	if ($query->is_search) {
+		$query->set('post_type', array('post', 'page'));
+	}
+	return $query;
 }
-add_filter('pre_get_posts','wpshock_search_filter');
+add_filter('pre_get_posts', 'wpshock_search_filter');
 
 
 //this is what makes the ajaxurl variable available site wide
 add_action('wp_head', 'myplugin_ajaxurl');
-function myplugin_ajaxurl() {
-    echo '<script type="text/javascript">
+function myplugin_ajaxurl()
+{
+	echo '<script type="text/javascript">
            var ajaxurl = "' . admin_url('admin-ajax.php') . '";
          </script>';
 }
 
 
-add_action( 'wp_ajax_ajaxfilter', 'rudr_ajax_filter_by_category' );
-add_action( 'wp_ajax_nopriv_ajaxfilter', 'rudr_ajax_filter_by_category' );
+add_action('wp_ajax_ajaxfilter', 'rudr_ajax_filter_by_category');
+add_action('wp_ajax_nopriv_ajaxfilter', 'rudr_ajax_filter_by_category');
 
 
-function rudr_ajax_filter_by_category() {
+function rudr_ajax_filter_by_category()
+{
 
-	$obj = json_decode( file_get_contents( "php://input" ), true );
+	$obj = json_decode(file_get_contents("php://input"), true);
 	$catSlug = $obj['cat'];
-	$postType =$obj['dataType'];
-print_r($catSlug);
-print_r($obj);
-print_r($obj['tax']);
-  
+	$postType = $obj['dataType'];
+	// print_r($catSlug);
+	// print_r($obj);
+	// print_r($obj['tax']);
+
 	$ajaxposts = new WP_Query([
-	  'post_type' => $postType,
-	  'posts_per_page' => -1,
-	  $obj['tax'] => $catSlug,
-	  'orderby' => 'menu_order', 
-	   'order' => 'DESC',
-	  'post_status' => 'publish',
+		'post_type' => $postType,
+		'posts_per_page' => -1,
+		// $obj['tax'] => $catSlug,
+		'category_name' => $catSlug,
+		// 'orderby' => 'menu_order',
+		'order' => 'DESC',
+		'post_status' => 'publish',
 	]);
 	$response = '';
-  
-//this is what replaces the initial content of the blog page with the filtered content
-	if($ajaxposts->have_posts()) {
-	  while($ajaxposts->have_posts()) : $ajaxposts->the_post();
-		  $response .= include 'components/cards/blog-card.php';
-		
-	  endwhile;
-	  wp_reset_postdata();
-	}  
-	else {
-	  $response = 'empty';
+
+	//this is what replaces the initial content of the blog page with the filtered content
+	if ($ajaxposts->have_posts()) {
+		while ($ajaxposts->have_posts()) : $ajaxposts->the_post();
+			$response .= include 'components/cards/blog-card.php';
+
+		endwhile;
+		wp_reset_postdata();
+	} else {
+		$response = 'empty';
 	}
-  
-	echo $response;
+	//this shows a tally of total number of responses
+	// echo $response;
 
-	// exit;
+	exit;
 	die;
-
 }
-
-

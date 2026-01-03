@@ -4,152 +4,146 @@
 @use "../themebase/mixins" as *;
 
 .blog-container {
-	header {
-		background: transparent;
-		justify-content: center;
-	}
+  header {
+    background: transparent;
+    justify-content: center;
+  }
 }
 
 .card-container {
-	
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	&.products {
-		padding-left: 0rem;
-	}
-	margin-top: 5rem;
-	.blog-card--container {
-		figure {
-			
-			width: 100%;
-			height: auto;
-			aspect-ratio: 1.5/1;
-			img {
-				width: 100%;
-				border-radius: 25px;
-			}
-	
-		}
-		margin-bottom: 3rem;
-		width: 100%;
-		@include media(md){
-		width: 47%;	
-		height: auto;
-		}
-		.card-text {
-			text-align: left;
-			padding: 1rem 0rem;
-			.card-title {
-				margin-top: .5rem;
-				font-family: $bodyFont;
-				font-weight: 600;
-				font-size: 2.8rem;
-				@include media(md){
-					font-size: 3rem;
-				}
-				@include media(lg){
-					font-size: 3.4rem;
-				}
-			}
-			.card-date {
-				margin-top:0;
-				font-size: 1.6rem;
-				@include media(md){
-					font-size: 2rem;
-				}
-				@include media(lg){
-					font-size: 2.4rem;
-				}
-			}
-		}
-		
-	}
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  &.products {
+    padding-left: 0rem;
+  }
+  margin-top: 5rem;
+  .blog-card--container {
+    figure {
+      width: 100%;
+      height: auto;
+      aspect-ratio: 1.5/1;
+      img {
+        width: 100%;
+        border-radius: 25px;
+      }
+    }
+    margin-bottom: 3rem;
+    width: 100%;
+    @include media(md) {
+      width: 47%;
+      height: auto;
+    }
+    .card-text {
+      text-align: left;
+      padding: 1rem 0rem;
+      .card-title {
+        margin-top: 0.5rem;
+        font-family: $bodyFont;
+        font-weight: 600;
+        font-size: 2.8rem;
+        @include media(md) {
+          font-size: 3rem;
+        }
+        @include media(lg) {
+          font-size: 3.4rem;
+        }
+      }
+      .card-date {
+        margin-top: 0;
+        font-size: 1.6rem;
+        @include media(md) {
+          font-size: 2rem;
+        }
+        @include media(lg) {
+          font-size: 2.4rem;
+        }
+      }
+    }
+  }
 }
 
 .blog-cat {
+  text-align: center;
+  &:nth-child(2) {
+    .card-container {
+      background-color: paleturquoise;
+    }
+  }
+  &:last-child {
+    .card-container {
+      background-color: $coral;
+      margin-bottom: 15rem;
+    }
+  }
+  .cat-archive-link {
+    position: relative;
+    top: 2rem;
 
-	text-align: center;
-	&:nth-child(2) {
-		.card-container {
-			background-color: paleturquoise;
-		}
-	}
-	&:last-child {
-		.card-container {
-			background-color: $coral;
-			margin-bottom: 15rem;
-		}
-	}
-	.cat-archive-link {
-		position: relative;
-		top: 2rem;
-		
-	
-		&:after {
-				transition: all 0.2s ease-in-out;
-				position: absolute;
-				content: "";
-				height: 1px;
-				width: 0%;
-				background-color: $coral;
-				left: 0;
-				top: 0;
-				transform: translateY(3rem);
-			
-			}
-	
-		&:hover {
-			&:after {
-				width: 100%;
-				transition: all .25s ease-in-out;
-			}
-		}
-	}
+    &:after {
+      transition: all 0.2s ease-in-out;
+      position: absolute;
+      content: "";
+      height: 1px;
+      width: 0%;
+      background-color: $coral;
+      left: 0;
+      top: 0;
+      transform: translateY(3rem);
+    }
+
+    &:hover {
+      &:after {
+        width: 100%;
+        transition: all 0.25s ease-in-out;
+      }
+    }
+  }
 }
 
 //Filter
 
 .category-form {
-	.cat-select {
-		text-align: right;
-	}
-	label {
-		cursor: pointer;
-		position: relative;
-		font-size: 2rem;
-		margin-left: 2rem;
-		&.active  {
-			&:after {
-				content: "";
-				position: absolute;
-				left: 0;
-				bottom: -.5rem;
-				width: 95%;
-				height: 0.1rem;
-				background-color: $grey;
+  .cat-select {
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+  }
+  label {
+    cursor: pointer;
+    position: relative;
+    font-size: 2rem;
+    margin-left: 2rem;
+    &.active {
+      background: $bannerGreen;
+      color: $cream !important;
+      //active state underline if you want
+      //   &:after {
+      //     content: "";
+      //     position: absolute;
+      //     left: 0;
+      //     bottom: -0.5rem;
+      //     width: 95%;
+      //     height: 0.1rem;
+      //     background-color: $grey;
+      //   }
+    }
+  }
+  input[type="radio"] {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    display: none;
+    // position: relative;
+    // &:after {
 
-			}
-		}
-	}
-	input[type="radio"]{
-		
-		position: absolute;
-		width: 100%;
-		opacity: 0;
-		display: none;
-		// position: relative;
-		// &:after {
-		
-		// 	content: "";
-		// 	position: absolute;
-		// 	left: 0;
-		// 	bottom: -2.5rem;
-		// 	width: 80%;
-		// 	height: 0.2rem;
-		// 	background-color: blue;
-		// }
-		
-	}
+    // 	content: "";
+    // 	position: absolute;
+    // 	left: 0;
+    // 	bottom: -2.5rem;
+    // 	width: 80%;
+    // 	height: 0.2rem;
+    // 	background-color: blue;
+    // }
+  }
 }
-
