@@ -106,6 +106,7 @@
 .category-form {
   .cat-select {
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: 5rem;
   }
@@ -164,7 +165,7 @@
       height: 100%;
       img {
         @include media-query-min($sm) {
-          border-radius: 0 100% 100% 0;
+          border-radius: 0 50% 50% 0;
         }
       }
     }
@@ -185,7 +186,7 @@
   .right {
     padding: 2.5rem;
 
-    @include media-query-min($md) {
+    @include media-query-min($sm) {
       width: 50%;
     }
   }
