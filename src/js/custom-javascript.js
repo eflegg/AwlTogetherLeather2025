@@ -76,6 +76,8 @@ const secondaryMenuItems = document.querySelectorAll(".top-level-subnav>.menu-it
 let expandedItem = null;
 console.log(secondaryMenuItems);
 
+
+
 const expandSubMenu = (item) => {
 	const subMenu = item.querySelector("ul.sub-menu");
 	const button = item.querySelector("button");
@@ -86,6 +88,8 @@ console.log("expanded subnav");
 	item.dataset.expanded = "true";
   button.handleKeydown(e.target.blur())
 };
+
+
 
 const collapseSubMenu = (item) => {
 	const subMenu = item.querySelector("ul");
