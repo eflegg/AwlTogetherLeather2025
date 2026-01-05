@@ -7,7 +7,7 @@
         <?php endif; ?>
 
 
-        <figure class="icon"><img src="<?php bloginfo('template_url'); ?>/images/svg-arrow.svg" alt="chevron icon"></figure>
+        <figure class="icon"><ion-icon name="arrow-forward-outline"></ion-icon></figure>
     </button>
     <?php
     $faqAnswer = get_field('faq_answer');

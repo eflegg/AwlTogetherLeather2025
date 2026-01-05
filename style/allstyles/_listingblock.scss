@@ -179,7 +179,17 @@
 
 //CC Accordion styles for new FAQs
 
+ion-icon {
+  color: black;
+  font-size: 4rem;
+  transition: all 0.25s ease-in-out;
+}
+
 .accordion {
+  margin-bottom: 5rem;
+  @include media-query-min($md) {
+    margin-bottom: 10rem;
+  }
   .accordion-list {
     border: 1px solid $coral;
     button {
@@ -233,8 +243,9 @@
       &[aria-expanded="true"] {
         transition: all 0.25s ease-in-out;
         overflow: visible;
-        .icon {
-          transform: rotate(180deg);
+        ion-icon {
+          transform: rotate(90deg);
+          transform-origin: 50% 50%;
           transition: all 0.25s ease-in-out;
         }
         .answer {
