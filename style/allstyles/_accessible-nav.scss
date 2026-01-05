@@ -60,6 +60,10 @@ header {
     z-index: 10;
     top: 35px;
     position: fixed;
+    a {
+      color: $darkBrown !important;
+      font-style: italic;
+    }
     .atl-nav-container {
       border: 2px solid yellow;
       padding-left: 15px;
@@ -142,18 +146,37 @@ header {
   }
   .menu-item-has-children {
     button {
+      position: relative;
       border: 0;
       background: transparent;
-      &:after {
-        content: "\27F6";
-        font-size: 45px;
-        margin-right: 15px;
-        border-top: 0px;
-        position: relative;
-        transform: rotate(0deg);
+      top: 0px;
+      left: 1rem;
+      &:hover {
+        left: 2rem;
         transition: all 0.25s ease-in-out;
-        top: 0px;
-        left: 10px;
+      }
+      &:after {
+        // content: "\27F6";
+        // font-size: 45px;
+        // margin-right: 15px;
+        // border-top: 0px;
+        // position: relative;
+        // transform: rotate(0deg);
+        // transition: all 0.25s ease-in-out;
+        content: "";
+        margin-left: 10px;
+        display: inline-block;
+        border-left: 2px solid $darkBrown;
+        border-bottom: 2px solid $darkBrown;
+        width: 20px;
+        height: 20px;
+        transition: all 0.25s ease-in-out;
+        transform: rotate(-135deg); /* Point in the direction you want */
+      }
+      &[aria-expanded="true"] {
+        &:after {
+          transform: rotate(-45deg);
+        }
       }
     }
   }
