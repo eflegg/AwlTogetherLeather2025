@@ -151,17 +151,21 @@ function rudr_ajax_filter_by_category()
 	$catSlug = $obj['cat'];
 	$postType = $obj['dataType'];
 	// print_r($catSlug);
-	// print_r($obj);
+	print_r($obj);
 	// print_r($obj['tax']);
 
 	$ajaxposts = new WP_Query([
 		'post_type' => $postType,
 		'posts_per_page' => -1,
-		// $obj['tax'] => $catSlug,
-		'category_name' => $catSlug,
-		// 'orderby' => 'menu_order',
 		'order' => 'DESC',
 		'post_status' => 'publish',
+		'tax_query' => array(
+			array(
+				'taxonomy' => $obj['tax'],
+				'field'    => 'slug', // Can also use 'term_id' or 'name'
+				'terms'    => $catSlug, // Use the specific category slug
+			),
+		),
 	]);
 	$response = '';
 

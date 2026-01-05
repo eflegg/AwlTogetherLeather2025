@@ -10,11 +10,11 @@ $filterClass = ""; ?>
 
 		<?php
 		$parent_cat_arg = array(
-			'hide_empty' => false,
+			'hide_empty' => true,
 			'parent' => 0,
 			'taxonomy' => $taxonomy,
 		);
-		// get all categories that are parents, even the empty ones
+		// get all categories that are parents, hide the empty ones
 		//category name that fulfills the above arguments
 		$parent_cat = get_categories($parent_cat_arg); ?>
 
@@ -27,7 +27,7 @@ $filterClass = ""; ?>
 
 
 				<?php $child_arg = array(
-					'hide_empty' => false,
+					'hide_empty' => true,
 					'parent' => $catVal->term_id,
 				);
 

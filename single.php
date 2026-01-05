@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying all single posts
  *
@@ -6,47 +7,48 @@
  */
 
 // Exit if accessed directly.
-defined( 'ABSPATH' ) || exit;
+defined('ABSPATH') || exit;
 
 get_header();
-$container = get_theme_mod( 'understrap_container_type' );
+$container = get_theme_mod('understrap_container_type');
 ?>
 
 
 
-	<div  id="content" tabindex="-1">
+<div id="content" tabindex="-1">
 
-			<main class="site-main " id="main">
+	<main class="site-main " id="main">
 
-				<?php while ( have_posts() ) : the_post(); ?>
+		<?php while (have_posts()) : the_post(); ?>
 
-				<div class="home-hero--container blog-container">
+			<div class="home-hero--container blog-container">
 				<div class="hero-img">
-					<img src=<?php echo get_the_post_thumbnail();?> alt="">
+					<img src=<?php echo get_the_post_thumbnail(); ?> alt="">
 				</div>
 				<div class="overlay"></div>
 				<header class="hero-text">
-					<h1 class="text-center page--home__title"> <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?></h1>
-					
+					<?php the_title('<h1 class="entry-title">', '</h1>'); ?>
+
 				</header>
-				</div>
+			</div>
 
-					 <div class="layout-container blog--container">
-					
-					 <?php the_content(); ?>
-					 
-					 </div>
+			<div class="layout-container blog--container">
 
-					<?php understrap_post_nav(); ?>
-				
+				<?php the_content(); ?>
 
-				
+			</div>
 
-				<?php endwhile; // end of the loop. ?>
+			<?php understrap_post_nav(); ?>
 
-			</main><!-- #main -->
 
-	</div><!-- #content -->
+
+
+		<?php endwhile; // end of the loop. 
+		?>
+
+	</main><!-- #main -->
+
+</div><!-- #content -->
 
 
 
