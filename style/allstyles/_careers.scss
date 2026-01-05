@@ -4,6 +4,9 @@
 
 .careers-container,
 .service-single--container {
+  h2 {
+    margin-bottom: 3rem;
+  }
   ul {
     margin: 50px 20px;
     padding: 0;
@@ -16,7 +19,9 @@
     }
   }
 }
-
+.job-requirements {
+  margin-top: 5rem !important;
+}
 .job-considerations {
   margin: 40px 20px;
   @include media-query-min($sm) {
