@@ -76,6 +76,15 @@ const secondaryMenuItems = document.querySelectorAll(".top-level-subnav>.menu-it
 let expandedItem = null;
 console.log(secondaryMenuItems);
 
+function collapseTopLevel(){
+  menuItems.forEach((item) => {
+    console.log('item ', item);
+	const topSubMenu = item.querySelector("ul.top-level-subnav");
+const topSubButton = item.querySelector("button");
+topSubMenu.setAttribute("aria-hidden","true");
+topSubButton.setAttribute("aria-expanded","false");
+});  
+};
 
 
 const expandSubMenu = (item) => {
@@ -89,8 +98,6 @@ console.log("expanded subnav");
   button.handleKeydown(e.target.blur())
 };
 
-
-
 const collapseSubMenu = (item) => {
 	const subMenu = item.querySelector("ul");
 	const button = item.querySelector("button");
@@ -102,27 +109,30 @@ console.log("collapsed subnav");
 	item.dataset.expanded = "false";
 };
 
+
+
 menuItems.forEach((item) => {
 	const button = item.querySelector("button");
 	button.addEventListener("click", () => {
 		if (button.ariaExpanded === "false") {
+      collapseTopLevel();
 			expandSubMenu(item);
 		} else {
 			collapseSubMenu(item);
 		}
 	});
 
-  secondaryMenuItems.forEach((secondItem) => {
-    const secondButton = secondItem.querySelector("button");
-    secondButton.classList.add("i-am-second-button");
-    secondButton.addEventListener("click", () => {
-      	if (secondButton.ariaExpanded === "false") {
-			expandSubMenu(secondItem);
-		} else {
-			collapseSubMenu(secondItem);
-		}
-    } )
-  })
+  // secondaryMenuItems.forEach((secondItem) => {
+  //   const secondButton = secondItem.querySelector("button");
+  //   secondButton.classList.add("second-sub-button");
+  //   secondButton.addEventListener("click", () => {
+  //     	if (secondButton.ariaExpanded === "false") {
+	// 		expandSubMenu(secondItem);
+	// 	} else {
+	// 		collapseSubMenu(secondItem);
+	// 	}
+  //   } )
+  // })
 
 
 //this adds accessible hover i think. i didn't want hover but could be added back
