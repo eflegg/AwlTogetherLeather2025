@@ -21,32 +21,33 @@ $container = get_theme_mod('understrap_container_type');
 
 		<?php while (have_posts()) : the_post(); ?>
 
-			<div class="home-hero--container blog-container">
-				<div class="hero-img">
-					<img src=<?php echo get_the_post_thumbnail(); ?> alt="">
-				</div>
+			<?php $thumb = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full'); ?>
+			<header class="home-hero--container blog-container" style="background-image: url('<?php echo $thumb['0']; ?>')">
+
+
+
 				<div class="overlay"></div>
-				<header class="hero-text">
-					<?php the_title('<h1 class="entry-title">', '</h1>'); ?>
+				<h1 class="w-75"><?php the_title(''); ?></h1>
 
-				</header>
-			</div>
+			</header>
 
-			<div class="layout-container blog--container">
+</div>
 
-				<?php the_content(); ?>
+<div class="layout-container blog--container">
 
-			</div>
+	<?php the_content(); ?>
 
-			<?php understrap_post_nav(); ?>
+</div>
 
-
+<?php understrap_post_nav(); ?>
 
 
-		<?php endwhile; // end of the loop. 
-		?>
 
-	</main><!-- #main -->
+
+<?php endwhile; // end of the loop. 
+?>
+
+</main><!-- #main -->
 
 </div><!-- #content -->
 

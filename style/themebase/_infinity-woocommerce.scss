@@ -70,6 +70,7 @@ Loaded on WooCommerce pages */
 
 .woocommerce .woocommerce-product-gallery {
   overflow: hidden;
+  border: 2px sandybrown;
 }
 
 .woocommerce .woocommerce-product-gallery .flex-control-nav {
@@ -77,6 +78,7 @@ Loaded on WooCommerce pages */
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  border: 2px sandybrown;
 }
 
 /* WooCommerce Shop Page
@@ -501,6 +503,7 @@ Loaded on WooCommerce pages */
 .woocommerce .woocommerce-breadcrumb,
 .woocommerce .woocommerce-breadcrumb a {
   color: #000;
+  color: blue;
 }
 
 .woocommerce .woocommerce-breadcrumb a {

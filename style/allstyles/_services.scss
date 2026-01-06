@@ -13,12 +13,16 @@
     content: "" !important;
     margin-right: 0px !important;
   }
-  object-fit: cover;
+
   img {
     object-fit: cover;
     height: 100%;
     width: 100%;
   }
+}
+.service-image img {
+  height: initial;
+  border-radius: 25px;
 }
 .service-gallery {
   margin: 50px 0 40px;

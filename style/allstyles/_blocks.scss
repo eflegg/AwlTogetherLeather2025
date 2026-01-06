@@ -4,9 +4,18 @@
 @use "../themebase/mixins" as *;
 
 .blog-container {
-  header {
-    background: transparent;
-    justify-content: center;
+  background: transparent;
+  text-align: left;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  z-index: 0;
+  h1 {
+    color: $cream;
+    position: relative;
+    margin-top: auto;
+    padding-bottom: 3rem;
   }
 }
 

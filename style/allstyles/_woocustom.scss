@@ -2,6 +2,22 @@
 @use "../themebase/colours" as *;
 @use "../themebase/mediaqueries" as *;
 
+.custom-woo_container {
+  border: 2px solid gold;
+  display: flex;
+  nav {
+    display: none;
+  }
+}
+nav.woocommerce-breadcrumb {
+  border: 2px solid blue;
+  a {
+    font-size: 2rem !important;
+    font-family: $bodyFont;
+  }
+}
+
+//OLD should check if still in use
 .woocommerce-info {
   border-top-color: $green;
   background-color: $cream;

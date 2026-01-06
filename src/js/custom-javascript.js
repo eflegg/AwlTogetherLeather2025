@@ -76,6 +76,7 @@ const secondaryMenuItems = document.querySelectorAll(".top-level-subnav>.menu-it
 let expandedItem = null;
 console.log(secondaryMenuItems);
 
+//this is used as the first function executed when a button is clicked to close all other top level submenus and then open the clicked menu
 function collapseTopLevel(){
   menuItems.forEach((item) => {
     console.log('item ', item);
@@ -85,8 +86,19 @@ topSubMenu.setAttribute("aria-hidden","true");
 topSubButton.setAttribute("aria-expanded","false");
 });  
 };
+//this is used as the first function executed when a button is clicked to close all other second level submenus and then open the clicked menu
+function collapseSecondLevel(){
+  secondaryMenuItems.forEach((item) => {
+    console.log('item ', item);
+	const secondSubMenu = item.querySelector("ul.second-level-subnav");
+const secondSubButton = item.querySelector("button");
+secondSubMenu.setAttribute("aria-hidden","true");
+secondSubButton.setAttribute("aria-expanded","false");
+});  
+};
 
 
+//used for both top level and second level to handle opening and closing but setting ul and btn aria labels
 const expandSubMenu = (item) => {
 	const subMenu = item.querySelector("ul.sub-menu");
 	const button = item.querySelector("button");
@@ -110,7 +122,7 @@ console.log("collapsed subnav");
 };
 
 
-
+//for top level subnavs check if it's closed and either open it or close it
 menuItems.forEach((item) => {
 	const button = item.querySelector("button");
 	button.addEventListener("click", () => {
@@ -122,17 +134,19 @@ menuItems.forEach((item) => {
 		}
 	});
 
-  // secondaryMenuItems.forEach((secondItem) => {
-  //   const secondButton = secondItem.querySelector("button");
-  //   secondButton.classList.add("second-sub-button");
-  //   secondButton.addEventListener("click", () => {
-  //     	if (secondButton.ariaExpanded === "false") {
-	// 		expandSubMenu(secondItem);
-	// 	} else {
-	// 		collapseSubMenu(secondItem);
-	// 	}
-  //   } )
-  // })
+//for second level subnavs check if it's closed and either open it or close it
+  secondaryMenuItems.forEach((secondItem) => {
+    const secondButton = secondItem.querySelector("button");
+    secondButton.classList.add("second-sub-button");
+    secondButton.addEventListener("click", () => {
+      	if (secondButton.ariaExpanded === "false") {
+           collapseSecondLevel();
+			expandSubMenu(secondItem);
+		} else {
+			collapseSubMenu(secondItem);
+		}
+    } )
+  })
 
 
 //this adds accessible hover i think. i didn't want hover but could be added back

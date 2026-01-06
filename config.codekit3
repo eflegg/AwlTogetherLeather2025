@@ -5075,6 +5075,14 @@
       "oA" : 0,
       "oAP" : "\/woocommerce\/single-product\/title.php",
       "oF" : 0
+    },
+    "\/woocommerce\/single-productORIGINAL.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/woocommerce\/single-productORIGINAL.php",
+      "oF" : 0
     }
   },
   "hooks" : [

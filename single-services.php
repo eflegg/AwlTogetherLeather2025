@@ -15,7 +15,7 @@
                     <?php echo $serviceDescrip; ?>
                 </p>
             <?php endif; ?>
-            <div class="btn--primary ">
+            <div class="btn btn--primary ">
                 <?php echo '<a href="' . home_url() . '/book-appointment">Book Intake</a>'; ?>
             </div>
         </div>
