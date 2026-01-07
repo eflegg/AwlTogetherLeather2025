@@ -14,7 +14,8 @@
   font-family: $bodyFont;
   font-weight: 400;
 }
-.btn--primary {
+.btn--primary,
+.btn-outline-primary {
   border: 2px solid $darkBrown;
   font-size: 3rem;
   top: 0px;

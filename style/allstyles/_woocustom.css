@@ -1,0 +1,333 @@
+/*these are the css media query break points
+ */
+/* ##usage##
+    @include media-query-min(500px) {
+    }
+  */
+@font-face {
+  font-family: "Alstoria";
+  src: url("../fonts/Alstoria-Regular.ttf");
+  font-weight: normal;
+}
+html {
+  font-size: 62.5%;
+}
+
+.logotype {
+  font-family: "Alstoria", sans-serif;
+}
+
+h1,
+.h1 {
+  font-family: "degular", sans-serif;
+  font-size: 42px;
+  font-size: 4.2rem;
+}
+@media screen and (min-width: 1000px) {
+  h1,
+  .h1 {
+    font-size: 82px;
+    font-size: 8.2rem;
+  }
+}
+@media screen and (min-width: 1250px) {
+  h1,
+  .h1 {
+    font-size: 160px;
+    font-size: 16rem;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 22px;
+  font-size: 2.2rem;
+  line-height: 30px;
+  font-family: "degular", sans-serif;
+  font-weight: 700;
+}
+@media screen and (min-width: 768px) {
+  h2,
+  .h2 {
+    font-size: 40px;
+    font-size: 4rem;
+    line-height: 34px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  h2,
+  .h2 {
+    font-size: 60px;
+    font-size: 6rem;
+    line-height: 38px;
+  }
+}
+@media screen and (min-width: 1250px) {
+  h2,
+  .h2 {
+    font-size: 80px;
+    font-size: 8rem;
+    line-height: 38px;
+  }
+}
+
+h3,
+.h3 {
+  font-family: "degular", sans-serif;
+  font-weight: medium;
+  font-size: 22px;
+  font-size: 2.2rem;
+  line-height: 22px;
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  h3,
+  .h3 {
+    font-size: 26px;
+    font-size: 2.6rem;
+    line-height: 25px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  h3,
+  .h3 {
+    font-size: 30px;
+    font-size: 3rem;
+    line-height: 28px;
+  }
+}
+
+p {
+  font-family: "degular", sans-serif;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+label {
+  font-weight: 400;
+  font-family: "degular", sans-serif;
+}
+
+li {
+  font-family: "degular", sans-serif;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 37px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #404040;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.nav-link {
+  font-family: "degular", sans-serif;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .nav-link {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .nav-link {
+    font-size: 48px;
+  }
+}
+
+.custom-woo_container {
+  border: 2px solid gold;
+  display: flex;
+}
+.custom-woo_container nav {
+  display: none;
+}
+
+nav.woocommerce-breadcrumb {
+  border: 2px solid blue;
+}
+nav.woocommerce-breadcrumb a {
+  font-size: 2rem !important;
+  font-family: "degular", sans-serif;
+}
+
+.summary.entry-summary {
+  border: 2px solid rebeccapurple;
+}
+
+.products {
+  border: 2px solid green;
+}
+
+.product {
+  border: 2px solid violet;
+}
+
+.product-gallery_custom {
+  border: 2px solid red !important;
+}
+
+.woocommerce-info {
+  border-top-color: #b3d19d;
+  background-color: #fff8e6;
+  font-size: 18px;
+  font-family: "degular", sans-serif;
+  padding-left: 0px;
+  color: #404040;
+}
+.woocommerce-info:before {
+  display: none;
+}
+.woocommerce-info a {
+  font-weight: 600;
+  color: #f9afa7 !important;
+}
+
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+  border: 3px solid #f9afa7;
+  color: #404040;
+  display: table;
+  background: transparent;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 18px;
+  transition: all 0.25s ease-in-out;
+  margin-bottom: 30px;
+  font-family: "degular", sans-serif;
+}
+.woocommerce #respond input#submit a,
+.woocommerce a.button a,
+.woocommerce button.button a,
+.woocommerce input.button a,
+.woocommerce #respond input#submit.alt a,
+.woocommerce a.button.alt a,
+.woocommerce button.button.alt a,
+.woocommerce input.button.alt a {
+  font-family: "degular", sans-serif;
+  transition: all 0.25s ease-in-out;
+}
+.woocommerce #respond input#submit a:hover,
+.woocommerce a.button a:hover,
+.woocommerce button.button a:hover,
+.woocommerce input.button a:hover,
+.woocommerce #respond input#submit.alt a:hover,
+.woocommerce a.button.alt a:hover,
+.woocommerce button.button.alt a:hover,
+.woocommerce input.button.alt a:hover {
+  text-decoration: none !important;
+}
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover {
+  border: 3px solid #f9afa7;
+  background: #f9afa7;
+  transition: all 0.25s ease-in-out;
+  color: #fff8e6 !important;
+}
+.woocommerce #respond input#submit:hover a,
+.woocommerce a.button:hover a,
+.woocommerce button.button:hover a,
+.woocommerce input.button:hover a,
+.woocommerce #respond input#submit.alt:hover a,
+.woocommerce a.button.alt:hover a,
+.woocommerce button.button.alt:hover a,
+.woocommerce input.button.alt:hover a {
+  text-decoration: none !important;
+  color: #fff8e6 !important;
+  transition: all 0.25s ease-in-out;
+}
+
+.woocommerce form.checkout_coupon,
+.woocommerce form.login,
+.woocommerce form.register {
+  border: 2px solid #b3d19d;
+}
+
+#add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment {
+  background: transparent;
+}
+
+.woocommerce-billing-fields__field-wrapper input {
+  background: transparent !important;
+  border: 2px solid #b3d19d;
+  height: 40px;
+}
+
+.woocommerce-additional-fields textarea {
+  height: 100px !important;
+  background: transparent;
+  border: 2px solid #b3d19d;
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+  background: #fff8e6 !important;
+  border: 2px solid #b3d19d !important;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected],
+.select2-container--default .select2-results__option--highlighted[data-selected] {
+  background: #b3d19d !important;
+  color: #fff8e6 !important;
+}
+
+.select2-container--default .select2-selection--single {
+  border: 0px;
+}
+
+.select2-container--default .select2-results > .select2-results__options {
+  background: #fff8e6;
+}
+
+.select2-container--default .select2-search--dropdown .select2-search__field {
+  border: 1px solid #404040;
+  border-radius: 5px;
+}
+
+.select2-search--dropdown {
+  background: #fff8e6;
+}
+
+.woocommerce table.shop_table {
+  font-size: 16px;
+  color: #404040;
+}
+
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message {
+  background-color: transparent;
+}
+
+.woocommerce-message {
+  border-top-color: #b3d19d !important;
+}
+
+.woocommerce ul.order_details {
+  margin: 0 0 3em;
+  list-style: none;
+  font-size: 16px;
+  margin-top: 30px;
+}
