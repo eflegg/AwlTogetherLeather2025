@@ -2,6 +2,7 @@
 @use "../themebase/colours" as *;
 @use "../themebase/mediaqueries" as *;
 
+//targeting woo classes often doesn't work. Target containers and elements inside them for specificity
 .custom-woo_container {
   border: 2px solid gold;
   padding: 10% 2%;
@@ -34,12 +35,17 @@
     }
     label {
       font-weight: 600;
+      font-style: italic;
     }
     select {
       width: 75%;
-      margin-left: auto;
+      margin-right: 0.5rem;
       border-radius: 0.8rem;
       height: 5rem;
+      a {
+        position: relative;
+        left: 0.5rem;
+      }
     }
   }
   //container around images plus summary
