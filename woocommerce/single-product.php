@@ -22,7 +22,7 @@ if (! defined('ABSPATH')) {
 
 get_header('shop'); ?>
 
-<section class="layout-container custom-woo_container">
+<section class=" custom-woo_container">
 
 
 

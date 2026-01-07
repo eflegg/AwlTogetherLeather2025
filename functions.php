@@ -151,7 +151,7 @@ function rudr_ajax_filter_by_category()
 	$catSlug = $obj['cat'];
 	$postType = $obj['dataType'];
 	// print_r($catSlug);
-	print_r($obj);
+	// print_r($obj);
 	// print_r($obj['tax']);
 
 	$ajaxposts = new WP_Query([

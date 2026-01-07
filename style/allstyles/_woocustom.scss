@@ -4,21 +4,59 @@
 
 .custom-woo_container {
   border: 2px solid gold;
+  padding: 10% 2%;
   display: flex;
+  @include media-query-min($md) {
+    justify-content: space-evenly;
+  }
+  //breadcrumbs
   nav {
     display: none;
   }
+  //list of supp images
   ol {
     list-style: none;
     padding: 0;
     display: flex;
   }
-}
-nav.woocommerce-breadcrumb {
-  border: 2px solid blue;
-  a {
-    font-size: 2rem !important;
-    font-family: $bodyFont;
+  //options selectors
+  table {
+    width: 100%;
+    margin: 2.5rem 0;
+    tbody {
+      text-align: left;
+    }
+    th,
+    td {
+      font-size: 2rem;
+      font-family: $bodyFont;
+      padding: 0.5rem;
+    }
+    label {
+      font-weight: 600;
+    }
+    select {
+      width: 75%;
+      margin-left: auto;
+      border-radius: 0.8rem;
+      height: 5rem;
+    }
+  }
+  //container around images plus summary
+  .d-flex {
+    border: 3px solid peachpuff;
+    flex-direction: column;
+    @include media-query-min($md) {
+      flex-direction: row;
+    }
+  }
+  //gallery
+  .d-flex > :first-child {
+    border: 2px solid red !important;
+    width: 100%;
+    @include media-query-min($md) {
+      width: 50%;
+    }
   }
 }
 
@@ -27,17 +65,35 @@ nav.woocommerce-breadcrumb {
   border: 2px solid rebeccapurple;
   width: 100%;
   padding: 2%;
+  ul {
+    margin: 2rem 0;
+    li {
+      margin-bottom: 0.5rem;
+      line-height: 150%;
+    }
+  }
+  h1 {
+    line-height: 100%;
+    @include media-query-min($lg) {
+      font-size: 8.2rem;
+    }
+  }
   @include media-query-min($sm) {
     width: 50%;
   }
+  //not working
+  input {
+    line-height: 35px;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: $bodyFont;
+    text-align: center;
+    border-radius: 0.8rem;
+  }
 }
 
-.woocommerce.single-product .quantity .qty {
-  line-height: 35px;
-  border: 2px solid salmon;
-}
-
-.btn-outline-primary {
+.btn-outline-primary,
+.btn-primary {
   margin-top: 2rem;
 }
 .in-stock {
@@ -50,11 +106,6 @@ nav.woocommerce-breadcrumb {
 
 //images
 .product-gallery_custom {
-  border: 2px solid red !important;
-  width: 100%;
-  @include media-query-min($sm) {
-    width: 50%;
-  }
 }
 
 ul.products {
@@ -80,15 +131,6 @@ ul.products {
     h2 {
       font-size: 3rem;
     }
-  }
-}
-
-.woocommerce-loop-product__title {
-  @include media-query-min($sm) {
-    font-size: 2rem;
-  }
-  @include media-query-min($md) {
-    font-size: 2.5rem;
   }
 }
 
