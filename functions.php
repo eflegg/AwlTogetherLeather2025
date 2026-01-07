@@ -49,6 +49,10 @@ function woo_remove_product_tabs($tabs)
 	return $tabs;
 }
 
+//remove upsells
+remove_action('woocommerce_after_single_product_summary', 'woocommerce_output_upsells', 15);
+
+
 //add options page
 if (function_exists('acf_add_options_page')) {
 
