@@ -65,8 +65,10 @@ footer {
 
   .footer--socials {
     margin-bottom: 20px;
+    margin-top: 20px;
     ion-icon,
     .icon-large {
+      color: $darkBrown;
       width: 40px;
       height: 40px;
       margin: 0 5px;
@@ -128,7 +130,6 @@ footer {
 
 .timeline-InformationCircle-widgetParent {
   display: none !important;
-  border: 2px solid palevioletred;
 }
 
 .entry-footer {

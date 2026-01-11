@@ -35,7 +35,7 @@
   &:nth-child(odd) {
     align-items: center;
     flex-direction: column;
-    border: 3px solid purple;
+    // border: 3px solid purple;
     @include media-query-min($sm) {
       flex-direction: row;
       z-index: 10;
@@ -66,7 +66,7 @@
   &:nth-child(even) {
     position: relative;
     flex-direction: column;
-    border: 3px solid blue;
+    // border: 3px solid blue;
     @include media-query-min($sm) {
       top: -10rem;
       align-items: flex-start;
@@ -87,7 +87,7 @@
       }
     }
     .service-block__image {
-      border: 2px solid red;
+      // border: 2px solid red;
       aspect-ratio: 2/1.5;
       @include media-query-min($sm) {
         margin-left: auto;
@@ -107,13 +107,13 @@
 
 .service-block__text {
   width: 100%;
-  border: 2px solid gold;
+  // border: 2px solid gold;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 .text-image {
-  border: 2px solid seagreen;
+  // border: 2px solid seagreen;
   display: flex;
   .text--inner p {
     font-size: 2rem;

@@ -81,9 +81,7 @@ $container = get_theme_mod('understrap_container_type');
                     <p><?php echo $postalCode; ?></p>
                 <?php endif; ?>
             </div>
-            <div class="copyright d-none d-md-block">
-                <p>&copy;<?php echo date("Y"); ?> Awl Together Leather</p>
-            </div>
+
             <div class="footer--socials d-flex">
                 <?php
                 $facebook = get_field('facebook_link', 'option');

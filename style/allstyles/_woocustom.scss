@@ -4,7 +4,7 @@
 
 //targeting woo classes often doesn't work. Target containers and elements inside them for specificity
 .custom-woo_container {
-  border: 2px solid gold;
+  // border: 2px solid gold;
   padding: 10% 2%;
   @include media-query-min($md) {
     display: flex;

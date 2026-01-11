@@ -3,8 +3,31 @@
 
 document.addEventListener("DOMContentLoaded", function() {
 
+  //fade in
+    const fadeInElements = document.querySelectorAll('.fade-me');
 
-//FAQ accordion
+    const observerOptions = {
+        root: null, // observe against the viewport
+        rootMargin: '0px',
+        threshold: 0.1 // trigger when 10% of the element is visible
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('faded-in');
+                observer.unobserve(entry.target); // optional: stop observing once it has appeared
+            }
+        });
+    }, observerOptions);
+
+    fadeInElements.forEach(element => {
+        observer.observe(element);
+    });
+
+
+
+//FAQ accordion similar to nvb uses aria labels attached to css
 
 const accordionItems = document.querySelectorAll('.accordion-item');
 
@@ -278,8 +301,7 @@ let viewportWidth = window.innerWidth;
   }
   
   //toggle mobile nav open using aria-labels connected to css
-  const headerButtons = document.querySelector('.header-buttons');
-  const header = document.querySelector('header');
+  
   menuButton.addEventListener("click", () => {
   const expanded = menuButton.getAttribute("aria-expanded");
   if (expanded === "false") {
@@ -296,7 +318,7 @@ let viewportWidth = window.innerWidth;
 
       } else {
         document.body.style.overflow = "hidden";
-        document.body.style.height = "120vh";
+        document.body.style.height = "110vh";
       
       }
   } else {
@@ -312,52 +334,51 @@ let viewportWidth = window.innerWidth;
 
 
 
-function Hamburger() {
-  let hamburger = document.getElementById("hamburger");
-  let dropdownMenu = document.getElementById("navbarNavDropdown");
-  let dropdownActive = dropdownMenu.classList.contains("show");
-  let navbar = document.getElementById("main-nav");
-  console.log("dropdown active? ",dropdownActive);
+// function Hamburger() {
+//   let hamburger = document.getElementById("hamburger");
+//   let dropdownMenu = document.getElementById("navbarNavDropdown");
+//   let dropdownActive = dropdownMenu.classList.contains("show");
+//   let navbar = document.getElementById("main-nav");
+//   console.log("dropdown active? ",dropdownActive);
 
-  const openHamburger = () => {
-    hamburger.classList.add("is-active");
-    navbar.classList.add("open");
-  };
-  const closeHamburger = () => {
-    hamburger.classList.remove("is-active");
-    navbar.classList.remove("open");
-  };
+//   const openHamburger = () => {
+//     hamburger.classList.add("is-active");
+//     navbar.classList.add("open");
+//   };
+//   const closeHamburger = () => {
+//     hamburger.classList.remove("is-active");
+//     navbar.classList.remove("open");
+//   };
 
-  if (dropdownActive) {
-    closeHamburger();
-  } else {
-    openHamburger();
-  }
-}
-
-
-const el = document.getElementById("hamburger");
-el.addEventListener("click", Hamburger, false);
+//   if (dropdownActive) {
+//     closeHamburger();
+//   } else {
+//     openHamburger();
+//   }
+// }
 
 
+// const el = document.getElementById("hamburger");
+// el.addEventListener("click", Hamburger, false);
 
-function MobileArrow() {
-  let context = event.target;
-  if (context.parentNode.classList.contains("show")) {
-    console.log("subnav closed");
-    context.classList.remove("rotate");
-  } else {
-    console.log("subnav open");
-    context.classList.add("rotate");
-  }
-}
-let element = document.getElementsByClassName("dropdown-toggle");
-for (var i = 0; i < element.length; i++)
-  element[i].addEventListener("click", MobileArrow, false);
+
+
+// function MobileArrow() {
+//   let context = event.target;
+//   if (context.parentNode.classList.contains("show")) {
+//     console.log("subnav closed");
+//     context.classList.remove("rotate");
+//   } else {
+//     console.log("subnav open");
+//     context.classList.add("rotate");
+//   }
+// }
+// let element = document.getElementsByClassName("dropdown-toggle");
+// for (var i = 0; i < element.length; i++)
+//   element[i].addEventListener("click", MobileArrow, false);
 
 
 });
-
 
 
 
@@ -369,89 +390,89 @@ for (var i = 0; i < element.length; i++)
 
 //UNSURE IF ANY OF THIS IS USED. CHECK//
 
-function resizeGridItem(item) {
-  var grid = document.getElementsByClassName("grid")[0];
-  var rowHeight = parseInt(
-    window.getComputedStyle(grid).getPropertyValue("grid-auto-rows")
-  );
-  var rowGap = parseInt(
-    window.getComputedStyle(grid).getPropertyValue("grid-row-gap")
-  );
-  var rowSpan = Math.ceil(
-    (item.querySelector(".content").getBoundingClientRect().height + rowGap) /
-      (rowHeight + rowGap)
-  );
-  item.style.gridRowEnd = "span " + rowSpan;
-}
+// function resizeGridItem(item) {
+//   var grid = document.getElementsByClassName("grid")[0];
+//   var rowHeight = parseInt(
+//     window.getComputedStyle(grid).getPropertyValue("grid-auto-rows")
+//   );
+//   var rowGap = parseInt(
+//     window.getComputedStyle(grid).getPropertyValue("grid-row-gap")
+//   );
+//   var rowSpan = Math.ceil(
+//     (item.querySelector(".content").getBoundingClientRect().height + rowGap) /
+//       (rowHeight + rowGap)
+//   );
+//   item.style.gridRowEnd = "span " + rowSpan;
+// }
 
-function resizeAllGridItems() {
-  // console.log("grid working");
-  var allItems = document.getElementsByClassName("item");
-  if (allItems) {
-    // console.log("all items in function", allItems);
+// function resizeAllGridItems() {
+//   // console.log("grid working");
+//   var allItems = document.getElementsByClassName("item");
+//   if (allItems) {
+//     // console.log("all items in function", allItems);
 
-    for (var x = 0; x < allItems.length; x++) {
-      resizeGridItem(allItems[x]);
-    }
-  }
-}
+//     for (var x = 0; x < allItems.length; x++) {
+//       resizeGridItem(allItems[x]);
+//     }
+//   }
+// }
 
-window.addEventListener("resize", resizeAllGridItems);
-window.onload = resizeAllGridItems();
-function resizeInstance(instance) {
-  var item = instance.elements[0];
-  resizeGridItem(item);
-}
-var allItems = document.getElementsByClassName("item");
-console.log("allitems in global", allItems);
-for (var x = 0; x < allItems.length; x++) {
-  imagesLoaded(allItems[x], resizeInstance);
-}
+// window.addEventListener("resize", resizeAllGridItems);
+// window.onload = resizeAllGridItems();
+// function resizeInstance(instance) {
+//   var item = instance.elements[0];
+//   resizeGridItem(item);
+// }
+// var allItems = document.getElementsByClassName("item");
+// console.log("allitems in global", allItems);
+// for (var x = 0; x < allItems.length; x++) {
+//   imagesLoaded(allItems[x], resizeInstance);
+// }
 
-//// Second Type of Masonry ////
+// //// Second Type of Masonry ////
 
-  let mainId = "masonry-effect";
-  let itemIdentifier = "#masonry-effect .item";
+//   let mainId = "masonry-effect";
+//   let itemIdentifier = "#masonry-effect .item";
 
-  document.addEventListener("DOMContentLoaded", function (e) {
-    // Programmatically get the column width
-    let item = document.querySelector(itemIdentifier);
-    let parentWidth = item.parentNode.getBoundingClientRect().width;
-    let itemWidth =
-      item.getBoundingClientRect().width +
-      parseFloat(getComputedStyle(item).marginLeft) +
-      parseFloat(getComputedStyle(item).marginRight);
-    let columnWidth = Math.round(1 / (itemWidth / parentWidth));
+//   document.addEventListener("DOMContentLoaded", function (e) {
+//     // Programmatically get the column width
+//     let item = document.querySelector(itemIdentifier);
+//     let parentWidth = item.parentNode.getBoundingClientRect().width;
+//     let itemWidth =
+//       item.getBoundingClientRect().width +
+//       parseFloat(getComputedStyle(item).marginLeft) +
+//       parseFloat(getComputedStyle(item).marginRight);
+//     let columnWidth = Math.round(1 / (itemWidth / parentWidth));
 
-    // We need this line since JS nodes are dumb
-    let arrayOfItems = Array.prototype.slice.call(
-      document.querySelectorAll(itemIdentifier)
-    );
-    let trackHeights = {};
-    arrayOfItems.forEach(function (item) {
-      // Get index of item
-      let thisIndex = arrayOfItems.indexOf(item);
-      // Get column this and set width
-      let thisColumn = thisIndex % columnWidth;
-      if (typeof trackHeights[thisColumn] == "undefined") {
-        trackHeights[thisColumn] = 0;
-      }
-      trackHeights[thisColumn] +=
-        item.getBoundingClientRect().height +
-        parseFloat(getComputedStyle(item).marginBottom);
-      // If the item has an item above it, then move it to fill the gap
-      if (thisIndex - columnWidth >= 0) {
-        let getItemAbove = document.querySelector(
-          `${itemIdentifier}:nth-of-type(${thisIndex - columnWidth + 1})`
-        );
-        let previousBottom = getItemAbove.getBoundingClientRect().bottom;
-        let currentTop =
-          item.getBoundingClientRect().top -
-          parseFloat(getComputedStyle(item).marginBottom);
-        item.style.top = `-${currentTop - previousBottom}px`;
-      }
-    });
-    let max = Math.max(...Object.values(trackHeights));
-    document.getElementById(mainId).style.height = `${max}px`;
-  });
+//     // We need this line since JS nodes are dumb
+//     let arrayOfItems = Array.prototype.slice.call(
+//       document.querySelectorAll(itemIdentifier)
+//     );
+//     let trackHeights = {};
+//     arrayOfItems.forEach(function (item) {
+//       // Get index of item
+//       let thisIndex = arrayOfItems.indexOf(item);
+//       // Get column this and set width
+//       let thisColumn = thisIndex % columnWidth;
+//       if (typeof trackHeights[thisColumn] == "undefined") {
+//         trackHeights[thisColumn] = 0;
+//       }
+//       trackHeights[thisColumn] +=
+//         item.getBoundingClientRect().height +
+//         parseFloat(getComputedStyle(item).marginBottom);
+//       // If the item has an item above it, then move it to fill the gap
+//       if (thisIndex - columnWidth >= 0) {
+//         let getItemAbove = document.querySelector(
+//           `${itemIdentifier}:nth-of-type(${thisIndex - columnWidth + 1})`
+//         );
+//         let previousBottom = getItemAbove.getBoundingClientRect().bottom;
+//         let currentTop =
+//           item.getBoundingClientRect().top -
+//           parseFloat(getComputedStyle(item).marginBottom);
+//         item.style.top = `-${currentTop - previousBottom}px`;
+//       }
+//     });
+//     let max = Math.max(...Object.values(trackHeights));
+//     document.getElementById(mainId).style.height = `${max}px`;
+//   });
 
