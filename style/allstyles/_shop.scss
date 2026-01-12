@@ -109,11 +109,16 @@
   background: $coral;
   display: flex;
   flex-direction: column;
-
+  overflow: hidden;
+  img {
+    object-fit: contain;
+    height: auto;
+  }
   // width: 100%;
   @include media-query-min($md) {
     flex-direction: row;
     align-items: center;
+    max-height: 70rem;
   }
   .right {
     padding: 3rem;
