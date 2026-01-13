@@ -11,6 +11,9 @@
   flex-direction: column;
   justify-content: flex-end;
   z-index: 0;
+  header {
+    background-position: center;
+  }
   h1 {
     color: $cream;
     position: relative;

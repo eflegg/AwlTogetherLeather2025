@@ -17,6 +17,9 @@
   margin: 60px auto;
   font-style: italic;
   font-weight: 600;
+  .nav-links {
+    justify-content: space-between;
+  }
   @include media-query-min($sm) {
     margin-bottom: 90px;
   }
