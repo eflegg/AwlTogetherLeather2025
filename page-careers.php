@@ -24,23 +24,23 @@ Template Name: Careers Page
 
         <div class="careers-listing">
             <h2>Current Postings</h2>
-            <div class="listing-block--container row">
+            <!-- <div class="listing-block--container row"> -->
+            <ul class="card-container products">
                 <?php
                 $args = array(
                     'post_type' => 'careers',
                     'posts_per_page' => -1,
-                    'orderby' => 'menu_order',
-                    'order' => 'ACS'
+                    // 'orderby' => 'menu_order',
+                    'order' => 'DESC'
                 );
                 $careersQuery = new WP_query($args);
                 if ($careersQuery->have_posts()): ?>
                     <?php while ($careersQuery->have_posts()): $careersQuery->the_post() ?>
-                        <div class="col-12 col-sm-6 block-outer"><?php include "components/listing-block.php"; ?>
-                        </div>
+                        <?php include 'components/cards/blog-card.php'; ?>
                 <?php endwhile;
                 endif; ?>
-
-            </div>
+            </ul>
+            <!-- </div> -->
         </div>
 
     </div>

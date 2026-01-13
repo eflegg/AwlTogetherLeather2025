@@ -126,7 +126,7 @@ $container = get_theme_mod('understrap_container_type');
             </div>
         </div>
     </div>
-    <div class="cream-circle"></div>
+    <div class="cream-circle_footer"></div>
     <div class="footer-peach">
         <?php
         $image = get_field('footer_peach', 'option');

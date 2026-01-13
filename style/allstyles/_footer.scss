@@ -19,7 +19,8 @@ footer {
     position: relative;
     background: $coral;
     padding: 3.5rem;
-    p {
+    p,
+    h3 {
       position: relative;
       z-index: 10;
     }
@@ -123,7 +124,7 @@ footer {
   }
 }
 
-.cream-circle {
+.cream-circle_footer {
   background: $cream;
   width: 30rem;
   position: absolute;
@@ -136,8 +137,7 @@ footer {
     bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
-    max-height: 40rem;
-    width: 20%;
+    width: 30rem;
   }
 }
 .footer-peach {
