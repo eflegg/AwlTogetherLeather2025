@@ -16,11 +16,21 @@ footer {
     margin-top: 0 !important;
   }
   .footer--left {
+    position: relative;
     background: $coral;
     padding: 3.5rem;
+    p {
+      position: relative;
+      z-index: 10;
+    }
   }
   .footer--right {
+    position: relative;
     padding: 3.5rem;
+    .footer--right_inner {
+      position: relative;
+      z-index: 10;
+    }
   }
   @include media-query-min($sm) {
     flex-direction: row;
@@ -110,6 +120,24 @@ footer {
   input {
     border-radius: 25px;
     padding: 5px 10px;
+  }
+}
+
+.cream-circle {
+  background: $cream;
+  width: 30rem;
+  position: absolute;
+  height: 30rem;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 50%;
+  z-index: 0;
+  @include media-query-min($sm) {
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-height: 40rem;
+    width: 20%;
   }
 }
 .footer-peach {

@@ -226,6 +226,30 @@
       "oAP" : "\/build\/composer.lock",
       "oF" : 0
     },
+    "\/css\/critical\/critical-home.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/css\/critical\/critical-home-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/css\/critical\/secondary-home.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/css\/critical\/secondary-home-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/css\/custom-editor-style.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -1766,69 +1790,6 @@
       "oS" : 1,
       "pg" : 1
     },
-    "\/style\/template\/_bootstrap4.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/style\/template\/_bootstrap4-min.css",
-      "oF" : 1,
-      "pg" : 0
-    },
-    "\/style\/template\/_bootstrap4.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/style\/template\/_bootstrap4.css",
-      "oF" : 1,
-      "oS" : 0,
-      "pg" : 1
-    },
-    "\/style\/template\/_index.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/style\/template\/_index.css",
-      "oF" : 1,
-      "oS" : 0,
-      "pg" : 1
-    },
-    "\/style\/template\/_underscores.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/style\/template\/_underscores.css",
-      "oF" : 1,
-      "oS" : 0,
-      "pg" : 1
-    },
-    "\/style\/template\/bootstrap4.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/style\/template\/bootstrap4-min.css",
-      "oF" : 1,
-      "pg" : 0
-    },
     "\/style\/theme.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -2020,19 +1981,6 @@
       "oA" : 0,
       "oAP" : "\/build\/style\/themebase\/_utilities.css",
       "oF" : 1,
-      "oS" : 0,
-      "pg" : 1
-    },
-    "\/style\/understrap\/understrap.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/style\/understrap\/understrap.css",
-      "oF" : 0,
       "oS" : 0,
       "pg" : 1
     },

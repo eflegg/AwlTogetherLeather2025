@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   //fade in
     const fadeInElements = document.querySelectorAll('.fade-me');
-
     const observerOptions = {
         root: null, // observe against the viewport
         rootMargin: '0px',
@@ -385,94 +384,4 @@ let viewportWidth = window.innerWidth;
 
 
 
-
-//// Masonry for posts ///////
-
-//UNSURE IF ANY OF THIS IS USED. CHECK//
-
-// function resizeGridItem(item) {
-//   var grid = document.getElementsByClassName("grid")[0];
-//   var rowHeight = parseInt(
-//     window.getComputedStyle(grid).getPropertyValue("grid-auto-rows")
-//   );
-//   var rowGap = parseInt(
-//     window.getComputedStyle(grid).getPropertyValue("grid-row-gap")
-//   );
-//   var rowSpan = Math.ceil(
-//     (item.querySelector(".content").getBoundingClientRect().height + rowGap) /
-//       (rowHeight + rowGap)
-//   );
-//   item.style.gridRowEnd = "span " + rowSpan;
-// }
-
-// function resizeAllGridItems() {
-//   // console.log("grid working");
-//   var allItems = document.getElementsByClassName("item");
-//   if (allItems) {
-//     // console.log("all items in function", allItems);
-
-//     for (var x = 0; x < allItems.length; x++) {
-//       resizeGridItem(allItems[x]);
-//     }
-//   }
-// }
-
-// window.addEventListener("resize", resizeAllGridItems);
-// window.onload = resizeAllGridItems();
-// function resizeInstance(instance) {
-//   var item = instance.elements[0];
-//   resizeGridItem(item);
-// }
-// var allItems = document.getElementsByClassName("item");
-// console.log("allitems in global", allItems);
-// for (var x = 0; x < allItems.length; x++) {
-//   imagesLoaded(allItems[x], resizeInstance);
-// }
-
-// //// Second Type of Masonry ////
-
-//   let mainId = "masonry-effect";
-//   let itemIdentifier = "#masonry-effect .item";
-
-//   document.addEventListener("DOMContentLoaded", function (e) {
-//     // Programmatically get the column width
-//     let item = document.querySelector(itemIdentifier);
-//     let parentWidth = item.parentNode.getBoundingClientRect().width;
-//     let itemWidth =
-//       item.getBoundingClientRect().width +
-//       parseFloat(getComputedStyle(item).marginLeft) +
-//       parseFloat(getComputedStyle(item).marginRight);
-//     let columnWidth = Math.round(1 / (itemWidth / parentWidth));
-
-//     // We need this line since JS nodes are dumb
-//     let arrayOfItems = Array.prototype.slice.call(
-//       document.querySelectorAll(itemIdentifier)
-//     );
-//     let trackHeights = {};
-//     arrayOfItems.forEach(function (item) {
-//       // Get index of item
-//       let thisIndex = arrayOfItems.indexOf(item);
-//       // Get column this and set width
-//       let thisColumn = thisIndex % columnWidth;
-//       if (typeof trackHeights[thisColumn] == "undefined") {
-//         trackHeights[thisColumn] = 0;
-//       }
-//       trackHeights[thisColumn] +=
-//         item.getBoundingClientRect().height +
-//         parseFloat(getComputedStyle(item).marginBottom);
-//       // If the item has an item above it, then move it to fill the gap
-//       if (thisIndex - columnWidth >= 0) {
-//         let getItemAbove = document.querySelector(
-//           `${itemIdentifier}:nth-of-type(${thisIndex - columnWidth + 1})`
-//         );
-//         let previousBottom = getItemAbove.getBoundingClientRect().bottom;
-//         let currentTop =
-//           item.getBoundingClientRect().top -
-//           parseFloat(getComputedStyle(item).marginBottom);
-//         item.style.top = `-${currentTop - previousBottom}px`;
-//       }
-//     });
-//     let max = Math.max(...Object.values(trackHeights));
-//     document.getElementById(mainId).style.height = `${max}px`;
-//   });
 

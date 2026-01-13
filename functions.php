@@ -31,6 +31,12 @@ foreach ($understrap_includes as $file) {
 	require_once get_template_directory() . '/inc' . $file;
 }
 
+//add preload tag to stylesheet so it loads async
+
+
+
+
+
 function my_theme_load_ionicons_font()
 {
 	// Load Ionicons font from CDN
@@ -104,7 +110,7 @@ function custom_redirects()
 		die;
 	}
 }
-add_action('template_redirect', 'custom_redirects');
+// add_action('template_redirect', 'custom_redirects');
 
 
 function wpshock_search_filter($query)

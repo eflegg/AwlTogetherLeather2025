@@ -177,7 +177,7 @@
     figure {
       height: 100%;
       img {
-        height: 30rem;
+        max-height: 50rem;
         width: 100%;
         @include media-query-min($sm) {
           border-radius: 0 50% 50% 0;
