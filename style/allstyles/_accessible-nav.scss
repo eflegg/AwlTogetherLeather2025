@@ -34,8 +34,11 @@ header {
   width: 100%;
   background: $cream;
   transition: background-color 0.15s ease-in;
+  display: flex;
+  flex-direction: column;
+
   @include media(sm) {
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
@@ -268,7 +271,7 @@ header {
   position: relative;
   display: flex;
   align-items: center;
-  justify-self: flex-end;
+  margin-left: auto;
 }
 .search-field--custom {
   input {

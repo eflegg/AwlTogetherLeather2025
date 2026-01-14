@@ -42,6 +42,7 @@
     }
     .service-block__image--odd {
       aspect-ratio: 2/1.5;
+      width: 100%;
       @include media-query-min($sm) {
         aspect-ratio: 1/2;
         width: 35%;
