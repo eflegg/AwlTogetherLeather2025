@@ -42,11 +42,9 @@
     // Get the current post type
     $postType = get_post_type(); ?>
 
-    <div class="btn--text d-flex btn--back">
+    <div class="btn btn--primary">
 
-        <i>&xrarr;</i>
-
-        <?php echo '<a href="' . home_url() . '/' . ($postType) . '"><h3 >Back to Services</h3></a>';
+        <?php echo '<a href="' . home_url() . '/' . ($postType) . '">Back to Services</a>';
         ?>
         </a>
     </div>
