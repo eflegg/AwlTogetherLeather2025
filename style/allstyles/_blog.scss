@@ -13,12 +13,22 @@
   display: flex;
   flex-direction: column;
   padding: 0;
-  width: 75%;
+  width: 100%;
   margin: 60px auto;
   font-style: italic;
   font-weight: 600;
   .nav-links {
     justify-content: space-between;
+    a {
+      font-size: 20px;
+      font-family: $bodyFont;
+      font-weight: 400;
+      margin-right: 30px;
+      font-weight: 600;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
   @include media-query-min($sm) {
     margin-bottom: 90px;
@@ -30,39 +40,14 @@
   @include media-query-min($sm) {
     width: initial;
   }
-  a {
-    text-decoration: none;
-    font-family: $bodyFont;
-    font-size: 20px;
-    font-weight: 400;
-    margin-left: 30px;
-    width: 100%;
-    font-weight: 600;
-    // &:after {
-    //   content: "\27F5";
-    //   font-size: 35px;
-    //   margin-left: 15px;
-    // }
-  }
 }
 .nav-next {
   text-align: right;
   width: 100%;
+  margin-top: 3rem;
   @include media-query-min($sm) {
     width: initial;
-  }
-  a {
-    text-decoration: none;
-    font-size: 20px;
-    font-family: $bodyFont;
-    font-weight: 400;
-    margin-right: 30px;
-    font-weight: 600;
-    // &:before {
-    //   content: "\27F6";
-    //   font-size: 35px;
-    //   margin-right: 15px;
-    // }
+    margin-top: initial;
   }
 }
 .fa-angle-left,
@@ -71,7 +56,7 @@
 }
 
 .pagination {
-  width: 60%;
+  // width: 60%;
   margin: 60px auto;
   font-size: 20px;
   font-weight: 500;
