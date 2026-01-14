@@ -16219,7 +16219,7 @@ body {
 * .wpcf7-textarea
 * .wpcf7-submit
 */
-.wpcf7 {
+/* .wpcf7 {
   max-width: 600px;
   margin: 0 auto !important;
 }
@@ -16232,4 +16232,4 @@ body {
 .wpcf7 .wpcf7-validation-errors {
   color: #dc3545;
   border: 1px solid #e9ecef;
-}
+} */

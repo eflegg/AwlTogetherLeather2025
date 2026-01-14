@@ -1,4 +1,3 @@
-<!-- <section class="shop-section"> -->
 <div class="feature-prod--inner">
 
     <?php
@@ -48,4 +47,3 @@
         <?php wp_reset_postdata(); ?>
     <?php endif; ?>
 </div>
-<!-- </section> -->
