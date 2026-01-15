@@ -19,7 +19,9 @@ get_header();
 $container = get_theme_mod('understrap_container_type');
 
 ?>
-
+<div class="yellow-gradient">
+	<?php include "components/custom-page-header.php"; ?>
+</div>
 <div class="wrapper" id="page-wrapper">
 
 	<div class="<?php echo esc_attr($container); ?>" id="content" tabindex="-1">
@@ -31,10 +33,8 @@ $container = get_theme_mod('understrap_container_type');
 
 			<main class="site-main" id="main">
 
+
 				<?php while (have_posts()) : the_post(); ?>
-					<div class="yellow-gradient">
-						<?php include "components/custom-page-header.php"; ?>
-					</div>
 
 					<?php get_template_part('loop-templates/content', 'page'); ?>
 

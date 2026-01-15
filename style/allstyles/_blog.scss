@@ -3,14 +3,9 @@
 @use "../themebase/mediaqueries" as *;
 @use "../themebase/mixins" as *;
 
-//this goes
-.blog--container {
-  @include media-query-min($sm) {
-    margin: 20px auto;
-  }
-}
-
-.blog-container {
+//this takes the base styles from the home hero and modifies them. might not actually be more efficient
+.blog-hero-container {
+  margin-bottom: 5rem;
   background: transparent;
   text-align: left;
   background-size: cover;
@@ -18,9 +13,7 @@
   flex-direction: column;
   justify-content: flex-start;
   z-index: 0;
-  header {
-    background-position: center;
-  }
+
   h1 {
     color: $cream;
     position: relative;

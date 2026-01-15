@@ -22,7 +22,7 @@ $container = get_theme_mod('understrap_container_type');
 		<?php while (have_posts()) : the_post(); ?>
 
 			<?php $thumb = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'full'); ?>
-			<div class="home-hero--container blog-container" style="background-image: url('<?php echo $thumb['0']; ?>')">
+			<div class="home-hero--container blog-hero-container" style="background-image: url('<?php echo $thumb['0']; ?>')">
 
 
 

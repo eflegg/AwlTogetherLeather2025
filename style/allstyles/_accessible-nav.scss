@@ -278,7 +278,7 @@ header {
     border: 2px solid $lightGreen;
     background: rgba($cream, 0.5);
     font-size: 16px;
-    width: 80px;
+    width: 10rem;
     color: $grey;
     font-family: $bodyFont;
     padding: 10px 20px;
@@ -286,7 +286,7 @@ header {
     border-top-right-radius: 25px !important;
     border-bottom-right-radius: 25px !important;
     @include media-query-min($sm) {
-      width: 120px;
+      width: 12rem;
     }
   }
   .input-group-append {

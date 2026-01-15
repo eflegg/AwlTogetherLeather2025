@@ -40,7 +40,7 @@ body {
     flex-direction: row;
     height: 80vh;
   }
-  &.blog-container {
+  &.blog-hero-container {
     border-top: 1px solid transparent;
     height: 50vh;
     min-height: 45rem;
@@ -267,7 +267,7 @@ body {
     width: 100%;
     padding: 5rem;
     @include media-query-min($md) {
-      width: 75%;
+      width: 65%;
     }
   }
   .right {
@@ -276,7 +276,7 @@ body {
     background-size: cover;
     height: 50vh;
     @include media-query-min($md) {
-      width: 25%;
+      width: 35%;
       height: initial;
     }
   }
