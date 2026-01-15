@@ -1,9 +1,9 @@
 <div class="service-block__container content fade-me">
-    <a aria-label="Links to page about <?php the_title(); ?>" class="service-block__image service-block__image--odd" href=<?php the_permalink(); ?>>
+    <div class="service-block__image service-block__image--odd">
         <figure>
             <?php echo get_the_post_thumbnail(); ?>
         </figure>
-    </a>
+    </div>
 
     <div class="service-block__text">
         <?php

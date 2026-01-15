@@ -1,4 +1,4 @@
-<div class="feature-prod--inner">
+<div class="fade-me feature-prod--inner">
 
     <?php
     $tax_query[] = array(

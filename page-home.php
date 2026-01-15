@@ -44,7 +44,7 @@ Template Name: Home Page
 
 
 
-        <div class="section--accessibility ">
+        <div class="fade-me section--accessibility ">
             <?php
             $accessSection = $homePage['access_section']; ?>
             <?php

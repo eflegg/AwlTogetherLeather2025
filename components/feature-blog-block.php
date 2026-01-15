@@ -1,4 +1,4 @@
-<div class="feature-blog--inner">
+<div class="fade-me feature-blog--inner">
 
     <?php
 
@@ -22,10 +22,10 @@
     <?php if ($the_query->have_posts()) : ?>
         <?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
             <div class="left">
-                <a fade href="<?php the_permalink(); ?>">
+                <a href="<?php the_permalink(); ?>">
                     <h2><?php the_title(); ?></h2>
                 </a>
-                <a fade href="<?php the_permalink(); ?>">
+                <a href="<?php the_permalink(); ?>">
                     <p><?php the_excerpt(); ?></p>
                 </a>
 
