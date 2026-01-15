@@ -10,6 +10,31 @@
     display: flex;
     justify-content: space-evenly;
   }
+  .button {
+    text-transform: none !important;
+    position: relative;
+    margin-bottom: 30px;
+    color: $darkBrown !important;
+    border: 2px solid $darkBrown !important;
+    display: table;
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 35px !important;
+    top: 0px;
+    left: 0px;
+    &:hover {
+      top: -3px;
+      left: -3px;
+      background: transparent !important;
+      color: $darkBrown !important;
+      box-shadow: 8px 8px 0px 0px $darkBrown;
+      transition: all 0.25s ease-in-out;
+      a {
+        text-decoration: none !important;
+        transition: all 0.25s ease-in-out;
+      }
+    }
+  }
   //breadcrumbs
   nav {
     display: none;
@@ -99,7 +124,9 @@
   }
 }
 
+.single_add_to_cart_button,
 .btn-outline-primary,
+.btn,
 .btn-primary {
   margin-top: 2rem;
 }
@@ -132,6 +159,8 @@ ul.products {
     }
   }
 }
+
+//related
 
 //OLD should check if still in use
 .woocommerce-info {

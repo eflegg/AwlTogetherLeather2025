@@ -11,7 +11,7 @@
  * happen. When this occurs the version of the template file will be bumped and
  * the readme will list any important changes.
  *
- * @see         https://docs.woocommerce.com/document/template-structure/
+ * @see         https://woocommerce.com/document/template-structure/
  * @package     WooCommerce\Templates
  * @version     1.6.4
  */
@@ -22,9 +22,7 @@ if (! defined('ABSPATH')) {
 
 get_header('shop'); ?>
 
-<section class=" custom-woo_container">
-
-
+<section class="custom-woo_container">
 
 	<?php
 	/**
@@ -53,7 +51,14 @@ get_header('shop'); ?>
 do_action('woocommerce_after_main_content');
 ?>
 
-
+<?php
+/**
+ * woocommerce_sidebar hook.
+ *
+ * @hooked woocommerce_get_sidebar - 10
+ */
+do_action('woocommerce_sidebar');
+?>
 
 <?php
 get_footer('shop');

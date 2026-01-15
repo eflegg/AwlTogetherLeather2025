@@ -1895,473 +1895,601 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/archive-product.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/cart\/cart-empty.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/cart\/cart-empty.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/cart\/cart-item-data.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/cart\/cart-item-data.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/cart\/cart-shipping.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/cart\/cart-shipping.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/cart\/cart-totals.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/cart\/cart-totals.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/cart\/cart.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/cart\/cart.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/cart\/cross-sells.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/cart\/cross-sells.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/cart\/mini-cart.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/cart\/mini-cart.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/cart\/proceed-to-checkout-button.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/cart\/proceed-to-checkout-button.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/cart\/shipping-calculator.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/cart\/shipping-calculator.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/checkout\/cart-errors.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/checkout\/cart-errors.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/checkout\/form-billing.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/checkout\/form-billing.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/checkout\/form-checkout.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/checkout\/form-checkout.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/checkout\/form-coupon.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/checkout\/form-coupon.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/checkout\/form-login.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/checkout\/form-login.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/checkout\/form-pay.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/checkout\/form-pay.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/checkout\/form-shipping.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/checkout\/form-shipping.php",
-      "oF" : 1
+      "oF" : 0
+    },
+    "\/woocommerce\/checkout\/form-verify-email.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/checkout\/form-verify-email.php",
+      "oF" : 0
     },
     "\/woocommerce\/checkout\/order-receipt.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/checkout\/order-receipt.php",
-      "oF" : 1
+      "oF" : 0
+    },
+    "\/woocommerce\/checkout\/order-received.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/checkout\/order-received.php",
+      "oF" : 0
     },
     "\/woocommerce\/checkout\/payment-method.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/checkout\/payment-method.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/checkout\/payment.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/checkout\/payment.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/checkout\/review-order.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/checkout\/review-order.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/checkout\/terms.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/checkout\/terms.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/checkout\/thankyou.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/checkout\/thankyou.php",
-      "oF" : 1
+      "oF" : 0
+    },
+    "\/woocommerce\/global\/breadcrumb.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/global\/breadcrumb.php",
+      "oF" : 0
     },
     "\/woocommerce\/global\/form-login.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/global\/form-login.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/global\/quantity-input.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/global\/quantity-input.php",
-      "oF" : 1
+      "oF" : 0
+    },
+    "\/woocommerce\/global\/sidebar.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/global\/sidebar.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/global\/wrapper-end.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/global\/wrapper-end.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/global\/wrapper-start.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/global\/wrapper-start.php",
+      "oF" : 0
     },
     "\/woocommerce\/loop\/add-to-cart.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/loop\/add-to-cart.php",
-      "oF" : 1
+      "oF" : 0
+    },
+    "\/woocommerce\/loop\/header.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/loop\/header.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/loop\/loop-end.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/loop\/loop-end.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/loop\/loop-start.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/loop\/loop-start.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/loop\/no-products-found.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/loop\/no-products-found.php",
+      "oF" : 0
     },
     "\/woocommerce\/loop\/orderby.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/loop\/orderby.php",
-      "oF" : 1
+      "oF" : 0
+    },
+    "\/woocommerce\/loop\/pagination.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/loop\/pagination.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/loop\/price.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/loop\/price.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/loop\/rating.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/loop\/rating.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/loop\/result-count.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/loop\/result-count.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/loop\/sale-flash.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/loop\/sale-flash.php",
+      "oF" : 0
     },
     "\/woocommerce\/myaccount\/dashboard.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/myaccount\/dashboard.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/myaccount\/downloads.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/myaccount\/downloads.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/myaccount\/form-add-payment-method.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/myaccount\/form-add-payment-method.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/myaccount\/form-edit-account.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/myaccount\/form-edit-account.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/myaccount\/form-edit-address.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/myaccount\/form-edit-address.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/myaccount\/form-login.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/myaccount\/form-login.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/myaccount\/form-lost-password.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/myaccount\/form-lost-password.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/myaccount\/form-reset-password.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/myaccount\/form-reset-password.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/myaccount\/lost-password-confirmation.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/myaccount\/lost-password-confirmation.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/myaccount\/my-account.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/myaccount\/my-account.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/myaccount\/my-address.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/myaccount\/my-address.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/myaccount\/my-downloads.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/myaccount\/my-downloads.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/myaccount\/my-orders.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/myaccount\/my-orders.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/myaccount\/navigation.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/myaccount\/navigation.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/myaccount\/orders.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/myaccount\/orders.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/myaccount\/payment-methods.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/myaccount\/payment-methods.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/myaccount\/view-order.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/myaccount\/view-order.php",
-      "oF" : 1
-    },
-    "\/woocommerce\/product-searchform.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/build\/woocommerce\/product-searchform.php",
-      "oF" : 1
-    },
-    "\/woocommerce\/single-product-reviews.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/build\/woocommerce\/single-product-reviews.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/single-product.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/single-product.php",
-      "oF" : 1
+      "oF" : 0
+    },
+    "\/woocommerce\/single-product\/add-to-cart\/external.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/single-product\/add-to-cart\/external.php",
+      "oF" : 0
+    },
+    "\/woocommerce\/single-product\/add-to-cart\/grouped.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/single-product\/add-to-cart\/grouped.php",
+      "oF" : 0
     },
     "\/woocommerce\/single-product\/add-to-cart\/simple.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/single-product\/add-to-cart\/simple.php",
-      "oF" : 1
+      "oF" : 0
+    },
+    "\/woocommerce\/single-product\/add-to-cart\/variable.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/single-product\/add-to-cart\/variable.php",
+      "oF" : 0
     },
     "\/woocommerce\/single-product\/add-to-cart\/variation-add-to-cart-button.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/single-product\/add-to-cart\/variation-add-to-cart-button.php",
-      "oF" : 1
+      "oF" : 0
+    },
+    "\/woocommerce\/single-product\/add-to-cart\/variation.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/single-product\/add-to-cart\/variation.php",
+      "oF" : 0
     },
     "\/woocommerce\/single-product\/product-image.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/single-product\/product-image.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/single-product\/product-thumbnails.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/single-product\/product-thumbnails.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/single-product\/related.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/single-product\/related.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/single-product\/review.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/single-product\/review.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/single-product\/short-description.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/single-product\/short-description.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/single-product\/tabs\/additional-information.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/single-product\/tabs\/additional-information.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/single-product\/tabs\/description.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/single-product\/tabs\/description.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/single-product\/tabs\/tabs.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/single-product\/tabs\/tabs.php",
-      "oF" : 1
+      "oF" : 0
     },
     "\/woocommerce\/single-product\/title.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 2,
+      "oA" : 0,
       "oAP" : "\/build\/woocommerce\/single-product\/title.php",
-      "oF" : 1
-    },
-    "\/woocommerce\/single-productORIGINAL.php" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 2,
-      "oAP" : "\/build\/woocommerce\/single-productORIGINAL.php",
-      "oF" : 1
+      "oF" : 0
     }
   },
   "hooks" : [

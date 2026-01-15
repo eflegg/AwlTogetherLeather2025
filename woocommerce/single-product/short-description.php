@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Single product short description
  *
@@ -11,25 +10,24 @@
  * happen. When this occurs the version of the template file will be bumped and
  * the readme will list any important changes.
  *
- * @see     https://docs.woocommerce.com/document/template-structure/
+ * @see     https://woocommerce.com/document/template-structure/
  * @package WooCommerce\Templates
  * @version 3.3.0
  */
 
-if (! defined('ABSPATH')) {
+if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
 global $post;
 
-$short_description = apply_filters('woocommerce_short_description', $post->post_excerpt);
+$short_description = apply_filters( 'woocommerce_short_description', $post->post_excerpt );
 
-if (! $short_description) {
+if ( ! $short_description ) {
 	return;
 }
 
 ?>
 <div class="woocommerce-product-details__short-description">
-	<?php echo $short_description; // WPCS: XSS ok. 
-	?>
+	<?php echo $short_description; // WPCS: XSS ok. ?>
 </div>
