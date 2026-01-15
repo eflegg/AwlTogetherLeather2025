@@ -44,6 +44,7 @@ body {
     border-top: 1px solid transparent;
     height: 50vh;
     min-height: 45rem;
+    background-position: center;
     .overlay {
       position: absolute;
       height: 50vh;
@@ -108,7 +109,7 @@ body {
       position: absolute;
       padding: 0;
       top: 30%;
-      right: 40%;
+      left: 40%;
       transform: translateX(-23%);
       margin-top: 0;
     }

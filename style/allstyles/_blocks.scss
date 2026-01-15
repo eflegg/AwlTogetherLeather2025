@@ -3,25 +3,6 @@
 @use "../themebase/mediaqueries" as *;
 @use "../themebase/mixins" as *;
 
-.blog-container {
-  background: transparent;
-  text-align: left;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  z-index: 0;
-  header {
-    background-position: center;
-  }
-  h1 {
-    color: $cream;
-    position: relative;
-    margin-top: auto;
-    padding-bottom: 3rem;
-  }
-}
-
 .card-container {
   display: flex;
   flex-wrap: wrap;

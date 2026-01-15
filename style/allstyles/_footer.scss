@@ -35,7 +35,7 @@ footer {
   }
   @include media-query-min($sm) {
     flex-direction: row;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
     .footer--left {
       width: 50%;
@@ -88,8 +88,12 @@ footer {
   .footer--hours {
     max-width: 300px;
     margin-bottom: 25px;
-    p {
+    borde p {
       line-height: 30px;
+    }
+    h3 {
+      display: table;
+      border-bottom: 1px solid $grey;
     }
   }
   .footer--contact-us {
