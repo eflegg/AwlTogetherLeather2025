@@ -20,6 +20,7 @@ $container = get_theme_mod('understrap_container_type');
 
 ?>
 <div class="yellow-gradient">
+
 	<?php include "components/custom-page-header.php"; ?>
 </div>
 <div class="wrapper" id="page-wrapper">
