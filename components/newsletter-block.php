@@ -24,7 +24,7 @@
         <p class><?php echo $newsletterSubhead; ?></p>
         <div class="footer--sign-up">
 
-            <article>
+            <article class="newsletter-signup_shortcode">
                 <?php echo do_shortcode('[ninja_form id=2]'); ?>
             </article>
 

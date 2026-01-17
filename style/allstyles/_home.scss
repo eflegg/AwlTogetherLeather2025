@@ -140,7 +140,6 @@ body {
   text-align: center;
   @include media-query-min($md) {
     font-size: 7rem;
-    text-align: left;
   }
   @include media-query-min($lg) {
     font-size: 9rem;

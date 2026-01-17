@@ -14,12 +14,16 @@
   justify-content: flex-start;
   z-index: 0;
 
-  h1 {
+  .blog--title {
     color: $cream;
     position: relative;
     margin-top: auto;
     padding-bottom: 3rem;
     text-align: left;
+    line-height: 1;
+    @include media-query-min($md) {
+      font-size: 12rem;
+    }
   }
 }
 
