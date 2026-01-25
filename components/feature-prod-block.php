@@ -29,9 +29,10 @@
             <div class="left">
                 <?php if (has_post_thumbnail($post->ID)): ?>
                     <?php $image = wp_get_attachment_image_src(get_post_thumbnail_id($post->ID), 'single-post-thumbnail'); ?>
-                    <figure>
-                        <img src="<?php echo $image[0]; ?>" alt="">
-                    </figure>
+                    <figure><img src="<?php echo $image[0]; ?>" alt=""></figure>
+                    <!-- <figure> -->
+                    <!-- <img src="<?php echo $image[0]; ?>" alt=""> -->
+                    <!-- </figure> -->
                 <?php endif; ?>
             </div>
             <div class="right">
