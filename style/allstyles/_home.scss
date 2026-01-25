@@ -98,6 +98,7 @@ body {
   }
   .hero-text {
     // border: 2px solid hotpink;
+
     padding: 0 1rem;
     position: relative;
     z-index: 10;
@@ -112,6 +113,13 @@ body {
       left: 40%;
       transform: translateX(-23%);
       margin-top: 0;
+    }
+    @include media-query-min($md) {
+      width: 64rem;
+    }
+    @include media-query-min($lg) {
+      width: 91.5rem;
+      transform: translateX(-25%);
     }
   }
   .cream-circle {
