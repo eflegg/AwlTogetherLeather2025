@@ -189,6 +189,9 @@ header {
   .top-level-subnav,
   .second-level-subnav {
     // border: 2px solid orangered;
+    ::-webkit-scrollbar {
+      display: none;
+    }
     position: relative;
     visibility: hidden;
     left: 0;

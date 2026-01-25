@@ -35,6 +35,7 @@
                 <?php endif; ?>
             </div>
             <div class="right">
+                <p class="feature-prod_tag">feature product</p>
                 <a fade href="<?php the_permalink(); ?>">
                     <h2><?php the_title(); ?></h2>
                 </a>

@@ -9,7 +9,7 @@
     <div class="card-text">
       <? global $post;
       $categories = get_the_category($post->ID); ?>
-      <p class="card-date"><?php the_date(); ?></p>
+      <!-- <p class="card-date"><?php the_date(); ?></p> -->
       <h3 class="card-title"><?php the_title(); ?></h3>
       <!-- <? foreach ($categories as $category): ?>
                     <p class="cat-title"><?= $category->cat_name; ?></p>
