@@ -191,6 +191,13 @@ ion-icon {
   @include media-query-min($md) {
     margin-bottom: 10rem;
   }
+  a {
+    font-weight: 600;
+    color: $bannerGreen;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
   .accordion-list {
     border: 1px solid $coral;
     button {
