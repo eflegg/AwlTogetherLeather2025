@@ -48,11 +48,11 @@ h2,
   }
 
   @include media-query-min($md) {
-    @include font-size(6);
+    @include font-size(5);
     line-height: 46px;
   }
   @include media-query-min($lg) {
-    @include font-size(8);
+    @include font-size(7);
     line-height: 50px;
   }
 }
