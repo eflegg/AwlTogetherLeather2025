@@ -12,7 +12,7 @@ defined('ABSPATH') || exit;
 
 <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
 
-	<header class="entry-header">
+	<div class="entry-header">
 
 		<?php
 		the_title(
@@ -31,7 +31,7 @@ defined('ABSPATH') || exit;
 
 		<?php endif; ?>
 
-	</header><!-- .entry-header -->
+	</div><!-- .entry-header -->
 
 	<div class="entry-summary">
 

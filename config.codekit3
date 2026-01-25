@@ -2490,6 +2490,14 @@
       "oA" : 0,
       "oAP" : "\/build\/woocommerce\/single-product\/title.php",
       "oF" : 0
+    },
+    "\/woocommerce\/taxonomy-product-cat.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/woocommerce\/taxonomy-product-cat.php",
+      "oF" : 0
     }
   },
   "hooks" : [

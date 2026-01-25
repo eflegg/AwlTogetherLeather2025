@@ -31,9 +31,14 @@ foreach ($understrap_includes as $file) {
 	require_once get_template_directory() . '/inc' . $file;
 }
 
-//add preload tag to stylesheet so it loads async
+//editing header on archive-product.php
 
+add_action('woocommerce_before_shop_loop', 'shop_banner', 10);
 
+function shop_banner()
+{
+	echo '<a href=" ' . home_url() . '/shop" class="btn btn--primary">Shop All</a>';
+}
 
 
 
