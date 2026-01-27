@@ -42,7 +42,7 @@ footer {
       padding: 5.5rem;
       p {
         margin-right: 2.5rem;
-        margin-top: 3rem;
+        margin-top: 5rem;
       }
     }
     .footer--right {
@@ -174,4 +174,8 @@ footer {
 
 .entry-footer {
   display: none;
+}
+
+.nf-form-content .ninja-forms-field {
+  height: 5rem !important;
 }
