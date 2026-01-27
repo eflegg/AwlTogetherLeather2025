@@ -91,6 +91,7 @@ secondSubnavs.forEach(secondSub => {
 
 // click funtionality and proper tab direction behaviour
 
+
 //target top level subnav
 const menuItems = document.querySelectorAll(".main>.menu-item-has-children");
 // target second level subnav
@@ -103,7 +104,7 @@ function collapseTopLevel(){
   menuItems.forEach((item) => {
     console.log('item ', item);
 	const topSubMenu = item.querySelector("ul.top-level-subnav");
-const topSubButton = item.querySelector("button");
+const topSubButton = item.querySelector(":scope > button");
 topSubMenu.setAttribute("aria-hidden","true");
 topSubButton.setAttribute("aria-expanded","false");
 });  
@@ -120,7 +121,7 @@ secondSubButton.setAttribute("aria-expanded","false");
 };
 
 
-//used for both top level and second level to handle opening and closing but setting ul and btn aria labels
+//used for both top level and second level to handle opening and closing by setting ul and btn aria labels
 const expandSubMenu = (item) => {
 	const subMenu = item.querySelector("ul.sub-menu");
 	const button = item.querySelector("button");
@@ -154,16 +155,14 @@ menuItems.forEach((item) => {
 		} else {
 			collapseSubMenu(item);
 		}
- 
 	});
 
- 
+});
 
 //for second level subnavs check if it's closed and either open it or close it
   secondaryMenuItems.forEach((secondItem) => {
     const secondButton = secondItem.querySelector("button");
     secondButton.classList.add("second-sub-button");
-
     secondButton.addEventListener("click", () => {
       	if (secondButton.ariaExpanded === "false") {
            collapseSecondLevel();
@@ -172,24 +171,116 @@ menuItems.forEach((item) => {
 			collapseSubMenu(secondItem);
 		}
     } )
-  //   secondItem.addEventListener("mouseenter", () => {
-	// 	expandSubMenu(secondItem);
-	// });
-	// secondItem.addEventListener("mouseleave", () => {
-	// 	collapseSubMenu(secondItem);
-	// });
   })
 
 
-//this adds accessible hover i think. i didn't want hover but could be added back
+ //this adds accessible hover i think. i didn't want hover but could be added back
 
-	// secondItem.addEventListener("mouseenter", () => {
-	// 	expandSubMenu(secondItem);
+	// item.addEventListener("mouseenter", () => {
+	// 	expandSubMenu(item);
 	// });
-	// secondItem.addEventListener("mouseleave", () => {
-	// 	collapseSubMenu(secondItem);
-	// });
-});
+	// item.addEventListener("mouseleave", () => {
+	// 	collapseSubMenu(item);
+	// }); 
+
+// //target top level subnav
+// const menuItems = document.querySelectorAll(".main>.menu-item-has-children");
+// // target second level subnav
+// const secondaryMenuItems = document.querySelectorAll(".top-level-subnav>.menu-item-has-children")
+// let expandedItem = null;
+// console.log(secondaryMenuItems);
+
+// //this is used as the first function executed when a button is clicked to close all other top level submenus and then open the clicked menu
+// function collapseTopLevel(){
+//   menuItems.forEach((item) => {
+//     console.log('item ', item);
+// 	const topSubMenu = item.querySelector("ul.top-level-subnav");
+// const topSubButton = item.querySelector("button");
+// topSubMenu.setAttribute("aria-hidden","true");
+// topSubButton.setAttribute("aria-expanded","false");
+// });  
+// };
+// //this is used as the first function executed when a button is clicked to close all other second level submenus and then open the clicked menu
+// function collapseSecondLevel(){
+//   secondaryMenuItems.forEach((item) => {
+//     console.log('item ', item);
+// 	const secondSubMenu = item.querySelector("ul.second-level-subnav");
+// const secondSubButton = item.querySelector("button");
+// secondSubMenu.setAttribute("aria-hidden","true");
+// secondSubButton.setAttribute("aria-expanded","false");
+// });  
+// };
+
+
+// //used for both top level and second level to handle opening and closing 
+// // by setting ul and btn aria labels
+// const expandSubMenu = (item) => {
+// 	const subMenu = item.querySelector("ul.sub-menu");
+// 	const button = item.querySelector("button");
+// 	expandedItem = item;
+// console.log("expanded subnav");
+// 	subMenu.setAttribute("aria-hidden","false");
+// 	button.setAttribute("aria-expanded","true");
+// 	item.dataset.expanded = "true";
+//   button.handleKeydown(e.target.blur())
+// };
+
+// const collapseSubMenu = (item) => {
+// 	const subMenu = item.querySelector("ul");
+// 	const button = item.querySelector("button");
+// console.log("collapsed subnav");
+// 	expandedItem = null;
+
+// 	subMenu.setAttribute("aria-hidden","true");
+// 	button.setAttribute("aria-expanded","false");
+// 	item.dataset.expanded = "false";
+// };
+
+
+// //for top level subnavs check if it's closed and either open it or close it
+// menuItems.forEach((item) => {
+// 	const button = item.querySelector("button");
+// 	button.addEventListener("click", () => {
+// 		if (button.ariaExpanded === "false") {
+//       collapseTopLevel();
+// 			expandSubMenu(item);
+// 		} else {
+// 			collapseSubMenu(item);
+// 		}
+ 
+// 	});
+
+ 
+//   //for second level subnavs check if it's closed and either open it or close it
+//   secondaryMenuItems.forEach((secondItem) => {
+//     const secondButton = secondItem.querySelector("button");
+//     secondButton.classList.add("second-sub-button");
+//     secondButton.addEventListener("click", () => {
+//       	if (secondButton.ariaExpanded === "false") {
+//         collapseSecondLevel();
+// 			expandSubMenu(secondItem);
+// 		} else {
+// 			collapseSubMenu(secondItem);
+// 		}
+//     })
+//   //   secondItem.addEventListener("mouseenter", () => {
+// 	// 	expandSubMenu(secondItem);
+// 	// });
+// 	// secondItem.addEventListener("mouseleave", () => {
+// 	// 	collapseSubMenu(secondItem);
+// 	// });
+//   })
+
+
+//   //this adds accessible hover. i didn't want hover but could be added back
+
+// 	// secondItem.addEventListener("mouseenter", () => {
+// 	// 	expandSubMenu(secondItem);
+// 	// });
+// 	// secondItem.addEventListener("mouseleave", () => {
+// 	// 	collapseSubMenu(secondItem);
+// 	// });
+// });
 
 
 
