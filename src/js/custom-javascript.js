@@ -154,12 +154,27 @@ menuItems.forEach((item) => {
 		} else {
 			collapseSubMenu(item);
 		}
+ 
+	});
+
+     item.addEventListener("mouseenter", () => {
+		expandSubMenu(item);
+	});
+	item.addEventListener("mouseleave", () => {
+		collapseSubMenu(item);
 	});
 
 //for second level subnavs check if it's closed and either open it or close it
   secondaryMenuItems.forEach((secondItem) => {
     const secondButton = secondItem.querySelector("button");
     secondButton.classList.add("second-sub-button");
+
+    	secondItem.addEventListener("mouseenter", () => {
+		expandSubMenu(secondItem);
+	});
+	secondItem.addEventListener("mouseleave", () => {
+		collapseSubMenu(secondItem);
+	});
     secondButton.addEventListener("click", () => {
       	if (secondButton.ariaExpanded === "false") {
            collapseSecondLevel();
@@ -173,11 +188,11 @@ menuItems.forEach((item) => {
 
 //this adds accessible hover i think. i didn't want hover but could be added back
 
-	// item.addEventListener("mouseenter", () => {
-	// 	expandSubMenu(item);
+	// secondItem.addEventListener("mouseenter", () => {
+	// 	expandSubMenu(secondItem);
 	// });
-	// item.addEventListener("mouseleave", () => {
-	// 	collapseSubMenu(item);
+	// secondItem.addEventListener("mouseleave", () => {
+	// 	collapseSubMenu(secondItem);
 	// });
 });
 

@@ -23,6 +23,7 @@
     top: 0px;
     left: 0px;
     font-size: 2rem !important;
+    transition: all 0.25s ease-in-out;
     &:hover {
       top: -3px;
       left: -3px;
@@ -91,6 +92,64 @@
       width: 50%;
     }
   }
+}
+
+ul.products {
+  .button {
+    text-transform: none !important;
+    position: relative;
+    margin-bottom: 30px;
+    color: $darkBrown !important;
+    // border: 2px solid $darkBrown !important;
+    display: table;
+    background: transparent;
+    padding: 5px 15px;
+    border-radius: 35px !important;
+    top: 0px;
+    left: 0px;
+    font-size: 2rem !important;
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      top: -3px;
+      left: -3px;
+      background: transparent !important;
+      color: $darkBrown !important;
+      box-shadow: 8px 8px 0px 0px $darkBrown;
+      transition: all 0.25s ease-in-out;
+      a {
+        text-decoration: none !important;
+        transition: all 0.25s ease-in-out;
+        color: $darkBrown !important;
+      }
+    }
+  }
+}
+.section--shop-slider {
+  li {
+    a.button {
+      position: relative;
+      top: 0px;
+      left: 0px;
+      border: 2px solid $darkBrown !important;
+      color: $darkBrown !important;
+      transition: all 0.25s ease-in-out !important;
+      &:hover {
+        top: -3px;
+        left: -3px;
+        border: 2px solid $darkBrown !important;
+        color: $darkBrown !important;
+        //necessary because otherwise a color only transition takes precendence
+        transition: all 0.25s ease-in-out !important;
+      }
+    }
+  }
+}
+
+//gets rid of a weird underline
+.woocommerce-loop-product__title:after {
+  content: "";
+  border-bottom: 1px solid transparent;
+  width: 0px;
 }
 
 //has title, description, etc
