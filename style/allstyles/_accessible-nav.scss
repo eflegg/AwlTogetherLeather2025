@@ -62,20 +62,25 @@ header {
     z-index: 10;
     top: 35px;
     position: fixed;
+
     a {
       color: $darkBrown !important;
       font-style: italic;
     }
     .atl-nav-container {
-      border: 2px solid yellow;
-      overflow: initial;
+      // border: 2px solid yellow;
+      box-shadow: 1px -1px 10px -1px rgba(0, 0, 0, 0.2);
+      overflow: scroll;
       height: 100%;
-      padding-left: 15px;
+      padding-left: 1.5rem;
+      padding-top: 2rem;
       width: 100%;
       position: relative;
-      margin-top: 15rem;
+      margin-top: 18rem;
       @include media-query-min($sm) {
         padding-left: 60px;
+        margin-top: 10rem;
+        padding-top: 5rem;
       }
       @include media-query-min($md) {
         padding-left: 100px;
@@ -99,7 +104,6 @@ header {
     }
     &[aria-hidden="false"] {
       top: 36px;
-      // top: 107px;
       left: 0;
       opacity: 1;
       visibility: visible;
@@ -108,9 +112,8 @@ header {
       transition: all 0.5s ease-in-out;
       background-color: $coral;
       .menu-main-menu-container {
-        height: 80%;
-        margin-top: 15rem;
-
+        height: 95%;
+        // margin-top: 15rem;
         overflow: scroll;
       }
       @for $i from 1 to 10 {
@@ -133,8 +136,8 @@ header {
       position: relative;
     }
     .main > li {
-      border: 2px solid salmon;
-      width: 85%;
+      // border: 2px solid salmon;
+      width: 95%;
       font-size: 2.4rem;
       margin: 1.5rem;
       margin-bottom: 10px;
@@ -176,7 +179,7 @@ header {
   }
 
   .top-level-subnav {
-    border: 2px solid orangered;
+    // border: 2px solid orangered;
     // ::-webkit-scrollbar {
     //   display: none;
     // }
@@ -187,13 +190,13 @@ header {
     padding: 0;
     list-style: none;
     max-height: 1px;
-    width: 85%;
+    width: 95%;
     @include media-query-min($sm) {
       position: absolute;
       width: 65%;
       margin-left: auto;
     }
-    transition: max-height 0.75s ease-in-out;
+    transition: max-height 0.25s ease-in-out;
     clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
     clip: rect(1px, 1px, 1px, 1px);
     list-style: none;
@@ -202,7 +205,7 @@ header {
       visibility: visible;
       right: 0;
       top: 0;
-      width: 85%;
+      width: 95%;
       height: 100%;
       max-height: 100%;
       overflow: scroll;
@@ -225,15 +228,30 @@ header {
       font-size: 2rem;
     }
   }
-  //this is here because the first subnav has pos absolute while open and pos rel while closed and was causing wonk
+}
 
-  .top-level-subnav > li {
-    border: 2px solid darkcyan !important;
-  }
-  .second-level-subnav {
-    @include media-query-min($sm) {
-      position: relative;
-    }
+.second-level-subnav {
+  // border: 2px solid orchid;
+  position: relative;
+  visibility: hidden;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  list-style: none;
+  max-height: 1px;
+  width: 85%;
+  transition: all 0.25s ease-in-out;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  &[aria-hidden="false"] {
+    visibility: visible;
+    // top: 0;
+    height: 100%;
+    max-height: 100%;
+    overflow: scroll;
+    clip: auto;
+    transition: all 0.25s ease-in-out;
   }
 }
 
@@ -250,7 +268,7 @@ header {
   color: $darkBrown;
   position: relative;
   z-index: 30;
-  @include font-size(3.7);
+  @include font-size(3.2);
   @include media-query-min($sm) {
     @include font-size(4.2);
   }
