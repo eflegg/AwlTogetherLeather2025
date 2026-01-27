@@ -27,7 +27,7 @@ Template Name: Awl About Landing Page
                     'post_type'   => 'page', // Important: default is 'post'
                     'post_status' => 'publish',
                     'post_parent' => 5495,     // Use the parent page's ID
-                    'order'       => 'ASC',
+                    'order'       => 'DESC',
                     'posts_per_page' => -1,
                 );
                 $aboutLandingQuery = new WP_query($args);

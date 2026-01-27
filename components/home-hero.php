@@ -18,14 +18,14 @@
 
     </div>
     <div class="hero-text">
-        <h1 class="page--home__title fade-slide-in"><?php echo get_bloginfo(); ?></h1>
-        <h2 class="h3 text-center page--home__subtitle fade-slide-in delay"><?php echo get_bloginfo('description'); ?></h2>
+        <h1 class="fade-me page--home__title fade-slide-in"><?php echo get_bloginfo(); ?></h1>
+        <h2 class="fade-me h3 text-center page--home__subtitle fade-slide-in delay"><?php echo get_bloginfo('description'); ?></h2>
         <?php
         $serviceSection = $homePage['service_section'];
         $serviceText = $serviceSection['service_section_text'];
         if ($serviceText): ?>
             <div class="services--text">
-                <h2 id="waypoint" class=""><?php echo $serviceText; ?></h2>
+                <h2 id="waypoint" class="fade-me"><?php echo $serviceText; ?></h2>
             <?php endif; ?>
 
             <?php
