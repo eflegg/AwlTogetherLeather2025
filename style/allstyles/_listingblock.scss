@@ -18,6 +18,9 @@
   }
 }
 .service-block__container {
+  .understrap-read-more-link {
+    display: none;
+  }
   color: $darkBrown;
   position: relative;
   display: flex;
@@ -207,6 +210,7 @@ ion-icon {
     }
     padding-left: 0;
     .question {
+      text-align: left;
       font-size: 2.5rem;
       margin-top: 0;
       @include media-query-min($sm) {

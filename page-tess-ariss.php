@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: About Page
+Template Name: Tess & Ariss Page
  */
 ?>
 
@@ -85,13 +85,12 @@ Template Name: About Page
 
 
 
-        <div class="btn--text d-flex ml-auto mb-5 mr-5">
+        <div class="btn d-flex ml-auto mb-5 mr-5">
 
             <?php
                         $button = $aboutPage['button'];
                         if ($button): ?>
                 <?php include 'components/button.php'; ?>
-                <i class="btn-arrow--about">&xrarr;</i>
             <?php endif; ?>
         </div>
 

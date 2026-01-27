@@ -1028,12 +1028,12 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/page-about.php" : {
+    "\/page-about-landing.php" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/page-about.php",
+      "oAP" : "\/build\/page-about-landing.php",
       "oF" : 0
     },
     "\/page-accessibility.php" : {
@@ -1162,6 +1162,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/build\/page-templates\/right-sidebarpage.php",
+      "oF" : 0
+    },
+    "\/page-tess-ariss.php" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/page-tess-ariss.php",
       "oF" : 0
     },
     "\/page.php" : {

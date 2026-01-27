@@ -1,8 +1,10 @@
 @use "../themebase/typography" as *;
 @use "../themebase/colours" as *;
 
-
 .about-container {
+  .btn {
+    margin-left: auto;
+  }
   h2 {
     font-family: $headerFont;
   }
@@ -24,14 +26,5 @@
         line-height: 37px;
       }
     }
-  }
-}
-
-.btn-arrow--about {
-  position: relative;
-  transition: all 0.15s ease-in-out;
-  &:hover {
-    left: 15px;
-    transition: all 0.15s ease-in-out;
   }
 }

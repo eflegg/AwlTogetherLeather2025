@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Services Page
+Template Name: Awl About Landing Page
  */
 ?>
 
@@ -14,23 +14,25 @@ Template Name: Services Page
         </div>
         <div class="">
             <?php
-            $servicesIntro = get_field('services_intro');
-            if ($servicesIntro): ?>
+            $excerpt = get_the_content();
+            if ($excerpt): ?>
                 <div class="landing-page--description layout-container">
-                    <h2 class="h3"><?php echo $servicesIntro; ?></h2>
+
+                    <h2 class="h3"><?php echo $excerpt; ?></h2>
                 </div>
             <?php endif; ?>
             <div class="listing-block--container">
                 <?php
                 $args = array(
-                    'post_type' => 'services',
+                    'post_type'   => 'page', // Important: default is 'post'
+                    'post_status' => 'publish',
+                    'post_parent' => 5495,     // Use the parent page's ID
+                    'order'       => 'ASC',
                     'posts_per_page' => -1,
-                    'orderby' => 'menu_order',
-                    'order' => 'ASC',
                 );
-                $servicesQuery = new WP_query($args);
-                if ($servicesQuery->have_posts()) : ?>
-                    <?php while ($servicesQuery->have_posts()): $servicesQuery->the_post() ?>
+                $aboutLandingQuery = new WP_query($args);
+                if ($aboutLandingQuery->have_posts()) : ?>
+                    <?php while ($aboutLandingQuery->have_posts()): $aboutLandingQuery->the_post() ?>
                         <?php include "components/service-listing-block.php"; ?>
 
                 <?php endwhile;

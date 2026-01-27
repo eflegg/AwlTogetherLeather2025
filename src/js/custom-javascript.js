@@ -156,6 +156,12 @@ menuItems.forEach((item) => {
 			collapseSubMenu(item);
 		}
 	});
+  item.addEventListener("mouseenter", () => {
+	expandSubMenu(item);
+	});
+	item.addEventListener("mouseleave", () => {
+	collapseSubMenu(item);
+	}); 
 
 });
 
@@ -166,11 +172,17 @@ menuItems.forEach((item) => {
     secondButton.addEventListener("click", () => {
       	if (secondButton.ariaExpanded === "false") {
            collapseSecondLevel();
-			expandSubMenu(secondItem);
-		} else {
-			collapseSubMenu(secondItem);
-		}
+          expandSubMenu(secondItem);
+        } else {
+          collapseSubMenu(secondItem);
+        }
     } )
+      secondItem.addEventListener("mouseenter", () => {
+		expandSubMenu(secondItem);
+	});
+	secondItem.addEventListener("mouseleave", () => {
+		collapseSubMenu(secondItem);
+	}); 
   })
 
 

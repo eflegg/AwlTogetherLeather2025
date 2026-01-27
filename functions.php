@@ -41,7 +41,11 @@ function shop_banner()
 }
 
 
-
+function my_add_excerpts_to_pages()
+{
+	add_post_type_support('page', 'excerpt');
+}
+add_action('init', 'my_add_excerpts_to_pages');
 function my_theme_load_ionicons_font()
 {
 	// Load Ionicons font from CDN
@@ -72,7 +76,7 @@ if (function_exists('acf_add_options_page')) {
 		'menu_title'	=> 'Theme Settings',
 		'menu_slug' 	=> 'theme-general-settings',
 		'capability'	=> 'edit_posts',
-		'redirect'		=> false
+		'page-abt'		=> false
 	));
 
 	acf_add_options_sub_page(array(
@@ -118,6 +122,14 @@ function custom_redirects()
 // add_action('template_redirect', 'custom_redirects');
 
 
+add_filter(
+	'excerpt_more',
+	function ($more) {
+		return '';
+	},
+	20
+);
+
 function wpshock_search_filter($query)
 {
 	if ($query->is_search) {
@@ -126,6 +138,9 @@ function wpshock_search_filter($query)
 	return $query;
 }
 add_filter('pre_get_posts', 'wpshock_search_filter');
+
+
+
 
 
 //this is what makes the ajaxurl variable available site wide
