@@ -164,7 +164,6 @@ menuItems.forEach((item) => {
     const secondButton = secondItem.querySelector("button");
     secondButton.classList.add("second-sub-button");
 
-
     secondButton.addEventListener("click", () => {
       	if (secondButton.ariaExpanded === "false") {
            collapseSecondLevel();
@@ -173,6 +172,12 @@ menuItems.forEach((item) => {
 			collapseSubMenu(secondItem);
 		}
     } )
+  //   secondItem.addEventListener("mouseenter", () => {
+	// 	expandSubMenu(secondItem);
+	// });
+	// secondItem.addEventListener("mouseleave", () => {
+	// 	collapseSubMenu(secondItem);
+	// });
   })
 
 

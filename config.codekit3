@@ -3510,7 +3510,7 @@
       }
     },
     "esLintSourceType" : 0,
-    "externalServerAddress" : "awl-together-leather.local",
+    "externalServerAddress" : "http:\/\/awl-together-leather.local\/",
     "gitIgnoreBuildFolder" : 1,
     "hideConfigFile" : 0,
     "jsCheckerReservedNamesString" : "",

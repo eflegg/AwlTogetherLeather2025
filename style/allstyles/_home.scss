@@ -288,3 +288,39 @@ body {
     }
   }
 }
+
+//reviewing nav behaviour
+
+.second-level-subnav {
+  border: 2px solid orchid;
+  position: relative;
+  visibility: hidden;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  list-style: none;
+  max-height: 1px;
+  width: 85%;
+  transition: all 0.25s ease-in-out;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  &[aria-hidden="false"] {
+    visibility: visible;
+    top: 0;
+    height: 100%;
+    max-height: 100%;
+    overflow: scroll;
+    clip: auto;
+    transition: all 0.25s ease-in-out;
+  }
+}
+
+// &[aria-hidden="true"] {
+//   #menu-item-5454 {
+//     height: 0px;
+//   }
+// }
+// &[aria-hidden="false"] {
+//   width: 45%;
+// }
