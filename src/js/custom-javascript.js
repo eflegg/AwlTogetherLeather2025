@@ -157,24 +157,14 @@ menuItems.forEach((item) => {
  
 	});
 
-     item.addEventListener("mouseenter", () => {
-		expandSubMenu(item);
-	});
-	item.addEventListener("mouseleave", () => {
-		collapseSubMenu(item);
-	});
+ 
 
 //for second level subnavs check if it's closed and either open it or close it
   secondaryMenuItems.forEach((secondItem) => {
     const secondButton = secondItem.querySelector("button");
     secondButton.classList.add("second-sub-button");
 
-    	secondItem.addEventListener("mouseenter", () => {
-		expandSubMenu(secondItem);
-	});
-	secondItem.addEventListener("mouseleave", () => {
-		collapseSubMenu(secondItem);
-	});
+
     secondButton.addEventListener("click", () => {
       	if (secondButton.ariaExpanded === "false") {
            collapseSecondLevel();
