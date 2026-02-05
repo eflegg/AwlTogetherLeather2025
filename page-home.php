@@ -50,10 +50,10 @@ Template Name: Home Page
             <?php
             $accessTitle = $accessSection['access_section_title'];
             if ($accessTitle): ?>
-                <h2 class="layout-container"><?php echo $accessTitle; ?></h2>
+                <h2 class=""><?php echo $accessTitle; ?></h2>
             <?php endif; ?>
 
-            <div class="layout-container d-flex flex-column flex-lg-row align-items-center">
+            <div class=" d-flex flex-column flex-lg-row align-items-center">
 
 
                 <div class="access-image">

@@ -58,6 +58,8 @@ header {
 
   //basic nav styles, aria-based styles are below
   nav {
+    ul {
+    }
     // border: 3px solid seagreen;
     z-index: 10;
     top: 35px;
@@ -68,9 +70,8 @@ header {
       font-style: italic;
     }
     .atl-nav-container {
-      // border: 2px solid yellow;
       box-shadow: 1px -1px 10px -1px rgba(0, 0, 0, 0.2);
-      overflow: scroll;
+
       height: 100%;
       padding-left: 1.5rem;
       padding-top: 2rem;
@@ -80,14 +81,15 @@ header {
       @include media-query-min($sm) {
         padding-left: 60px;
         margin-top: 10rem;
-        padding-top: 5rem;
       }
       @include media-query-min($md) {
         padding-left: 100px;
       }
       .navbar-nav {
         width: 100%;
+        padding-top: 2rem;
         margin-left: 0 !important;
+        overflow: scroll;
       }
     }
 
@@ -111,10 +113,11 @@ header {
       height: 100%;
       transition: all 0.5s ease-in-out;
       background-color: $coral;
+      // overflow: auto;
       .menu-main-menu-container {
         height: 95%;
         // margin-top: 15rem;
-        overflow: scroll;
+        // overflow: auto;
       }
       @for $i from 1 to 10 {
         .menu-item:nth-child(#{$i}) {
@@ -180,9 +183,9 @@ header {
 
   .top-level-subnav {
     // border: 2px solid orangered;
-    // ::-webkit-scrollbar {
-    //   display: none;
-    // }
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: auto;
     position: relative;
     visibility: hidden;
     margin-left: auto;
@@ -204,11 +207,11 @@ header {
       position: relative;
       visibility: visible;
       right: 0;
-      top: 0;
+      top: 5rem;
       width: 95%;
       height: 100%;
       max-height: 100%;
-      overflow: scroll;
+      // overflow: auto;
       clip: auto;
       transition: max-height 0.25s ease-in-out;
       @include media-query-min($sm) {
@@ -232,6 +235,9 @@ header {
 
 .second-level-subnav {
   // border: 2px solid orchid;
+  // -ms-overflow-style: none;
+  // scrollbar-width: none;
+  // overflow-y: auto;
   position: relative;
   visibility: hidden;
   right: 0;
@@ -249,7 +255,7 @@ header {
     // top: 0;
     height: 100%;
     max-height: 100%;
-    overflow: scroll;
+    // overflow: auto;
     clip: auto;
     transition: all 0.25s ease-in-out;
   }

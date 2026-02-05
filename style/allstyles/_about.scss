@@ -1,5 +1,6 @@
 @use "../themebase/typography" as *;
 @use "../themebase/colours" as *;
+@use "../themebase/mediaqueries" as *;
 
 .about-container {
   .btn {
@@ -8,10 +9,19 @@
   h2 {
     font-family: $headerFont;
   }
+  .about--hero-text {
+    margin-top: 10rem;
+    @include media-query-min($xs) {
+      margin-top: 8rem;
+    }
+    @include media-query-min($sm) {
+      margin-top: initial;
+    }
+  }
   .about--hero-img {
     text-align: center;
     .about--hero-caption {
-      width: 50%;
+      width: 70%;
       text-align: left;
       background: $coral;
       padding: 15px;
@@ -20,6 +30,9 @@
       position: relative;
       top: -75px;
       left: -20px;
+      @include media-query-min($md) {
+        width: 50%;
+      }
       p {
         font-size: 20px;
         letter-spacing: 1.67px;

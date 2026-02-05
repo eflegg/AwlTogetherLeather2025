@@ -210,6 +210,10 @@ body {
 
 .section--accessibility {
   color: $darkGreen;
+  padding: 0 4rem 4rem 4rem;
+  @include media-query-min($sm) {
+    padding: 0 8rem 8rem 8rem;
+  }
   @include media-query-min($md) {
     height: 500px;
   }
@@ -219,9 +223,8 @@ body {
   }
 
   .access-text {
-    width: 90%;
-    padding: 25px;
     @include media-query-min($md) {
+      padding: 25px;
       width: 40%;
     }
     p {
