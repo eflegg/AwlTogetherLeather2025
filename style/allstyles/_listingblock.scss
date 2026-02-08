@@ -117,13 +117,17 @@
   justify-content: flex-start;
 }
 .text-image {
-  // border: 2px solid seagreen;
+  //border: 2px solid seagreen;
   display: flex;
+  @include media-query-min($sm) {
+    align-items: center;
+  }
   .text--inner p {
     font-size: 2rem;
     line-height: 125%;
     @include media-query-min($sm) {
       font-size: 3rem;
+      align-items: center;
     }
     @include media-query-min($lg) {
       font-size: 4rem;

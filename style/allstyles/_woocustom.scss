@@ -231,13 +231,19 @@ ul.products {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: space-evenly;
+    justify-content: space-between;
     li {
       width: 23%;
     }
     h2 {
       font-size: 3rem;
     }
+  }
+}
+section.upsells > ul.products {
+  gap: 2.5rem;
+  @include media-query-min($md) {
+    justify-content: flex-start;
   }
 }
 
