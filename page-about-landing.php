@@ -23,10 +23,12 @@ Template Name: Awl About Landing Page
             <?php endif; ?>
             <div class="listing-block--container">
                 <?php
+                $current_page_id = get_queried_object_id();
                 $args = array(
                     'post_type'   => 'page', // Important: default is 'post'
                     'post_status' => 'publish',
-                    'post_parent' => 5495,     // Use the parent page's ID
+                    //'post_parent' => 5495,     // Use the parent page's ID
+                    'post_parent' => $current_page_id,
                     'order'       => 'DESC',
                     'posts_per_page' => -1,
                 );
