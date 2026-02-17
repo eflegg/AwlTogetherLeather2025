@@ -63,7 +63,7 @@
 				$buttonLink = get_field('header_button_link', 'option');
 				if ($buttonText && $buttonLink): ?>
 					<button class="btn btn--primary btn--nav ">
-						<a
+						<a class="custom-header_button"
 
 							href="<?php echo $buttonLink; ?>">
 							<?php echo $buttonText; ?>

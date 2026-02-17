@@ -53,8 +53,14 @@ const taxType = catSelect.getAttribute('tax-type');
  for (var i = 0; i < labels.length; i++) {
     labels[i].addEventListener("click", function() {
       var current = document.getElementsByClassName("active");
-      current[0].className = current[0].className.replace("active", "");
-      this.className += " active";
+    //   current[0].className = current[0].className.replace("active", "");
+    //   this.className += " active";
+      if (current[0]) {
+      current[0].classList.remove("active");
+    }
+    
+    // Add the 'active' class to the clicked button
+    this.classList.add("active");
     });
   }
 

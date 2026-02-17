@@ -30,9 +30,9 @@ $container = get_theme_mod('understrap_container_type');
             <p><?php echo $land; ?></p>
         <?php endif; ?>
         <div>
-            <a rel="home" href="<?php echo esc_url(home_url('/')); ?>" title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>" itemprop="url">
-                <h3 class="h4 logotype">&copy;<?php echo date("Y"); ?> <?php bloginfo('name'); ?></h3>
-            </a>
+
+            <h3 class="h4 logotype">&copy;<?php echo date("Y"); ?> <?php bloginfo('name'); ?></h3>
+
         </div>
     </div>
 

@@ -18,6 +18,9 @@
   }
 }
 .service-block__container {
+  a {
+    color: $darkBrown !important;
+  }
   .understrap-read-more-link {
     display: none;
   }
@@ -61,12 +64,22 @@
       }
     }
   }
-  &:nth-child(4) {
-    background-image: linear-gradient($green, $cream);
-  }
   &:nth-child(2) {
     background-image: linear-gradient($yellow, $cream);
   }
+  &:nth-child(4) {
+    background-image: linear-gradient($green, $cream);
+  }
+  &:nth-child(6) {
+    background-image: linear-gradient($yellow, $cream);
+  }
+  &:nth-child(8) {
+    background-image: linear-gradient($green, $cream);
+  }
+  &:nth-child(10) {
+    background-image: linear-gradient($yellow, $cream);
+  }
+
   &:nth-child(even) {
     position: relative;
     flex-direction: column;

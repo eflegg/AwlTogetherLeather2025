@@ -1,3 +1,5 @@
+@use "colours" as *;
+
 /* Box sizing rules */
 *,
 *::before,
@@ -60,6 +62,13 @@ h4 {
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
+  color: currentColor;
+  font-weight: 600;
+  color: $bannerGreen;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 /* Make images easier to work with */

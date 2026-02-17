@@ -112,12 +112,10 @@ li {
   font-weight: 400;
 }
 
-body a {
-  font-weight: 600;
-  color: $bannerGreen;
-  &:hover {
-    text-decoration: underline;
-  }
+a {
+  text-decoration: none;
+}
+main a {
 }
 
 .nav-link {

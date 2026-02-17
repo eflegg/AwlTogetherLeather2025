@@ -91,6 +91,12 @@ header {
         margin-left: 0 !important;
         overflow: scroll;
       }
+      a {
+        font-weight: 400;
+        &:hover {
+          text-decoration: none;
+        }
+      }
     }
 
     &[aria-hidden="true"] {

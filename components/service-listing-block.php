@@ -10,7 +10,7 @@
         $pageTitle = get_the_title();
         $serviceTitle = get_field('service_title'); ?>
 
-        <a href=<?php the_permalink(); ?> aria-label="Links to page about <?php echo $pageTitle; ?>">
+        <a class="service-a" href=<?php the_permalink(); ?> aria-label="Links to page about <?php echo $pageTitle; ?>">
             <!-- <?php
                     if ($serviceTitle): ?>
                 <h2><?php echo $serviceTitle; ?></h2>

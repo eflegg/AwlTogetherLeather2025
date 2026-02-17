@@ -13,6 +13,10 @@
   transition: all 0.25s ease-in-out;
   font-family: $bodyFont;
   font-weight: 400;
+  a {
+    color: $darkBrown;
+    text-decoration: none !important;
+  }
 }
 .btn--primary,
 .btn-outline-primary,
@@ -272,6 +276,9 @@ input[type="submit"] {
   z-index: 99;
   background: $coral;
   font-weight: 400;
+  a {
+    text-decoration: none;
+  }
   p {
     color: $darkBrown;
     font-size: 16px;
