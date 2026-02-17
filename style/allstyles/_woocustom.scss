@@ -240,6 +240,9 @@ ul.products {
     }
   }
 }
+a > h2 {
+  color: $darkBrown;
+}
 section.upsells > ul.products {
   gap: 2.5rem;
   @include media-query-min($md) {

@@ -37,10 +37,10 @@
             </div>
             <div class="right">
                 <p class="feature-prod_tag">feature product</p>
-                <a fade href="<?php the_permalink(); ?>">
+                <a class="feature-prod-title_link" fade href="<?php the_permalink(); ?>">
                     <h2><?php the_title(); ?></h2>
                 </a>
-                <a fade href="<?php the_permalink(); ?>">
+                <a class="feature-prod_description" fade href="<?php the_permalink(); ?>">
                     <p><?php the_excerpt(); ?></p>
                 </a>
 
